@@ -15,6 +15,11 @@ published: true
 - Connect this idea to our work on CAL-ACCESS
 -- Walk through all it takes to make it go 
 -- Link to our stuff and gtfo
+
+Things we need to reference
+- David Guarino's [ETL for America](http://daguar.github.io/2014/03/17/etl-for-america/)
+- Bob Lannon's [follow up](http://sunlightfoundation.com/blog/2014/03/21/data-plumbers/)
+- NYT [data janitor](http://www.nytimes.com/2014/08/18/technology/for-big-data-scientists-hurdle-to-insights-is-janitor-work.html?_r=0) piece
  
 With the data science profession in vogue and statistics suddenly sexy there’s growing public awareness of the huge amount of drudgery that goes into data analysis.
  
