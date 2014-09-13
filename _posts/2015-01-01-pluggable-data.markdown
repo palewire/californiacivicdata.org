@@ -1,9 +1,20 @@
 ---
 layout: default
-title: "Pluggable Data"
+title: Pluggable Data
+published: true
 ---
 
 # Pluggable Data
+
+### Outline
+- Define the problem
+- Declare that it be destroyed
+- Point to what other fields do
+- Explain our solution
+- Explain origin of "pluggable apps" in Django and explain the fourfold path
+- Connect this idea to our work on CAL-ACCESS
+-- Walk through all it takes to make it go 
+-- Link to our stuff and gtfo
  
 With the data science profession in vogue and statistics suddenly sexy there’s growing public awareness of the huge amount of drudgery that goes into data analysis.
  

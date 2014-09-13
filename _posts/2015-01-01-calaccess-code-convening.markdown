@@ -1,9 +1,10 @@
 ---
 layout: default
 title: "CAL-ACCESS code convening"
+published: true
 ---
 
-What We're Building
+# What We're Building
 
 Yet far too much handcrafted work — what data scientists call “data wrangling,” “data munging” and “data janitor work” — is still required. Data scientists, according to interviews and expert estimates, spend from 50 percent to 80 percent of their time mired in this more mundane labor of collecting and preparing unruly digital data, before it can be explored for useful nuggets.
 
