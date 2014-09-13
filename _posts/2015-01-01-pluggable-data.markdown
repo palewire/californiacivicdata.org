@@ -10,7 +10,7 @@ published: true
 
 By [Agustin Armendariz](mailto:aarmendariz@gmail.com), [Aaron Williams](mailto:awilliams@cironline.org) and [Ben Welsh](mailto:ben.welsh@gmail.com)
 
-By now, the melodrama is a familiar one. The government is asked to release an important data set. They refuse. We moan. We groan. They dither. Sometimes we sue. Sometimes even organize. In the final act, The government makes good and releases important data 
+By now, the melodrama is mundane. The government is asked to release an important data set. They refuse. We moan. We groan. They dither. Sometimes we sue. Sometimes even organize. In the final act, The government makes good and releases important data 
 
 The small victories come first 
 
