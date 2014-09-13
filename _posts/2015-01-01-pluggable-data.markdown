@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Pluggable Data"
+---
+
 # Pluggable Data
  
 With the data science profession in vogue and statistics suddenly sexy there’s growing public awareness of the huge amount of drudgery that goes into data analysis.
