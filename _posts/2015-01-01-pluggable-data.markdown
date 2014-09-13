@@ -4,8 +4,12 @@ title: Pluggable Data
 published: true
 ---
 
-# Pluggable data 
-## 
+# Open data is good. Pluggable data is better.
+## A proposal
+
+By [Agustin Armendariz](mailto:aarmendariz@gmail.com), [Aaron Williams](mailto:awilliams@cironline.org) and [Ben Welsh](mailto:ben.welsh@gmail.com)
+
+We know this melodrama. We moaned. We groaned. The government makes good and releases important data 
 
 ### Outline
 - Define the problem
