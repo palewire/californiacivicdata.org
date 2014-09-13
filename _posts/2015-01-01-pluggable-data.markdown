@@ -4,8 +4,9 @@ title: Pluggable Data
 published: true
 ---
 
-# Open data is good. Pluggable data is better.
-## A proposal
+# Package data like software, and the stories will flow like wine
+
+## A proposal from the California Civic Data Coalition
 
 By [Agustin Armendariz](mailto:aarmendariz@gmail.com), [Aaron Williams](mailto:awilliams@cironline.org) and [Ben Welsh](mailto:ben.welsh@gmail.com)
 
