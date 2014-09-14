@@ -34,13 +34,13 @@ If you have any experience as a developer, you've probably bumped into packaged 
 
 For instance, if you are a Python developer interested in trying out the [``requests``](http://docs.python-requests.org/en/latest/) library, installing it on your laptop is as easy as:
 
-~~~ bash
+~~~bash
 $ pip install requests
 ~~~
 
 And now using it is only a import away.
 
-~~~ python
+~~~python
 >>> import requests
 >>> requests.get("http://www.californiacivicdata.org/").status_code
 200
