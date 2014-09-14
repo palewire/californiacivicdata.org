@@ -44,6 +44,7 @@ And then using it is only a import away.
 >>> import requests
 >>> requests.get("http://www.californiacivicdata.org/").status_code
 200
+~~~
 
 We call "pluggable data" it,  and the id
 
