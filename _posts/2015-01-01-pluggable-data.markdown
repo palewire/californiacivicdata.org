@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Pluggable Data
-published: false
+published: true
 ---
 
 # Package data like software, and the stories will flow like wine
