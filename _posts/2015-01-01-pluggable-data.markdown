@@ -26,6 +26,8 @@ This has to change. It’s a waste of time, energy and money.
 
 We need a common set of tools that automates away what [Dave Guarino](http://daguar.github.io/2014/03/17/etl-for-america/) and [Bob Lannon](http://sunlightfoundation.com/blog/2014/03/21/data-plumbers/) have called the "plumbling" that prepares any data source for analysis.
 
+Our proposal is that pip, software packaging and web framworks offer one means for achieving that goal ... 
+
 Reporters, Web Developers,  Data Scientists and hobbyists that use open source tools should have access to what we’re calling “pluggable data.”
  
 If you can pip install Django you should be able to pip install data to go with your Django project in the same way that there are SPSS and SAS import scripts for using education data housed in the Integrated Postsecondary Education Data System (IPEDS).
