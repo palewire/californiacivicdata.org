@@ -116,7 +116,9 @@ And, finally, run the custom management command that will download, parse, clean
 $ python manage.py downloadcalaccessrawdata
 ~~~ 
 
-And that's it. You now have the full database, including a set of administration tables. You could use it to track the millions of dollars flowing into this November's governor race, investigate what lobbyists are up to this session at the statehouse or impress everyone by designing a sophisticated analysis that stretches back over the nearly 15 years of data in the system to quantify the influence of money in politics. 
+And that's it. You now have the full database, including a set of administration tables.
+
+You could use it to track the millions of dollars flowing into this November's governor race, investigate what lobbyists are up to this session at the statehouse or impress everyone by designing a sophisticated analysis that stretches back over the nearly 15 years of data in the system to quantify the influence of money in politics. 
 
 Of course, to do any of that, you'll need to further regroup, filter and refine the data. But at least the initial headaches are out of the way. And any work you build on top of it could be packaged and distributed in the exact same way. In that case, our raw data app is simply as one of your new packages dependencies, much in the same way that the ``requests`` library as we installed earlier in this post depends on components of [``urllib3``](http://urllib3.readthedocs.org/en/latest/).
 
