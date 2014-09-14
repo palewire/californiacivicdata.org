@@ -32,7 +32,10 @@ While there are numerous ways to approach the challenge, we're here to propose o
 
 If you have any experience as a developer, you've probably bumped into packaged sofware. Thousands of free and open-source libraries are available for easy installation over the web from centralized servers, typically unique to each programming language. Command-line tools like ``pip`` (Python) or ``gem`` (Ruby), ``CPAN`` (Perl) or ``npm`` (NodeJS) can make it easy to do. For instance, if I'm a Python developer interested in trying out the [Django web framework](http://www.djangoproject.com), installing it on my machine is as easy as:
 
-
+~~~
+$ pip install django
+~~~
+{: .language-bash}
 
 If you've ever used ``pip`` to install a Python library ``boto`` or ``gem`` to retrieve the ``nokogiri`` toolkit you've 
 
