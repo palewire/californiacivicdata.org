@@ -96,7 +96,7 @@ DATABASES = {
         'PASSWORD': 'password',
         'HOST': 'localhost',
         'PORT': '3306',
-        # Here's the big we're talking about
+        # Here's the thing we're talking about
         'OPTIONS': {
             'local_infile': 1,
         }
