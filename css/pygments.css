@@ -1,6 +1,7 @@
 /*.highlight  { background: #333333; color: #ffffff}*/
+pre {margin: 0;}
 .highlight .hll { background-color: #ffffcc }
-.highlight  { background: #f8f8f8; overflow:auto; padding: 1em 1em 1em 0; margin:1em 0;}
+.highlight  { background: #f8f8f8; overflow:auto;}
 .highlight .c { color: #408080; font-style: italic } /* Comment */
 .highlight .err { border: 1px solid #FF0000 } /* Error */
 .highlight .k { color: #008000; font-weight: bold } /* Keyword */
