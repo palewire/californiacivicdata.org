@@ -40,11 +40,11 @@ $ pip install requests
 
 And now using it is only a import away.
 
-~~~python
+{% highlight python %}
 >>> import requests
 >>> requests.get("http://www.californiacivicdata.org/").status_code
 200
-~~~
+{% endhighlight %}
 
 Within the warm confines of a web frameworks&mdash;open-source libraries like [Django](http://www.djangoproject.com/) or [Ruby on Rails](http://rubyonrails.org/) that are so broad they include all the necessary tools to interact with a database, design an application and publish it to the web&mdash;this concept has been expanded to encourage the packaging not just of freestanding utilities like requests, but entire applications that ["just work"](https://www.youtube.com/watch?v=qmPq00jelpc) when integrated with the framework.
 
@@ -72,22 +72,22 @@ Today we're ready to announce the release of ``django-calaccess-raw-data``, a pl
 
 Assuming you have [a basic Django project](https://docs.djangoproject.com/en/1.6/intro/tutorial01/) already configured, here's all it takes. First, install the pluggable app from the package repository.
 
-~~~ bash
+{% highlight bash %}
 $ pip install django-calaccess-raw-data
-~~~
+{% endhighlight %}
 
 Add the application to the ``INSTALLED_APPS`` list in Django's standard ``settings.py`` file.
 
-~~~ python
+{% highlight python %}
 INSTALLED_APPS = (
     # ... other apps up here ...
     'calaccess_raw',
 )
-~~~ 
+{% endhighlight %}
 
 Make sure that your MySQL installation can use the brutally effective, and tragically underused, [``LOAD DATA INFILE`` command](http://dev.mysql.com/doc/refman/5.1/en/load-data.html) by adding the following to the database configuration also found in ``settings.py``.
 
-~~~ python
+{% highlight python %}
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -102,19 +102,19 @@ DATABASES = {
         }
     }
 }
-~~~ 
+{% endhighlight %}
 
 Sync your database to add the CAL-ACCESS table.
 
-~~~ bash
+{% highlight bash %}
 $ python manage.py syncdb
-~~~ 
+{% endhighlight %}
 
 And, finally, run the custom management command that will download, parse, clean and load all of the data.
 
-~~~ bash
+{% highlight bash %}
 $ python manage.py downloadcalaccessrawdata
-~~~ 
+{% endhighlight %}
 
 And that's it. You now have the full database, including a set of administration tables.
 
@@ -130,7 +130,7 @@ An example of that is already taking shape in our [``django-calaccess-campaign-b
 
 If you are interested in this effort and would like to contribute, here's how you could help today.
 
-1.  Download and install [``django-calaccess-raw-data``](https://github.com/california-civic-data-coalition/django-calaccess-raw-data) or [``django-calaccess-campaign-browser``](https://github.com/california-civic-data-coalition/django-calaccess-campaign-browser). Report bugs.
+1. Download and install [``django-calaccess-raw-data``](https://github.com/california-civic-data-coalition/django-calaccess-raw-data) or [``django-calaccess-campaign-browser``](https://github.com/california-civic-data-coalition/django-calaccess-campaign-browser). Report bugs.
 2. Fork our code and try to close one of the [many](https://github.com/california-civic-data-coalition/django-calaccess-raw-data/issues) [tickets](https://github.com/california-civic-data-coalition/django-calaccess-campaign-browser/issues) we've filed.
 3. Try to package and distribute an open data set you've worked with.
 4. At the very least, [watch James Bennett's excellent 2008 talk](https://www.youtube.com/watch?v=A-S0tqpPga4) on designing reusable applications and ask yourself, every time you start a new project, how you could package it for future reuse and open-source collaboration.
