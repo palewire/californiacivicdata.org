@@ -6,7 +6,7 @@ published: true
 
 # Package data like software, and the stories will flow like wine
 
-### A humble suggestion from your friends the California Civic Data Coalition
+### A humble suggestion from your friends at the California Civic Data Coalition
 
 By [Agustin Armendariz](mailto:aarmendariz@gmail.com), [Aaron Williams](mailto:awilliams@cironline.org) and [Ben Welsh](mailto:ben.welsh@gmail.com)
 
