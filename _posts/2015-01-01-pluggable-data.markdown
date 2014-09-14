@@ -10,7 +10,9 @@ published: true
 
 By [Agustin Armendariz](mailto:aarmendariz@gmail.com), [Aaron Williams](mailto:awilliams@cironline.org) and [Ben Welsh](mailto:ben.welsh@gmail.com)
 
-By now, the melodrama is mundane. The government is asked to release an important data set. They dither. We moan. We groan. And sometimes we sue, or even (gasp!) organize. We don't always win, but more and more we do. In the final act the government makes good and, as we oftentimes have so procaciously demanded, __just__ releases the bulk data.
+By now, the melodrama is mundane. The government is asked to release an important data set. They dither. We moan. We groan. Sometimes we sue, or even (gasp) organize. We don't always win, but more and more we do. And in the final act the government makes good and, as we have procaciously demanded, releases the raw, bulk data, maybe even publishing it online.
+
+Then what happens? You know the story. A self-taught newsroom analyst might team with an ambitious reporter to extract a story. 
 
 In the final act, The government makes good and releases important data 
 
