@@ -1,59 +1,74 @@
 ---
 layout: default
 title: Pluggable Data
-published: true
+published: false
 ---
 
-# Pluggable Data
+# Package data like software, and the stories will flow like wine
 
-### Outline
-- Define the problem
-- Declare that it be destroyed
-- Point to what other fields do
-- Explain our solution
-- Explain origin of "pluggable apps" in Django and explain the fourfold path
-- Connect this idea to our work on CAL-ACCESS
--- Walk through all it takes to make it go 
--- Link to our stuff and gtfo
+### A humble suggestion from your friends at the California Civic Data Coalition
+
+By [Agustin Armendariz](mailto:aarmendariz@gmail.com), [Aaron Williams](mailto:awilliams@cironline.org) and [Ben Welsh](mailto:ben.welsh@gmail.com)
+
+The melodrama is so familiar it's mundane. The government is asked to release an important data set. They dither. We moan. We groan. Sometimes we sue, or even (gasp) organize. 
+
+We don't always win, but more and more we do. In the final act, they now often make good. They release the raw data, just as we asked. In forward-thinking precincts they maybe even publish bulk downloads online.
+
+What happens next? You know the script. 
+
+A newsroom analyst partners with an ambitious reporter to extract a story. A bored developer posts a confused but beautifully rendered graphic on Tumblr. A vendor with a cryptic name throws another lump into its billowing data furnance.
+
+And then, almost always, all of the focus, research and code that went into taming the source data is lost&mdash;discarded by the harried journalist, forgotten by the intellectually promiscious developer, locked away by the monopoly-seeking vendor.
+
+The pathetic result: Every newcomer must repeat their efforts by crafting virtually identical methods for downloading, transforming and cleaning the data. And no matter how many analysts do it, the hurdles remains the same height.
+
+This has to change. It’s a waste of time, energy and money so dreary and pointless that even broadsheet newspaper reporters, a faction with revanchist delusions on par with the Putin administration, [see the problem](http://www.nytimes.com/2014/08/18/technology/for-big-data-scientists-hurdle-to-insights-is-janitor-work.html?_r=0).
+
+As [Dave Guarino](http://daguar.github.io/2014/03/17/etl-for-america/) and [Bob Lannon](http://sunlightfoundation.com/blog/2014/03/21/data-plumbers/) have forcefully argued, the open-data community needs to match the effort put into developing the latest, greatest user interface with a better effort to automate away the unglamorous but important work that prepares any data source for meaningful analysis and visualization, what they call the "plumbing."
+
+While there are numerous ways to approach the challenge, we're here to propose one in particular. We call it "pluggable data."
+
+### What we mean
+
+If you have any experience as a developer, you've probably bumped into packaged sofware. Thousands of free and open-source libraries are available for installation over the web from centralized servers, typically unique to each programming language. Command-line tools like [``pip``](http://pip.readthedocs.org/en/latest/index.html) (Python) or [``gem``](https://rubygems.org/) (Ruby), [``CPAN``](http://www.cpan.org/) (Perl) or [``npm``](https://www.npmjs.org/) (NodeJS) can make it easy to do. 
+
+For instance, if you are a Python developer interested in trying out the [requests](http://docs.python-requests.org/en/latest/) library, installing it on your laptop is as easy as:
+
+~~~ bash
+$ pip install requests
+~~~
+
+And now using it is only a import away.
+
+~~~ python
+>>> import requests
+>>> requests.get("http://www.californiacivicdata.org/").status_code
+200
+~~~
+
+Within the warm confines of a web frameworks&mdash;open-source libraries like [Django](http://www.djangoproject.com/) or [Ruby on Rails](http://rubyonrails.org/) that are so broad they include all the necessary tools to interact with a database, design an application and publish it to the web&mdash;this concept has been expanded to encourage the packaging not just of freestanding utilities like requests, but entire applications that ["just work"](https://www.youtube.com/watch?v=qmPq00jelpc) when integrated with the framework.
+
+This type of application, [championed](http://www.b-list.org/weblog/2007/nov/29/django-blog/) [eloquently](https://www.youtube.com/watch?v=A-S0tqpPga4) by Django leaders like James Bennett, is sometimes called a "pluggable" or "reusable" app, because its modular design makes it portable to a wide range of sites.
+
+A good example is the open-source [Pinax project](http://pinaxproject.com/), which provides Django-ready components that furnish common features like [comments](https://github.com/eldarion/dialogos), [badges](https://github.com/eldarion/brabeion), [phone confirmations](https://github.com/pinax/pinax-phone-confirmation) and [user accounts](https://github.com/pinax/django-user-accounts). Each contains code that configures database tables, administration panels to edit records and application logic that can interact with users.
+
+Our proposal is to bring the exact same approach to packaging data. If a series of simple installation commands can provide a Django application with everything necessary to build a social networking site, why can't it also provide [U.S. Census statistics](http://factfinder2.census.gov/faces/nav/jsf/pages/download_center.xhtml), [the massive federal database that tracks our country's chemical pollutors](http://www2.epa.gov/toxics-release-inventory-tri-program/tri-basic-data-files-calendar-years-1987-2012) or even something as simple as [a list of every U.S. county](http://www.epa.gov/envirofw/html/codes/state.html)? 
+
+### How we do
+
+With that idea in mind, a small group of programmers from the [Los Angeles Times Data Desk](http://www.latimes.com/local/datadesk/), [The Center for Investigative Reporting](http://cironline.org/) and Stanford's new [Computational Journalism Program](http://towcenter.org/blog/data-journalist-profile-cheryl-phillips-stanford-data-journalism/) met for two days last month at Mozilla offices in San Francisco.
+
+Under the newly minted banner of the California Civic Data Coalition, we set out to package and refine [raw data from CAL-ACCESS](http://www.sos.ca.gov/prd/cal-access/), the State of California’s campaign finance and lobbying database.
  
-With the data science profession in vogue and statistics suddenly sexy there’s growing public awareness of the huge amount of drudgery that goes into data analysis.
- 
-Take for instance this sentence from a story that ran in the New York Times last month.
- 
- “Data scientists, according to interviews and expert estimates, spend from 50 percent to 80 percent of their time mired in this more mundane labor of collecting and preparing unruly digital data, before it can be explored for useful nuggets.”
- 
-The same is true for data reporters.
- 
-We rely on data to verify what our sources are telling us and to contextualize the things we write about. Is something we are seeing a trend or a momentary aberration? There’s news in them there outliers that buck the expected trends. Just as there’s value in understanding how certain events are trending over time.
- 
-But far too often the data we use for our reporting is laboriously collected and analyzed then discarded. We move on to other stories and have to recreate that effort later should we need to use the same data source again. And our colleagues at other organizations are doing the exact same thing.
- 
-This has to change.
- 
-It’s a waste of time, effort and ultimately money. In the academic world there’s a common set of tools that community members use and members of that community collaboratively share import routines that get a particular data source ready for analysis.
- 
-The open source community needs to do the same.
- 
-Reporters, Web Developers,  Data Scientists and hobbyists that use open source tools should have access to what we’re calling “pluggable data.”
- 
-If you can pip install Django you should be able to pip install data to go with your Django project in the same way that there are SPSS and SAS import scripts for using education data housed in the Integrated Postsecondary Education Data System (IPEDS).
- 
-Access to data is increasingly important and enough people are working with the same regularly updated data sources that we believe self-sustaining communities of users can emerge to collaboratively maintain open source tools to access data quickly and easily.
- 
-We shouldn’t have to hand roll our own import scripts for data that’s regularly available on the web.
- 
-Towards that end our small group came together to liberate the State of California’s campaign finance and lobbying data housed in the CAL-ACCESS system.
- 
-Thanks to the efforts of the good folks at MapLight, the state committed to posting the data on the web and updating it on a regular basis. Knowing that we’d have to work with this data at some point in our reporting, we came together to collaborate on liberating it.
+Thanks to a [successful organizing effort](http://maplight.org/content/73249) last year, Secretary of State Debra Bowen [committed](http://www.sos.ca.gov/admin/press-releases/2013/db13-035.htm) to posting a nearly complete dump of the data online, updating it on a regular basis. 
+
+Weighing in at more than 650 megabytes the dump contains 76 database tables and nearly 35 million records. In the past, slices were released, for a small fee, on compact disc. Analysts, including [one of the authors of this post](http://cironline.org/reports/california-speaker-gives-assemblys-juiciest-jobs-biggest-fundraisers-4501), would spend months learning how to negotiate its contours, overcome its quirks and grind out insights&mdash;only to set aside the code when they moved on to the next story.
+
+
+
  
 We’re calling ourselves the California Civic Data Coalition and we’d love to see similar efforts in other states and cities. Think of the insights that could be made if we had access to similar data across the 50 states and even in cities too.
  
 Our effort in no way is meant to replace the valuable service that organizations like MapLight, The National Institute for Money in State Politics, The Center for Responsive Politics and the Sunlight Foundation provide. They all glean invaluable insights from the data and inform voters in a way that could never be automated.
  
 We hope that they’d want to collaborate with us to ensure everyone has access to the raw data and use the open source tools we make.
- 
-Thanks to the generous support of the Knight-Mozilla Open News Foundation our nascent group of data liberators came together in San Francisco and put the finishing touches on a parser for the CAL-ACCESS data dump.
- 
-SOME STATS HERE LIKE XX MILLION RECORDS, 80 CSV FILES, ETC.  
- 
-And there’s more in the works. We’re well on our way to having an app that rips out the campaign finance data from the raw data dump and organizes it in a more useful way for analysis. Stay tuned in the coming weeks.
