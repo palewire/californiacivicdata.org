@@ -18,8 +18,8 @@ A self-taught newsroom analyst partners with an ambitious reporter to extract a 
 
 And then, almost always, all of the focus, research and code that went into taming the source data is lost&mdash;discarded by the harried journalist, forgotten by the intellectually promiscious developer, locked away by the monopoly-seeking vendor.
 
-stories and have to recreate that effort later should we need to use the same data source again. And our colleagues at other organizations are doing the exact same thing.
- 
+The result: Each newcomer to the data set must repeat the same effort. Every user is required to craft virtually identical methods for downloading, transforming and cleaning the data. And no matter how many analysts use the data, that hurdle stays the same height.
+
 This has to change.
  
 It’s a waste of time, effort and ultimately money. In the academic world there’s a common set of tools that community members use and members of that community collaboratively share import routines that get a particular data source ready for analysis.
