@@ -1,6 +1,8 @@
+@import "pygments";
 p {
     font-size: 18px;
     line-height: 27px;
+    margin: 10px 0;
 }
 a{
     color:#ba0a35;
@@ -17,8 +19,9 @@ td.right, th.right {
 td.center, th.center{
     text-align:center;
 }
-ol{
-    line-height:1;
+ol, ul {
+    font-size: 18px;
+    line-height: 27px;
 }
 /* Header and nav */
 header {

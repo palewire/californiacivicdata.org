@@ -1,3 +1,4 @@
 markdown: kramdown
 highlighter: pygments
+pygments: true
 repository: https://github.com/california-civic-data-coalition/california-civic-data-coalition.github.io.git
