@@ -46,7 +46,7 @@ And now using it is only a import away.
 200
 ~~~
 
-Within the warm confines of a web frameworks&mdash;open-source libraries like [Django](http://www.djangoproject.com/), [Ruby on Rails](http://rubyonrails.org/) so broad that they include all the necessary tools to interact with a database, design an application and publish it to the web&mdash;this concept has been expanded to encourage the packaging not just of freestanding utilities like requests, but of modular applications that "just work" when integrated into the framework.
+Within the warm confines of a web frameworks&mdash;open-source libraries like [Django](http://www.djangoproject.com/), [Ruby on Rails](http://rubyonrails.org/) so broad that they include all the necessary tools to interact with a database, design an application and publish it to the web&mdash;this concept has been expanded to encourage the packaging not just of freestanding utilities like requests, but of modular applications that ["just works"](https://www.youtube.com/watch?v=qmPq00jelpc) when integrated into the framework.
 
 We call "pluggable data" it,  and the id
 
