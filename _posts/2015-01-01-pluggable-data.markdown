@@ -10,15 +10,15 @@ published: true
 
 By [Agustin Armendariz](mailto:aarmendariz@gmail.com), [Aaron Williams](mailto:awilliams@cironline.org) and [Ben Welsh](mailto:ben.welsh@gmail.com)
 
-By now, the melodrama is mundane. The government is asked to release an important data set. They dither. We moan. We groan. Sometimes we sue, or even (gasp) organize. We don't always win, but more and more we do. And in the final act the government makes good. As we so procaciously demanded, they release the raw data. In our more forward-thinking precincts, they may even begin publishing bulk downloads on the Internet.
+By now, the melodrama is mundane. The government is asked to release an important data set. They dither. We moan. We groan. Sometimes we sue, or even (gasp) organize. We don't always win, but more and more we do. And in the final act the government makes good. As we so procaciously demanded, they release the raw data. In forward-thinking precincts, they may even begin publishing bulk downloads on the Internet.
 
 What happens next? You know the script. 
 
 A self-taught newsroom analyst partners with an ambitious reporter to extract a story. A bored developer posts a misleading but beautifully rendered graphic on Tumblr. A data vendor with a cryptic name throws another lump into its billowing furnance.
 
-And, almost always, all the focus, research and  
+And, almost always, all the focus, research and computer programming that went into taming the source data is lost. The journalist  or locked up 
 
-But far too often the data we use for our reporting is laboriously collected and analyzed then discarded. We move on to other stories and have to recreate that effort later should we need to use the same data source again. And our colleagues at other organizations are doing the exact same thing.
+stories and have to recreate that effort later should we need to use the same data source again. And our colleagues at other organizations are doing the exact same thing.
  
 This has to change.
  
