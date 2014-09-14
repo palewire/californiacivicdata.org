@@ -40,7 +40,7 @@ $ pip install requests
 
 And now using it is only a import away.
 
-```python
+``` python
 >>> import requests
 >>> requests.get("http://www.californiacivicdata.org/").status_code
 200
