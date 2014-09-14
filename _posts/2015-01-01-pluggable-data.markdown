@@ -34,17 +34,17 @@ If you have any experience as a developer, you've probably bumped into packaged 
 
 For instance, if you are a Python developer interested in trying out the [``requests``](http://docs.python-requests.org/en/latest/) library, installing it on your laptop is as easy as:
 
-~~~bash
+{% highlight bash %}
 $ pip install requests
-~~~
+{% endhighlight %}
 
 And now using it is only a import away.
 
-```python
+~~~python
 >>> import requests
 >>> requests.get("http://www.californiacivicdata.org/").status_code
 200
-```
+~~~
 
 Within the warm confines of a web frameworks&mdash;open-source libraries like [Django](http://www.djangoproject.com/) or [Ruby on Rails](http://rubyonrails.org/) that are so broad they include all the necessary tools to interact with a database, design an application and publish it to the web&mdash;this concept has been expanded to encourage the packaging not just of freestanding utilities like requests, but entire applications that ["just work"](https://www.youtube.com/watch?v=qmPq00jelpc) when integrated with the framework.
 
