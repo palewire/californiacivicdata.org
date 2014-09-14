@@ -24,7 +24,7 @@ The result: Each newcomer must repeat the same effort. Every user is required to
 
 This has to change. It’s a waste of time, energy and money. 
 
-We need a common set of tools that automates away what [Dave Guarino](http://daguar.github.io/2014/03/17/etl-for-america/) and [Bob Lannon](http://sunlightfoundation.com/blog/2014/03/21/data-plumbers/) have called the "piping" that prepares a data source for analysis.
+We need a common set of tools that automates away what [Dave Guarino](http://daguar.github.io/2014/03/17/etl-for-america/) and [Bob Lannon](http://sunlightfoundation.com/blog/2014/03/21/data-plumbers/) have called the "plumbling" that prepares any data source for analysis.
 
 Reporters, Web Developers,  Data Scientists and hobbyists that use open source tools should have access to what we’re calling “pluggable data.”
  
