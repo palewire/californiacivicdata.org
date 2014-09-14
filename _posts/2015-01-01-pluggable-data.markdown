@@ -32,7 +32,7 @@ While there are numerous ways to approach the challenge, we're here to propose o
 
 If you have any experience as a developer, you've probably bumped into packaged sofware. Thousands of free and open-source libraries are available for installation over the web from centralized servers, typically unique to each programming language. Command-line tools like [``pip``](http://pip.readthedocs.org/en/latest/index.html) (Python) or [``gem``](https://rubygems.org/) (Ruby), [``CPAN``](http://www.cpan.org/) (Perl) or [``npm``](https://www.npmjs.org/) (NodeJS) can make it easy to do. 
 
-For instance, if you are a Python developer interested in trying out the [requests](http://docs.python-requests.org/en/latest/) library, installing it on your laptop is as easy as:
+For instance, if you are a Python developer interested in trying out the [``requests``](http://docs.python-requests.org/en/latest/) library, installing it on your laptop is as easy as:
 
 ~~~ bash
 $ pip install requests
