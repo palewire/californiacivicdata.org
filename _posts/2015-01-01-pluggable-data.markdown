@@ -32,15 +32,18 @@ While there are numerous ways to approach the challenge, we're here to propose o
 
 If you have any experience as a developer, you've probably bumped into packaged sofware. Thousands of free and open-source libraries are available for easy installation over the web from centralized servers, typically unique to each programming language. Command-line tools like [``pip``](http://pip.readthedocs.org/en/latest/index.html) (Python) or [``gem``](https://rubygems.org/) (Ruby), [``CPAN``](http://www.cpan.org/) (Perl) or [``npm``](https://www.npmjs.org/) (NodeJS) can make it easy to do. 
 
-For instance, if I'm a Python developer interested in trying out the [Django web framework](http://www.djangoproject.com), installing it on my machine is as easy as:
+For instance, if I'm a Python developer interested in trying out the [requests](http://docs.python-requests.org/en/latest/) library for interacting with the web, installing it on my machine is as easy as:
 
 ~~~ bash
-$ pip install django
+$ pip install requests
 ~~~
 
-If you've ever used ``pip`` to install a Python library ``boto`` or ``gem`` to retrieve the ``nokogiri`` toolkit you've 
+And then using it is only a import away.
 
-When we download and install open-source libraries in our programming language of choice, via ``pip`` in Python, ``gem`` in Ruby, ``CPAN`` in Perl, etc., 
+~~~ python
+>>> import requests
+>>> requests.get("http://www.californiacivicdata.org/").status_code
+200
 
 We call "pluggable data" it,  and the id
 
