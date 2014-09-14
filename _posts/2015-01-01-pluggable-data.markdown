@@ -82,7 +82,7 @@ INSTALLED_APPS = (
 )
 ```
 
-Make sure that your MySQL installation can use the brutally effective, and widely underused, [``LOAD DATA INFILE`` command](http://dev.mysql.com/doc/refman/5.1/en/load-data.html) by adding the following to the database configuration also found in ``settings.py``.
+Make sure that your MySQL installation can use the brutally effective, and tragically underused, [``LOAD DATA INFILE`` command](http://dev.mysql.com/doc/refman/5.1/en/load-data.html) by adding the following to the database configuration also found in ``settings.py``.
 
 ``` python
 DATABASES = {
@@ -115,7 +115,9 @@ $ python manage.py downloadcalaccessrawdata
 
 And that's it. You now have the full database, including a set of administration tables. You could use it to track the millions of dollars flowing into this November's governor race, investigate what lobbyists are up to this session at the statehouse or impress everyone by designing a sophisticated analysis that stretches back over the nearly 15 years of data in the system to quantify the influence of money in politics. 
 
-Of course, to do any of that, you'll need to further regroup, filter and refine the data. But at least the initial headaches are out of the way. And any work you build on top of it could be packaged and distributed in the exact same way, with our raw data app simply as one of its dependencies, much in the same way that when you install the requests library as we did earlier in this post you're also install components of [``urllib3``](http://urllib3.readthedocs.org/en/latest/).
+Of course, to do any of that, you'll need to further regroup, filter and refine the data. But at least the initial headaches are out of the way. And any work you build on top of it could be packaged and distributed in the exact same way. In that case, our raw data app is simply as one of your new packages dependencies, much in the same way that the ``requests`` library as we installed earlier in this post depends on components of [``urllib3``](http://urllib3.readthedocs.org/en/latest/).
+
+
 
 ### What you can do
 
