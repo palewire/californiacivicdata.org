@@ -22,7 +22,7 @@ The result: Each newcomer to the data set must repeat the same effort. Every use
 
 This has to change.
  
-It’s a waste of time, effort and money. In the academic world there’s a common set of tools that community members use and members of that community collaboratively share import routines that get a particular data source ready for analysis.
+It’s a waste of time, energy and money. In the academic world there’s a common set of tools that community members use and members of that community collaboratively share import routines that get a particular data source ready for analysis.
  
 The open source community needs to do the same.
  
