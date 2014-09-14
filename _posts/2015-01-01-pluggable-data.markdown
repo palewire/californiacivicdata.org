@@ -117,19 +117,12 @@ And that's it. You now have the full database, including a set of administration
 
 Of course, to do any of that, you'll need to further regroup, filter and refine the data. But at least the initial headaches are out of the way. And any work you build on top of it could be packaged and distributed in the exact same way. In that case, our raw data app is simply as one of your new packages dependencies, much in the same way that the ``requests`` library as we installed earlier in this post depends on components of [``urllib3``](http://urllib3.readthedocs.org/en/latest/).
 
-An example of that is already taking shape in our [``django-calaccess-campaign-browser`` repository](https://github.com/california-civic-data-coalition/django-calaccess-campaign-browser), where we are experimenting a set of further refined tables and a simple web application aimed at power users, like statehouse reporters and newsroom analysts, who want a more robust and flexible interface than the [incredibly helpful but fundamentally limited](http://dbsearch.ss.ca.gov/ContributorSearch.aspx) closed-source sites that were previously the only way to access this database online.
+An example of that is already taking shape in our [``django-calaccess-campaign-browser`` repository](https://github.com/california-civic-data-coalition/django-calaccess-campaign-browser), where we are experimenting a set of further refined tables and a simple web application aimed at power users, like statehouse reporters and newsroom analysts, who want a more robust and flexible interface than the [helpful but fundamentally limited](http://dbsearch.ss.ca.gov/ContributorSearch.aspx) closed-source sites that were previously the only way to access this database online.
 
 ### What you can do
 
-Sync 
+If you are interested in this effort and would like to contribute, here's how you could help today.
 
-List how other hackers can contribute
-- Download and install django-calaccess-raw-data or django-calaccess-campaign-browser. Report bugs.
-- Fork our code and try to close one of the many tickets we've filed
-- Try to package and distribute an open data set you've worked with
-
-We’re calling ourselves the California Civic Data Coalition and we’d love to see similar efforts in other states and cities. Think of the insights that could be made if we had access to similar data across the 50 states and even in cities too.
- 
-Our effort in no way is meant to replace the valuable service that organizations like MapLight, The National Institute for Money in State Politics, The Center for Responsive Politics and the Sunlight Foundation provide. They all glean invaluable insights from the data and inform voters in a way that could never be automated.
- 
-We hope that they’d want to collaborate with us to ensure everyone has access to the raw data and use the open source tools we make.
+1.  Download and install [``django-calaccess-raw-data``](https://github.com/california-civic-data-coalition/django-calaccess-raw-data) or [``django-calaccess-campaign-browser``](https://github.com/california-civic-data-coalition/django-calaccess-campaign-browser). Report bugs.
+2. Fork our code and try to close one of the [many](https://github.com/california-civic-data-coalition/django-calaccess-raw-data/issues) [tickets](https://github.com/california-civic-data-coalition/django-calaccess-campaign-browser/issues) we've filed
+3. Try to package and distribute an open data set you've worked with
