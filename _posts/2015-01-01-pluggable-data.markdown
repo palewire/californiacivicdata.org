@@ -26,7 +26,9 @@ This has to change. It’s a waste of time, energy and money so dreary and point
 
 As [Dave Guarino](http://daguar.github.io/2014/03/17/etl-for-america/) and [Bob Lannon](http://sunlightfoundation.com/blog/2014/03/21/data-plumbers/) have forcefully argued, the open-data community needs match the effort put into developing the latest, greatest user interface with a better effort to automate away the unglamorous but important work that prepares any data source for meaningful analysis and visualization, what they call "plumbing."
 
-While there are numerous ways to approach the challenge, we're here to propose one in particular. We call it "pluggable data." 
+While there are numerous ways to approach the challenge, we're here to propose one in particular. We call it "pluggable data."
+
+#### What we mean
 
 If you have any experience as a developer, you've probably bumped into packaged sofware. Thousands of free and open-source libraries are available for easy installation over the web from centralized servers, typically unique to each programming language. Command-line tools like ``pip`` (Python) or ``gem`` (Ruby), ``CPAN`` (Perl) or ``npm`` (NodeJS) 
 
