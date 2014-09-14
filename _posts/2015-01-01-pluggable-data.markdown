@@ -12,7 +12,7 @@ By [Agustin Armendariz](mailto:aarmendariz@gmail.com), [Aaron Williams](mailto:a
 
 The melodrama is so familiar it's mundane. The government is asked to release an important data set. They dither. We moan. We groan. Sometimes we sue, or even (gasp) organize. 
 
-We don't always win, but more and more we do. In the final act, they now often make good. They release the raw data, just as we asked. In forward-thinking precincts they may even begin publishing bulk downloads on the Internet.
+We don't always win, but more and more we do. In the final act, they now often make good. They release the raw data, just as we asked. In forward-thinking precincts they maybe even publish bulk downloads online.
 
 What happens next? You know the script. 
 
@@ -20,9 +20,11 @@ A newsroom analyst partners with an ambitious reporter to extract a story. A bor
 
 And then, almost always, all of the focus, research and code that went into taming the source data is lost&mdash;discarded by the harried journalist, forgotten by the intellectually promiscious developer, locked away by the monopoly-seeking vendor.
 
-The pathetic result: Every newcomer must repeat their efforts by craft virtually identical methods for downloading, transforming and cleaning the data. And no matter how many analysts do it, the hurdles remains the same height.
+The pathetic result: Every newcomer must repeat their efforts by crafting virtually identical methods for downloading, transforming and cleaning the data. And no matter how many analysts do it, the hurdles remains the same height.
 
-This has to change. It’s a waste of time, energy and money. ... even the nytimes knows it doesn't make sense ... and it's even dumber in public service business where we're not locked in a zero sum areas race, and have shirnking staff in a contracting industry ...
+This has to change. It’s a waste of time, energy and money so dreary and pointless that even broadsheet newspaper reporters, a faction with revanchinst fantasties on par with the Putin administration, [see the problem](http://www.nytimes.com/2014/08/18/technology/for-big-data-scientists-hurdle-to-insights-is-janitor-work.html?_r=0).
+
+even the nytimes knows it doesn't make sense ... and it's even dumber in public service business where we're not locked in a zero sum areas race, and have shirnking staff in a contracting industry ...
 
 As [Dave Guarino](http://daguar.github.io/2014/03/17/etl-for-america/) and [Bob Lannon](http://sunlightfoundation.com/blog/2014/03/21/data-plumbers/) have forcefully argued, we need come together to automate away this so-called "plumbing," the unglamorous but important work that prepares any data source for meaningful analysis and visualization.
 
