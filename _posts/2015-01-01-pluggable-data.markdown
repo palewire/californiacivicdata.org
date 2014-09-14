@@ -28,7 +28,7 @@ As [Dave Guarino](http://daguar.github.io/2014/03/17/etl-for-america/) and [Bob 
 
 While there are numerous ways to approach the challenge, we're here to propose one in particular. We call it "pluggable data."
 
-#### What we mean
+### What we mean
 
 If you have any experience as a developer, you've probably bumped into packaged sofware. Thousands of free and open-source libraries are available for easy installation over the web from centralized servers, typically unique to each programming language. Command-line tools like [``pip``](http://pip.readthedocs.org/en/latest/index.html) (Python) or [``gem``](https://rubygems.org/) (Ruby), [``CPAN``](http://www.cpan.org/) (Perl) or [``npm``](https://www.npmjs.org/) (NodeJS) can make it easy to do. 
 
