@@ -22,7 +22,7 @@ And then, almost always, all of the focus, research and code that went into tami
 
 The pathetic result: Every newcomer must repeat their efforts by crafting virtually identical methods for downloading, transforming and cleaning the data. And no matter how many analysts do it, the hurdles remains the same height.
 
-This has to change. It’s a waste of time, energy and money so dreary and pointless that even broadsheet newspaper reporters, a faction with revanchinst fantasties on par with the Putin administration, [see the problem](http://www.nytimes.com/2014/08/18/technology/for-big-data-scientists-hurdle-to-insights-is-janitor-work.html?_r=0).
+This has to change. It’s a waste of time, energy and money so dreary and pointless that even broadsheet newspaper reporters, a faction with revanchinst delusions on par with the Putin administration, [see the problem](http://www.nytimes.com/2014/08/18/technology/for-big-data-scientists-hurdle-to-insights-is-janitor-work.html?_r=0).
 
 even the nytimes knows it doesn't make sense ... and it's even dumber in public service business where we're not locked in a zero sum areas race, and have shirnking staff in a contracting industry ...
 
