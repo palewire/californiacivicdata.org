@@ -1,4 +1,7 @@
 @import "pygments.css";
+body {
+    margin: 0 0 25px 0;
+}
 p {
     font-size: 18px;
     line-height: 27px;
