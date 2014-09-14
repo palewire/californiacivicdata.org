@@ -24,9 +24,7 @@ The pathetic result: Every newcomer must repeat their efforts by crafting virtua
 
 This has to change. It’s a waste of time, energy and money so dreary and pointless that even broadsheet newspaper reporters, a faction with revanchinst delusions on par with the Putin administration, [see the problem](http://www.nytimes.com/2014/08/18/technology/for-big-data-scientists-hurdle-to-insights-is-janitor-work.html?_r=0).
 
-even the nytimes knows it doesn't make sense ... and it's even dumber in public service business where we're not locked in a zero sum areas race, and have shirnking staff in a contracting industry ...
-
-As [Dave Guarino](http://daguar.github.io/2014/03/17/etl-for-america/) and [Bob Lannon](http://sunlightfoundation.com/blog/2014/03/21/data-plumbers/) have forcefully argued, we need come together to automate away this so-called "plumbing," the unglamorous but important work that prepares any data source for meaningful analysis and visualization.
+As [Dave Guarino](http://daguar.github.io/2014/03/17/etl-for-america/) and [Bob Lannon](http://sunlightfoundation.com/blog/2014/03/21/data-plumbers/) have forcefully argued, the open-data community needs match the effort put into developing the latest, greatest user interface with a better efforts to automate away this so-called "plumbing," the unglamorous but important work that prepares any data source for meaningful analysis and visualization.
 
 While there are numerous ways to approach the challenge, we're here to propose one in particular. We're calling it "pluggable data." 
 
