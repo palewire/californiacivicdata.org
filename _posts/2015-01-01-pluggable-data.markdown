@@ -12,7 +12,7 @@ By [Agustin Armendariz](mailto:aarmendariz@gmail.com), [Aaron Williams](mailto:a
 
 By now, the melodrama is mundane. The government is asked to release an important data set. They dither. We moan. We groan. Sometimes we sue, or even (gasp) organize. 
 
-We don't always win, but more and more we do. In the final act they make good. Just as we asked, the government releases the raw data. In forward-thinking precincts, they may even begin publishing bulk downloads on the Internet.
+We don't always win, but more and more we do. In the final act they make good. Just as we asked, they release the raw data. In forward-thinking precincts, they may even begin publishing bulk downloads on the Internet.
 
 What happens next? You know the script. 
 
