@@ -24,7 +24,9 @@ The result: Each newcomer must repeat the same effort. Every user is required to
 
 This has to change. It’s a waste of time, energy and money. 
 
-We need a common set of tools that automates away what [Dave Guarino](http://daguar.github.io/2014/03/17/etl-for-america/) and [Bob Lannon](http://sunlightfoundation.com/blog/2014/03/21/data-plumbers/) have called the "plumbing" that prepares any data source for analysis.
+As [Dave Guarino](http://daguar.github.io/2014/03/17/etl-for-america/) and [Bob Lannon](http://sunlightfoundation.com/blog/2014/03/21/data-plumbers/) have forcefully argued, we need come together to automate away the so-called "plumbing" that prepares any data source for meaningful analysis and storytelling.
+
+While there numerous ways to approach the challenge, we're here to propose one in particular. 
 
 Our proposal is that pip, software packaging and web framworks offer one means for achieving that goal ... 
 
