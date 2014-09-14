@@ -20,9 +20,9 @@ A newsroom analyst partners with an ambitious reporter to extract a story. A bor
 
 And then, almost always, all of the focus, research and code that went into taming the source data is lost&mdash;discarded by the harried journalist, forgotten by the intellectually promiscious developer, locked away by the monopoly-seeking vendor.
 
-The pathetic result: Each newcomer must repeat the same effort. Every user is required to craft virtually identical methods for downloading, transforming and cleaning the data. And no matter how many analysts use the data, the hurdles remains the same height.
+The pathetic result: Every newcomer must repeat their efforts by craft virtually identical methods for downloading, transforming and cleaning the data. And no matter how many analysts do it, the hurdles remains the same height.
 
-This has to change. It’s a waste of time, energy and money. 
+This has to change. It’s a waste of time, energy and money. ... even the nytimes knows it doesn't make sense ... and it's even dumber in public service business where we're not locked in a zero sum areas race, and have shirnking staff in a contracting industry ...
 
 As [Dave Guarino](http://daguar.github.io/2014/03/17/etl-for-america/) and [Bob Lannon](http://sunlightfoundation.com/blog/2014/03/21/data-plumbers/) have forcefully argued, we need come together to automate away this so-called "plumbing," the unglamorous but important work that prepares any data source for meaningful analysis and visualization.
 
