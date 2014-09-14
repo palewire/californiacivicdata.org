@@ -64,5 +64,5 @@ pre {margin: 0;}
 .highlight .il { color: #666666 } /* Literal.Number.Integer.Long */
 
 
-.highlight .bash .nv {-webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none; }
+.highlight .bash .nv {color: #000; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none; }
 
