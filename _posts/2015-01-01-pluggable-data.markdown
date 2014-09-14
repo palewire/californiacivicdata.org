@@ -48,7 +48,7 @@ And now using it is only a import away.
 
 Within the warm confines of a web frameworks&mdash;open-source libraries like [Django](http://www.djangoproject.com/) or [Ruby on Rails](http://rubyonrails.org/) that are so broad they include all the necessary tools to interact with a database, design an application and publish it to the web&mdash;this concept has been expanded to encourage the packaging not just of freestanding utilities like requests, but entire applications that ["just work"](https://www.youtube.com/watch?v=qmPq00jelpc) when integrated with the framework.
 
-This type of application, [championed](http://www.b-list.org/weblog/2007/nov/29/django-blog/) [eloquently](https://www.youtube.com/watch?v=A-S0tqpPga4) by Django leaders like James Bennett, is sometimes called a "pluggable" or "reusable" app, because its modular design makes it portable to a wide range of sites.
+This type of application, [championed](http://www.b-list.org/weblog/2007/nov/29/django-blog/) [eloquently](https://www.youtube.com/watch?v=A-S0tqpPga4) by Django leaders like James Bennett, is sometimes called a "pluggable" or ["reusable"](https://docs.djangoproject.com/en/dev/intro/reusable-apps/) app, because its modular design makes it portable to a wide range of sites.
 
 A good example is the open-source [Pinax project](http://pinaxproject.com/), which provides Django-ready components that furnish common features like [comments](https://github.com/eldarion/dialogos), [badges](https://github.com/eldarion/brabeion), [phone confirmations](https://github.com/pinax/pinax-phone-confirmation) and [user accounts](https://github.com/pinax/django-user-accounts). Each contains code that configures database tables, administration panels to edit records and application logic that can interact with users.
 
@@ -64,9 +64,19 @@ Thanks to a [successful organizing effort](http://maplight.org/content/73249) la
 
 Weighing in at more than 650 megabytes the dump contains 76 database tables and nearly 35 million records. In the past, slices were only released on demand, for a small fee, [via compact disc](/img/calaccess-cd.png). Analysts, including one of the authors of this post, would spend months learning how to negotiate the system's contours, overcome its quirks and [grind out insights](http://cironline.org/reports/california-speaker-gives-assemblys-juiciest-jobs-biggest-fundraisers-4501)&mdash;only to set aside the code when they moved on to the next story.
 
+Now that the dump is freely available, and open to all, we thought it was an opportunity to pool efforts. Even though we may represent rival media outlets, we'd rather compete at analyzing the data than downloading and parsing it.
 
+Today we're ready to announce the release of ``django-calaccess-raw-data``, a pluggable Django data set [hosted on GitHub](https://github.com/california-civic-data-coalition/django-calaccess-raw-data) and distributed via [the Python Package Index](https://pypi.python.org/pypi/django-calaccess-raw-data/). With a few simple commands, you can download the data, transform it into clean CSV files and then load it into a MySQL database.
 
- 
+Assuming you have [a basic Django project](https://docs.djangoproject.com/en/1.6/intro/tutorial01/) already configured, all 
+
+### What you can do
+
+List how other hackers can contribute
+- Download and install django-calaccess-raw-data or django-calaccess-campaign-browser. Report bugs.
+- Fork our code and try to close one of the many tickets we've filed
+- Try to package and distribute an open data set you've worked with
+
 We’re calling ourselves the California Civic Data Coalition and we’d love to see similar efforts in other states and cities. Think of the insights that could be made if we had access to similar data across the 50 states and even in cities too.
  
 Our effort in no way is meant to replace the valuable service that organizations like MapLight, The National Institute for Money in State Politics, The Center for Responsive Politics and the Sunlight Foundation provide. They all glean invaluable insights from the data and inform voters in a way that could never be automated.
