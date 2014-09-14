@@ -20,16 +20,12 @@ A self-taught newsroom analyst partners with an ambitious reporter to extract a 
 
 And then, almost always, all of the focus, research and code that went into taming the source data is lost&mdash;discarded by the harried journalist, forgotten by the intellectually promiscious developer, locked away by the monopoly-seeking vendor.
 
-The result: Each newcomer to the data set must repeat the same effort. Every user is required to craft virtually identical methods for downloading, transforming and cleaning the data. And no matter how many analysts use the data, that hurdle remains the same height.
+The result: Each newcomer must repeat the same effort. Every user is required to craft virtually identical methods for downloading, transforming and cleaning the data. And no matter how many analysts use the data, the hurdle remains the same height.
 
 This has to change. It’s a waste of time, energy and money. 
 
-We need a common set of tools for 
+We need a common set of tools that automates away what [Dave Guarino](http://daguar.github.io/2014/03/17/etl-for-america/) and [Bob Lannon](http://sunlightfoundation.com/blog/2014/03/21/data-plumbers/) have called the "piping" that prepares a data source for analysis.
 
-In the academic world there’s a common set of tools that community members use and members of that community collaboratively share import routines that get a particular data source ready for analysis.
- 
-The open source community needs to do the same.
- 
 Reporters, Web Developers,  Data Scientists and hobbyists that use open source tools should have access to what we’re calling “pluggable data.”
  
 If you can pip install Django you should be able to pip install data to go with your Django project in the same way that there are SPSS and SAS import scripts for using education data housed in the Integrated Postsecondary Education Data System (IPEDS).
