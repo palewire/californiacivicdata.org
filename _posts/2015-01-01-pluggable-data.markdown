@@ -56,20 +56,19 @@ Our proposal is to bring the exact same approach to packaging data. If a series 
 
 ### How we do
 
-With that goal in mind, a small group of programmers from the [Los Angeles Times's Data Desk](http://www.latimes.com/local/datadesk/), [The Center for Investigative Reporting](http://cironline.org/) and Stanford's new [Computational Journalism Program](http://towcenter.org/blog/data-journalist-profile-cheryl-phillips-stanford-data-journalism/) met for two days last month at Mozilla's offices in San Francisco.
+With that idea in mind, a small group of programmers from the [Los Angeles Times Data Desk](http://www.latimes.com/local/datadesk/), [The Center for Investigative Reporting](http://cironline.org/) and Stanford's new [Computational Journalism Program](http://towcenter.org/blog/data-journalist-profile-cheryl-phillips-stanford-data-journalism/) met for two days last month at Mozilla offices in San Francisco.
 
-Our goal: To package and refine [raw data from CAL-ACCESS](http://www.sos.ca.gov/prd/cal-access/), the State of California’s campaign finance and lobbying database.
+Under the newly minted banner of the California Civic Data Coalition, we set out to package and refine [raw data from CAL-ACCESS](http://www.sos.ca.gov/prd/cal-access/), the State of California’s campaign finance and lobbying database.
  
-Thanks to the efforts of the good folks at MapLight, the state committed to posting the data on the web and updating it on a regular basis. Knowing that we’d have to work with this data at some point in our reporting, we came together to collaborate on liberating it.
+Thanks to a [successful organizing effort](http://maplight.org/content/73249) last year, Secretary of State Debra Bowen [committed](http://www.sos.ca.gov/admin/press-releases/2013/db13-035.htm) to posting a nearly complete dump of the data online, updating it on a regular basis. 
+
+Weighing in at more than 650 megabytes the dump contains 76 database tables and nearly 35 million records. In the past, analysts, including [one of the authors of this post](http://cironline.org/reports/california-speaker-gives-assemblys-juiciest-jobs-biggest-fundraisers-4501), would spend months learning how to negotiate its contours, overcome its quirks and grind out insights from slices released ad hoc on a compact disc only to move on.
+
+
+
  
 We’re calling ourselves the California Civic Data Coalition and we’d love to see similar efforts in other states and cities. Think of the insights that could be made if we had access to similar data across the 50 states and even in cities too.
  
 Our effort in no way is meant to replace the valuable service that organizations like MapLight, The National Institute for Money in State Politics, The Center for Responsive Politics and the Sunlight Foundation provide. They all glean invaluable insights from the data and inform voters in a way that could never be automated.
  
 We hope that they’d want to collaborate with us to ensure everyone has access to the raw data and use the open source tools we make.
- 
-Thanks to the generous support of the Knight-Mozilla Open News Foundation our nascent group of data liberators came together in San Francisco and put the finishing touches on a parser for the CAL-ACCESS data dump.
- 
-SOME STATS HERE LIKE XX MILLION RECORDS, 80 CSV FILES, ETC.  
- 
-And there’s more in the works. We’re well on our way to having an app that rips out the campaign finance data from the raw data dump and organizes it in a more useful way for analysis. Stay tuned in the coming weeks.
