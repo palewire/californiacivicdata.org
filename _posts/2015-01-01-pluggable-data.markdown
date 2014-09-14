@@ -14,35 +14,10 @@ By now, the melodrama is mundane. The government is asked to release an importan
 
 What happens next? You know the script. 
 
-A self-taught newsroom analyst partners with an ambitious reporter to extract a story. A bored web developer posts a misleading but beautifully rendered graphic on Tumblr. A data vendor with a cryptic name throws another lump into its billowing furnance.
+A self-taught newsroom analyst partners with an ambitious reporter to extract a story. A bored developer posts a misleading but beautifully rendered graphic on Tumblr. A data vendor with a cryptic name throws another lump into its billowing furnance.
 
+And, almost always, all the focus, research and  
 
-### Outline
-- Define the problem
-- Declare that it be destroyed
-- Point to what other fields do
-- Explain our solution
-- Explain origin of "pluggable apps" in Django and explain the fourfold path
-- Connect this idea to our work on CAL-ACCESS
--- Walk through all it takes to make it go 
--- Link to our stuff and gtfo
-
-Things we need to reference
-
-- David Guarino's [ETL for America](http://daguar.github.io/2014/03/17/etl-for-america/)
-- Bob Lannon's [follow up](http://sunlightfoundation.com/blog/2014/03/21/data-plumbers/)
-- NYT [data janitor](http://www.nytimes.com/2014/08/18/technology/for-big-data-scientists-hurdle-to-insights-is-janitor-work.html?_r=0) piece
-
-With the data science profession in vogue and statistics suddenly sexy there’s growing public awareness of the huge amount of drudgery that goes into data analysis.
- 
-Take for instance this sentence from a story that ran in the New York Times last month.
- 
- “Data scientists, according to interviews and expert estimates, spend from 50 percent to 80 percent of their time mired in this more mundane labor of collecting and preparing unruly digital data, before it can be explored for useful nuggets.”
- 
-The same is true for data reporters.
- 
-We rely on data to verify what our sources are telling us and to contextualize the things we write about. Is something we are seeing a trend or a momentary aberration? There’s news in them there outliers that buck the expected trends. Just as there’s value in understanding how certain events are trending over time.
- 
 But far too often the data we use for our reporting is laboriously collected and analyzed then discarded. We move on to other stories and have to recreate that effort later should we need to use the same data source again. And our colleagues at other organizations are doing the exact same thing.
  
 This has to change.
@@ -74,3 +49,19 @@ Thanks to the generous support of the Knight-Mozilla Open News Foundation our na
 SOME STATS HERE LIKE XX MILLION RECORDS, 80 CSV FILES, ETC.  
  
 And there’s more in the works. We’re well on our way to having an app that rips out the campaign finance data from the raw data dump and organizes it in a more useful way for analysis. Stay tuned in the coming weeks.
+
+### Outline
+- Define the problem
+- Declare that it be destroyed
+- Point to what other fields do
+- Explain our solution
+- Explain origin of "pluggable apps" in Django and explain the fourfold path
+- Connect this idea to our work on CAL-ACCESS
+-- Walk through all it takes to make it go 
+-- Link to our stuff and gtfo
+
+Things we need to reference
+
+- David Guarino's [ETL for America](http://daguar.github.io/2014/03/17/etl-for-america/)
+- Bob Lannon's [follow up](http://sunlightfoundation.com/blog/2014/03/21/data-plumbers/)
+- NYT [data janitor](http://www.nytimes.com/2014/08/18/technology/for-big-data-scientists-hurdle-to-insights-is-janitor-work.html?_r=0) piece
