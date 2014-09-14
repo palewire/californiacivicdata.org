@@ -20,7 +20,7 @@ A self-taught newsroom analyst partners with an ambitious reporter to extract a 
 
 And then, almost always, all of the focus, research and code that went into taming the source data is lost&mdash;discarded by the harried journalist, forgotten by the intellectually promiscious developer, locked away by the monopoly-seeking vendor.
 
-The pathetic result: Each newcomer must repeat the same effort. Every user is required to craft virtually identical methods for downloading, transforming and cleaning the data. And no matter how many analysts use the data, the hurdle remains the same height.
+The pathetic result: Each newcomer must repeat the same effort. Every user is required to craft virtually identical methods for downloading, transforming and cleaning the data. And no matter how many analysts use the data, the hurdles remains the same height.
 
 This has to change. It’s a waste of time, energy and money. 
 
