@@ -70,21 +70,22 @@ Today we're ready to announce the release of ``django-calaccess-raw-data``, a pl
 
 Assuming you have [a basic Django project](https://docs.djangoproject.com/en/1.6/intro/tutorial01/) already configured, here's all it takes. First, install the pluggable app from the package repository.
 
-``` bash
+~~~ bash
 $ pip install django-calaccess-raw-data
+~~~
 
 Add the application to the ``INSTALLED_APPS`` list in Django's standard ``settings.py`` file.
 
-``` python
+~~~ python
 INSTALLED_APPS = (
     # ... other apps up here ...
     'calaccess_raw',
 )
-```
+~~~ 
 
 Make sure that your MySQL installation can use the brutally effective, and tragically underused, [``LOAD DATA INFILE`` command](http://dev.mysql.com/doc/refman/5.1/en/load-data.html) by adding the following to the database configuration also found in ``settings.py``.
 
-``` python
+~~~  python
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -99,19 +100,19 @@ DATABASES = {
         }
     }
 }
-```
+~~~ 
 
 Sync your database to add the CAL-ACCESS table.
 
-``` bash
+~~~ bash
 $ python manage.py syncdb
-```
+~~~ 
 
 And, finally, run the custom management command that will download, parse, clean and load all of the data.
 
-``` bash
+~~~ bash
 $ python manage.py downloadcalaccessrawdata
-```
+~~~ 
 
 And that's it. You now have the full database, including a set of administration tables. You could use it to track the millions of dollars flowing into this November's governor race, investigate what lobbyists are up to this session at the statehouse or impress everyone by designing a sophisticated analysis that stretches back over the nearly 15 years of data in the system to quantify the influence of money in politics. 
 
