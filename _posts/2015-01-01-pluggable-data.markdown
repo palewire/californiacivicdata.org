@@ -10,8 +10,6 @@ published: true
 
 By [Agustin Armendariz](mailto:aarmendariz@gmail.com), [Aaron Williams](mailto:awilliams@cironline.org) and [Ben Welsh](mailto:ben.welsh@gmail.com)
 
-September X, 2014
-
 The melodrama is so familiar it's mundane. The government is asked to release an important data set. They dither. We moan. We groan. Sometimes we sue, or even (gasp) organize. 
 
 We don't always win, but more and more we do. In the final act, they now often make good. They release the raw data, just as we asked. In forward-thinking precincts they maybe even publish bulk downloads online.
