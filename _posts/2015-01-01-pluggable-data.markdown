@@ -85,7 +85,7 @@ INSTALLED_APPS = (
 
 Make sure that your MySQL installation can use the brutally effective, and tragically underused, [``LOAD DATA INFILE`` command](http://dev.mysql.com/doc/refman/5.1/en/load-data.html) by adding the following to the database configuration also found in ``settings.py``.
 
-~~~  python
+~~~ python
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
