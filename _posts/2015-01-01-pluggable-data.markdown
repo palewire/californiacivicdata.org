@@ -10,7 +10,7 @@ published: true
 
 By [Agustin Armendariz](mailto:aarmendariz@gmail.com), [Aaron Williams](mailto:awilliams@cironline.org) and [Ben Welsh](mailto:ben.welsh@gmail.com)
 
-By now, the melodrama is mundane. The government is asked to release an important data set. They dither. We moan. We groan. Sometimes we sue, or even (gasp) organize. 
+By now, the melodrama is so familiar it's mundane. The government is asked to release an important data set. They dither. We moan. We groan. Sometimes we sue, or even (gasp) organize. 
 
 We don't always win, but more and more we do. In the final act they make good. Just as we asked, they release the raw data. In forward-thinking precincts, they may even begin publishing bulk downloads on the Internet.
 
@@ -26,9 +26,9 @@ This has to change. It’s a waste of time, energy and money.
 
 As [Dave Guarino](http://daguar.github.io/2014/03/17/etl-for-america/) and [Bob Lannon](http://sunlightfoundation.com/blog/2014/03/21/data-plumbers/) have forcefully argued, we need come together to automate away this so-called "plumbing," the unglamorous but important work that prepares any data source for meaningful analysis and visualization.
 
-While there numerous ways to approach the challenge, we're here to propose one in particular. We call it "pluggable data." 
+While there numerous ways to approach the challenge, we're here to propose one in particular. We're calling it "pluggable data." 
 
-If you have any experience as a developer, you've probably bumped into packaged sofware at one time or another. Thousands of free and open-source libraries are available for easy installation over the web from centralized servers, typically unique to each programming language. Command-line tools like ``pip`` (Python) or ``gem`` (Ruby), ``CPAN`` (Perl) or ``npm`` (NodeJS) 
+If you have any experience as a developer, you've probably bumped into packaged sofware. Thousands of free and open-source libraries are available for easy installation over the web from centralized servers, typically unique to each programming language. Command-line tools like ``pip`` (Python) or ``gem`` (Ruby), ``CPAN`` (Perl) or ``npm`` (NodeJS) 
 
 If you've ever used ``pip`` to install a Python library ``boto`` or ``gem`` to retrieve the ``nokogiri`` toolkit you've 
 
