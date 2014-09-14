@@ -50,11 +50,13 @@ Within the warm confines of a web frameworks&mdash;open-source libraries like [D
 
 This type of application, [championed](http://www.b-list.org/weblog/2007/nov/29/django-blog/) [eloquently](https://www.youtube.com/watch?v=A-S0tqpPga4) by Django leaders like James Bennett, is sometimes called a "pluggable" or "reusable" app, because its modular design makes it portable to a wide range of sites.
 
-A good example is the open-source [Pinax project](http://pinaxproject.com/), which provides Django-ready components that furnish common features like [comments](https://github.com/eldarion/dialogos), [badges](https://github.com/eldarion/brabeion), [phone confirmations](https://github.com/pinax/pinax-phone-confirmation) and [user accounts](https://github.com/pinax/django-user-accounts).
+A good example is the open-source [Pinax project](http://pinaxproject.com/), which provides Django-ready components that furnish common features like [comments](https://github.com/eldarion/dialogos), [badges](https://github.com/eldarion/brabeion), [phone confirmations](https://github.com/pinax/pinax-phone-confirmation) and [user accounts](https://github.com/pinax/django-user-accounts). Each contains code that configures database tables, editing via administration panels and application logic ready to interact with users.
 
-We call "pluggable data" it,  and the id
+Our proposal is to bring the exact same approach to packaging data. If a series of simple installation commands can provide a Django application with everything necessary to build a social networking site, why can't it also provide [U.S. Census data](http://factfinder2.census.gov/faces/nav/jsf/pages/download_center.xhtml), [a list of top chemical pollutors](http://www2.epa.gov/toxics-release-inventory-tri-program/tri-basic-data-files-calendar-years-1987-2012) or even something as simple as [a list of every U.S. county](http://www.epa.gov/envirofw/html/codes/state.html)  
 
-Our proposal is that pip, software packaging and web framworks offer one means for achieving that goal ... 
+you can pip install Django you should be able to pip install data to go with your Django project in the same way that there are SPSS and SAS import scripts for using education data housed in the Integrated Postsecondary Education Data System (IPEDS).
+
+pip, software packaging and web framworks offer one means for achieving that goal ... 
 
 - Explain our solution
 - Explain origin of "pluggable apps" in Django and explain the fourfold path
@@ -64,7 +66,7 @@ Our proposal is that pip, software packaging and web framworks offer one means f
 
 Reporters, Web Developers,  Data Scientists and hobbyists that use open source tools should have access to what we’re calling “pluggable data.”
  
-If you can pip install Django you should be able to pip install data to go with your Django project in the same way that there are SPSS and SAS import scripts for using education data housed in the Integrated Postsecondary Education Data System (IPEDS).
+
  
 Access to data is increasingly important and enough people are working with the same regularly updated data sources that we believe self-sustaining communities of users can emerge to collaboratively maintain open source tools to access data quickly and easily.
  
