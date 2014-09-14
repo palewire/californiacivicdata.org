@@ -124,5 +124,5 @@ An example of that is already taking shape in our [``django-calaccess-campaign-b
 If you are interested in this effort and would like to contribute, here's how you could help today.
 
 1.  Download and install [``django-calaccess-raw-data``](https://github.com/california-civic-data-coalition/django-calaccess-raw-data) or [``django-calaccess-campaign-browser``](https://github.com/california-civic-data-coalition/django-calaccess-campaign-browser). Report bugs.
-2. Fork our code and try to close one of the [many](https://github.com/california-civic-data-coalition/django-calaccess-raw-data/issues) [tickets](https://github.com/california-civic-data-coalition/django-calaccess-campaign-browser/issues) we've filed
-3. Try to package and distribute an open data set you've worked with
+2. Fork our code and try to close one of the [many](https://github.com/california-civic-data-coalition/django-calaccess-raw-data/issues) [tickets](https://github.com/california-civic-data-coalition/django-calaccess-campaign-browser/issues) we've filed.
+3. Try to package and distribute an open data set you've worked with.
