@@ -68,9 +68,54 @@ Now that the dump is freely available, and open to all, we thought it was an opp
 
 Today we're ready to announce the release of ``django-calaccess-raw-data``, a pluggable Django data set [hosted on GitHub](https://github.com/california-civic-data-coalition/django-calaccess-raw-data) and distributed via [the Python Package Index](https://pypi.python.org/pypi/django-calaccess-raw-data/). With a few simple commands, you can download the data, transform it into clean CSV files and then load it into a MySQL database.
 
-Assuming you have [a basic Django project](https://docs.djangoproject.com/en/1.6/intro/tutorial01/) already configured, all 
+Assuming you have [a basic Django project](https://docs.djangoproject.com/en/1.6/intro/tutorial01/) already configured, here's all it takes. First, install the pluggable app from the package repository.
+
+``` bash
+$ pip install django-calaccess-raw-data
+
+Add the application to the ``INSTALLED_APPS`` list in Django's standard ``settings.py`` file.
+
+``` python
+INSTALLED_APPS = (
+    # ... other apps up here ...
+    'calaccess_raw',
+)
+```
+
+Make sure that your MySQL installation can use the brutally effective, and widely underused, [``LOAD DATA INFILE`` command](http://dev.mysql.com/doc/refman/5.1/en/load-data.html) by adding the following to the database configuration also found in ``settings.py``.
+
+``` python
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'my_calaccess_db',
+        'USER': 'username',
+        'PASSWORD': 'password',
+        'HOST': 'localhost',
+        'PORT': '3306',
+        # Here's the big we're talking about
+        'OPTIONS': {
+            'local_infile': 1,
+        }
+    }
+}
+```
+
+Sync your database to add the CAL-ACCESS table.
+
+``` bash
+$ python manage.py syncdb
+```
+
+And, finally, run the custom management command that will download, parse, clean and load all of the data.
+
+``` bash
+$ python manage.py downloadaccessrawdata
+```
 
 ### What you can do
+
+Sync 
 
 List how other hackers can contribute
 - Download and install django-calaccess-raw-data or django-calaccess-campaign-browser. Report bugs.
