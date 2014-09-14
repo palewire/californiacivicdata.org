@@ -28,6 +28,12 @@ We need a common set of tools that automates away what [Dave Guarino](http://dag
 
 Our proposal is that pip, software packaging and web framworks offer one means for achieving that goal ... 
 
+- Explain our solution
+- Explain origin of "pluggable apps" in Django and explain the fourfold path
+- Connect this idea to our work on CAL-ACCESS
+-- Walk through all it takes to make it go 
+-- Link to our stuff and gtfo
+
 Reporters, Web Developers,  Data Scientists and hobbyists that use open source tools should have access to what we’re calling “pluggable data.”
  
 If you can pip install Django you should be able to pip install data to go with your Django project in the same way that there are SPSS and SAS import scripts for using education data housed in the Integrated Postsecondary Education Data System (IPEDS).
@@ -51,19 +57,3 @@ Thanks to the generous support of the Knight-Mozilla Open News Foundation our na
 SOME STATS HERE LIKE XX MILLION RECORDS, 80 CSV FILES, ETC.  
  
 And there’s more in the works. We’re well on our way to having an app that rips out the campaign finance data from the raw data dump and organizes it in a more useful way for analysis. Stay tuned in the coming weeks.
-
-### Outline
-- Define the problem
-- Declare that it be destroyed
-- Point to what other fields do
-- Explain our solution
-- Explain origin of "pluggable apps" in Django and explain the fourfold path
-- Connect this idea to our work on CAL-ACCESS
--- Walk through all it takes to make it go 
--- Link to our stuff and gtfo
-
-Things we need to reference
-
-- David Guarino's [ETL for America](http://daguar.github.io/2014/03/17/etl-for-america/)
-- Bob Lannon's [follow up](http://sunlightfoundation.com/blog/2014/03/21/data-plumbers/)
-- NYT [data janitor](http://www.nytimes.com/2014/08/18/technology/for-big-data-scientists-hurdle-to-insights-is-janitor-work.html?_r=0) piece
