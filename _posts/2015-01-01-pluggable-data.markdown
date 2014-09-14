@@ -62,7 +62,7 @@ Under the newly minted banner of the California Civic Data Coalition, we set out
  
 Thanks to a [successful organizing effort](http://maplight.org/content/73249) last year, Secretary of State Debra Bowen [committed](http://www.sos.ca.gov/admin/press-releases/2013/db13-035.htm) to posting a nearly complete dump of the data online, updating it on a regular basis. 
 
-Weighing in at more than 650 megabytes the dump contains 76 database tables and nearly 35 million records. In the past, slices were released, for a small fee, on compact disc. Analysts, including [one of the authors of this post](http://cironline.org/reports/california-speaker-gives-assemblys-juiciest-jobs-biggest-fundraisers-4501), would spend months learning how to negotiate its contours, overcome its quirks and grind out insights&mdash;only to set aside the code when they moved on to the next story.
+Weighing in at more than 650 megabytes the dump contains 76 database tables and nearly 35 million records. In the past, slices were released, for a small fee, [on compact disc](/img/calaccess-cd.png). Analysts, including [one of the authors of this post](http://cironline.org/reports/california-speaker-gives-assemblys-juiciest-jobs-biggest-fundraisers-4501), would spend months learning how to negotiate its contours, overcome its quirks and grind out insights&mdash;only to set aside the code when they moved on to the next story.
 
 
 
