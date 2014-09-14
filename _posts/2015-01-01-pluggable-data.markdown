@@ -12,7 +12,9 @@ By [Agustin Armendariz](mailto:aarmendariz@gmail.com), [Aaron Williams](mailto:a
 
 By now, the melodrama is mundane. The government is asked to release an important data set. They dither. We moan. We groan. Sometimes we sue, or even (gasp) organize. We don't always win, but more and more we do. And in the final act the government makes good. As we so procaciously demanded, they release the raw data. In our more forward-thinking precincts, they may even begin publishing bulk downloads on the Internet.
 
-Then what happens? You know the script. A self-taught newsroom analyst partners with an ambitious reporter to extract a story. A bored web developer posts a misleading but beautifully rendered graphic on Tumblr. A data vendor with a cryptic name throws another lump into its billowing furnance.
+What happens next? You know the script. 
+
+A self-taught newsroom analyst partners with an ambitious reporter to extract a story. A bored web developer posts a misleading but beautifully rendered graphic on Tumblr. A data vendor with a cryptic name throws another lump into its billowing furnance.
 
 
 ### Outline
