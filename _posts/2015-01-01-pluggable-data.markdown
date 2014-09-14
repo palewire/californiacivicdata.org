@@ -20,9 +20,11 @@ And then, almost always, all of the focus, research and code that went into tami
 
 The result: Each newcomer to the data set must repeat the same effort. Every user is required to craft virtually identical methods for downloading, transforming and cleaning the data. And no matter how many analysts use the data, that hurdle stays the same height.
 
-This has to change.
- 
-It’s a waste of time, energy and money. In the academic world there’s a common set of tools that community members use and members of that community collaboratively share import routines that get a particular data source ready for analysis.
+This has to change. It’s a waste of time, energy and money. 
+
+We need a common set of tools for 
+
+In the academic world there’s a common set of tools that community members use and members of that community collaboratively share import routines that get a particular data source ready for analysis.
  
 The open source community needs to do the same.
  
