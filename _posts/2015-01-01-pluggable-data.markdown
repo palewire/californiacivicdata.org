@@ -133,3 +133,4 @@ If you are interested in this effort and would like to contribute, here's how yo
 1.  Download and install [``django-calaccess-raw-data``](https://github.com/california-civic-data-coalition/django-calaccess-raw-data) or [``django-calaccess-campaign-browser``](https://github.com/california-civic-data-coalition/django-calaccess-campaign-browser). Report bugs.
 2. Fork our code and try to close one of the [many](https://github.com/california-civic-data-coalition/django-calaccess-raw-data/issues) [tickets](https://github.com/california-civic-data-coalition/django-calaccess-campaign-browser/issues) we've filed.
 3. Try to package and distribute an open data set you've worked with.
+4. At the very least, [watch James Bennett's excellent 2008 talk](https://www.youtube.com/watch?v=A-S0tqpPga4) on designing reusable applications and ask yourself, every time you start a new project, how you could package it for future reuse and open-source collaboration.
