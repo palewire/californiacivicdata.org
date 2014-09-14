@@ -58,7 +58,7 @@ Our proposal is to bring the exact same approach to packaging data. If a series 
 
 With that idea in mind, a small group of programmers from the [Los Angeles Times Data Desk](http://www.latimes.com/local/datadesk/), [The Center for Investigative Reporting](http://cironline.org/) and Stanford's new [Computational Journalism Program](http://towcenter.org/blog/data-journalist-profile-cheryl-phillips-stanford-data-journalism/) met for two days last month at Mozilla offices in San Francisco.
 
-Under the newly minted banner of the California Civic Data Coalition, we set out to package and refine [raw data from CAL-ACCESS](http://www.sos.ca.gov/prd/cal-access/), the State of California’s campaign finance and lobbying database.
+Under the newly minted banner of the California Civic Data Coalition, we set out to package and refine [raw data from CAL-ACCESS](http://www.sos.ca.gov/prd/cal-access/), the state of California’s campaign finance and lobbying database.
  
 Thanks to a [successful organizing effort](http://maplight.org/content/73249) last year, Secretary of State Debra Bowen [committed](http://www.sos.ca.gov/admin/press-releases/2013/db13-035.htm) to posting a nearly complete dump of the data online, updating it on a regular basis. 
 
