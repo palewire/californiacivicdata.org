@@ -50,29 +50,15 @@ Within the warm confines of a web frameworks&mdash;open-source libraries like [D
 
 This type of application, [championed](http://www.b-list.org/weblog/2007/nov/29/django-blog/) [eloquently](https://www.youtube.com/watch?v=A-S0tqpPga4) by Django leaders like James Bennett, is sometimes called a "pluggable" or "reusable" app, because its modular design makes it portable to a wide range of sites.
 
-A good example is the open-source [Pinax project](http://pinaxproject.com/), which provides Django-ready components that furnish common features like [comments](https://github.com/eldarion/dialogos), [badges](https://github.com/eldarion/brabeion), [phone confirmations](https://github.com/pinax/pinax-phone-confirmation) and [user accounts](https://github.com/pinax/django-user-accounts). Each contains code that configures database tables, editing via administration panels and application logic ready to interact with users.
+A good example is the open-source [Pinax project](http://pinaxproject.com/), which provides Django-ready components that furnish common features like [comments](https://github.com/eldarion/dialogos), [badges](https://github.com/eldarion/brabeion), [phone confirmations](https://github.com/pinax/pinax-phone-confirmation) and [user accounts](https://github.com/pinax/django-user-accounts). Each contains code that configures database tables, administration panels to edit records and application logic that can interact with users.
 
-Our proposal is to bring the exact same approach to packaging data. If a series of simple installation commands can provide a Django application with everything necessary to build a social networking site, why can't it also provide [U.S. Census data](http://factfinder2.census.gov/faces/nav/jsf/pages/download_center.xhtml), [a list of top chemical pollutors](http://www2.epa.gov/toxics-release-inventory-tri-program/tri-basic-data-files-calendar-years-1987-2012) or even something as simple as [a list of every U.S. county](http://www.epa.gov/envirofw/html/codes/state.html)  
+Our proposal is to bring the exact same approach to packaging data. If a series of simple installation commands can provide a Django application with everything necessary to build a social networking site, why can't it also provide [U.S. Census statistics](http://factfinder2.census.gov/faces/nav/jsf/pages/download_center.xhtml), [the massive federal database that tracks our country's chemical pollutors](http://www2.epa.gov/toxics-release-inventory-tri-program/tri-basic-data-files-calendar-years-1987-2012) or even something as simple as [a list of every U.S. county](http://www.epa.gov/envirofw/html/codes/state.html)? 
 
-you can pip install Django you should be able to pip install data to go with your Django project in the same way that there are SPSS and SAS import scripts for using education data housed in the Integrated Postsecondary Education Data System (IPEDS).
+### How we do
 
-pip, software packaging and web framworks offer one means for achieving that goal ... 
+With that goal in mind, a small group of programmers from the [Los Angeles Times's Data Desk](http://www.latimes.com/local/datadesk/), [The Center for Investigative Reporting](http://cironline.org/) and Stanford's new [Computational Journalism Program](http://towcenter.org/blog/data-journalist-profile-cheryl-phillips-stanford-data-journalism/) met for two days last month at Mozilla's offices in San Francisco.
 
-- Explain our solution
-- Explain origin of "pluggable apps" in Django and explain the fourfold path
-- Connect this idea to our work on CAL-ACCESS
--- Walk through all it takes to make it go 
--- Link to our stuff and gtfo
-
-Reporters, Web Developers,  Data Scientists and hobbyists that use open source tools should have access to what we’re calling “pluggable data.”
- 
-
- 
-Access to data is increasingly important and enough people are working with the same regularly updated data sources that we believe self-sustaining communities of users can emerge to collaboratively maintain open source tools to access data quickly and easily.
- 
-We shouldn’t have to hand roll our own import scripts for data that’s regularly available on the web.
- 
-Towards that end our small group came together to liberate the State of California’s campaign finance and lobbying data housed in the CAL-ACCESS system.
+Our goal: To package and refine [raw data from CAL-ACCESS](http://www.sos.ca.gov/prd/cal-access/), the State of California’s campaign finance and lobbying database.
  
 Thanks to the efforts of the good folks at MapLight, the state committed to posting the data on the web and updating it on a regular basis. Knowing that we’d have to work with this data at some point in our reporting, we came together to collaborate on liberating it.
  
