@@ -16,7 +16,7 @@ We don't always win, but more and more we do. In the final act they make good an
 
 What happens next? You know the script. 
 
-A newsroom analyst partners with an ambitious reporter to extract a story. A bored developer posts a confused but beautifully rendered graphic on Tumblr. A vendor with a cryptic name throws another lump into its billowing data furnace.
+A newsroom analyst partners with an ambitious reporter to extract a story. A bored developer posts a beautifully rendered but factually inaccurate graphic on Tumblr. A vendor with a cryptic name throws another lump into its billowing data furnace.
 
 And then, almost always, all of the focus, research and code that went into taming the source data is lost&mdash;discarded by the harried journalist, forgotten by the intellectually promiscuous developer, locked away by the monopoly-seeking vendor.
 
