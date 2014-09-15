@@ -26,7 +26,7 @@ This has to change. It’s a waste of time, energy and money so behind the times
 
 As [Dave Guarino](http://daguar.github.io/2014/03/17/etl-for-america/) and [Bob Lannon](http://sunlightfoundation.com/blog/2014/03/21/data-plumbers/) have argued, we need to boost efforts to improve the "plumbing" that prepares data for meaningful analysis, which is often overlooked in the rush to create the latest flashy user interface.
 
-While there are numerous ways to approach the challenge, we're here to propose one in particular. We call it "pluggable data."
+We're here to propose a solution. We call it "pluggable data."
 
 ### What we mean
 
