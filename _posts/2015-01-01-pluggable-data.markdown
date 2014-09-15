@@ -10,9 +10,7 @@ published: true
 
 By [Ben Welsh](http://palewi.re/who-is-ben-welsh/), [Agustin Armendariz](mailto:aarmendariz@gmail.com) and [Aaron Williams](mailto:awilliams@cironline.org) 
 
-The melodrama is so familiar it's mundane. The government is asked to release an important dataset. They dither. We moan. We groan. Sometimes we sue, or even (gasp) organize. 
-
-We don't always win, but more and more we do. In the final act they make good and release the raw data, just as we asked, maybe even posting it online.
+The melodrama is so familiar it's mundane. The government is asked to release an important dataset. They dither. We moan and groan. Sometimes we sue, or even (gasp) organize. More and more, they make good and release the raw data, maybe even posting it online.
 
 An analyst partners with an ambitious reporter to extract an insight. A bored developer posts a beautifully rendered but factually inaccurate graphic on Tumblr. A vendor with a cryptic name throws another lump into its billowing data furnace.
 
