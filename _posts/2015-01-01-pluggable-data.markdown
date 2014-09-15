@@ -18,7 +18,7 @@ You know what happens next.
 
 An analyst partners with an ambitious reporter to extract an insight. A bored developer posts a beautifully rendered but factually inaccurate graphic on Tumblr. A vendor with a cryptic name throws another lump into its billowing data furnace.
 
-And how does the story end? All of the focus, research and code that went into taming the source data is discarded or kept locked away. 
+And how does the story end? All of the focus, research and code that went into taming the source data is then discarded or kept locked away. 
 
 The pathetic result: Every newcomer must craft virtually identical tools for downloading, transforming and cleaning the same data. And no matter how many analysts do it, the hurdles remains the same height.
 
