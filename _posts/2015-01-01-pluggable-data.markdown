@@ -16,9 +16,9 @@ We don't always win, but more and more we do. In the final act they make good an
 
 You know what happens next.
 
-An analyst partners with an ambitious reporter to extract a story. A bored developer posts a beautifully rendered but factually inaccurate graphic on Tumblr. A vendor with a cryptic name throws another lump into its billowing data furnace.
+An analyst partners with an ambitious reporter to extract an insight. A bored developer posts a beautifully rendered but factually inaccurate graphic on Tumblr. A vendor with a cryptic name throws another lump into its billowing data furnace.
 
-And then, almost always, all of the focus, research and code that went into taming the source data is lost.
+And how does the story end? Almost always, all of the focus, research and code that went into taming the source data is lost.
 
 The pathetic result: Every newcomer must repeat their efforts by crafting virtually identical methods for downloading, transforming and cleaning the data. And no matter how many analysts do it, the hurdles remains the same height.
 
