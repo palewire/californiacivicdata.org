@@ -104,7 +104,7 @@ DATABASES = {
 }
 {% endhighlight %}
 
-Sync your database to add the CAL-ACCESS table.
+Sync your database to create the CAL-ACCESS tables.
 
 {% highlight bash %}
 $ python manage.py syncdb
