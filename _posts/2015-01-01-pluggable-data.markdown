@@ -14,7 +14,7 @@ The melodrama is so familiar it's mundane. The government is asked to release an
 
 We don't always win, but more and more we do. In the final act they make good and release the raw data, just as we asked, sometimes even posting it online.
 
-What next?
+And then what?
 
 A newsroom analyst partners with an ambitious reporter to extract a story. A bored developer posts a beautifully rendered but factually inaccurate graphic on Tumblr. A vendor with a cryptic name throws another lump into its billowing data furnace.
 
