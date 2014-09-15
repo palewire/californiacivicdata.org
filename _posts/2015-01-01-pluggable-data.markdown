@@ -18,7 +18,9 @@ You know what happens next.
 
 An analyst partners with an ambitious reporter to extract an insight. A bored developer posts a beautifully rendered but factually inaccurate graphic on Tumblr. A vendor with a cryptic name throws another lump into its billowing data furnace.
 
-And how does the story end? All of the focus, research and code that went into taming the source data is discarded or kept locked away. Every newcomer must craft virtually identical tools for downloading, transforming and cleaning the same data. And no matter how many analysts do it, the hurdles remains the same height.
+And how does the story end? All of the focus, research and code that went into taming the source data is discarded or kept locked away. 
+
+The pathetic result: Every newcomer must craft virtually identical tools for downloading, transforming and cleaning the same data. And no matter how many analysts do it, the hurdles remains the same height.
 
 This has to change. It’s a waste of time, energy and money so behind the times that even broadsheet newspaper reporters, a faction with revanchist delusions on par with the Putin administration, [see the problem](http://www.nytimes.com/2014/08/18/technology/for-big-data-scientists-hurdle-to-insights-is-janitor-work.html?_r=0).
 
