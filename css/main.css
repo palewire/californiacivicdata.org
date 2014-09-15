@@ -9,6 +9,7 @@ p {
 }
 a{
     color:#ba0a35;
+    text-decoration: underline;
 }
 a:hover{
     color:#d87d85;
