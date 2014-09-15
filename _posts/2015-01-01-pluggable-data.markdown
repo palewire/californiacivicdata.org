@@ -8,15 +8,15 @@ published: true
 
 ### A humble suggestion from your friends at the California Civic Data Coalition
 
-By [Agustin Armendariz](mailto:aarmendariz@gmail.com), [Aaron Williams](mailto:awilliams@cironline.org) and [Ben Welsh](mailto:ben.welsh@gmail.com)
+By [Ben Welsh](http://palewi.re/who-is-ben-welsh/), [Agustin Armendariz](mailto:aarmendariz@gmail.com) and [Aaron Williams](mailto:awilliams@cironline.org) 
 
-The melodrama is so familiar it's mundane. The government is asked to release an important data set. They dither. We moan. We groan. Sometimes we sue, or even (gasp) organize. 
+The melodrama is so familiar it's mundane. The government is asked to release an important dataset. They dither. We moan. We groan. Sometimes we sue, or even (gasp) organize. 
 
-We don't always win, but more and more we do. In the final act they now often make good. They release the raw data, just as we asked. In forward-thinking precincts they maybe even publish bulk downloads online.
+We don't always win, but more and more we do. In the final act they make good and release the raw data, just as we asked. In forward-thinking precincts they maybe even publish bulk downloads online.
 
 What happens next? You know the script. 
 
-A newsroom analyst partners with an ambitious reporter to extract a story. A bored developer posts a confused but beautifully rendered graphic on Tumblr. A vendor with a cryptic name throws another lump into its billowing data furnace.
+A newsroom analyst partners with an ambitious reporter to extract a story. A bored developer posts a beautifully rendered but factually inaccurate graphic on Tumblr. A vendor with a cryptic name throws another lump into its billowing data furnace.
 
 And then, almost always, all of the focus, research and code that went into taming the source data is lost&mdash;discarded by the harried journalist, forgotten by the intellectually promiscuous developer, locked away by the monopoly-seeking vendor.
 
@@ -66,17 +66,17 @@ Weighing in at more than 650 megabytes the dump contains 76 database tables and 
 
 In the past, slices were only released on demand, for a small fee, [via compact disc](/img/calaccess-cd.png). Analysts, including one of the authors of this post, would spend months learning how to negotiate the system's contours, overcome its quirks and [grind out insights](http://cironline.org/reports/california-speaker-gives-assemblys-juiciest-jobs-biggest-fundraisers-4501)&mdash;only to set aside the code when they moved on to the next story.
 
-Now that the dump is freely available, and open to all, we thought it was an opportunity to pool efforts. Even though we may represent rival media outlets, we'd rather compete at analyzing the data than downloading and parsing it.
+Now that the dump is freely available, and open to all, we think it is an opportunity to pool efforts. Even though we may represent rival media outlets, we'd rather compete at analyzing the data than downloading and parsing it. And we believe that the nature of open development will encourage us to write better code and documentation.
 
-Today we're ready to announce the release of ``django-calaccess-raw-data``, a pluggable Django data set [hosted on GitHub](https://github.com/california-civic-data-coalition/django-calaccess-raw-data) and distributed via [the Python Package Index](https://pypi.python.org/pypi/django-calaccess-raw-data/). With a few simple commands, you can download the data, transform it into clean CSV files and then load it into a MySQL database.
+Today we're ready to announce the release of ``django-calaccess-raw-data``, our first pluggable Django dataset, [hosted on GitHub](https://github.com/california-civic-data-coalition/django-calaccess-raw-data) and distributed via [the Python Package Index](https://pypi.python.org/pypi/django-calaccess-raw-data/). With a few simple commands, you can download the data, transform it into clean CSV files and then load it into a MySQL database.
 
-Assuming you have [a basic Django project](https://docs.djangoproject.com/en/1.6/intro/tutorial01/) already configured, here's all it takes. First, install the pluggable app from the package repository.
+Assuming you have [a basic Django project](https://docs.djangoproject.com/en/1.6/intro/tutorial01/) already configured, here's all it takes. First, install the pluggable app from the Python package repository.
 
 {% highlight bash %}
 $ pip install django-calaccess-raw-data
 {% endhighlight %}
 
-Add the application to the ``INSTALLED_APPS`` list in Django's standard ``settings.py`` file.
+Add it to the ``INSTALLED_APPS`` list in Django's standard ``settings.py`` file, as you would any other application.
 
 {% highlight python %}
 INSTALLED_APPS = (
@@ -104,7 +104,7 @@ DATABASES = {
 }
 {% endhighlight %}
 
-Sync your database to add the CAL-ACCESS table.
+Sync your database to create the CAL-ACCESS tables.
 
 {% highlight bash %}
 $ python manage.py syncdb
@@ -116,21 +116,22 @@ And, finally, run the custom management command that will download, parse, clean
 $ python manage.py downloadcalaccessrawdata
 {% endhighlight %}
 
-And that's it. You now have the full database, including a set of administration tables.
+And that's it. You now have the full database, including a set of administration panels.
 
-You could use it to track the millions of dollars flowing into this November's governor race, investigate what lobbyists are up to this session at the statehouse or impress everyone by designing a sophisticated analysis that stretches back over the nearly 15 years of data in the system to quantify the influence of money in politics. 
+You could use it to track the millions of dollars flowing into this November's governor's race, investigate what lobbyists are up to this session at the statehouse or impress everyone by designing a sophisticated analysis that stretches back over the nearly 15 years of data in the system to quantify the influence of money in California politics. 
 
-Of course, to do any of that, you'll need to further regroup, filter and refine the data. But at least the initial headaches are out of the way. And any work you build on top of it could be packaged and distributed in the exact same way.
+Of course, to do any of that, you'll need to further regroup, filter and refine the data. But at least the initial headaches are out of the way. And any work you build on top of our app could be packaged and distributed in the exact same way.
 
 In that scheme, our raw data app is simply one of your new package's dependencies, much in the same way that the ``requests`` library as we installed earlier depends on components of [``urllib3``](http://urllib3.readthedocs.org/en/latest/).
 
-An example of that is already taking shape in our [``django-calaccess-campaign-browser`` repository](https://github.com/california-civic-data-coalition/django-calaccess-campaign-browser), where our team is experimenting with a set of further refined tables and a simple web application exploring campaign filings aimed at power users, like statehouse reporters and newsroom analysts, who want a more robust and flexible interface than the [helpful but fundamentally limited](http://dbsearch.ss.ca.gov/ContributorSearch.aspx) closed-source sites that were previously the only way to access this database online.
+An example of that is already taking shape in our [``django-calaccess-campaign-browser`` repository](https://github.com/california-civic-data-coalition/django-calaccess-campaign-browser), where our team is experimenting with a set of further refined tables and a simple web application exploring campaign filings aimed at power users, like statehouse reporters and newsroom analysts, who want a more flexible interface than the [helpful but fundamentally limited](http://dbsearch.ss.ca.gov/ContributorSearch.aspx) closed-source sites that are now the only way to interact with this database online.
 
 ### What you can do
 
 If you are interested in this effort and would like to contribute, here's how you could help today.
 
 1. Download and install [``django-calaccess-raw-data``](https://github.com/california-civic-data-coalition/django-calaccess-raw-data) or [``django-calaccess-campaign-browser``](https://github.com/california-civic-data-coalition/django-calaccess-campaign-browser). Report bugs.
-2. Fork our code and try to close one of the [many](https://github.com/california-civic-data-coalition/django-calaccess-raw-data/issues) [tickets](https://github.com/california-civic-data-coalition/django-calaccess-campaign-browser/issues) we've filed.
+2. Fork our code and try to close one of the [many](https://github.com/california-civic-data-coalition/django-calaccess-raw-data/issues) [tickets](https://github.com/california-civic-data-coalition/django-calaccess-campaign-browser/issues) we've filed. If you're knowledgable about how CAL-ACCESS works, we need your help!
 3. Try to package and distribute an open data set you've worked with.
-4. At the very least, [watch James Bennett's excellent 2008 talk](https://www.youtube.com/watch?v=A-S0tqpPga4) on designing reusable applications and ask yourself, every time you start a new project, how you could package it for future reuse and open-source collaboration.
+
+If nothing else, [watch James Bennett's excellent 2008 talk](https://www.youtube.com/watch?v=A-S0tqpPga4) on designing reusable applications and ask yourself, every time you start a new project, how you could package it for future reuse. It's a simple but powerful approach that has multiplied the reach and reuse of open-source software and we hope can do the same for open data.
