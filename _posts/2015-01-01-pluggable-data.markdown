@@ -16,7 +16,7 @@ An analyst partners with an ambitious reporter to extract an insight. A bored de
 
 And how does the story end? All of the work required to tame the data is discarded or kept locked away. The pathetic result: Every newcomer must craft virtually identical tools for downloading, transforming and cleaning the same data.
 
-This has to change. It’s a waste of time, energy and money so behind the times that even broadsheet newspaper reporters, a faction with revanchist delusions on par with the Putin administration, [see the problem](http://www.nytimes.com/2014/08/18/technology/for-big-data-scientists-hurdle-to-insights-is-janitor-work.html?_r=0).
+This has to change. It’s a waste exercise so behind the times that even broadsheet newspaper reporters, a faction with revanchist delusions on par with the Putin administration, [see the problem](http://www.nytimes.com/2014/08/18/technology/for-big-data-scientists-hurdle-to-insights-is-janitor-work.html?_r=0).
 
 As [Dave Guarino](http://daguar.github.io/2014/03/17/etl-for-america/) and [Bob Lannon](http://sunlightfoundation.com/blog/2014/03/21/data-plumbers/) argue, open-data professionals need to work together to strength the pipeline that prepares data for meaningful analysis, crucial but unglamourous "plumbing" often overlooked in the rush to build the latest flashy user interface.
 
