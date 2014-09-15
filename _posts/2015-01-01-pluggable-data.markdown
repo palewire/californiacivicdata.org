@@ -14,9 +14,7 @@ The melodrama is so familiar it's mundane. The government is asked to release an
 
 An analyst partners with an ambitious reporter to extract an insight. A bored developer posts a beautifully rendered but factually inaccurate graphic on Tumblr. A vendor with a cryptic name throws another lump into its billowing data furnace.
 
-And how does the story end? All of the work required to tame the source data is then discarded or kept locked away. 
-
-The pathetic result: Every newcomer must craft virtually identical tools for downloading, transforming and cleaning the same data.
+And how does the story end? All of the work required to tame the data is discarded or kept locked away. The pathetic result: Every newcomer must craft virtually identical tools for downloading, transforming and cleaning the same data.
 
 This has to change. It’s a waste of time, energy and money so behind the times that even broadsheet newspaper reporters, a faction with revanchist delusions on par with the Putin administration, [see the problem](http://www.nytimes.com/2014/08/18/technology/for-big-data-scientists-hurdle-to-insights-is-janitor-work.html?_r=0).
 
