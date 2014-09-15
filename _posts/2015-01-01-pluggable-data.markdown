@@ -8,7 +8,7 @@ published: true
 
 ### A humble suggestion from your friends at the California Civic Data Coalition
 
-By [Agustin Armendariz](mailto:aarmendariz@gmail.com), [Aaron Williams](mailto:awilliams@cironline.org) and [Ben Welsh](mailto:ben.welsh@gmail.com)
+By [Ben Welsh](mailto:ben.welsh@gmail.com), [Agustin Armendariz](mailto:aarmendariz@gmail.com) and [Aaron Williams](mailto:awilliams@cironline.org) 
 
 The melodrama is so familiar it's mundane. The government is asked to release an important dataset. They dither. We moan. We groan. Sometimes we sue, or even (gasp) organize. 
 
