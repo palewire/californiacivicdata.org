@@ -22,9 +22,10 @@ td.right, th.right {
 td.center, th.center{
     text-align:center;
 }
-ol, ul {
+.content ol, .content ul {
     font-size: 18px;
     line-height: 27px;
+    margin: 5px 0;
 }
 /* Header and nav */
 header {
