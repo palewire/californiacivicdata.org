@@ -12,7 +12,7 @@ By [Ben Welsh](http://palewi.re/who-is-ben-welsh/), [Agustin Armendariz](mailto:
 
 The melodrama is so familiar it's mundane. The government is asked to release an important dataset. They dither. We moan and groan. Sometimes we sue, or even (gasp) organize. More and more, they make good and release the raw data, maybe even posting it online.
 
-An analyst partners with an ambitious reporter to extract an insight. A bored developer posts a beautifully rendered but factually inaccurate graphic on Tumblr. A vendor with a cryptic name throws another lump into its billowing data furnace.
+An analyst partners with an ambitious reporter to extract an insight. A bored developer posts a beautifully rendered graphic on Tumblr. A vendor with a cryptic name throws another lump into its billowing data furnace.
 
 And how does the story end? All of the work required to tame the data is discarded or kept locked away. The pathetic result: Every newcomer must craft virtually identical tools for downloading, transforming and cleaning the same data.
 
