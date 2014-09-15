@@ -22,7 +22,7 @@ The pathetic result: Every newcomer must craft virtually identical tools for dow
 
 This has to change. It’s a waste of time, energy and money so behind the times that even broadsheet newspaper reporters, a faction with revanchist delusions on par with the Putin administration, [see the problem](http://www.nytimes.com/2014/08/18/technology/for-big-data-scientists-hurdle-to-insights-is-janitor-work.html?_r=0).
 
-As [Dave Guarino](http://daguar.github.io/2014/03/17/etl-for-america/) and [Bob Lannon](http://sunlightfoundation.com/blog/2014/03/21/data-plumbers/) argue, open-data professionals need to work together to strength the pipeline that prepares data for meaningful analysis, crucial but unglamourous "plumbing" that is often overlooked in the rush to create the latest flashy user interface.
+As [Dave Guarino](http://daguar.github.io/2014/03/17/etl-for-america/) and [Bob Lannon](http://sunlightfoundation.com/blog/2014/03/21/data-plumbers/) argue, open-data professionals need to work together to strength the pipeline that prepares data for meaningful analysis, crucial but unglamourous "plumbing" often overlooked in the rush to create the latest flashy user interface.
 
 We're here to propose a solution. We call it "pluggable data."
 
