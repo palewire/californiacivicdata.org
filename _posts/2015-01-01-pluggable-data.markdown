@@ -66,7 +66,7 @@ Weighing in at more than 650 megabytes the dump contains 76 database tables and 
 
 In the past, slices were only released on demand, for a small fee, [via compact disc](/img/calaccess-cd.png). Analysts, including one of the authors of this post, would spend months learning how to negotiate the system's contours, overcome its quirks and [grind out insights](http://cironline.org/reports/california-speaker-gives-assemblys-juiciest-jobs-biggest-fundraisers-4501)&mdash;only to set aside the code when they moved on to the next story.
 
-Now that the dump is freely available, and open to all, we thought it was an opportunity to pool efforts. Even though we may represent rival media outlets, we'd rather compete at analyzing the data than downloading and parsing it.
+Now that the dump is freely available, and open to all, we thought it was an opportunity to pool efforts. Even though we may represent rival media outlets, we'd rather compete at analyzing the data than downloading and parsing it. And we believe that the nature of open development will encourage us to write better code and documentation.
 
 Today we're ready to announce the release of ``django-calaccess-raw-data``, a pluggable Django data set [hosted on GitHub](https://github.com/california-civic-data-coalition/django-calaccess-raw-data) and distributed via [the Python Package Index](https://pypi.python.org/pypi/django-calaccess-raw-data/). With a few simple commands, you can download the data, transform it into clean CSV files and then load it into a MySQL database.
 
