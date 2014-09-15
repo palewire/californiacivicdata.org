@@ -126,7 +126,7 @@ In that scheme, our raw data app is simply one of your new package's dependencie
 
 An example of that is already taking shape in our [``django-calaccess-campaign-browser`` repository](https://github.com/california-civic-data-coalition/django-calaccess-campaign-browser), where our team is experimenting with a set of further refined tables and a simple web application exploring campaign filings aimed at power users, like statehouse reporters and newsroom analysts, who want a more flexible interface than the [helpful but fundamentally limited](http://dbsearch.ss.ca.gov/ContributorSearch.aspx) closed-source sites that are now the only way to interact with this database online.
 
-### What you can do
+### Where you come in
 
 If you are interested in this effort and would like to contribute, here's how you could help today.
 
