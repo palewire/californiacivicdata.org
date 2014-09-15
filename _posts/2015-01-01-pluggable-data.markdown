@@ -76,7 +76,7 @@ Assuming you have [a basic Django project](https://docs.djangoproject.com/en/1.6
 $ pip install django-calaccess-raw-data
 {% endhighlight %}
 
-Add the application to the ``INSTALLED_APPS`` list in Django's standard ``settings.py`` file.
+Add the application to the ``INSTALLED_APPS`` list in Django's standard ``settings.py`` file, as you would any other.
 
 {% highlight python %}
 INSTALLED_APPS = (
