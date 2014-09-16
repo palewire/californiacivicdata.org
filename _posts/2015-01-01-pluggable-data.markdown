@@ -10,11 +10,11 @@ published: true
 
 By [Ben Welsh](http://palewi.re/who-is-ben-welsh/), [Agustin Armendariz](mailto:aarmendariz@gmail.com) and [Aaron Williams](mailto:awilliams@cironline.org) 
 
-The melodrama is so familiar it's mundane. The government is asked to release an important dataset. They dither. We moan and groan. Sometimes we sue, or even (gasp) organize. More and more, they make good and release the raw data, maybe even posting it online.
+The melodrama is so familiar it's mundane. The government is asked to release an important dataset. They dither. We moan. We groan. Sometimes we sue, or even (gasp) organize. More and more, they make good and release the raw data, maybe even posting it online.
 
-An analyst partners with an ambitious reporter to extract an insight. A bored developer posts a beautifully rendered graphic on Tumblr. A vendor with a cryptic name throws another lump into its billowing data furnace. _{{The thing you're not explicitly saying between this graf and the next is that all of these uses require data-taming. That's maybe fine, because most of your readers already assume it, but I suspect this will be intelligible faster to more readers if you go ahead and say it.}}_
+Next comes the downloading, extracting, transforming, cleaning and exploring necessary before we can build the app, write the story, develop the graphic and do our thing. 
 
-And how does the story end? All of the work required to tame the data is discarded or kept locked away. The pathetic result: Every newcomer must craft virtually identical tools for downloading, transforming and cleaning the same data.
+All of the work required to tame the data is discarded or kept locked away. The pathetic result: Every newcomer must craft virtually identical tools at the start of every project.
 
 This has to change. It’s a wasteful exercise so behind the times that even broadsheet newspaper reporters, a faction with revanchist delusions on par with the Putin administration, [see the problem](http://www.nytimes.com/2014/08/18/technology/for-big-data-scientists-hurdle-to-insights-is-janitor-work.html?_r=0).
 
