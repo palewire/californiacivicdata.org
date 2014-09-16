@@ -12,7 +12,7 @@ By [Ben Welsh](http://palewi.re/who-is-ben-welsh/), [Agustin Armendariz](mailto:
 
 The melodrama is so familiar it's mundane. The government is asked to release an important dataset. They dither. We moan. We groan. Sometimes we sue, or even (gasp) organize. More and more, our pushback works. They make good and release the raw data, maybe even posting it online.
 
-Next comes the tedious downloading, extracting, transforming, cleaning and exploring necessary before the creative work can begin. By the time we write the story, build the app or design the graphic, we're mentally spent, eager to move on to the next show. 
+Next comes the tedious downloading, extracting, transforming, cleaning and exploring necessary before the creative work can begin. By the time we write the story, build the application or design the graphic, we're mentally spent, eager to move on to the next show. 
 
 The pathetic result: All of the valuable work that prepared the data for analysis is discarded or kept locked away. Every newcomer must reinvent virtually identical tools just to get started.
 
