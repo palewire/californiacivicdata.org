@@ -18,7 +18,7 @@ And how does the story end? All of the work required to tame the data is discard
 
 This has to change. It’s a wasteful exercise so behind the times that even broadsheet newspaper reporters, a faction with revanchist delusions on par with the Putin administration, [see the problem](http://www.nytimes.com/2014/08/18/technology/for-big-data-scientists-hurdle-to-insights-is-janitor-work.html?_r=0).
 
-Open-data hackers need heed the words of [Dave Guarino](http://daguar.github.io/2014/03/17/etl-for-america/) and work together to improve the pipeline that prepares data for meaningful analysis, crucial but unglamourous "plumbing" often overlooked in the rush to build the latest flashy user interface.
+Open-data hackers need to heed the words of [Dave Guarino](http://daguar.github.io/2014/03/17/etl-for-america/) and work together to improve the pipeline that prepares data for meaningful analysis, crucial but unglamourous "plumbing" often overlooked in the rush to build the latest flashy user interface.
 
 We're here to propose a solution. We call it "pluggable data."
 
