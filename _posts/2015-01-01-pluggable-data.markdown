@@ -116,7 +116,7 @@ You could use it to track the millions of dollars flowing into this November's g
 
 Of course, to do any of that, you'll need to further regroup, filter and refine the data. But at least the initial headaches are out of the way, and any work you build on top of our application could be packaged and distributed in the exact same way.
 
-In that scheme, our raw data app is simply one of your new package's dependencies, much in the same way that the ``requests`` library as we installed earlier depends on components of [``urllib3``](http://urllib3.readthedocs.org/en/latest/).
+In that scheme, our raw data application is simply one of your new package's dependencies, much in the same way that the ``requests`` library as we installed earlier depends on components of [``urllib3``](http://urllib3.readthedocs.org/en/latest/).
 
 An example of that is already taking shape in our [``django-calaccess-campaign-browser`` repository](https://github.com/california-civic-data-coalition/django-calaccess-campaign-browser), where our team is experimenting with a set of further-refined tables and a simple web application exploring campaign filings aimed at power users, like statehouse reporters and newsroom analysts, who want a more flexible interface than the [helpful but fundamentally limited](http://dbsearch.ss.ca.gov/ContributorSearch.aspx) closed-source sites that are now the only way to interact with this database online.
 
