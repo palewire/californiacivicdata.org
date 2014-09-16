@@ -118,7 +118,7 @@ Of course, to do any of that, you'll need to further regroup, filter and refine 
 
 In that scheme, our raw data application is simply one of your new package's dependencies, much in the same way that the ``requests`` library we installed earlier depends on components of [``urllib3``](http://urllib3.readthedocs.org/en/latest/).
 
-An example is already taking shape in our [``django-calaccess-campaign-browser`` repository](https://github.com/california-civic-data-coalition/django-calaccess-campaign-browser), where our team is experimenting with a set of further-refined tables and a simple web application exploring campaign filings aimed at power users, like statehouse reporters and newsroom analysts, who want a more flexible interface than the [helpful but fundamentally limited](http://dbsearch.ss.ca.gov/ContributorSearch.aspx) closed-source sites that are now the only way to interact with this database online.
+An example is already taking shape in the [``django-calaccess-campaign-browser`` repository](https://github.com/california-civic-data-coalition/django-calaccess-campaign-browser), where our team is experimenting with a set of further-refined tables and a simple web application exploring campaign filings aimed at power users, like statehouse reporters and newsroom analysts, who want a more flexible interface than the [helpful but fundamentally limited](http://dbsearch.ss.ca.gov/ContributorSearch.aspx) closed-source sites that are now the only way to interact with this database online.
 
 ### Where you come in
 
