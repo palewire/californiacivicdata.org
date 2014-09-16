@@ -110,7 +110,7 @@ And, finally, run the custom management command that will download, parse, clean
 $ python manage.py downloadcalaccessrawdata
 {% endhighlight %}
 
-That's it. You now have the full database, including a set of administration panels.
+That's it. You now have the full state database, including a set of administration panels.
 
 You could use it to track the millions of dollars flowing into this November's governor's race, investigate what lobbyists are up to this session at the statehouse or impress everyone by designing a sophisticated analysis that stretches back over the nearly 15 years of data in the system to quantify the influence of money in California politics. 
 
