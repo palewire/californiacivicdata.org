@@ -64,7 +64,7 @@ Now that the dump is freely available and open to all, it offers an opportunity 
 
 Today we're ready to announce the release of ``django-calaccess-raw-data``, our first pluggable Django dataset, [hosted on GitHub](https://github.com/california-civic-data-coalition/django-calaccess-raw-data) and distributed via [the Python Package Index](https://pypi.python.org/pypi/django-calaccess-raw-data/). With a few simple commands, you can download the data, transform it into clean CSV files and then load it into a MySQL database.
 
-Assuming you have [a basic Django project](https://docs.djangoproject.com/en/1.6/intro/tutorial01/) already configured, here's all it takes. First, install the pluggable app from the Python package repository.
+Assuming you have [a basic Django project](https://docs.djangoproject.com/en/1.6/intro/tutorial01/) already configured, here's all it takes. First, install the pluggable application from the Python package repository.
 
 {% highlight bash %}
 $ pip install django-calaccess-raw-data
