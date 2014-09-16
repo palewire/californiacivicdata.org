@@ -12,9 +12,9 @@ By [Ben Welsh](http://palewi.re/who-is-ben-welsh/), [Agustin Armendariz](mailto:
 
 The melodrama is so familiar it's mundane. The government is asked to release an important dataset. They dither. We moan. We groan. Sometimes we sue, or even (gasp) organize. More and more, our pushback works. They make good and release the raw data, maybe even posting it online.
 
-Next comes the downloading, extracting, transforming, cleaning and exploring necessary before we can write the story, build the app, design the graphic and do our thing. 
+Next comes the downloading, extracting, transforming, cleaning and exploring necessary before the creative work beings. By the time we write the story, build the app, design the graphic, we're ready for the next show and quickly move on, with all of the work required to tame the data is discarded or kept locked away. 
 
-Exhausted at the finish line, All of the work required to tame the data is discarded or kept locked away. The pathetic result: Every newcomer must craft virtually identical tools at the start of every project.
+The pathetic result: Every newcomer must craft virtually identical tools at the start of every project.
 
 This has to change. It’s a wasteful exercise so behind the times that even broadsheet newspaper reporters, a faction with revanchist delusions on par with the Putin administration, [see the problem](http://www.nytimes.com/2014/08/18/technology/for-big-data-scientists-hurdle-to-insights-is-janitor-work.html?_r=0).
 
