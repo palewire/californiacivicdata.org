@@ -58,7 +58,7 @@ Thanks to a [successful organizing effort](http://maplight.org/content/73249) la
 
 Weighing in at more than 650 megabytes the dump contains 76 database tables and nearly 35 million records. 
 
-In the past, slices were only released on demand, for a small fee, [via compact disc](/img/calaccess-cd.png). Analysts, including one of the authors of this post, would spend months learning how to negotiate the system's contours, overcome its quirks and [grind out a story](http://cironline.org/reports/california-speaker-gives-assemblys-juiciest-jobs-biggest-fundraisers-4501)&mdash;only to set aside the code when they moved on.
+In the past, slices were only released on demand, for a small fee, [via compact disc](/img/calaccess-cd.png). Analysts, including one of the authors of this post, have spent months learning how to negotiate the system's contours, overcome its quirks and [grind out a story](http://cironline.org/reports/california-speaker-gives-assemblys-juiciest-jobs-biggest-fundraisers-4501)&mdash;only to abandon all of the code that made it happen when they moved on to the next topic.
 
 Now that the dump is freely available, and open to all, we think it is an opportunity to pool efforts. Even though we may represent rival media outlets, we'd rather compete at analyzing the data than downloading and parsing it. And we believe that the nature of open development will encourage us to write better code and documentation.
 
