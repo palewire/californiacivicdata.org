@@ -122,7 +122,7 @@ An example is already taking shape in the [``django-calaccess-campaign-browser``
 
 ### Where you come in
 
-If you are interested in this effort and would like to contribute, here's how you could help today.
+If you are interested in this effort and would like to contribute, here's how you can help today.
 
 1. Download and install [``django-calaccess-raw-data``](https://github.com/california-civic-data-coalition/django-calaccess-raw-data) or [``django-calaccess-campaign-browser``](https://github.com/california-civic-data-coalition/django-calaccess-campaign-browser). Report bugs.
 2. Fork our code and try to close one of the [many](https://github.com/california-civic-data-coalition/django-calaccess-raw-data/issues) [tickets](https://github.com/california-civic-data-coalition/django-calaccess-campaign-browser/issues) we've filed. If you're knowledgable about how CAL-ACCESS works, we need your help!
