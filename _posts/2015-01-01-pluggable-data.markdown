@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Package data like software, and the stories will flow like wine
+title: "Package data like software, and the stories will flow like wine"
 deckhead: A humble suggestion from your friends at the California Civic Data Coalition
 byline: "By [Ben Welsh](http://palewi.re/who-is-ben-welsh/), [Agustin Armendariz](mailto:aarmendariz@gmail.com) and [Aaron Williams](mailto:awilliams@cironline.org)"
 published: true
@@ -36,9 +36,9 @@ And now using it is only a import away.
 200
 {% endhighlight %}
 
-Within the warm confines of web frameworks&mdash;open-source libraries like [Django](http://www.djangoproject.com/) or [Ruby on Rails](http://rubyonrails.org/) that are so broad they include all the necessary tools to interact with a database, design an application and publish it to the web&mdash;this concept has been expanded to encourage the packaging not just of freestanding utilities like ``requests``, but entire applications that ["just work"](https://www.youtube.com/watch?v=qmPq00jelpc) when integrated with the framework.
+The concept has been expanded by [web frameworks](http://en.wikipedia.org/wiki/Web_application_framework) like [Django](http://www.djangoproject.com/) to package not just of freestanding utilities like ``requests``, but entire applications that can be dropped into the framework's rigid system and ["just work."](https://www.youtube.com/watch?v=qmPq00jelpc)
 
-This type of application, [championed](http://www.b-list.org/weblog/2007/nov/29/django-blog/) [eloquently](https://www.youtube.com/watch?v=A-S0tqpPga4) by Django leaders like James Bennett, is sometimes called "pluggable" or ["reusable"](https://docs.djangoproject.com/en/dev/intro/reusable-apps/), because its modular design makes it portable to a wide range of sites.
+This approach, [championed](http://www.b-list.org/weblog/2007/nov/29/django-blog/) [eloquently](https://www.youtube.com/watch?v=A-S0tqpPga4) by Django leaders like James Bennett, is sometimes called a "pluggable" or ["reusable"](https://docs.djangoproject.com/en/dev/intro/reusable-apps/) application, because its modular design makes it portable to a wide range of sites.
 
 A good example is the [Pinax project](http://pinaxproject.com/), which provides Django-ready components that furnish common features like [comments](https://github.com/eldarion/dialogos), [badges](https://github.com/eldarion/brabeion), [phone confirmations](https://github.com/pinax/pinax-phone-confirmation) and [user accounts](https://github.com/pinax/django-user-accounts). Each contains code that builds database tables, configures administration panels and spells out application logic that can interact with users.
 
