@@ -38,7 +38,7 @@ And now using it is only a import away.
 
 The concept has been expanded by web frameworks like [Django](http://www.djangoproject.com/) to package not just of freestanding utilities like ``requests``, but entire applications that can be dropped into the framework's rigid system and ["just work."](https://www.youtube.com/watch?v=qmPq00jelpc)
 
-This approach, [championed](http://www.b-list.org/weblog/2007/nov/29/django-blog/) [eloquently](https://www.youtube.com/watch?v=A-S0tqpPga4) by Django leaders like James Bennett, is sometimes called "pluggable" or ["reusable"](https://docs.djangoproject.com/en/dev/intro/reusable-apps/), because its modular design makes it portable to a wide range of sites.
+This approach, [championed](http://www.b-list.org/weblog/2007/nov/29/django-blog/) [eloquently](https://www.youtube.com/watch?v=A-S0tqpPga4) by Django leaders like James Bennett, is sometimes called "pluggable" or ["reusable"](https://docs.djangoproject.com/en/dev/intro/reusable-apps/) applications, because its modular design makes it portable to a wide range of sites.
 
 A good example is the [Pinax project](http://pinaxproject.com/), which provides Django-ready components that furnish common features like [comments](https://github.com/eldarion/dialogos), [badges](https://github.com/eldarion/brabeion), [phone confirmations](https://github.com/pinax/pinax-phone-confirmation) and [user accounts](https://github.com/pinax/django-user-accounts). Each contains code that builds database tables, configures administration panels and spells out application logic that can interact with users.
 
