@@ -1,17 +1,36 @@
 ---
 layout: default
 title: The California Civic Data Coalition
+projects:
+  - name: "django-calaccess-raw-data"
+    url: "https://github.com/california-civic-data-coalition/django-calaccess-raw-data"
+    description: "A Django app to download, extract and load campaign finance and lobbying activity data from the California Secretary of State's CAL-ACCESS database"
+  - name: django-calaccess-campaign-browser
+    url: "https://github.com/california-civic-data-coalition/django-calaccess-campaign-browser"
+    description: "A Django app to refine, review and republish campaign finance data drawn from the California Secretary of State’s CAL-ACCESS database"
 ---
 
 <div class="bigbox">
-    <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <img class="logo" src="/img/logo.png" alt="California Civic Data Coalition">
-        </div>
-    </div>
+    <img class="logo" src="/img/logo.png" alt="California Civic Data Coalition">
     <p>
         A loosely coupled team from the Los Angeles Times Data Desk,
         The Center for Investigative Reporting and Stanford's Computational
         Journalism Lab
     </p>
 </div>
+
+<hr>
+
+<div class="row projectlist">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <h2>Projects</h2>
+        {% for obj in page.projects %}
+        <div class="projectitem">
+            <h4><a href="{{ obj.url }}">{{ obj.name }}</a></h4>
+            <p>{{ obj.description }}</p>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+

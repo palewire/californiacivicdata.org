@@ -20,13 +20,13 @@ td.right, th.right {
 td.center, th.center{
     text-align:center;
 }
-.content ol, .content ul {
+.post ol, .post ul {
     font-size: 18px;
     line-height: 27px;
     margin: 5px 0;
 }
 /* Header and nav */
-header {
+header, footer {
     padding: 5px 0 0 0 !important;
 }
 header a {
@@ -76,7 +76,7 @@ footer .red-border {
 .post h3.deckhead {
     margin-top: 10px;
 }
-.post .byline p, .post .pubdate p {
+.byline p, .pubdate p {
     font-size: 15px;
     line-height: 20px;
     margin: 4px 0;
@@ -98,4 +98,24 @@ footer .red-border {
     margin-top: 30px;
     font-size: 22px;
     line-height: 30px;
+}
+hr {
+    margin-bottom: 0;
+}
+.projectlist h2 {
+    margin-bottom: 5px;
+}
+.projectitem {
+    padding: 10px 0;
+    border-bottom: 1px dotted #ddd;
+}
+.projectitem:last-child {
+    border-bottom: none;
+}
+.projectitem h4 {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.projectlist p {
+    margin: 8px 0;
 }
