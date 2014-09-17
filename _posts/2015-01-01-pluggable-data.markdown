@@ -20,7 +20,9 @@ We're here to demonstrate a way to make it happen. We call it "pluggable data."
 
 ### What we mean
 
-If you have any experience as a developer, you've probably bumped into packaged software. Thousands of free and open-source libraries, typically unique to each programming language, are available for installation over the web from centralized servers. Command-line tools like [``pip``](http://pip.readthedocs.org/en/latest/index.html) (Python) or [``gem``](https://rubygems.org/) (Ruby), [``CPAN``](http://www.cpan.org/) (Perl) and [``npm``](https://www.npmjs.org/) (NodeJS) can make it easy to do. 
+If you have any experience as a developer, you've probably bumped into packaged 
+software. Thousands of free and open-source libraries, typically unique to each 
+programming language, are available for installation over the web from centralized servers. Command-line tools like [``pip``](http://pip.readthedocs.org/en/latest/index.html) (Python), [``gem``](https://rubygems.org/) (Ruby), [``CPAN``](http://www.cpan.org/) (Perl) and [``npm``](https://www.npmjs.org/) (NodeJS) can make it easy to do. 
 
 For instance, if you are a Python developer interested in trying out the [``requests``](http://docs.python-requests.org/en/latest/) library, installing it on your laptop is as easy as:
 
