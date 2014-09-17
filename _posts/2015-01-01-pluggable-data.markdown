@@ -10,7 +10,7 @@ The melodrama is so familiar it's mundane. The government is asked to release an
 
 Next comes the tedious downloading, extracting, transforming, cleaning and exploring necessary before the creative work can begin. By the time we write the story, build the application or design the graphic, we're mentally spent, eager to move on to the next show. 
 
-The pathetic result: All of the valuable work that prepared the data for analysis is discarded or kept locked away. Every newcomer must reinvent virtually identical tools just to get started.
+The pathetic result: All of the valuable work that prepared the data for analysis is discarded or kept locked away. Every newcomer must reinvent virtually identical tools simply to get started.
 
 This has to change. It’s a wasteful exercise so behind the times that even broadsheet newspaper reporters, a faction with revanchist delusions on par with the Putin administration, [see the problem](http://www.nytimes.com/2014/08/18/technology/for-big-data-scientists-hurdle-to-insights-is-janitor-work.html?_r=0).
 
