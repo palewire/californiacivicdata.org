@@ -3,7 +3,7 @@
     <div class="col-lg-8 col-md-10 col-sm-12 col-xs-12 col-lg-offset-2 col-md-offset-1">
       <ul class="nav nav-pills red-border">
         <li>
-            <img height='38px' src="/img/bear-no-red-line.png" alt="California Civic Data Coalition">
+            <img id="small-icon" height='38px' src="/img/bear-no-red-line.png" alt="California Civic Data Coalition">
         </li>
         <li>
             <a class="icon" href="/"><i class="fa fa-info-circle"></i> About <span class="hidden-sm hidden-xs">CCDC</span></a>
@@ -29,4 +29,8 @@
     $('ul.nav a').filter(function() {
         return this.href == url;
     }).parent().addClass('active');
+    $("#small-icon").css("cursor", "pointer");
+    $("#small-icon").click(function () {
+        window.location = '/';
+    });
 </script>
