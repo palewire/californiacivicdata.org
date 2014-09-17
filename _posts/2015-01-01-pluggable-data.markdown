@@ -36,7 +36,7 @@ And now using it is only a import away.
 200
 {% endhighlight %}
 
-The concept has been expanded by web frameworks like [Django](http://www.djangoproject.com/) to package not just of freestanding utilities like ``requests``, but entire applications that can be dropped into the framework's rigid system and ["just work."](https://www.youtube.com/watch?v=qmPq00jelpc)
+The concept has been expanded by [web frameworks](http://en.wikipedia.org/wiki/Web_application_framework) like [Django](http://www.djangoproject.com/) to package not just of freestanding utilities like ``requests``, but entire applications that can be dropped into the framework's rigid system and ["just work."](https://www.youtube.com/watch?v=qmPq00jelpc)
 
 This approach, [championed](http://www.b-list.org/weblog/2007/nov/29/django-blog/) [eloquently](https://www.youtube.com/watch?v=A-S0tqpPga4) by Django leaders like James Bennett, is sometimes called a "pluggable" or ["reusable"](https://docs.djangoproject.com/en/dev/intro/reusable-apps/) application, because its modular design makes it portable to a wide range of sites.
 
