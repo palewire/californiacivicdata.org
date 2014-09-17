@@ -2,7 +2,7 @@
 layout: post
 title: "Package data like software, and the stories will flow like wine"
 deckhead: A humble suggestion from your friends at the California Civic Data Coalition
-byline: "By [Ben Welsh](http://palewi.re/who-is-ben-welsh/), [Agustin Armendariz](mailto:aarmendariz@gmail.com) and [Aaron Williams](mailto:awilliams@cironline.org)"
+byline: "By [Ben Welsh](http://palewi.re/who-is-ben-welsh/), [Agustin Armendariz](http://www.twitter.com/agustin_NYT) and [Aaron Williams](http://aboutaaron.com)"
 published: true
 ---
 
@@ -75,7 +75,9 @@ INSTALLED_APPS = (
 )
 {% endhighlight %}
 
-Make sure that your MySQL installation can use the brutally effective, and tragically underused, [``LOAD DATA INFILE`` command](http://dev.mysql.com/doc/refman/5.1/en/load-data.html) by adding the following to the database configuration also found in ``settings.py``.
+Make sure that your MySQL installation can use the brutally effective, and 
+tragically underused, [``LOAD DATA INFILE``](http://dev.mysql.com/doc/refman/5.1/en/load-data.html)
+command by adding the following to the database configuration also found in ``settings.py``.
 
 {% highlight python %}
 DATABASES = {
@@ -92,6 +94,12 @@ DATABASES = {
         }
     }
 }
+{% endhighlight %}
+
+In the same file, shut off Django's safety valve so ``LOAD DATA INFILE`` can run wild.
+
+{% highlight python %}
+DEBUG = False
 {% endhighlight %}
 
 Sync your database to create the CAL-ACCESS tables.
