@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Package data like software, and the stories will flow like wine
+title: "Package data like software, and the stories will flow like wine"
 deckhead: A humble suggestion from your friends at the California Civic Data Coalition
 byline: "By [Ben Welsh](http://palewi.re/who-is-ben-welsh/), [Agustin Armendariz](mailto:aarmendariz@gmail.com) and [Aaron Williams](mailto:awilliams@cironline.org)"
 published: true
@@ -36,7 +36,7 @@ And now using it is only a import away.
 200
 {% endhighlight %}
 
-Within the warm confines of web frameworks&mdash;open-source libraries like [Django](http://www.djangoproject.com/) or [Ruby on Rails](http://rubyonrails.org/) that are so broad they include all the necessary tools to interact with a database, design an application and publish it to the web&mdash;this concept has been expanded to encourage the packaging not just of freestanding utilities like ``requests``, but entire applications that ["just work"](https://www.youtube.com/watch?v=qmPq00jelpc) when integrated with the framework.
+The concept has been expanded by web frameworks like [Django](http://www.djangoproject.com/) to package not just of freestanding utilities like ``requests``, but entire applications that ["just work"](https://www.youtube.com/watch?v=qmPq00jelpc) when integrated into the system.
 
 This type of application, [championed](http://www.b-list.org/weblog/2007/nov/29/django-blog/) [eloquently](https://www.youtube.com/watch?v=A-S0tqpPga4) by Django leaders like James Bennett, is sometimes called "pluggable" or ["reusable"](https://docs.djangoproject.com/en/dev/intro/reusable-apps/), because its modular design makes it portable to a wide range of sites.
 
