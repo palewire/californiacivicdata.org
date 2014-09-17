@@ -29,6 +29,9 @@ td.center, th.center{
 header {
     padding: 5px 0 0 0 !important;
 }
+header a {
+    text-decoration: none;
+}
 .red-border {
     border-bottom: solid 7px #ba0a35;
     height: 45px;
