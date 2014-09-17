@@ -5,7 +5,7 @@ p {
     margin: 12px 0;
 }
 a{
-    color:#ba0a35;
+    color:#b71234;
     text-decoration: underline;
 }
 a:hover{
@@ -33,7 +33,7 @@ header a {
     text-decoration: none;
 }
 .red-border {
-    border-bottom: solid 7px #ba0a35;
+    border-bottom: solid 7px #b71234;
     height: 45px;
 }
 .section-select{
@@ -107,4 +107,22 @@ footer .red-border {
     font-size: 15px;
     line-height: 20px;
     margin: 4px 0;
+}
+
+.jumbotron {
+    background: transparent;
+    text-align: center;
+    padding:25px 0 0 0 !important;
+}
+.jumbotron h1 {
+/*display: inline-block;*/
+}
+.jumbotron .logo {
+    width: 100%;
+    background-size: cover;
+    display: inline-block;
+}
+.jumbotron p {
+    display: block;
+    margin-top: 30px;
 }
