@@ -119,3 +119,7 @@ hr {
 .projectlist p {
     margin: 8px 0;
 }
+@media (max-width: 767px) {
+    .bigbox p { font-size: 16px; line-height:22px; }
+    .projectlist p { font-size: 16px; line-height: 22px; }
+}
