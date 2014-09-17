@@ -12,7 +12,7 @@ Next comes the tedious downloading, extracting, transforming, cleaning and explo
 
 The pathetic result: All of the valuable work that prepared the data for analysis is discarded or kept locked away. Every newcomer must reinvent virtually identical tools simply to get started.
 
-This has to change. It’s a wasteful exercise so behind the times that even broadsheet newspaper reporters, a faction with revanchist delusions on par with the Putin administration, [see the problem](http://www.nytimes.com/2014/08/18/technology/for-big-data-scientists-hurdle-to-insights-is-janitor-work.html?_r=0).
+This must change. It’s a wasteful exercise so behind the times that even broadsheet newspaper reporters, a faction with revanchist delusions on par with the Putin administration, [see the problem](http://www.nytimes.com/2014/08/18/technology/for-big-data-scientists-hurdle-to-insights-is-janitor-work.html?_r=0).
 
 Open-data hackers should heed the words of [Dave Guarino](http://daguar.github.io/2014/03/17/etl-for-america/) and work together to improve the pipeline that prepares data for meaningful analysis, crucial but unglamourous "plumbing" often overlooked in the rush to build the latest flashy user interface.
 
