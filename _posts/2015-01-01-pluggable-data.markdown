@@ -16,7 +16,7 @@ This must change. It’s a wasteful exercise so behind the times that even broad
 
 Open-data hackers should heed the words of [Dave Guarino](http://daguar.github.io/2014/03/17/etl-for-america/) and work together to improve the pipeline that prepares data for meaningful analysis, crucial but unglamourous "plumbing" often overlooked in the rush to build the latest flashy user interface.
 
-We're here to propose a way to make it happen. We call it "pluggable data."
+We're here to demonstrate a way to make it happen. We call it "pluggable data."
 
 ### What we mean
 
