@@ -1,0 +1,19 @@
+<!doctype HTML>
+<html lang="en">
+<head>{% include head.html %}</head>
+<body>
+    {% include header.html %}
+    <div class="container content">
+        <div class="row">
+            <div class="post col-lg-8 col-md-10 col-sm-12 col-xs-12 col-lg-offset-2 col-md-offset-1">
+                <h1 class="title">{{ page.title }}</h1>
+                <h3 class="deckhead">{{ page.deckhead }}</h3>
+                <div class="byline">{{ page.byline|markdownify }}</div>
+                <div class="pubdate"><p><time>{{ page.date|date:"%B %e, %Y" }}</time></p></div>
+                {{ content }}
+            </div>
+        </div>
+    </div>
+    {% include footer.html %}
+</body>
+</html>

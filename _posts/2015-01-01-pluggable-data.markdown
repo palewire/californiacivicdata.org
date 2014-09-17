@@ -1,14 +1,10 @@
 ---
-layout: default
-title: Pluggable Data
+layout: post
+title: Package data like software, and the stories will flow like wine
+deckhead: A humble suggestion from your friends at the California Civic Data Coalition
+byline: "By [Ben Welsh](http://palewi.re/who-is-ben-welsh/), [Agustin Armendariz](mailto:aarmendariz@gmail.com) and [Aaron Williams](mailto:awilliams@cironline.org)"
 published: true
 ---
-
-# Package data like software, and the stories will flow like wine
-
-### A humble suggestion from your friends at the California Civic Data Coalition
-
-By [Ben Welsh](http://palewi.re/who-is-ben-welsh/), [Agustin Armendariz](mailto:aarmendariz@gmail.com) and [Aaron Williams](mailto:awilliams@cironline.org) 
 
 The melodrama is so familiar it's mundane. The government is asked to release an important dataset. They dither. We moan. We groan. Sometimes we sue, or even (gasp) organize. More and more, our pushback works. They make good and release the raw data, maybe even posting it online.
 

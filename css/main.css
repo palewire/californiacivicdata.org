@@ -1,7 +1,4 @@
 @import "pygments.css";
-body {
-    margin: 0 0 25px 0;
-}
 p {
     font-size: 18px;
     line-height: 27px;
@@ -92,4 +89,19 @@ and (max-width : 992px) {
         float:left;
         margin-left: -20px;
     }
+}
+footer .red-border {
+    height: 20px !important;
+}
+/* Post */
+.post h1.title {
+    margin-top: 15px;
+}
+.post h3.deckhead {
+    margin-top: 10px;
+}
+.post .byline p, .post .pubdate p {
+    font-size: 15px;
+    line-height: 20px;
+    margin: 4px 0;
 }
