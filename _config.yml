@@ -2,3 +2,6 @@ markdown: kramdown
 highlighter: pygments
 permalink: /:year/:month/:day/:title/
 repository: https://github.com/california-civic-data-coalition/california-civic-data-coalition.github.io.git
+
+prose:
+  media: "img"
