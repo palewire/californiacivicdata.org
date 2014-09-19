@@ -40,7 +40,7 @@ $ python manage.py downloadcalaccessraw
 $ python manage.py runserver
 ```
 
-![IMAGE OF ADMIN]
+
 
 California recently published its campaign finance database online after a successful campaign by civic hackers. Since, reporters at the Times and CIR built ad-hoc(?) tools to deal with this database. But these tools didn't scale and were hard for other developers to read. We asked ourselves, "Is there a better way?" 
 
@@ -86,7 +86,7 @@ INSTALLED_APPS = (
 )
 ```
 
-Now, sync your database and download that data:
+Now, sync your database and build the new, associated tables:
 ```bash
 $ python manage.py syncdb
 $ python manage.py buildcalaccesscampaignbrowser
@@ -97,7 +97,11 @@ $ python manage.py runserver
 
 The campaign browser provides a simple interface to look up individual filers and search for individual campaign contributions. You can search for a candidate and see all of their associated committees they created to run for a specific office. On top of that, you can pull of the individual committee see how much many came in and out of that campaign. And if you want the data for that specific committee all you have to do is click the download tab and select your preferred format.
 
-![Link to GIF]
+
+<iframe src="//giphy.com/embed/5xtDarslFDhL7MZTE4g" width="500" height="281" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+_The campaign browser makes it very simple to search for a candidate and download their associated data._
+
 
 While the browser is nice, we imagine there are journalists who just want this data in a CSV they can load into Access, Navicat, Excel or their preferred tool and do analysis from there. For those folks, we created a Django management command that will export the campaign-browser data into three CSVs with all the associated summaries, expenditures and contributions.
 
@@ -117,4 +121,4 @@ This project represents a huge milestone for California open data advocates and 
 - Create project for lobbying reports (This is already underway at [django-calaccess-lobbying-browser](https://github.com/california-civic-data-coalition/django-calaccess-lobbying-browser))
 - Get ready for November
 
-Whether you're a California journalists or developer passionate about our mission, or a curious person who's looking to contribute, we'd love your help. Keep an eye out on the [California Civic Data Coalition website]() for more updates on our progress. 
+Whether you're a California journalists or developer passionate about our mission, or a curious person who's looking to contribute, we'd love your help. Keep an eye out on the [California Civic Data Coalition website](http://www.californiacivicdata.org/) for more updates on our progress. 
