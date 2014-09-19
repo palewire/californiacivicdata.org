@@ -8,7 +8,7 @@ published: false
 _Two Django applications made to make California campaign finance easier_
 --
 
-![BEAR GIF]
+![bearwalk_small.gif](/img/bearwalk_small.gif)
 
 After several months of internal work and a two-day code sprint, reporters and developers from The [Los Angeles Times Data Desk](http://www.latimes.com/local/datadesk/), [The Center for Investigative Reporting](http://cironline.org/) and Stanford's new [Computational Journalism Program](http://towcenter.org/blog/data-journalist-profile-cheryl-phillips-stanford-data-journalism/) are premiering two tools:
 
@@ -40,6 +40,7 @@ $ python manage.py downloadcalaccessraw
 $ python manage.py runserver
 ```
 
+![admin.png](/img/admin.png)
 
 
 California recently published its campaign finance database online after a successful campaign by civic hackers. Since, reporters at the Times and CIR built ad-hoc(?) tools to deal with this database. But these tools didn't scale and were hard for other developers to read. We asked ourselves, "Is there a better way?" 
@@ -93,7 +94,8 @@ $ python manage.py buildcalaccesscampaignbrowser
 $ python manage.py runserver
 ```
 
-![LINK TO BROWSER MAIN PAGE]
+![homepage.png](/img/homepage.png)
+
 
 The campaign browser provides a simple interface to look up individual filers and search for individual campaign contributions. You can search for a candidate and see all of their associated committees they created to run for a specific office. On top of that, you can pull of the individual committee see how much many came in and out of that campaign. And if you want the data for that specific committee all you have to do is click the download tab and select your preferred format.
 
@@ -121,4 +123,4 @@ This project represents a huge milestone for California open data advocates and 
 - Create project for lobbying reports (This is already underway at [django-calaccess-lobbying-browser](https://github.com/california-civic-data-coalition/django-calaccess-lobbying-browser))
 - Get ready for November
 
-Whether you're a California journalists or developer passionate about our mission, or a curious person who's looking to contribute, we'd love your help. Keep an eye out on the [California Civic Data Coalition website](http://www.californiacivicdata.org/) for more updates on our progress. 
+Whether you're a California journalists or developer passionate about our mission, or a curious person who's looking to contribute, we'd love your help. Keep an eye out on the [California Civic Data Coalition website](http://www.californiacivicdata.org/) for more updates on our progress.
