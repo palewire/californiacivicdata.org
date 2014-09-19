@@ -99,7 +99,7 @@ The campaign browser provides a simple interface to look up individual filers an
 
 ![Link to GIF]
 
-While the browser is nice, we imagine there are journalist who may just want all of this data in one CSV they can load into Access, Navicat, Excel or their preferred tool and do analysis from there. For those folks, we created a Django management command that will export the three CSVs all the associated summaries, expenditures and contributions. You can use your favorite tool to query California campaign finance data.
+While the browser is nice, we imagine there are journalists who just want this data in a CSV they can load into Access, Navicat, Excel or their preferred tool and do analysis from there. For those folks, we created a Django management command that will export the campaign-browser data into three CSVs with all the associated summaries, expenditures and contributions.
 
 ```bash
 $ python manage.py exportcalaccesscampaignfinance
@@ -109,5 +109,12 @@ We hope to create a regularly updated page with these flat tables hosted for fol
 
 ## Going Forward
 
-Get data ready for November Election
-More documentation
+This project represents a huge milestone for California open data advocates and journalists looking to watch how money influences politics in the state. While we're pleased to share what we've done with the world, we still have a lot of work to do. This includes, but is not limited to:
+
+- Bulletproofing the install process
+- Adding more documentation
+- Regularly generating the flat tables and hosting them online
+- Create project for lobbying reports (This is already underway at [django-calaccess-lobbying-browser](https://github.com/california-civic-data-coalition/django-calaccess-lobbying-browser))
+- Get ready for November
+
+Whether you're a California journalists or developer passionate about our mission, or a curious person who's looking to contribute, we'd love your help. Keep an eye out on the [California Civic Data Coalition website]() for more updates on our progress. 
