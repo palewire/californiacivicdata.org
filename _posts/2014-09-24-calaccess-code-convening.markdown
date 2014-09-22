@@ -42,11 +42,11 @@ $ python manage.py runserver
 
 ![admin.png](/img/admin.png)
 
-California recently published its campaign finance database online after a successful campaign by civic hackers. In response, reporters at the Times and CIR built a series ad-hoc tools to deal with this database. But these tools didn't scale and were hard for other developers to read and use. We asked ourselves, "Is there a better way?" 
+California recently published its campaign finance database online after a successful campaign by civic hackers. In response, reporters at The Times and CIR built a series ad-hoc tools to deal with this database. But these tools didn't scale and were hard for other developers to read and use. We asked ourselves, "Is there a better way?" 
 
 ## Building a Better Way
 
-This project was born late last year when the Times and CIR began sending emails back and forth on ways we could share what we learned building campaign finance applications. As it turned out, Agustin Armendariz, formerly of CIR, had already written a Python script to load parts of the Cal-Access data dump into a Django project. With that script in mind, we created the California Civic Data Coalition Github organization and began hacking on this project in the open. 
+This project was born late last year when The Times and CIR began sending emails back and forth on ways we could share what we learned building campaign finance applications. As it turned out, Agustin Armendariz, formerly of CIR, had already written a Python script to load parts of the Cal-Access data dump into a Django project. With that script in mind, we created the California Civic Data Coalition Github organization and began hacking on this project in the open. 
 
 And then the project hit a standstill. While we put in the leg-work to parse and harvest some of the initial data, the hurdles were gargantuan. For starters, the load-and-clean script took over 24 hours to complete. For the journalist on a deadline, this was unacceptable. And after that initial download the parse {{_ <-- something is awry in this clause_}} ran, the secondary script for associating candidates and their committees took another 24 hours. The net result was a two-day snorefest and several missed deadlines. Furthermore, the front-end interface was built in roughly a week and, while functional, didn't provide much in the form of help.
 
