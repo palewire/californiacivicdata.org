@@ -12,13 +12,15 @@ _Two Django applications made to make California campaign finance easier_
 
 After several months of internal work and a two-day code sprint, reporters and developers from The [Los Angeles Times Data Desk](http://www.latimes.com/local/datadesk/), [The Center for Investigative Reporting](http://cironline.org/) and Stanford's new [Computational Journalism Program](http://towcenter.org/blog/data-journalist-profile-cheryl-phillips-stanford-data-journalism/) are premiering two tools:
 
-- [django-calaccess-raw-data](http://django-calaccess-campaign-browser.californiacivicdata.org/en/latest/): A Django app to refine, review and republish campaign finance data drawn from the California Secretary of State’s CAL-ACCESS database
+- [django-calaccess-raw-data](http://django-calaccess-campaign-browser.californiacivicdata.org/en/latest/): A Django app to refine, review and republish campaign finance data drawn from the California Secretary of State’s CAL-ACCESS database.
 
-- [django-calaccess-campaign-browser](https://github.com/california-civic-data-coalition/django-calaccess-lobbying-browser): A simple Django app to build lobbying activity data from the cal access database. It is reliant on django-calaccess-parser
+- [django-calaccess-campaign-browser](https://github.com/california-civic-data-coalition/django-calaccess-lobbying-browser): A simple Django app to build lobbying activity data from the CAL-ACCESS database. It is reliant on django-calaccess-parser.
 
-Both tools aim to make California campaign finance data easier to consume and build upon. If you're curious on our app methodology, we suggest you read our sister post on ["pluggable data"](http://www.californiacivicdata.org/2015/01/01/pluggable-data/).
+Both tools aim to make California campaign finance data easier to consume and build upon. If you're curious about our app methodology, we suggest you read our sister post on ["pluggable data"](http://www.californiacivicdata.org/2015/01/01/pluggable-data/).
 
-Browse the [California Civic Data Coalition](https://github.com/california-civic-data-coalition/) Github page for app details and documentation on installation and hacking. Installation is simple. Assuming you have a Django project already setup:
+## Getting Started
+
+Browse the [California Civic Data Coalition](https://github.com/california-civic-data-coalition/) GitHub page for app details and documentation on installation and hacking. Installation is simple. Assuming you have a Django project already setup:
 
 ```bash
 $ pip install django-calaccess-raw-data
