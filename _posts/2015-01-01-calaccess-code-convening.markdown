@@ -12,9 +12,9 @@ _Two Django applications made to make California campaign finance easier_
 
 After several months of internal work and a two-day code sprint, reporters and developers from The [Los Angeles Times Data Desk](http://www.latimes.com/local/datadesk/), [The Center for Investigative Reporting](http://cironline.org/) and Stanford's new [Computational Journalism Program](http://towcenter.org/blog/data-journalist-profile-cheryl-phillips-stanford-data-journalism/) are premiering two tools:
 
-- [django-calaccess-raw-data](http://django-calaccess-campaign-browser.californiacivicdata.org/en/latest/): A Django app to refine, review and republish campaign finance data drawn from the California Secretary of State’s CAL-ACCESS database.
+- [django-calaccess-raw-data](http://django-calaccess-campaign-browser.californiacivicdata.org/en/latest/): A Django app to refine, review and republish campaign finance data drawn from the California Secretary of State’s Cal-Access database.
 
-- [django-calaccess-campaign-browser](https://github.com/california-civic-data-coalition/django-calaccess-lobbying-browser): A simple Django app to build lobbying activity data from the CAL-ACCESS database. It is reliant on django-calaccess-parser.
+- [django-calaccess-campaign-browser](https://github.com/california-civic-data-coalition/django-calaccess-lobbying-browser): A simple Django app to build lobbying activity data from the Cal-Access database. It is reliant on django-calaccess-parser.
 
 Both tools aim to make California campaign finance data easier to consume and build upon. If you're curious about our app methodology, we suggest you read our sister post on ["pluggable data"](http://www.californiacivicdata.org/2015/01/01/pluggable-data/).
 
@@ -45,13 +45,15 @@ $ python manage.py runserver
 ![admin.png](/img/admin.png)
 
 
-California recently published its campaign finance database online after a successful campaign by civic hackers. Since, reporters at the Times and CIR built ad-hoc(?) tools to deal with this database. But these tools didn't scale and were hard for other developers to read. We asked ourselves, "Is there a better way?" 
+California recently published its campaign finance database online after a successful campaign by civic hackers. In response, reporters at the Times and CIR built a series ad-hoc tools to deal with this database. But these tools didn't scale and were hard for other developers to read and use. We asked ourselves, "Is there a better way?" 
 
-## Building a better way
+## Building a Better Way
 
-This project was born late last year when the Times and CIR began sending emails back and forth on ways we could share what we learned building campaign finance applications. As it turned out, Agustin Armendariz, formerly of CIR, had already written a Python script to load parts of the Cal Access data dump into a Django project. With that script in mind, we created the California Civic Data Coalition Github organization and began hacking on this project in the open. 
+This project was born late last year when the Times and CIR began sending emails back and forth on ways we could share what we learned building campaign finance applications. As it turned out, Agustin Armendariz, formerly of CIR, had already written a Python script to load parts of the Cal-Access data dump into a Django project. With that script in mind, we created the California Civic Data Coalition Github organization and began hacking on this project in the open. 
 
-Before we met in San Francisco, the Cal Access project had hit a standstill. While we put in the leg work to parse and harvest some of the initial data, the hurdles were gargantuan. For starters, the load and clean script took over 24 hours to complete. For the journalist on a deadline, this was unacceptable. And after that initial download the parse ran, the secondary script for associating candidates and their committees took another 24 hours. The net result was a two-day snorefest and several missed deadlines. Furthermore, the frontend interface was built in roughly a week and, while functional, didn't provide much in the form of help.
+And then the project hit a standstill. While we put in the leg-work to parse and harvest some of the initial data, the hurdles were gargantuan. For starters, the load-and-clean script took over 24 hours to complete. For the journalist on a deadline, this was unacceptable. And after that initial download the parse {{_ <-- something is awry in this clause_}} ran, the secondary script for associating candidates and their committees took another 24 hours. The net result was a two-day snorefest and several missed deadlines. Furthermore, the front-end interface was built in roughly a week and, while functional, didn't provide much in the form of help.
+
+{{_I took out the "Before we met in San Francisco" part above because there wasn't any context about why you were in San Francisco, so it made the chronology stumble. Suggest adding a short graf here explaining the nature of the code convening -- it doesn't need to be a big OpenNews advertisement, god forbid, but should provide context and mention "code convening" as a thing, because we'll be tagging this as a convening on Source and it will be confusing otherwise. _ }}
 
 ### Optimizing the code
 
@@ -61,7 +63,7 @@ Priority one for the backend was speed. How could we cut down the load time for 
 $ python -m cProfile example/manage.py downloadcalaccessraw
 ```
 
-By default, this will print a log of every transaction your script is running. This can get rather long so it's better to point the output of cProfile to a log file.
+By default, this will print a log of every transaction your script is running. This can get rather long, so it's better to point the output of cProfile to a log file.
 
 ```bash
 $ python -m cProfile example/manage.py downloadcalaccessraw > speedtest.log
@@ -69,11 +71,11 @@ $ python -m cProfile example/manage.py downloadcalaccessraw > speedtest.log
 
 `cProfile` showed us that the `downloadcalaccessraw` command had several loops slowing down the script. You can see our work with this in our [Makefile](https://github.com/california-civic-data-coalition/django-calaccess-raw-data/commit/a59e0276100cd5d854225ba9de41715fa1b66b68?diff=unified#diff-b67911656ef5d18c4ae36cb6741b7965R12). With `cProfile`, we saw that some of the loops we were doing in Python took a long time and happened millions of times. 
 
-By refactoring those parts of the code, we were able to get the total script runtime down to roughly __15 minutes__! With the speed increase, we moved on to make sure every table in the Cal Access data dump had an appropriate Django model.
+By refactoring those parts of the code, we were able to get the total script runtime down to roughly __15 minutes__! With the speed increase, we moved on to make sure every table in the Cal-Access data dump had an appropriate Django model.
 
-## Lowering the barrier to entry with django-calaccess-campaign-browser
+## Lowering the Barrier to Entry with django-calaccess-campaign-browser
 
-We built `django-calaccess-raw-data` for folks who wanted to build applications on top of CAL-ACCESS. It doesn't provide much abstraction and still comes with a bring-your-own-analysis prerequisite. We just made the database easier to consume. That said, we wanted to build a secondary tool that may help folks move more quickly. That's where `django-calaccess-campaign-browser.` The campaign browser goes the next step and associates candidates with their campaign committees. This means you can get a snapshot of a politicans career on one page. Installation is pretty simple too:
+We built `django-calaccess-raw-data` for folks who wanted to build applications on top of Cal-Access. It doesn't provide much abstraction, and still comes with a bring-your-own-analysis prerequisite, but it makes the database easier to consume. That said, we also wanted to build a secondary tool to help folks move more quickly. That's where `django-calaccess-campaign-browser.` The campaign browser goes the next step and associates candidates with their campaign committees, which means you can get a snapshot of a politican's career on a single page. Installation is pretty simple too:
 
 ```bash
 $ pip install django-calaccess-campaign-browser
@@ -99,7 +101,7 @@ $ python manage.py runserver
 ![homepage.png](/img/homepage.png)
 
 
-The campaign browser provides a simple interface to look up individual filers and search for individual campaign contributions. You can search for a candidate and see all of their associated committees they created to run for a specific office. On top of that, you can pull of the individual committee see how much many came in and out of that campaign. And if you want the data for that specific committee all you have to do is click the download tab and select your preferred format.
+The campaign browser provides a simple interface to look up individual filers and search for individual campaign contributions. You can search for a candidate and see all of their associated committees they created to run for a specific office. On top of that, you can pull of the individual committee see how much many came in and out of that campaign. And if you want the data for that specific committee, all you have to do is click the download tab and select your preferred format.
 
 
 <iframe src="//giphy.com/embed/5xtDarslFDhL7MZTE4g" width="500" height="281" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
@@ -107,7 +109,7 @@ The campaign browser provides a simple interface to look up individual filers an
 _The campaign browser makes it very simple to search for a candidate and download their associated data._
 
 
-While the browser is nice, we imagine there are journalists who just want this data in a CSV they can load into Access, Navicat, Excel or their preferred tool and do analysis from there. For those folks, we created a Django management command that will export the campaign-browser data into three CSVs with all the associated summaries, expenditures and contributions.
+While the browser is nice, we imagine there are journalists who just want this data in a CSV they can load into Access, Navicat, Excel or their preferred tool, and do analysis from there. For those folks, we created a Django management command that will export the campaign-browser data into three CSVs with all the associated summaries, expenditures and contributions.
 
 ```bash
 $ python manage.py exportcalaccesscampaignfinance
@@ -123,6 +125,6 @@ This project represents a huge milestone for California open data advocates and 
 - Adding more documentation
 - Regularly generating the flat tables and hosting them online
 - Create project for lobbying reports (This is already underway at [django-calaccess-lobbying-browser](https://github.com/california-civic-data-coalition/django-calaccess-lobbying-browser))
-- Get ready for November
+- Getting ready for November
 
-Whether you're a California journalists or developer passionate about our mission, or a curious person who's looking to contribute, we'd love your help. Keep an eye out on the [California Civic Data Coalition website](http://www.californiacivicdata.org/) for more updates on our progress.
+Whether you're a California journalist or developer passionate about our mission, or a curious person who's looking to contribute, we'd love your help. Keep an eye out on the [California Civic Data Coalition website](http://www.californiacivicdata.org/) for more updates on our progress.
