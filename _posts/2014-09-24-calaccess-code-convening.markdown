@@ -1,12 +1,10 @@
 ---
-layout: default
-title: "CAL-ACCESS code convening"
-published: false
+layout: post
+title: "Introducing the calaccess-raw-data and calaccess-campaign-browser "
+deckhead: "Two Django applications made to make California campaign finance easier"
+byline: "By [Aaron Williams](http://aboutaaron.com), [Agustin Armendariz](http://www.twitter.com/agustin_NYT) and [Ben Welsh](http://palewi.re/who-is-ben-welsh/)"
+published: true
 ---
-
-# Introducing the calaccess-raw-data and calaccess-campaign-browser 
-_Two Django applications made to make California campaign finance easier_
---
 
 ![bearwalk_small.gif](/img/bearwalk_small.gif)
 
