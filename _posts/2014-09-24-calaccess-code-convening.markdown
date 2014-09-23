@@ -72,7 +72,7 @@ By refactoring those parts of the code, we were able to get the total script run
 
 ## Lowering the Barrier to Entry with django-calaccess-campaign-browser
 
-We built `django-calaccess-raw-data` for folks who wanted to build applications on top of Cal-Access. It doesn't provide much abstraction, and still comes with a bring-your-own-analysis prerequisite, but it makes the database easier to consume. That said, we also wanted to build a secondary tool to help folks move more quickly. That's where `django-calaccess-campaign-browser.` The campaign browser goes the next step and associates candidates with their campaign committees, which means you can get a snapshot of a politican's career on a single page. Installation is pretty simple too:
+We built `django-calaccess-raw-data` for folks who wanted to build applications on top of Cal-Access. It doesn't provide much abstraction, and still comes with a bring-your-own-analysis prerequisite, but it makes the database easier to consume. That said, we also wanted to build a secondary tool to help folks move more quickly. That's where `django-calaccess-campaign-browser` comes in. The campaign browser goes the next step and associates candidates with their campaign committees, which means you can get a snapshot of a politican's career on a single page. Installation is pretty simple too:
 
 {% highlight bash %}
 $ pip install django-calaccess-campaign-browser
