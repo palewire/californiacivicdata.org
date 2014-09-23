@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Introducing django-calaccess-raw-data and django-calaccess-campaign-browser "
-deckhead: "Two Django applications made to make California campaign finance data easier"
+deckhead: Two Django applications made to make California campaign finance data easier
 byline: "By [Aaron Williams](http://aboutaaron.com), [Agustin Armendariz](http://www.twitter.com/agustin_NYT) and [Ben Welsh](http://palewi.re/who-is-ben-welsh/)"
 published: true
 ---
@@ -48,13 +48,13 @@ California recently published its campaign finance database online after a succe
 
 This project was born late last year when The Times and CIR began sending emails back and forth on ways we could share what we learned building campaign finance applications. As it turned out, Agustin Armendariz, formerly of CIR, had already written a Python script to load parts of the Cal-Access data dump into a Django project. With that script in mind, we created the California Civic Data Coalition Github organization and began hacking on this project in the open. 
 
-And then the project hit a standstill. While we put in the leg-work to parse and harvest some of the initial data, the hurdles were gargantuan. For starters, the load-and-clean script took over 24 hours to complete. For the journalist on a deadline, this was unacceptable. And after that initial download the parse {{_ <-- something is awry in this clause_}} ran, the secondary script for associating candidates and their committees took another 24 hours. The net result was a two-day snorefest and several missed deadlines. Furthermore, the front-end interface was built in roughly a week and, while functional, didn't provide much in the form of help.
+And then the project hit a standstill. While we put in the leg-work to parse and harvest some of the initial data, the hurdles were gargantuan. For starters, the load-and-clean script took over 24 hours to complete. For the journalist on a deadline, this was unacceptable. Moreover, the secondary script for associating candidates and their committees took another 24 hours, resulting in a two-day snorefest and several missed deadlines. On top of that, the front-end interface was built in roughly a week and, while functional, didn't provide much in the form of help.
 
-{{_I took out the "Before we met in San Francisco" part above because there wasn't any context about why you were in San Francisco, so it made the chronology stumble. Suggest adding a short graf here explaining the nature of the code convening -- it doesn't need to be a big OpenNews advertisement, god forbid, but should provide context and mention "code convening" as a thing, because we'll be tagging this as a convening on Source and it will be confusing otherwise. _ }}
+Given the scope of this project, we decided we needed to all get a room for a couple of days and make this project shine. The OpenNews code convening seemed like the perfect opportunity for this. So after pitching our goals with the OpenNews team, we all met in San Francisco and began hacking. 
 
 ### Optimizing the code
 
-Priority one for the backend was speed. How could we cut down the load time for the parsing and get developers up and running? The answer came in [`cProfile`](https://docs.python.org/2/library/profile.html), a Python standard library module that measures how long parts of a program take to execute.
+Priority one for the backend was speed. How could we cut down the load time for the parsing and get developers up and running? The answer came in [cProfile](https://docs.python.org/2/library/profile.html), a Python standard library module that measures how long parts of a program take to execute.
 
 {% highlight bash %}
 $ python -m cProfile example/manage.py downloadcalaccessraw
@@ -121,6 +121,6 @@ This project represents a huge milestone for California open data advocates and 
 - Adding more documentation
 - Regularly generating the flat tables and hosting them online
 - Create project for lobbying reports (This is already underway at [django-calaccess-lobbying-browser](https://github.com/california-civic-data-coalition/django-calaccess-lobbying-browser))
-- Getting ready for November
+- Getting ready for November elections
 
 Whether you're a California journalist or developer passionate about our mission, or a curious person who's looking to contribute, we'd love your help. Keep an eye out on the [California Civic Data Coalition website](http://www.californiacivicdata.org/) for more updates on our progress.
