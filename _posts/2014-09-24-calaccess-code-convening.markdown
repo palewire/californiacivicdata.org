@@ -101,7 +101,7 @@ $ python manage.py runserver
 
 The campaign browser provides a simple interface to look up individual filers and search for individual campaign contributions. You can search for a candidate and see all of their associated committees they created to run for a specific office. On top of that, you can pull of the individual committee see how much many came in and out of that campaign. And if you want the data for that specific committee, all you have to do is click the download tab and select your preferred format.
 
-<iframe src="//giphy.com/embed/5xtDarslFDhL7MZTE4g" width="500" height="281" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+![How the calaccess campaign browser interface works](/img/ccdc-example.gif)
 
 _The campaign browser makes it very simple to search for a candidate and download their associated data._
 
