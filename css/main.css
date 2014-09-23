@@ -69,6 +69,9 @@ header a {
 footer .red-border {
     height: 20px !important;
 }
+img {
+	max-width: 100%;
+}
 /* Post */
 .post h1.title {
     margin-top: 15px;
