@@ -87,7 +87,7 @@ Update your `settings.py`:
 DEBUG = False
 INSTALLED_APPS = (
     ....
-    'calaccess_raw', # calaccess_raw is a dependency!
+    'calaccess_raw', # Note that calaccess_raw is a dependency!
     'calaccess_campaign_browser',
 )
 {% endhighlight %}
