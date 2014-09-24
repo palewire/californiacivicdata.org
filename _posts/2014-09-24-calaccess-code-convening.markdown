@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introducing the California Civic Data Coalition
-deckhead: Two Django applications made to make California campaign finance data easier
+deckhead: "We're here with wwo Django applications ready made to make California campaign finance data easier to access"
 byline: "By [Aaron Williams](http://aboutaaron.com), [Agustin Armendariz](http://www.twitter.com/agustin_NYT) and [Ben Welsh](http://palewi.re/who-is-ben-welsh/)"
 published: true
 ---
