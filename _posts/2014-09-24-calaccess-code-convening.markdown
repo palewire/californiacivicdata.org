@@ -67,7 +67,7 @@ $ python manage.py downloadcalaccessraw
 $ python manage.py runserver
 {% endhighlight %}
 
-You've just installed 76 database tables and nearly 35 million records, including all of the campaign finance and lobbying activity records collected by California government stretching back more than a decade.
+You've just installed 76 database tables and nearly 35 million records, including all of the campaign finance and lobbying activity records collected by California government stretching back more than a decade. Visit ``http://localhost:8000`` and you can start exploring them right away.
 
 ![admin.png](/img/admin.png)
 
