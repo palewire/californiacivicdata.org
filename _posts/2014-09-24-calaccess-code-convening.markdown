@@ -16,9 +16,9 @@ We gathered for the first time last month for a two-day summit sponsored by Open
 
 They are:
 
-- [django-calaccess-raw-data](http://django-calaccess-campaign-browser.californiacivicdata.org/en/latest/): A Django app to refine, review and republish campaign finance data drawn from the California Secretary of State’s CAL-ACCESS database.
+- [django-calaccess-raw-data](http://django-calaccess-raw-data.californiacivicdata.org/): A Django app to download, extract and load campaign finance and lobbying activity data from the California Secretary of State's CAL-ACCESS database
 
-- [django-calaccess-campaign-browser](https://github.com/california-civic-data-coalition/django-calaccess-lobbying-browser): A simple Django app to build lobbying activity data from the CAL-ACCESS database. It is reliant on django-calaccess-parser.
+- [django-calaccess-campaign-browser](http://django-calaccess-campaign-browser.californiacivicdata.org/): A Django app to refine, review and republish campaign finance data drawn from the California Secretary of State’s CAL-ACCESS database
 
 Both are designed and packaged according to our "pluggable data" method, which you can read about at greater length [here](http://www.californiacivicdata.org/2014/09/24/pluggable-data/), 
 
