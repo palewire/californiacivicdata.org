@@ -110,7 +110,7 @@ This code base is still a work in progress, however, and its analysis should be 
 
 ## Where you come in
 
-This project represents a huge milestone for California open data advocates and journalists looking to watch how money influences politics in the state. While we're pleased to share what we've done with the world, we still have a lot of work to do. This includes, but is not limited to:
+This milestone represents a milestone for our team, but we still have a lot of work to do. This includes, but is not limited to:
 
 - Bulletproofing the install process
 - Adding more documentation
