@@ -67,6 +67,8 @@ $ python manage.py downloadcalaccessraw
 $ python manage.py runserver
 {% endhighlight %}
 
+You've just installed 76 database tables and nearly 35 million records, including all of the campaign finance and lobbying activity records collected by California government stretching back more than a decade.
+
 ![admin.png](/img/admin.png)
 
 California recently published its campaign finance database online after a successful campaign by civic hackers. In response, reporters at The Times and CIR built a series ad-hoc tools to deal with this database. But these tools didn't scale and were hard for other developers to read and use. We asked ourselves, "Is there a better way?" 
