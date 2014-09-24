@@ -8,9 +8,9 @@ published: true
 
 After several months of internal work and a two-day code sprint, reporters and developers from The [Los Angeles Times Data Desk](http://www.latimes.com/local/datadesk/), [The Center for Investigative Reporting](http://cironline.org/) and Stanford's new [Computational Journalism Program](http://towcenter.org/blog/data-journalist-profile-cheryl-phillips-stanford-data-journalism/) are premiering two tools:
 
-- [django-calaccess-raw-data](http://django-calaccess-campaign-browser.californiacivicdata.org/en/latest/): A Django app to refine, review and republish campaign finance data drawn from the California Secretary of State’s Cal-Access database.
+- [django-calaccess-raw-data](http://django-calaccess-campaign-browser.californiacivicdata.org/en/latest/): A Django app to refine, review and republish campaign finance data drawn from the California Secretary of State’s CAL-ACCESS database.
 
-- [django-calaccess-campaign-browser](https://github.com/california-civic-data-coalition/django-calaccess-lobbying-browser): A simple Django app to build lobbying activity data from the Cal-Access database. It is reliant on django-calaccess-parser.
+- [django-calaccess-campaign-browser](https://github.com/california-civic-data-coalition/django-calaccess-lobbying-browser): A simple Django app to build lobbying activity data from the CAL-ACCESS database. It is reliant on django-calaccess-parser.
 
 Both tools aim to make California campaign finance data easier to consume and build upon. If you're curious about our app methodology, we suggest you read our sister post on ["pluggable data"](http://www.californiacivicdata.org/2014/09/24/pluggable-data/).
 
@@ -46,7 +46,7 @@ California recently published its campaign finance database online after a succe
 
 ## Building a Better Way
 
-This project was born late last year when The Times and CIR began sending emails back and forth on ways we could share what we learned building campaign finance applications. As it turned out, Agustin Armendariz, formerly of CIR, had already written a Python script to load parts of the Cal-Access data dump into a Django project. With that script in mind, we created the California Civic Data Coalition Github organization and began hacking on this project in the open. 
+This project was born late last year when The Times and CIR began sending emails back and forth on ways we could share what we learned building campaign finance applications. As it turned out, Agustin Armendariz, formerly of CIR, had already written a Python script to load parts of the CAL-ACCESS data dump into a Django project. With that script in mind, we created the California Civic Data Coalition Github organization and began hacking on this project in the open. 
 
 And then the project hit a standstill. While we put in the leg-work to parse and harvest some of the initial data, the hurdles were gargantuan. For starters, the load-and-clean script took over 24 hours to complete. For the journalist on a deadline, this was unacceptable. Moreover, the secondary script for associating candidates and their committees took another 24 hours, resulting in a two-day snorefest and several missed deadlines. On top of that, the front-end interface was built in roughly a week and, while functional, didn't provide much in the form of help.
 
@@ -68,11 +68,11 @@ $ python -m cProfile example/manage.py downloadcalaccessraw > speedtest.log
 
 `cProfile` showed us that the `downloadcalaccessraw` command had several loops slowing down the script. You can see our work with this in our [Makefile](https://github.com/california-civic-data-coalition/django-calaccess-raw-data/commit/a59e0276100cd5d854225ba9de41715fa1b66b68?diff=unified#diff-b67911656ef5d18c4ae36cb6741b7965R12). With `cProfile`, we saw that some of the loops we were doing in Python took a long time and happened millions of times. 
 
-By refactoring those parts of the code, we were able to get the total script runtime down to roughly __15 minutes__! With the speed increase, we moved on to make sure every table in the Cal-Access data dump had an appropriate Django model.
+By refactoring those parts of the code, we were able to get the total script runtime down to roughly __15 minutes__! With the speed increase, we moved on to make sure every table in the CAL-ACCESS data dump had an appropriate Django model.
 
 ## Lowering the Barrier to Entry with django-calaccess-campaign-browser
 
-We built `django-calaccess-raw-data` for folks who wanted to build applications on top of Cal-Access. It doesn't provide much abstraction, and still comes with a bring-your-own-analysis prerequisite, but it makes the database easier to consume. That said, we also wanted to build a secondary tool to help folks move more quickly. That's where `django-calaccess-campaign-browser` comes in. The campaign browser goes the next step and associates candidates with their campaign committees, which means you can get a snapshot of a politican's career on a single page. Installation is pretty simple too:
+We built `django-calaccess-raw-data` for folks who wanted to build applications on top of CAL-ACCESS. It doesn't provide much abstraction, and still comes with a bring-your-own-analysis prerequisite, but it makes the database easier to consume. That said, we also wanted to build a secondary tool to help folks move more quickly. That's where `django-calaccess-campaign-browser` comes in. The campaign browser goes the next step and associates candidates with their campaign committees, which means you can get a snapshot of a politican's career on a single page. Installation is pretty simple too:
 
 {% highlight bash %}
 $ pip install django-calaccess-campaign-browser
