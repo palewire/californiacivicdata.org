@@ -10,7 +10,7 @@ Hello world.
 
 We are the California Civic Data Coalition, a loosely coupled team of reporters and developers from the [Los Angeles Times Data Desk](http://www.latimes.com/local/datadesk/), [The Center for Investigative Reporting](http://cironline.org/) and Stanford's new [Computational Journalism Program](http://towcenter.org/blog/data-journalist-profile-cheryl-phillips-stanford-data-journalism/).
 
-Our aim is to make California campaign finance data easier for power users to access and analyze. Supercharged by a two-day code sprint sponsored by OpenNews, we are here to share two new open-source tools we're ready to release. 
+Our aim is to make California campaign finance data easier for power users to access and analyze. Supercharged by a two-day code sprint sponsored by OpenNews, we are ready to share two new open-source tools we're ready to release. 
 
  If you're curious about our app methodology, we suggest you read our sister post on ["pluggable data"](http://www.californiacivicdata.org/2014/09/24/pluggable-data/).
 
