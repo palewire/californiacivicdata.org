@@ -12,7 +12,7 @@ We are the California Civic Data Coalition, a loosely coupled team of reporters 
 
 Our aim: To make California's public data easier for power users to access. Even though we represent rival media outlets, we’d rather compete at analyzing the data than downloading and parsing it.
 
-Our inspiration: Raw data from CAL-ACCESS, the state of California’s campaign finance and lobbying activity database, is being published online for the first time.
+Our inspiration: Raw data from CAL-ACCESS, the state of California’s campaign finance and lobbying activity database, is [being published online](http://www.sos.ca.gov/prd/cal-access/) for the first time.
 
 Our opportunity:A two-day summit sponsored by OpenNews last month where we sprinted on two new open-source tools we're ready to release today.  
 
