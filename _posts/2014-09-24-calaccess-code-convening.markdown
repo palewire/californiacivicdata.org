@@ -10,16 +10,17 @@ Hello world.
 
 We are the California Civic Data Coalition, a loosely coupled team of reporters and developers from the [Los Angeles Times Data Desk](http://www.latimes.com/local/datadesk/), [The Center for Investigative Reporting](http://cironline.org/) and Stanford's new [Computational Journalism Program](http://towcenter.org/blog/data-journalist-profile-cheryl-phillips-stanford-data-journalism/).
 
-Our aim is to make California campaign finance data easier for power users to access and analyze. Even though we represent rival media outlets, we’d rather compete at analyzing the data than downloading and parsing it.
+Our aim is to make California's public data easier for power users to access and analyze. Even though we represent rival media outlets, we’d rather compete at analyzing the data than downloading and parsing it.
 
 So we gathered last month for a two-day summit sponsored by OpenNews where we sprinted on two new open-source tools we're ready to release today.  
 
- If you're curious about our app methodology, we suggest you read our sister post on ["pluggable data"](http://www.californiacivicdata.org/2014/09/24/pluggable-data/).
-
+They are:
 
 - [django-calaccess-raw-data](http://django-calaccess-campaign-browser.californiacivicdata.org/en/latest/): A Django app to refine, review and republish campaign finance data drawn from the California Secretary of State’s CAL-ACCESS database.
 
 - [django-calaccess-campaign-browser](https://github.com/california-civic-data-coalition/django-calaccess-lobbying-browser): A simple Django app to build lobbying activity data from the CAL-ACCESS database. It is reliant on django-calaccess-parser.
+
+Both are designed and packaged according to our "pluggable data" method, which you can read about at greater length [here](http://www.californiacivicdata.org/2014/09/24/pluggable-data/), 
 
 ## Getting Started
 
