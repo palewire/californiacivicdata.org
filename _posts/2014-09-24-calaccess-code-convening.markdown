@@ -20,7 +20,7 @@ They are:
 
 - [django-calaccess-campaign-browser](http://django-calaccess-campaign-browser.californiacivicdata.org/): A Django app to refine, review and republish campaign finance data drawn from the California Secretary of State’s CAL-ACCESS database
 
-Both are designed and packaged according to our "pluggable data" method, which you can read about at greater length [here](http://www.californiacivicdata.org/2014/09/24/pluggable-data/), 
+Both are designed and packaged according to our experimental "pluggable data" method, which you can read about at greater length [here](http://www.californiacivicdata.org/2014/09/24/pluggable-data/). But here's how to get hacking as soon as possible.
 
 ## Getting Started
 
