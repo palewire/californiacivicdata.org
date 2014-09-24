@@ -6,7 +6,11 @@ byline: "By [Aaron Williams](http://aboutaaron.com), [Agustin Armendariz](http:/
 published: true
 ---
 
-Supercharged by a two-day code sprint sponsored by OpenNews, reporters and developers from the [Los Angeles Times Data Desk](http://www.latimes.com/local/datadesk/), [The Center for Investigative Reporting](http://cironline.org/) and Stanford's new [Computational Journalism Program](http://towcenter.org/blog/data-journalist-profile-cheryl-phillips-stanford-data-journalism/) are premiering two tools:
+Hello world. 
+
+We are the California Civic Data Coalition, a loosely coupled team of reporters and developers from the [Los Angeles Times Data Desk](http://www.latimes.com/local/datadesk/), [The Center for Investigative Reporting](http://cironline.org/) and Stanford's new [Computational Journalism Program](http://towcenter.org/blog/data-journalist-profile-cheryl-phillips-stanford-data-journalism/).
+
+Supercharged by a two-day code sprint sponsored by OpenNews, we are here to share two new tools 
 
 - [django-calaccess-raw-data](http://django-calaccess-campaign-browser.californiacivicdata.org/en/latest/): A Django app to refine, review and republish campaign finance data drawn from the California Secretary of State’s CAL-ACCESS database.
 
