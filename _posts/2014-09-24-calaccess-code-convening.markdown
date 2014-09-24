@@ -102,11 +102,9 @@ $ python manage.py runserver
 
 ![homepage.png](/img/homepage.png)
 
-The campaign browser now provides a simple interface to look up individual filers and search for individual campaign contributions. You can search for a candidate and see all of their associated committees they created to run for a specific office. On top of that, you can pull of the individual committee see how much many came in and out of that campaign. And if you want the data for that specific committee, all you have to do is click the download tab and select your preferred format.
+The campaign browser now provides a simple interface to look up individual filers and search for individual campaign contributions. You can search for a candidate and see all of their associated committees they created to run for a specific office. And if you want the data for that specific committee, all you have to do is click the download tab and select your preferred format.
 
 ![How the calaccess campaign browser interface works](/img/ccdc-example.gif)
-
-_The campaign browser makes it very simple to search for a candidate and download their associated data._
 
 While the browser is nice, we imagine there are journalists who just want this data in a CSV they can load into Access, Navicat, Excel or their preferred tool, and do analysis from there. For those folks, we created a Django management command that will export the campaign-browser data into three CSVs with all the associated summaries, expenditures and contributions.
 
