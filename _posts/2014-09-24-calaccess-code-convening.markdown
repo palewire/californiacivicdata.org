@@ -43,7 +43,20 @@ INSTALLED_APPS = (
 Currently we only support MySQL databases that allow bulk loading via ``LOAD DATA INFILE`` (that might sound annoying but it's pretty handy), so make sure you have that configured in ``settings.py`` as well. 
 
 {% highlight python %}
-
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'my_calaccess_db',
+        'USER': 'username',
+        'PASSWORD': 'password',
+        'HOST': 'localhost',
+        'PORT': '3306',
+        # Here's the thing we're talking about
+        'OPTIONS': {
+            'local_infile': 1,
+        }
+    }
+}
 {% endhighlight %}
 
 Now, sync your database and download that data:
