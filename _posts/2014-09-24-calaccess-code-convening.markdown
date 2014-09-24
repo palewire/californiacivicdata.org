@@ -24,7 +24,7 @@ Both are designed and packaged according to our experimental "pluggable data" me
 
 ## Plugging in
 
-Browse the [California Civic Data Coalition](https://github.com/california-civic-data-coalition/) GitHub page for app details and documentation on installation and hacking. Installation is simple. Assuming you have a Django project already setup:
+Assuming you have a Django project already setup, installation is simple. 
 
 {% highlight bash %}
 $ pip install django-calaccess-raw-data
