@@ -12,7 +12,7 @@ We are the California Civic Data Coalition, a loosely coupled team of reporters 
 
 Our aim is to make California's public data easier for power users to access and analyze. Even though we represent rival media outlets, we’d rather compete at analyzing the data than downloading and parsing it.
 
-So we gathered last month for a two-day summit sponsored by OpenNews where we sprinted on two new open-source tools we're ready to release today.  
+We gathered for the first time last month for a two-day summit sponsored by OpenNews where we sprinted on two new open-source tools we're ready to release today.  
 
 They are:
 
