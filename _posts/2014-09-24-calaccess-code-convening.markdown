@@ -110,12 +110,11 @@ This code base is still a work in progress, however, and its analysis should be 
 
 ## Where you come in
 
-This milestone represents a milestone for our team, but we still have a lot of work to do. This includes, but is not limited to:
+This release represents a milestone for our team, but we still have a lot of work to do. This includes, but is not limited to:
 
-- Bulletproofing the install process
-- Adding more documentation
-- Regularly generating the flat tables and hosting them online
-- Create project for lobbying reports (This is already underway at [django-calaccess-lobbying-browser](https://github.com/california-civic-data-coalition/django-calaccess-lobbying-browser))
+- Bulletproofing the analysis process of the campaign browser
+- Expanding our documentation to more fuller explain the contents of the raw CAL-ACCESS database
+-  (This is already underway at [django-calaccess-lobbying-browser](https://github.com/california-civic-data-coalition/django-calaccess-lobbying-browser))
 - Getting ready for November elections
 
 Whether you're a California journalist or developer passionate about our mission, or a curious person who's looking to contribute, we'd love your help. Keep an eye out on the [California Civic Data Coalition website](http://www.californiacivicdata.org/) for more updates on our progress.
