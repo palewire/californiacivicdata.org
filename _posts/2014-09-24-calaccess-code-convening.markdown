@@ -12,7 +12,7 @@ After several months of internal work and a two-day code sprint, reporters and d
 
 - [django-calaccess-campaign-browser](https://github.com/california-civic-data-coalition/django-calaccess-lobbying-browser): A simple Django app to build lobbying activity data from the CAL-ACCESS database. It is reliant on django-calaccess-parser.
 
-Both tools aim to make California campaign finance data easier to consume and build upon. If you're curious about our app methodology, we suggest you read our sister post on ["pluggable data"](http://www.californiacivicdata.org/2014/09/24/pluggable-data/).
+Both aim to make California campaign finance data easier to consume and build upon. If you're curious about our app methodology, we suggest you read our sister post on ["pluggable data"](http://www.californiacivicdata.org/2014/09/24/pluggable-data/).
 
 ## Getting Started
 
