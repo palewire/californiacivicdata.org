@@ -112,7 +112,7 @@ This code base is still a work in progress, however, and its analysis should be 
 
 ## Where you come in
 
-This release represents a milestone for our team, but we still have a lot of work to do. This includes, but is not limited to:
+This release represents a milestone for our team, but we still have a lot of work to do. This includes but is not limited to:
 
 - Bulletproofing the analysis process of the campaign browser
 - Expanding our documentation to more fully explain the contents of the raw CAL-ACCESS database
