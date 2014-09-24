@@ -106,9 +106,9 @@ The campaign browser now provides a simple interface to look up individual filer
 
 ![How the calaccess campaign browser interface works](/img/ccdc-example.gif)
 
+This code base is still a work in progress, however, and its analysis should be considered as provisional until it is further tested and debugged. We're working better map out the state's complex system and bulletproof our figures, but we're not there yet. 
 
-
-## Going Forward
+## Where you come in
 
 This project represents a huge milestone for California open data advocates and journalists looking to watch how money influences politics in the state. While we're pleased to share what we've done with the world, we still have a lot of work to do. This includes, but is not limited to:
 
