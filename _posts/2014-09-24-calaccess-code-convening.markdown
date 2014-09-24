@@ -42,6 +42,10 @@ INSTALLED_APPS = (
 
 Currently we only support MySQL databases that allow bulk loading via ``LOAD DATA INFILE`` (that might sound annoying but it's pretty handy), so make sure you have that configured in ``settings.py`` as well. 
 
+{% highlight python %}
+
+{% endhighlight %}
+
 Now, sync your database and download that data:
 
 {% highlight bash %}
