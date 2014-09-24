@@ -75,7 +75,7 @@ You've just installed 76 database tables and nearly 35 million records, includin
 
 We built `django-calaccess-raw-data` for folks who wanted to build applications on top of CAL-ACCESS. It doesn't provide much abstraction, and still comes with a bring-your-own-analysis prerequisite, but it makes the database easier to consume. 
 
-We also wanted to build a secondary tool to help folks move more quickly. That's where `django-calaccess-campaign-browser` comes in. It goes the next step and begins to clean, regroup, filter and transform the massive, hairy state database into something more legible and recognizable.. Installation is just as simple too:
+We also wanted to build a secondary tool to help folks move more quickly. That's where `django-calaccess-campaign-browser` comes in. It goes the next step and begins to clean, regroup, filter and transform the massive, hairy state database into something more legible. Installation is just as simple too:
 
 {% highlight bash %}
 $ pip install django-calaccess-campaign-browser
