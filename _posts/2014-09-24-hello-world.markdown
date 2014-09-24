@@ -10,7 +10,7 @@ Hello world.
 
 We are the California Civic Data Coalition, a loosely coupled team of reporters and developers from the [Los Angeles Times Data Desk](http://www.latimes.com/local/datadesk/), [The Center for Investigative Reporting](http://cironline.org/) and Stanford's new [Computational Journalism Program](http://towcenter.org/blog/data-journalist-profile-cheryl-phillips-stanford-data-journalism/).
 
-Our aim: To make California's public data easier for power users to access and analyze. Even though we represent rival media outlets, we’d rather compete at analyzing the data than downloading and parsing it.
+Our aim: To make California's public data easier for power users to access. Even though we represent rival media outlets, we’d rather compete at analyzing the data than downloading and parsing it.
 
 Our inspiration: Raw data from CAL-ACCESS, the state of California’s campaign finance and lobbying activity database, is being published online for the first time.
 
