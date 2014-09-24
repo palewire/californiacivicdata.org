@@ -26,7 +26,7 @@ Both are designed and packaged according to our experimental "pluggable data" me
 
 ## Plugging in
 
-Assuming you have a Django project already setup, installation is simple. 
+Assuming you have a [Django project](https://www.djangoproject.com/) already setup, installation is simple. 
 
 {% highlight bash %}
 $ pip install django-calaccess-raw-data
