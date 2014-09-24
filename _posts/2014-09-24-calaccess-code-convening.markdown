@@ -106,13 +106,7 @@ The campaign browser now provides a simple interface to look up individual filer
 
 ![How the calaccess campaign browser interface works](/img/ccdc-example.gif)
 
-While the browser is nice, we imagine there are journalists who just want this data in a CSV they can load into Access, Navicat, Excel or their preferred tool, and do analysis from there. For those folks, we created a Django management command that will export the campaign-browser data into three CSVs with all the associated summaries, expenditures and contributions.
 
-{% highlight bash %}
-$ python manage.py exportcalaccesscampaignfinance
-{% endhighlight %}
-
-We hope to create a regularly updated page with these flat tables hosted for folks who don't want to install the whole Django project just to get the flat tables. 
 
 ## Going Forward
 
