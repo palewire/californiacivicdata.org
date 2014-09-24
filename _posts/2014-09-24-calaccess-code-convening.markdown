@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Introducing django-calaccess-raw-data and django-calaccess-campaign-browser "
+title: Introducing the California Civic Data Coalition
 deckhead: Two Django applications made to make California campaign finance data easier
 byline: "By [Aaron Williams](http://aboutaaron.com), [Agustin Armendariz](http://www.twitter.com/agustin_NYT) and [Ben Welsh](http://palewi.re/who-is-ben-welsh/)"
 published: true
