@@ -14,7 +14,7 @@ Our aim: Make California's public data easier for power users to access and anal
 
 Our inspiration: Raw data from CAL-ACCESS, the state of California’s campaign finance and lobbying activity database, is being published online for the first time.
 
-We gathered for the first time last month for a two-day summit sponsored by OpenNews where we sprinted on two new open-source tools we're ready to release today.  
+So we gathered for the first time last month for a two-day summit sponsored by OpenNews where we sprinted on two new open-source tools we're ready to release today.  
 
 They are:
 
