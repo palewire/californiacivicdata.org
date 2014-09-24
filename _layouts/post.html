@@ -1,6 +1,23 @@
 <!doctype HTML>
 <html lang="en">
-<head>{% include head.html %}</head>
+<head>
+    {% include head.html %}
+    <meta name="date" content="{{ page.date }}" />
+
+    <meta property="og:site_name" content="www.californiacivicdata.org"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="{{ page.title }}"/>
+    <meta property="og:image" content="/img/logo.png"/>
+    <meta property="og:description" content="{{ page.deckhead }}"/>
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image:src" content="/img/logo.png">
+    <meta name="twitter:site" content="@latimes">
+    <meta name="twitter:title" content="{{ object.title }}">
+    <meta name="twitter:description" content="{{ page.deckhead }}"/>
+
+    <link rel="image_src" type="image/jpeg" href="/img/logo.png" />
+</head>
 <body>
     {% include header.html %}
     <div class="container content">
