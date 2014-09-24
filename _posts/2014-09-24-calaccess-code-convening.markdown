@@ -22,7 +22,7 @@ They are:
 
 Both are designed and packaged according to our experimental "pluggable data" method, which you can read about at greater length [here](http://www.californiacivicdata.org/2014/09/24/pluggable-data/). But here's how to get hacking as soon as possible.
 
-## Getting started
+## Plugging in
 
 Browse the [California Civic Data Coalition](https://github.com/california-civic-data-coalition/) GitHub page for app details and documentation on installation and hacking. Installation is simple. Assuming you have a Django project already setup:
 
