@@ -14,7 +14,7 @@ Our aim: To make California's public data easier for power users to access. Even
 
 Our inspiration: Raw data from CAL-ACCESS, the state of California’s campaign finance and lobbying activity database, is [being published online](http://www.sos.ca.gov/prd/cal-access/) for the first time.
 
-Our opportunity:A two-day summit sponsored by OpenNews last month where we sprinted on two new open-source tools we're ready to release today.  
+Our opportunity: A two-day summit sponsored by OpenNews last month where we sprinted on two new open-source tools we're ready to release today.  
 
 They are:
 
@@ -112,13 +112,13 @@ This code base is still a work in progress, however, and its analysis should be 
 
 ## Where you come in
 
-This release represents a milestone for our team, but we still have a lot of work to do. This includes, but is not limited to:
+This release represents a milestone for our team, but we still have a lot of work to do. This includes but is not limited to:
 
 - Bulletproofing the analysis process of the campaign browser
 - Expanding our documentation to more fully explain the contents of the raw CAL-ACCESS database
 - Bringing the campaign browser's approach to the lobbying activity data also provided by CAL-ACCESS (Already underway but far from complete at [django-calaccess-lobbying-browser](https://github.com/california-civic-data-coalition/django-calaccess-lobbying-browser))
 - And, most importantly, generating journalism that demonstrates the power of automating away access to this valuable data set.
 
-Whether you're a California journalist or developer passionate about our mission, or a curious person who's looking to contribute, we'd got pplenty](https://github.com/california-civic-data-coalition/django-calaccess-campaign-browser/issues) [of tickets](https://github.com/california-civic-data-coalition/django-calaccess-campaign-browser/issues) for you. 
+Whether you're a California journalist or developer passionate about our mission, or a curious person who's looking to contribute, we'd got [plenty](https://github.com/california-civic-data-coalition/django-calaccess-campaign-browser/issues) [of tickets](https://github.com/california-civic-data-coalition/django-calaccess-campaign-browser/issues) for you. 
 
 Keep an eye out on the [California Civic Data Coalition website](http://www.californiacivicdata.org/) for more updates on our progress.
