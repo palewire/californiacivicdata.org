@@ -119,6 +119,6 @@ This release represents a milestone for our team, but we still have a lot of wor
 - Bringing the campaign browser's approach to the lobbying activity data also provided by CAL-ACCESS (Already underway but far from complete at [django-calaccess-lobbying-browser](https://github.com/california-civic-data-coalition/django-calaccess-lobbying-browser))
 - And, most importantly, generating journalism that demonstrates the power of automating away access to this valuable data set.
 
-Whether you're a California journalist or developer passionate about our mission, or a curious person who's looking to contribute, we'd got pplenty](https://github.com/california-civic-data-coalition/django-calaccess-campaign-browser/issues) [of tickets](https://github.com/california-civic-data-coalition/django-calaccess-campaign-browser/issues) for you. 
+Whether you're a California journalist or developer passionate about our mission, or a curious person who's looking to contribute, we'd got [plenty](https://github.com/california-civic-data-coalition/django-calaccess-campaign-browser/issues) [of tickets](https://github.com/california-civic-data-coalition/django-calaccess-campaign-browser/issues) for you. 
 
 Keep an eye out on the [California Civic Data Coalition website](http://www.californiacivicdata.org/) for more updates on our progress.
