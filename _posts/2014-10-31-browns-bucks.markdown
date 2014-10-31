@@ -16,7 +16,7 @@ The story would not have been possible without bulk data from the state's CAL-AC
 
 Using our tools, we were able to rapidly develop a custom application on top of CCDC's open source foundation that:
 
-1. Discovered that nearly 20% of Brown's campaign contributions have come in six and seven figure checks from the state Democratic Party, blurring the original source of more than $4.7 million funding his campaign.
+1. Discovered that nearly 20% of Brown's campaign contributions have come in large blocks of money from the state Democratic Party, blurring the original source of more than $4.7 million funding his campaign.
 2. Documented that no other gubernatorial candidate of either party has had so much money passed on from a party since the CAL-ACCESS database came online.
 3. Identified a series of special interests that act as "double donors," contributing hundreds of thousands of dollars more to the Democratic Party after giving the legal limit of $54,400 directly to Brown's campaign fund.
 
