@@ -10,7 +10,7 @@ Michael Finnegan and I dug deep into Gov. Jerry Brown's fundraising effort for a
 
 What we found is that in his drive for a fourth and final term as California governor, Brown has transformed from one of the leading critics of money in politics to the master of a machine that routinely draws on six-figure checks from lobbyists and corporations.
 
-The story would not have been possible without bulk data from the state's CAL-ACCESS campaign finance database and CCDC's [django-calaccess-campaign-browser](http://django-calaccess-campaign-browser.californiacivicdata.org/en/latest/).
+The story would not have been possible without [bulk data](http://www.sos.ca.gov/prd/cal-access/) from the state's CAL-ACCESS campaign finance database and CCDC's [django-calaccess-campaign-browser](http://django-calaccess-campaign-browser.californiacivicdata.org/en/latest/).
 
 [The state's website](http://cal-access.ss.ca.gov/) offers some good options for exploring the money from outside interests that floods the statehouse in Sacramento, but if you want to conduct a sophisticated analysis it is no substitute for the raw data.
 
