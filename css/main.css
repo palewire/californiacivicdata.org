@@ -25,6 +25,9 @@ td.center, th.center{
     line-height: 27px;
     margin: 5px 0;
 }
+.post li {
+    margin: 8px 0;
+}
 /* Header and nav */
 header, footer {
     padding: 5px 0 0 0 !important;
