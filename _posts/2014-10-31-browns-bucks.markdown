@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "CAL-ACCESS in action"
-deckhead: "Read the Los Angeles Times analysis that couldn't have happened with our open-source tools"
+deckhead: "Read the Los Angeles Times analysis that couldn't have happened without our open-source tools"
 byline: "By [Ben Welsh](http://palewi.re/who-is-ben-welsh/)"
 published: true
 ---
