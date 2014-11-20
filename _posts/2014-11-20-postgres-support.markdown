@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "CAL-ACCESS app now supports PostgreSQL"
-deckhead: "Version 0.1.0 of django-calaccess-raw-data can now connect to the popular database backend"
+deckhead: "Version 0.1.0 of django-calaccess-raw-data can connect to the popular database backend"
 byline: "By [Ben Welsh](http://palewi.re/who-is-ben-welsh/)"
 published: false
 ---
