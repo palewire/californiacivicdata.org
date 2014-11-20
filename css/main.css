@@ -81,6 +81,7 @@ img {
 }
 .post h3.deckhead {
     margin-top: 10px;
+    line-height:130%;
 }
 .byline p, .pubdate p {
     font-size: 15px;
