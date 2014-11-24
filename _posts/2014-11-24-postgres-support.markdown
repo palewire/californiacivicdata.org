@@ -3,7 +3,7 @@ layout: post
 title: "CAL-ACCESS app now supports PostgreSQL"
 deckhead: "Version 0.1.0 of django-calaccess-raw-data can connect to the popular database backend"
 byline: "By [Ben Welsh](http://palewi.re/who-is-ben-welsh/)"
-published: false
+published: true
 ---
 
 A new version of [our software](http://django-calaccess-raw-data.californiacivicdata.org/en/latest/) for downloading campaign finance and lobbying data now supports the popular [PostgreSQL](http://en.wikipedia.org/wiki/PostgreSQL) database backend, thanks to significant contributions from a new volunteer.
