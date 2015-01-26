@@ -57,5 +57,5 @@ $ fab ec2bootstrap
 {% endhighlight %}
 
 All three projects are experimental and in the early stages of development. The aim is to
-make it easier for others to install, explore and improve our code base, but we know
-the code isn't perfect and we want for feedback from hackers like you to make it better.
+make it easier for others to install, explore and improve our code base. But we know
+the code isn't perfect and we want for feedback from hackers like you to make it better. So break it. Please.
