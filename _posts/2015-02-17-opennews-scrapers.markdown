@@ -6,7 +6,7 @@ byline: "By [Ben Welsh](http://palewi.re/who-is-ben-welsh/)"
 published: true
 ---
 
-A new release of [our software](http://django-calaccess-campaign-browser.californiacivicdata.org/en/latest/) for analyzing the millions of dollars spent to influence California election now features crucial data withheld by the state.
+A new release of [our software](http://django-calaccess-campaign-browser.californiacivicdata.org/en/latest/) for analyzing the millions of dollars spent to influence California elections now features crucial data withheld by the state.
 
 The upgrade comes thanks to members of [the 2015 class](http://opennews.org/what/fellowships/2015meet/) of Knight-Mozilla OpenNews fellows, who [joined us last month](http://opennews.org/blog/fellowship-onboarding-ccdc/) in Los Angeles to improve our open-source system for downloading and parsing the California Secretary of State's [CAL-ACCESS database](http://cal-access.sos.ca.gov/).
 
