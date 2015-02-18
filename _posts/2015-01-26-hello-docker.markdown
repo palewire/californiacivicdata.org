@@ -7,12 +7,11 @@ published: true
 ---
 
 This morning we're releasing a set of open-source packages that aim to make it easier
-to deploy [our tools](http://localhost:4000/2014/09/24/hello-world/) for acquiring and analyzing CAL-ACCESS, the California Secretary of State's
-campaign finance database.
+to deploy [our tools](http://www.californiacivicdata.org/2014/09/24/hello-world/) for acquiring and analyzing CAL-ACCESS, the California Secretary of State's campaign finance database.
 
 **[django-calaccess-project-template](https://github.com/california-civic-data-coalition/django-calaccess-project-template)** is a custom template for initializing a preconfigured Django project with our applications already installed and ready to roll.
 
-It works by taking advantage of the underused templating options deep within Django's [``startproject``](https://docs.djangoproject.com/en/1.7/ref/django-admin/#startproject-projectname-destination) command. 
+It works by taking advantage of the underused templating options deep within Django's [``startproject``](https://docs.djangoproject.com/en/1.7/ref/django-admin/#startproject-projectname-destination) command.
 
 {% highlight bash %}
 # Create a new empty repo
