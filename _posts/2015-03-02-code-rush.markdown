@@ -1,0 +1,24 @@
+---
+layout: post
+title: Join the California Code Rush at NICAR 2015
+deckhead: "A challenge to hacks, hackers and newbies of all ages"
+byline: "By [Agustin Armendariz](http://www.twitter.com/agustin_NYT), Cheryl Philliips, [Ben Welsh](http://palewi.re/who-is-ben-welsh/) and [Aaron Williams](http://aboutaaron.com)"
+published: true
+---
+
+Outline
+-------
+
+* Our team is at the Atlanta Marriott for the 2015 NICAR conference.
+* We brought dozens of tickets with us from our CAL-ACCESS project
+* Close a ticket, win a prize
+* If you've never contributed to an open source project before, this is your chance. Find us and we'll guide you through the process.
+* If you have skills, see if you can conquer one of our harder tickets to win a bigger prize.
+* The prizes (with photos)
+** Small: Sticker
+** Medium: Shirt
+** Large: Nuggets
+* Any large prizes remaining will be raffled off
+* Who is our team? Names and photos.
+* Where can you find us? Give a general location and mention that we'll be blasting on Twitter under #NICAR15
+* Thumbnail history of the CAL-ACCESS project, where it comes from, why it's important and what our previous events have been
