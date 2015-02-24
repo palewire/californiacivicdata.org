@@ -21,4 +21,7 @@ Outline
 * Any large prizes remaining will be raffled off
 * Who is our team? Names and photos.
 * Where can you find us? Give a general location and mention that we'll be blasting on Twitter under #NICAR15
-* Thumbnail history of the CAL-ACCESS project, where it comes from, why it's important and what our previous events have been
+* Thumbnail history of the CAL-ACCESS project, where it comes from, why it's important and what our previous events have been.
+* Link to a tutorial that shows you how to get the package setup on your local computer.
+** We will need a cloud database for the people who don't have MySQL installed
+** And maybe a MySQL backup with a curl install script for people who want to install it locally.
