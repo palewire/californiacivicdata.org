@@ -3,7 +3,7 @@ layout: post
 title: Join the California Code Rush at NICAR 2015
 deckhead: "A challenge to hacks, hackers and newbies of all ages"
 byline: "By [Ben Welsh](http://palewi.re/who-is-ben-welsh/)"
-image: "/img/coderush.png"
+image: "http://www.californiacivicdata.org/img/coderush.png"
 published: true
 ---
 
