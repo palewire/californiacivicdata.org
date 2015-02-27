@@ -28,7 +28,7 @@ Close a ticket of medium difficulty and you'll walk away with a custom t-shirt. 
 * A full-sized California state flag
 * California-themed street shirts and hoodies
 * A bag of Blue Bottle coffee beans
-* T-shirt jerseys for Yaisel Puig and Billy "Country Breakfast" Butler
+* T-shirt jerseys for Yasiel Puig and Billy "Country Breakfast" Butler
 * A bottle of Habanero hot sauce
 * One of an array of California craft brews
 
@@ -39,10 +39,10 @@ But you don't have to be in Atlanta to win a prize. Close a ticket at any time b
 Dozens of tickets are waiting for you in our two active applications. Grab one to get going.
 
 * [django-calaccess-raw-data](https://github.com/california-civic-data-coalition/django-calaccess-raw-data/issues) A backend app for downloading, extracting and loading the raw data from the state.
-* [django-calaccess-campaign-browser](https://github.com/california-civic-data-coalition/django-calaccess-campaign-browser/issues) A complimentary app for refining, reviewing and publishing the raw campaign finance data.
+* [django-calaccess-campaign-browser](https://github.com/california-civic-data-coalition/django-calaccess-campaign-browser/issues) A complementary app for refining, reviewing and publishing the raw campaign finance data.
 
 Many of the small ones, particular the ones asking for [documentation](https://github.com/california-civic-data-coalition/django-calaccess-campaign-browser/issues?q=is%3Aopen+is%3Aissue+label%3Adocumentation), won't require you to install any software. But if you take on something big you'll need to download the code [as described here](http://django-calaccess-campaign-browser.californiacivicdata.org/en/latest/howtocontribute.html).
 
-Finally, we know this whole endeavor is an wacky experiment.  We know it won't go perfectly. If you think it's a lame idea, feel free to <a href="mailto:ben.welsh@gmail.com">tell us so</a>.
+Finally, we know this whole endeavor is a wacky experiment.  We know it won't go perfectly. If you think it's a lame idea, feel free to <a href="mailto:ben.welsh@gmail.com">tell us so</a>.
 
 We do hope it gives our team a chance to have fun with you at the conference, and perhaps introduce some people to the ins and outs of open source. See you in Atlanta!
