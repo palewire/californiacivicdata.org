@@ -9,7 +9,7 @@ published: true
 
 The California Civic Data Coalition needs you.
 
-Our team is attending the [annual National Institute for Computer-Assisted Reporting Conference](http://ire.org/events-and-training/event/1494/) in Atlanta. And we're bringing with us dozens of open tickets, in all shapes and sizes, that can help us in our continuing quest to master [CAL-ACCESS](/2014/09/24/hello-world/), the golden state’s campaign cash database.
+Our team is attending the annual National Institute for Computer-Assisted Reporting Conference [in Atlanta](http://ire.org/events-and-training/event/1494/). And we're bringing with us a to-do list with dozens of tasks, in all shapes and sizes, to continue our quest to master [CAL-ACCESS](/2014/09/24/hello-world/), the golden state’s campaign cash database.
 
 <img src="/img/coderush.png" height="150" style="margin: 8px 0 0 10px; float:right;">
 
