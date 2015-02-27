@@ -2,26 +2,47 @@
 layout: post
 title: Join the California Code Rush at NICAR 2015
 deckhead: "A challenge to hacks, hackers and newbies of all ages"
-byline: "By [Agustin Armendariz](http://www.twitter.com/agustin_NYT), Cheryl Philliips, [Ben Welsh](http://palewi.re/who-is-ben-welsh/) and [Aaron Williams](http://aboutaaron.com)"
+byline: "By [Ben Welsh](http://palewi.re/who-is-ben-welsh/)"
+image: "/img/coderush.png"
 published: true
 ---
 
-Outline
--------
+The California Civic Data Coalition needs you.
 
-* Our team is at the Atlanta Marriott for the 2015 NICAR conference.
-* We brought dozens of tickets with us from our CAL-ACCESS project
-* Close a ticket, win a prize
-* If you've never contributed to an open source project before, this is your chance. Find us and we'll guide you through the process.
-* If you have skills, see if you can conquer one of our harder tickets to win a bigger prize.
-* The prizes (with photos)
-** Small: Sticker
-** Medium: Shirt
-** Large: Nuggets
-* Any large prizes remaining will be raffled off
-* Who is our team? Names and photos.
-* Where can you find us? Give a general location and mention that we'll be blasting on Twitter under #NICAR15
-* Thumbnail history of the CAL-ACCESS project, where it comes from, why it's important and what our previous events have been.
-* Link to a tutorial that shows you how to get the package setup on your local computer.
-** We will need a cloud database for the people who don't have MySQL installed
-** And maybe a MySQL backup with a curl install script for people who want to install it locally.
+Our team is attending the [annual Computer-Assisted Reporting Conference](http://ire.org/events-and-training/event/1494/) in Atlanta. And we're bringing with us dozens of [open](https://github.com/california-civic-data-coalition/django-calaccess-campaign-browser/issues) [tickets](https://github.com/california-civic-data-coalition/django-calaccess-raw-data/issues), in all shapes and sizes, that can help us in our continuing quest to master [CAL-ACCESS](/2014/09/24/hello-world/), the golden state’s campaign cash database.
+
+<img src="/img/coderush.png" height="150" style="margin: 8px 0 0 10px; float:right;">
+
+We're asking you to close them out.
+
+We're calling it the California Code Rush. It’s a simple game. Submit a patch, win a prize. The bigger the challenge, the bigger the prize.
+
+**Don't worry if you’re new to open source.** Spend some time with our team at the Atlanta Marriott Marquis and we'll guide you through your first contribution, from fork to patch to pull.
+
+An easy ticket won't take longer than 20 minutes, and you'll walk away will a [limited-edition sticker](/img/coderush.png) designed just for this event by our man, [Thomas Suh Lauder](https://twitter.com/thomas06037). Plus you'll be entered in a drawing for one of the larger prizes.
+
+<img src="/img/swaglode.jpg" style="border: 1px solid black;">
+
+Close a ticket of medium difficulty and you'll walk away with a custom t-shirt. Take down one tagged as large and you can pick a prize from a motherlode of swag that includes:
+
+* A full-sized California state flag
+* California-themed street shirts and hoodies
+* A bag of Blue Bottle coffee beans
+* T-shirt jerseys for Yaisel Puig and Billy "Country Breakfast" Butler
+* A bottle of Habanero hot sauce
+* One of an array of California craft brews
+
+Our whole crew will converge on the conference commons [Thursday March 5 at 1:30 p.m.](http://ire.org/events-and-training/event/1494/1829/) to spend the afternoon hacking. Meet us there to learn more and get involved. Or find us around the conference and we'll help you start in. We'll be pitching a tent during our free time and blasting the location on Twitter with the hashtag [#NICAR15](https://twitter.com/search?f=realtime&q=%23NICAR15&src=tyah).
+
+But you don't have to be in Atlanta to win a prize. Close a ticket at any time between now and the conference's close on March 8 and it will soon be in the mail.
+
+Dozens of tickets are waiting for you in our two active applications. Grab one to get going.
+
+* [django-calaccess-raw-data](https://github.com/california-civic-data-coalition/django-calaccess-raw-data/issues) A backend app for downloading, extracting and loading the raw data from the state.
+* [django-calaccess-campaign-browser](https://github.com/california-civic-data-coalition/django-calaccess-campaign-browser/issues) A complimentary app for refining, reviewing and publishing the raw campaign finance data.
+
+Many of the small ones, particular the ones asking for [documentation](https://github.com/california-civic-data-coalition/django-calaccess-campaign-browser/issues?q=is%3Aopen+is%3Aissue+label%3Adocumentation), won't require you to install any software. But if you take on something big you'll need to download the code [as described here](http://django-calaccess-campaign-browser.californiacivicdata.org/en/latest/howtocontribute.html).
+
+Finally, we know this whole endeavor is an wacky experiment.  We know it won't go perfectly. If you think it's a lame idea, feel free to <a href="mailto:ben.welsh@gmail.com">tell us so</a>.
+
+We do hope it gives our team a chance to have fun with you at the conference, and perhaps introduce some people to the ins and outs of open source. See you in Atlanta!
