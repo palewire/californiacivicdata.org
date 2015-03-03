@@ -19,7 +19,7 @@ We're calling it the California Code Rush. It’s a simple game. Submit a patch,
 
 **Don't worry if you’re new to open source.** Spend some time with our team at the Atlanta Marriott Marquis and we'll guide you through your first contribution, from fork to patch to pull.
 
-An easy ticket won't take longer than 20 minutes, and you'll walk away with a [limited-edition sticker](/img/coderush.png) designed just for this event by our man, [Thomas Suh Lauder](https://twitter.com/thomas06037). Plus you'll be entered in a drawing for one of the larger prizes.
+An easy ticket won't take longer than 20 minutes, and you'll walk away with a [limited-edition sticker](/img/coderush.png). (They were designed just for this event by our man [Thomas Suh Lauder](https://twitter.com/thomas06037), using his revolutionary aesthetic, "Flatmorphic Design.") Plus you'll be entered in a drawing for one of the larger prizes.
 
 <img src="/img/swaglode.jpg" style="border: 1px solid black;">
 
