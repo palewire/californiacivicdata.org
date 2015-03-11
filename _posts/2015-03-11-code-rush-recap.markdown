@@ -11,7 +11,7 @@ Last week our team converged on the annual National Institute for Computer-Assis
 
 <img alt="California Code Rush logo" title="California Code Rush logo" src="/img/coderush.png" height="150" style="margin: 6px 0 6px 10px; float:right;">
 
-The pitch was simple. Submit a patch, win a prize. The bigger the challenge, the bigger the prize. We called it the [California Code Rush](http://localhost:4000/2015/02/26/code-rush/).
+The pitch was simple. Submit a patch, win a prize. The bigger the challenge, the bigger the prize. We called it the [California Code Rush](/2015/02/26/code-rush/).
 
 We didn't know what to expect. Where would we set up? Would anyone pay attention? Could we convince busy conference goers to sit down and spend even a few minutes with our crappy code?
 
