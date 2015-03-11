@@ -48,7 +48,7 @@ Five lessons
 
 **01. We had two audiences.** One of the things that makes NICAR great is that it brings together a wide variety of people with a range of skills and interests.
 
-We were able to connect to two different groups: Beginners curious to learn how GitHub and open source works; and seasoned hackers who want to flex their muscles.
+We were able to connect to two different groups: Beginners curious to learn how GitHub and open source works; and seasoned hackers who wanted to flex their muscles.
 
 **02. We could serve both.** In hindsight, the most important thing we did was arrive at the conference with dozens of tickets already defined.
 
