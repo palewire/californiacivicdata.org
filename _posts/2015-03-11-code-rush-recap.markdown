@@ -64,6 +64,6 @@ Most eventually wandered off after landing their first commit and the space tran
 
 **04. Hallway conversations often converted into one-on-one instruction.** One of the best features of NICAR is spending time chatting in the hallway. The open-ended design of the contest allowed us to bring up the topic in casual conversation and, if the other person was interested, sit down and knock out a patch right there.
 
-**05. It never hurts to ask. People will surprise you.** You shouldn't underate the intrinisic appeal of public-service software projects. People like doing good things, and open source presents a great opportunity to help them do it. If you have a new project, file a dozen tickets and see who shows up.
+**05. It never hurts to ask. People will surprise you.** You shouldn't underate the intrinisic appeal of public-service software projects. People like doing good things and open source presents a great opportunity to help them do it. If you have a new project, file a dozen tickets and see who shows up.
 
 On that topic, we've still got [plenty of tickets left](https://github.com/california-civic-data-coalition/django-calaccess-raw-data/issues). Close one this week and we will send you one of our remaining [limited-edition stickers](/img/coderush.png).
