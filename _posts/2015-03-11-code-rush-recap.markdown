@@ -29,7 +29,7 @@ Others contributions were large, experienced developers landing significant cont
 * [Eric Richardson](http://ewr.is/) of Southern California Public Radio developed a tool to [slice sample data](https://github.com/california-civic-data-coalition/django-calaccess-raw-data/pull/199) for unit tests.
 * Vox's [Casey Miller](http://caseymmiller.com/) created [custom icons](https://github.com/california-civic-data-coalition/django-calaccess-campaign-browser/commit/79339e2b31b167211966b0c318198a65f2093106) for each political party.
 * [Matt Montgomery](https://github.com/mattmontgomery) of Deseret Digital Media [improved the logging](https://github.com/california-civic-data-coalition/django-calaccess-raw-data/pull/183) of data discarded during the database loading routine.
-* [Justin Myers](http://www.justinmyers.net/) at The Chronicle provided [Python 3 support](https://github.com/california-civic-data-coalition/django-calaccess-raw-data/pull/220#issuecomment-78315523).
+* [Justin Myers](http://www.justinmyers.net/) of the Associated Press provided [Python 3 support](https://github.com/california-civic-data-coalition/django-calaccess-raw-data/pull/220#issuecomment-78315523).
 
 It was exciting to work with so many smart people. But the real highlight came Saturday night.
 
