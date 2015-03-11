@@ -130,3 +130,8 @@ hr {
     .bigbox p { font-size: 16px; line-height:22px; }
     .projectlist p { font-size: 16px; line-height: 22px; }
 }
+figcaption {
+    font-style: italic;
+    font-size: 12px;
+    text-align: right;
+}
