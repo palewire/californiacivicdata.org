@@ -22,9 +22,9 @@ But, as usual, the NICAR crowd came through. By the end of the weekend, our mova
     <figcaption>Photo by <a href="https://twitter.com/macdiva">Chrys Wu</a></figcaption>
 </figure>
 
-Most patches were small, newbies making their first ever open-source commit by improving our documentation of the state's massive database.
+Most patches were small, from newbies making their first ever open-source commit by improving our documentation of the state's massive database.
 
-Others contributions were large, experienced developers landing significant improvements.
+Others contributions were large, from experienced developers landing significant improvements.
 
 * [Eric Richardson](http://ewr.is/) of Southern California Public Radio developed a tool to [slice sample data](https://github.com/california-civic-data-coalition/django-calaccess-raw-data/pull/199) for unit tests.
 * Vox's [Casey Miller](http://caseymmiller.com/) created [custom icons](https://github.com/california-civic-data-coalition/django-calaccess-campaign-browser/commit/79339e2b31b167211966b0c318198a65f2093106) for each political party.
