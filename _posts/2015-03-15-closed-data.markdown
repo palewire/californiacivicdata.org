@@ -3,7 +3,7 @@ layout: post
 title: "California secretary of state refuses to open arcane data systems"
 deckhead: "We asked Alex Padilla's office to show us how to use their database tracking money in politics. They said no."
 byline: "By [Ben Welsh](http://palewi.re/who-is-ben-welsh/)"
-image: "http://www.californiacivicdata.org/img/alex-padilla.jpg"
+image: "http://www.californiacivicdata.org/img/ask-matt-share.png"
 published: true
 ---
 
