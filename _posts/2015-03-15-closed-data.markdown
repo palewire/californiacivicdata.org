@@ -27,7 +27,7 @@ Many database tables have been defined only by [cryptic references](https://www.
     <figcaption>An example of what to expect.</figcaption>
 </figure>
 
-Further, some important elements of the database were excluded entirely, like [the crucial connections](http://www.californiacivicdata.org/2015/02/17/opennews-scrapers/) that link campaign fundraising committees to elected officeholders and high-stakes ballot initiatives.
+Further, some important elements of the database have been excluded entirely, like [the crucial connections](http://www.californiacivicdata.org/2015/02/17/opennews-scrapers/) that link campaign fundraising committees to elected officeholders and high-stakes ballot initiatives.
 
 The result: A high barrier before anyone seeking to interpret the data, requiring weeks of study and significant guesswork, raising the menacing risk that uninitiated analysts will make grievous errors.
 
