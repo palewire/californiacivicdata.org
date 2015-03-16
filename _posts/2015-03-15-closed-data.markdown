@@ -24,7 +24,7 @@ Many database tables have been defined only by [cryptic references](https://www.
 
 <figure>
     <img alt="An example of what to expect" src="/img/ask-matt.jpg" style="width:100%;">
-    <figcaption>An example of what to expect.</figcaption>
+    <figcaption>An example of what to expect</figcaption>
 </figure>
 
 Further, some important elements of the database have been excluded entirely, like [the crucial connections](http://www.californiacivicdata.org/2015/02/17/opennews-scrapers/) that link campaign fundraising committees to elected officeholders and high-stakes ballot initiatives.
