@@ -14,7 +14,7 @@ published: true
 
 The office of California Secretary of State Alex Padilla has refused our request for the computer code that accurately extracts data from the state's campaign finance and lobbying activity database.
 
-[Last year](http://www.californiacivicdata.org/2014/09/24/hello-world/), we began an effort to create open-source software to make it easier to access and understand a raw copy of the database, known as CAL-ACCESS, [published online](http://www.sos.ca.gov/campaign-lobbying/cal-access-resources/raw-data-campaign-finance-and-lobbying-activity/) by Padilla's predecessor.
+[Last year](http://www.californiacivicdata.org/2014/09/24/hello-world/), we began an effort to create open-source software that makes it easier to access and understand a raw copy of the database, known as CAL-ACCESS, [published online](http://www.sos.ca.gov/campaign-lobbying/cal-access-resources/raw-data-campaign-finance-and-lobbying-activity/) by Padilla's predecessor.
 
 During careful study of the sprawling dump, which includes more than 36 million records spread across 76 interlocking database tables, we discovered that sophisticated filters, links and transformations are necessary to follow the millions of dollars that oil the statehouse in Sacramento.
 
