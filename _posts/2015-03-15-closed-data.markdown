@@ -31,11 +31,11 @@ Further, some important elements of the database have been excluded entirely, li
 
 The result: A high barrier before anyone seeking to interpret the data, requiring weeks of study and significant guesswork, raising the menacing risk that uninitiated analysts will make grievous errors.
 
-In an effort to solve the problem, last month we utilized the California Public Records Act [to request](https://www.foiamachine.org/requests/3307/) that state officials release the computer code that supplies data to the state's searchable user-interface at [http://cal-access.ss.ca.gov](http://cal-access.ss.ca.gov/default.aspx).
+In an effort to solve the problem, last month we utilized the California Public Records Act [to request](https://www.foiamachine.org/requests/3307/) that state officials release the computer code that supplies data to the state's searchable user-interface at [cal-access.ss.ca.gov](http://cal-access.ss.ca.gov/default.aspx).
 
 While the tools provided by the state site are limited, the codebase that powers it should include a negotiation of the underlying CAL-ACCESS database that returns accurate data.
 
-On March 2, that request was denied by an anonymous email account, [Constituent.Affairs@sos.ca.gov](mailto:Constituent.Affairs@sos.ca.gov).
+On March 2, that request was denied by an anonymous email account, [constituent.affairs@sos.ca.gov](mailto:Constituent.Affairs@sos.ca.gov).
 
 "This source code is computer software that is not a public record pursuant to Government Code Section 6254.9 and, therefore, is not subject to disclosure requirements of the California Public Records Act," the response said.
 
