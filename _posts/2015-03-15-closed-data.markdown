@@ -29,7 +29,7 @@ Many database tables have been defined only by [cryptic references](https://www.
 
 Further, some important elements of the database have been excluded entirely, like [the crucial connections](http://www.californiacivicdata.org/2015/02/17/opennews-scrapers/) that link campaign fundraising committees to elected officeholders and high-stakes ballot initiatives.
 
-The result: A high barrier before anyone seeking to interpret the data, requiring weeks of study and significant guesswork, raising the menacing risk that uninitiated analysts will make grievous errors.
+The result: A high barrier before anyone seeking to interpret the data, requiring weeks of study and significant guesswork to overcome, while raising the menacing risk that uninitiated analysts will make grievous errors.
 
 In an effort to solve the problem, last month we utilized the California Public Records Act [to request](https://www.foiamachine.org/requests/3307/) that state officials release the computer code that supplies data to the state's searchable user-interface at [cal-access.ss.ca.gov](http://cal-access.ss.ca.gov/default.aspx).
 
