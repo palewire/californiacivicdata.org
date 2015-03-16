@@ -20,7 +20,7 @@ During careful study of the sprawling dump, which includes more than 36 million 
 
 We also found the [database documentation](http://django-calaccess-raw-data.readthedocs.org/en/latest/officialdocumentation.html) released by the state insufficient, offering fragmentary and incomplete explanations of how to work with the data.
 
-Many database tables have been defined only by [cryptic references](https://www.documentcloud.org/documents/1308002-cal-access-about.html#document/p107) to characters named "Matt," "J M" and "Cox."
+Many database tables have been defined only by [cryptic references](https://www.documentcloud.org/documents/1308002-cal-access-about.html#document/p107) to characters named "Matt," "D H," J M" and "Cox."
 
 <figure>
     <img alt="An example of what to expect" src="/img/ask-matt.jpg" style="width:100%;">
