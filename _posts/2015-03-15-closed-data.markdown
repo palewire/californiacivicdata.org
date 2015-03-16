@@ -37,6 +37,6 @@ While the tools provided by the state site are limited, the codebase that powers
 
 On March 2, that request was denied by an anonymous email account, [constituent.affairs@sos.ca.gov](mailto:Constituent.Affairs@sos.ca.gov).
 
-"This source code is computer software that is not a public record pursuant to Government Code Section 6254.9 and, therefore, is not subject to disclosure requirements of the California Public Records Act," the email said.
+"This source code is computer software that is not a public record pursuant to Government Code Section 6254.9 and, therefore, is not subject to disclosure requirements of the California Public Records Act," the response said.
 
 That same day we responded with disappointment and requested that Padilla's office reconsider its decision. We have yet to receive a reply.
