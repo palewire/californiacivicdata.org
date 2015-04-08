@@ -59,7 +59,7 @@ It also lacks basic metadata about officials such as age, gender and race. And s
 
 But thanks to valuable code contributions at [a recent hackathon](http://www.californiacivicdata.org/2015/02/17/opennews-scrapers/), we have extracted a short list of the most important campaign filers.
 
-Your task is to try to reconcile [that list](https://dl.dropboxusercontent.com/u/3640647/2015-calaccess-challenge/candidates.csv) with the [“Open States” identifiers](http://openstates.org/downloads/) developed by the Sunlight Foundation. Then our data can be linked to other source that also include use the Sunlight system.
+Your task is to try to reconcile [that list](https://dl.dropboxusercontent.com/u/3640647/2015-calaccess-challenge/candidates.csv) with the [“Open States” identifiers](http://openstates.org/downloads/) developed by the Sunlight Foundation. Then our data can be linked to other source that also use the Sunlight system.
 
 ### Challenge #4: Propose a network model or statistic for meaningful analysis of relationships
 
