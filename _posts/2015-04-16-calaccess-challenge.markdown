@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The 2015 CAL-ACCESS challenge"
-deckhead: 'Four ways to dig deeper into California campaign cash at the Stanford symposium, [Corruption: Who plays, who pays?](http://events.stanford.edu/events/501/50185/)'
+deckhead: "Four ways to dig deeper into California campaign cash at this week's Stanford symposium, [Corruption: Who plays, who pays?](http://events.stanford.edu/events/501/50185/)"
 byline: "By [Ben Welsh](http://palewi.re/who-is-ben-welsh/), [Aaron Williams](http://aboutaaron.com) and [Cheryl Phillips](https://comm.stanford.edu/faculty-phillips/)"
 image: "http://www.californiacivicdata.org/img/nast-moneybags.jpg"
 published: true
