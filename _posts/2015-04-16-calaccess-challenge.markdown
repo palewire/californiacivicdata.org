@@ -27,7 +27,7 @@ Below are a series of challenges for Friday’s afternoon workshops where we’r
 
 ### Challenge #1: Automate the standardization of campaign donors
 
-There is no master list of the people who fund California’s political campaigns, only the jumbled, misshapen and sometimes deliberately obscured data punched into the disclosure forms required by state law.
+There is no master list of the people who fund California’s political campaigns, only the jumbled, misshapen and sometimes deliberately obscured data punched into the [disclosure forms](http://cal-access.ss.ca.gov/PDFGen/pdfgen.prg?filingid=1932072&amendid=0) required by state law.
 
 For instance, Charles Munger Jr., a [top backer](http://www.latimes.com/local/politics/la-me-adv-munger-20150304-story.html#page=1) of California’s Republican Party, has had more than 150 different combinations of his name, occupation, employer and address listed at one time or another.
 
@@ -53,7 +53,7 @@ Download this list of [2.5 million campaign expenditures](https://dl.dropboxuser
 
 ### Challenge #3: Reconcile officeholders with a canonical identifier
 
-The state database does not include a unique identifier that allows the campaign activity of officeholders to be connected to other valuable datasets, like voting records, ideological ratings and financial disclosure [forms](http://cal-access.ss.ca.gov/PDFGen/pdfgen.prg?filingid=1932072&amendid=0).
+The state database does not include a unique identifier that allows the campaign activity of officeholders to be connected to other valuable datasets, like voting records, ideological ratings and financial disclosure forms.
 
 It also lacks basic metadata about officials such as age, gender and race. And state officials have [withheld](http://www.californiacivicdata.org/2015/02/17/opennews-scrapers/) crucial data that would make connecting the dots easier.
 
