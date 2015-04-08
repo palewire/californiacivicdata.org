@@ -135,3 +135,6 @@ figcaption {
     font-size: 12px;
     text-align: right;
 }
+h3 {
+    line-height:130%;
+}
