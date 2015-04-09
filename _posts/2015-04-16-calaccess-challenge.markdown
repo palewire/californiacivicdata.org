@@ -43,7 +43,7 @@ Campaign finance data is used routinely by journalists and regulators to documen
 
 We want to know: Could corruption be discovered faster, sooner and more broadly with well-tailored algorithmic analysis?
 
-Past scandals offer can serve as a useful model. Could the evidence in the following cases been discovered by a well crafted database query, which could then be used to uncover other unknown cases?
+Past scandals can serve as a useful model. Could the evidence in the following cases been discovered by a well crafted database query, which could then be used to uncover other unknown cases?
 
 * Millions of dollars in “dark money” funneled into ballot measures, like those concealed in 2012 by the notorious [Sean Noble](http://www.propublica.org/article/the-dark-money-man-how-sean-noble-moved-the-kochs-cash-into-politics-and-ma).
 * [Illegal laundering](http://www.latimes.com/local/la-me-ethics-berryhill-20140425-story.html) of campaign contributors via party committees in 2008 by state Sen. Tom Berryhill.
