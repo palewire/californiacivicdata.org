@@ -28,7 +28,9 @@ We’ve released a first-generation of [open-source tools](https://github.com/ca
 
 Now we need you. We’re looking for developers, data scientists and campaign finance experts to help us advance our cause.
 
-Below are a series of challenges for Friday’s afternoon workshops where we’re hoping your expertise can uncover ways to make advanced analysis easier. Dozens more tasks, of varying size, can be found in our open-source repositories on [GitHub](https://github.com/california-civic-data-coalition).
+Below are a series of challenges for the afternoon workshops scheduled for Friday April 17, following [Stanford's symposium on money in politics](http://events.stanford.edu/events/501/50185/).
+
+We’re hoping your expertise can uncover ways to make advanced analysis easier. Whether you're at the Stanford event or not, we welcome your contributions. Dozens more tasks, of varying size, can be found in our open-source repositories on [GitHub](https://github.com/california-civic-data-coalition).
 
 ### Challenge #1: Automate the standardization of campaign donors
 
