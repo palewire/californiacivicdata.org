@@ -53,7 +53,7 @@ Download a list of [1.9 million unique names](https://dl.dropboxusercontent.com/
 
 <figure>
     <img alt="Fabian Nunez and son" title="Fabian Nunez and son" src="/img/nunez-and-son.jpg" style="width:100%;">
-    <figcaption>There are many <a href="http://graphics.latimes.com/nunez-santos/">interesting things to read</a> about this man.</figcaption>
+    <figcaption>There are many <a href="http://graphics.latimes.com/nunez-santos/">interesting things to read</a> about these two.</figcaption>
 </figure>
 
 Campaign finance data is used routinely by journalists and regulators to document evidence of corruption in the political process. But the tip typically comes from a human source and is then pinned down piecemeal using public records. The findings are almost always narrow and limited to a single person or group.
