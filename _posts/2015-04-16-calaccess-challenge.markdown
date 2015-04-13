@@ -70,6 +70,11 @@ Download this list of [2.5 million campaign expenditures](https://dl.dropboxuser
 
 ### Challenge #3: Reconcile officeholders with a canonical identifier
 
+<figure>
+    <img alt="OpenNews Fellows 2015" title="OpenNews Fellows 2015" src="/img/opennews-fellows-750x270.jpg" style="width:100%;">
+    <figcaption>Join these <a href="http://www.californiacivicdata.org/2015/02/17/opennews-scrapers/">nerd heroes</a></figcaption>
+</figure>
+
 The state database does not include a unique identifier that allows the campaign activity of officeholders to be connected to other valuable datasets, like voting records, ideological ratings and financial disclosure forms.
 
 It also lacks basic metadata about officials such as age, gender and race. And state officials have [withheld](http://www.californiacivicdata.org/2015/02/17/opennews-scrapers/) crucial data that would make connecting the dots easier.
@@ -79,6 +84,11 @@ But thanks to valuable code contributions at [a recent hackathon](http://www.cal
 Your task is to try to reconcile [that list](https://dl.dropboxusercontent.com/u/3640647/2015-calaccess-challenge/candidates.csv) with the [“Open States” identifiers](http://openstates.org/downloads/) developed by the Sunlight Foundation. Then our data can be linked to other sources that use Sunlight's system.
 
 ### Challenge #4: Propose a network model or statistic for meaningful analysis of relationships
+
+<figure>
+    <img alt="The network behind Prop 47" title="The network behind Prop 47" src="/img/prop-47-network.png" style="width:100%;">
+    <figcaption>The network of funders behind <a href="http://graphics.latimes.com/prop-47-finance/">Proposition 47</a></figcaption>
+</figure>
 
 With thousands of donors and complex coalitions, political movements are difficult to map and understand. We need better tools for probing the immense amount of network connections recorded in campaign finance and lobbying data.
 
