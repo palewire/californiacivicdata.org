@@ -48,7 +48,7 @@ Campaign finance data is used routinely by journalists and regulators to documen
 
 We want to know: Could corruption be discovered faster, sooner and more broadly with well-tailored algorithmic analysis?
 
-Past scandals offer can serve as a useful model. Could the evidence in the following cases been discovered by a well crafted database query, which could then be used to uncover other unknown cases?
+Past scandals can serve as a useful model. Could the evidence in the following cases been discovered by a well crafted database query, which could then be used to uncover other unknown cases?
 
 * Millions of dollars in “dark money” funneled into ballot measures, like those concealed in 2012 by the notorious [Sean Noble](http://www.propublica.org/article/the-dark-money-man-how-sean-noble-moved-the-kochs-cash-into-politics-and-ma).
 * [Illegal laundering](http://www.latimes.com/local/la-me-ethics-berryhill-20140425-story.html) of campaign contributors via party committees in 2008 by state Sen. Tom Berryhill.
@@ -64,7 +64,7 @@ It also lacks basic metadata about officials such as age, gender and race. And s
 
 But thanks to valuable code contributions at [a recent hackathon](http://www.californiacivicdata.org/2015/02/17/opennews-scrapers/), we have extracted a short list of the most important campaign filers.
 
-Your task is to try to reconcile [that list](https://dl.dropboxusercontent.com/u/3640647/2015-calaccess-challenge/candidates.csv) with the [“Open States” identifiers](http://openstates.org/downloads/) developed by the Sunlight Foundation. Then our data can be linked to other source that also use the Sunlight system.
+Your task is to try to reconcile [that list](https://dl.dropboxusercontent.com/u/3640647/2015-calaccess-challenge/candidates.csv) with the [“Open States” identifiers](http://openstates.org/downloads/) developed by the Sunlight Foundation. Then our data can be linked to other sources that use Sunlight's system.
 
 ### Challenge #4: Propose a network model or statistic for meaningful analysis of relationships
 
@@ -72,4 +72,4 @@ With thousands of donors and complex coalitions, political movements are difficu
 
 Carefully connecting dots has shown how creative accounting can conceal [organized efforts](http://www.latimes.com/local/politics/la-me-ff-pol-1101-proposition47-20141101-story.html#page=1) behind high-stakes ballot measures and [what really decides](http://cironline.org/reports/california-speaker-gives-assemblys-juiciest-jobs-biggest-fundraisers-4501) who gets important appointments. But few comprehensive indicators exist for routinely mapping the political landscape to visualize its shape.
 
-Draft a schema for modeling the network connections between parties, PACs, candidates, lobbyists, donors and expenditures in the state database, or propose a new statistics like, the [Bedfellows score](https://source.opennews.org/en-US/articles/introducing-bedfellows/) developed by The New York Times, to measure and understand these relationships.
+Draft a schema for modeling the network connections between parties, PACs, candidates, lobbyists, donors and expenditures in the state database, or propose a new statistic, like the [Bedfellows score](https://source.opennews.org/en-US/articles/introducing-bedfellows/) developed by The New York Times, to measure and understand these relationships.
