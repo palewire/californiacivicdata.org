@@ -19,6 +19,11 @@ Sprawling across 76 database tables and weighing in at more than 650 megabytes, 
 
 That project is already underway. Under the new banner of the [California Civic Data Coalition](http://www.californiacivicdata.org/), news developers at the Stanford Computational Journalism Lab, the Bay Area’s Center for Investigative Reporting and the Los Angeles Times Data Desk are collaborating to automate away the database’s difficulties.
 
+<figure>
+    <img alt="Charles Munger Jr." title="Charles Munger Jr" src="/img/github-graph.png" style="width:100%;">
+    <figcaption>Check out our code <a href="https://github.com/california-civic-data-coalition/django-calaccess-raw-data/graphs/contributors">on GitHub</a></figcaption>
+</figure>
+
 We’ve released a first-generation of [open-source tools](https://github.com/california-civic-data-coalition) that begin the work of downloading and decoding the data. In a [series](https://source.opennews.org/en-US/articles/introducing-california-civic-data-coalition/) [of](http://www.californiacivicdata.org/2015/02/17/opennews-scrapers/) [code convenings](http://www.californiacivicdata.org/2015/03/11/code-rush-recap/), more than 50 developers, representing dozens of different news organizations, have contributed code to start building a foundation for future analysts.
 
 Now we need you. We’re looking for developers, data scientists and campaign finance experts to help us advance our cause.
