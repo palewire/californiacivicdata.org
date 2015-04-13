@@ -11,6 +11,11 @@ Who is bankrolling the most powerful politicians in America’s largest state? W
 
 Despite a complex and costly set of regulations, there’s no easy answer. Basic facts and figures are buried deep within an arcane state database, known as CAL-ACCESS, that records the millions of dollars in campaign contributions and lobbying activity that oil the Sacramento statehouse.
 
+<figure style="float:right; width:266px; margin: 6px 0 6px 14px; ">
+    <img alt="California Code Rush logo" title="California Code Rush logo" src="/img/calaccess-cd.png" height="200" style="border:1px solid #ddd;">
+    <figcaption>The bad old days</figcaption>
+</figure>
+
 In a little-noted landmark, California [yielded](http://maplight.org/data-release/press-release-cal-access-database-available-for-daily-download-by-labor-day-says-califo) to a flurry of pressure in 2014 and for the first time officials posted [a free download](http://www.sos.ca.gov/campaign-lobbying/cal-access-resources/raw-data-campaign-finance-and-lobbying-activity/) of the system’s raw data, updated daily.
 
 The newly released information has created an unprecedented opportunity to analyze money in state politics. But it remains unrealized.
