@@ -34,6 +34,11 @@ We’re hoping your expertise can uncover ways to make advanced analysis easier.
 
 ### Challenge #1: Automate the standardization of campaign donors
 
+<figure>
+    <img alt="Charles Munger Jr." title="Charles Munger Jr" src="/img/charles-munger-jr.png" style="width:100%;">
+    <figcaption>How many ways can you spell this man's name?</figcaption>
+</figure>
+
 There is no master list of the people who fund California’s political campaigns, only the jumbled, misshapen and sometimes deliberately obscured data punched into the [disclosure forms](http://cal-access.ss.ca.gov/PDFGen/pdfgen.prg?filingid=1932072&amendid=0) required by state law.
 
 For instance, Charles Munger Jr., a [top backer](http://www.latimes.com/local/politics/la-me-adv-munger-20150304-story.html#page=1) of California’s Republican Party, has had more than 150 different combinations of his name, occupation, employer and address listed at one time or another.
@@ -45,6 +50,11 @@ We need a better way, and it must be automated. We need an algorithm or machine-
 Download a list of [1.9 million unique names](https://dl.dropboxusercontent.com/u/3640647/2015-calaccess-challenge/contributors.csv) extracted from the state database. See what you can do.
 
 ### Challenge #2: Identify a relevant state law or past corruption scandal, develop an algorithm to detect it
+
+<figure>
+    <img alt="Fabian Nunez and son" title="Fabian Nunez and son" src="/img/nunez-and-son.jpg" style="width:100%;">
+    <figcaption>There are many <a href="http://graphics.latimes.com/nunez-santos/">interesting things to read</a> about this man.</figcaption>
+</figure>
 
 Campaign finance data is used routinely by journalists and regulators to document evidence of corruption in the political process. But the tip typically comes from a human source and is then pinned down piecemeal using public records. The findings are almost always narrow and limited to a single person or group.
 
