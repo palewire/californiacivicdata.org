@@ -1,0 +1,41 @@
+---
+layout: default
+title: About - The California Civic Data Coalition
+permalink: /about/
+leaders:
+  - name: Jennifer LaFleur
+    url:
+    image:
+    title: "Reveal & The Center for Investigative Reporting"
+    organization: Los Angeles Times Data Desk
+  - name: Cheryl Phillips
+    url:
+    image:
+    title:
+    organization: Stanford University
+  - name: Ben Welsh
+    url: http://palewi.re/who-is-ben-welsh/
+    image: http://palewire.s3.amazonaws.com/img/ben-blue-800.jpg
+    title: Database producer
+    organization: Los Angeles Times Data Desk
+  - name: Aaron Williams
+    url:
+    image:
+    title:
+    organization: San Francisco Chronicle
+---
+
+<h1 style="margin-bottom:25px;">About</h1>
+
+<p>A loosely coupled team from the Los Angeles Times Data Desk, The Center for Investigative Reporting and Stanford's Computational Journalism Lab.</p>
+
+<h3>Leadership</h3>
+
+
+{% for obj in page.leaders %}
+<div class="projectitem">
+    <img width=250 alt="{{ obj.name }}" title="{{ obj.name }}" src="{{ obj.image }}">
+    <h4><a href="{{ obj.url }}">{{ obj.name }}</a></h4>
+    <p>{{ obj.title }}, {{ obj.organization }}</p>
+</div>
+{% endfor %}
