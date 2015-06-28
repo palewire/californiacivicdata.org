@@ -138,3 +138,28 @@ figcaption {
 h3 {
     line-height:130%;
 }
+div.bio-item h4 {
+    margin-bottom: 4px;
+}
+div.bio-item {
+    font-size: 14px;
+    margin: 8px 0;
+}
+div.bio-item .title,
+div.bio-item .org {
+    font-size: 15px;
+}
+div.bio-item .title,
+div.bio-item .org,
+div.bio-item .twitter,
+div.bio-item .email {
+    display: block;
+    clear: both;
+    padding: 1px 0;
+}
+div.bio-item .title {
+
+}
+div.bio-item .org {
+    font-style: italic;
+}

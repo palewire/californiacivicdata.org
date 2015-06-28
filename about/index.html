@@ -1,0 +1,61 @@
+---
+layout: default
+title: About - The California Civic Data Coalition
+permalink: /about/
+leaders:
+  - name: Jennifer LaFleur
+    url: https://www.revealnews.org/author/jennifer-lafleur/
+    image: /img/jennifer-lafleur.jpg
+    title: Senior Editor, Data Journalism
+    organization: "Reveal"
+    twitter: j_la28
+    email: jlafleur@cironline.org
+  - name: Cheryl Phillips
+    url: https://comm.stanford.edu/faculty-phillips/
+    image: /img/cheryl-phillips.jpg
+    title: Hearst Professor in Residence
+    organization: Stanford University
+    twitter: cephillips
+    email: cep3@stanford.edu
+  - name: Ben Welsh
+    url: http://palewi.re/who-is-ben-welsh/
+    image: /img/ben-welsh.jpg
+    title: Database producer
+    organization: Los Angeles Times
+    twitter: palewire
+    email: ben.welsh@gmail.com
+  - name: Aaron Williams
+    url: https://www.acwx.net/
+    image: /img/aaron-williams.jpg
+    title: Data visualization editor
+    organization: San Francisco Chronicle
+    twitter: aboutaaron
+    email: awilliams@sfchronicle.com
+---
+
+<h1 style="margin-bottom:25px;">About</h1>
+
+<p>The California Civic Data Coalition is a loosely coupled team from the Los Angeles Times Data Desk, The Center for Investigative Reporting and Stanford's Computational Journalism Lab.</p>
+
+<h3>Leadership</h3>
+
+<div class="row">
+{% for obj in page.leaders %}
+    <div class="bio-item col-lg-3 col-md-3 col-sm-6 col-xs-6">
+        <img alt="{{ obj.name }}" title="{{ obj.name }}" src="{{ obj.image }}">
+        <h4><a href="{{ obj.url }}">{{ obj.name }}</a></h4>
+        <div>
+            <span class="title">{{ obj.title }}</span>
+            <span class="org">{{ obj.organization }}</span>
+            <span class="twitter">
+                <a href="http://twitter.com/{{ obj.twitter }}">
+                    @{{ obj.twitter }}
+                </a>
+            </span>
+            <span class="email">
+                <a href="mailto:{{ obj.email }}">{{ obj.email }}</a>
+            </span>
+        </div>
+    </div>
+{% endfor %}
+</div>
