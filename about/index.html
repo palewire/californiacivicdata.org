@@ -64,7 +64,7 @@ leaders:
     <div class="bio-item col-lg-3 col-md-3 col-sm-6 col-xs-6">
         <img alt="{{ obj.name }}" title="{{ obj.name }}" src="{{ obj.image }}">
         <h4><a href="{{ obj.url }}">{{ obj.name }}</a></h4>
-        <div>
+        <span class="bio-metadata">
             <span class="title">{{ obj.title }}</span>
             <span class="org">{{ obj.organization }}</span>
             <span class="twitter">
@@ -75,8 +75,11 @@ leaders:
             <span class="email">
                 <a href="mailto:{{ obj.email }}">{{ obj.email }}</a>
             </span>
-        </div>
+        </span>
     </div>
+    {% if forloop.index == 2 %}
+    <div class="clearfix visible-xs-block"></div>
+    {% endif %}
 {% endfor %}
 </div>
 
