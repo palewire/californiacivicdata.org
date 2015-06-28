@@ -8,8 +8,9 @@ permalink: /archive/
 
 {% for post in site.posts %}
 <article>
-    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    <h3 style="margin-bottom:5px;"><a href="{{ post.url }}">{{ post.title }}</a></h3>
     <div class="byline"{{ post.byline|markdownify }}</div>
     <div class="pubdate"><p><time>{{ post.date|date:"%B %e, %Y" }}</time></p></div>
 </article>
+<div style="padding: 5px 0; display: block;"></div>
 {% endfor %}
