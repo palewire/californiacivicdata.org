@@ -11,6 +11,11 @@ a{
 a:hover{
     color:#d87d85;
 }
+ul.bullets li {
+    font-size: 18px;
+    line-height: 27px;
+    padding: 4px 0;
+}
 table {
     font-size:13px;
 }
