@@ -89,4 +89,4 @@ We've already integrated the tool into [django-calaccess-raw-data](http://django
 
 This project is experimental and in the early stages of development. The aim is to
 make it easier for others to load "medium data." But we know
-our code isn't perfect and we want for feedback from hackers like you to make it better. So break it. Please. [Then let us know about it](https://github.com/california-civic-data-coalition/django-postgres-copy/issues).
+our code isn't perfect and we want for feedback from hackers like you to make it better. So break it. Please. [Then let us know](https://github.com/california-civic-data-coalition/django-postgres-copy/issues).
