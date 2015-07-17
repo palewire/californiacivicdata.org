@@ -85,7 +85,7 @@ $ pip install django-postgres-copy
 
 To learn more about how it works, visit the [technical documentation](http://django-postgres-copy.californiacivicdata.org/). There you'll find more a complete explanation and information about some fancier tricks not covered here, like the capability to transform and clean data on-the-fly as it's loaded into the database.
 
-We've already integrated it into [django-calaccess-raw-data](http://django-calaccess-raw-data.californiacivicdata.org/), a Django app to download, extract and load campaign finance and lobbying activity data from the CAL-ACCESS database.
+We've already integrated the tool into [django-calaccess-raw-data](http://django-calaccess-raw-data.californiacivicdata.org/), a Django app to download, extract and load campaign finance and lobbying activity data from the CAL-ACCESS database.
 
 This project is experimental and in the early stages of development. The aim is to
 make it easier for others to load "medium data." But we know
