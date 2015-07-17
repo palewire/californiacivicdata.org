@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Say hello to our new open-source software for loading bulk data into PostgreSQL
-deckhead: "Take advantage of the powerful COPY command in Django to load big CSVs faster than ever before"
+deckhead: "Take advantage of the powerful COPY command to load big CSVs into Django faster than ever"
 byline: "By [Ben Welsh](http://palewi.re/who-is-ben-welsh/)"
 published: true
 ---
