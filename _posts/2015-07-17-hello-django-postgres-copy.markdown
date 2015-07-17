@@ -43,7 +43,7 @@ from myapp.models import MyModel
 from postgres_copy import CopyMapping
 
 c = CopyMapping(
-    # Provide you database model
+    # Provide your database table's model
     MyModel,
     # Your CSV data file
     "./data.csv",
