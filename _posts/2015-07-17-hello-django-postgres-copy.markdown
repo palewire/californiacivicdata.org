@@ -62,7 +62,7 @@ As an experiment, we tested two common CSV loading patterns against our new tool
 
 With 4.5 million records spread across dozens of columns, the file fills 1.3 gigabytes of hard drive space. That's not ["big data"](https://en.wikipedia.org/wiki/Big_data) by any formal definition, but it's big enough to bring the laptop of your average hack journalist grinding to a halt.
 
-(This size falls into a zone we think of as "medium data:" Too big and complex to be managable in Excel, but not so big that it requires high-end data management tools like [Hadoop](https://hadoop.apache.org/). In our opinion, this area is in critical need of better tools to help analysts get a foothold.)
+(This size falls into a zone we think of as "medium data:" Too big and complex to be managable in Excel, but not so big that it requires heavy duty tools like [Hadoop](https://hadoop.apache.org/). In our opinion, this area is in critical need of better software to help analysts get a foothold.)
 
 In the first test, we timed a simple loop like the one above that stepped through each row in the CSV and loaded that record into the database. By design, Django will ferry each row into the database individually. This adds up quickly.
 
