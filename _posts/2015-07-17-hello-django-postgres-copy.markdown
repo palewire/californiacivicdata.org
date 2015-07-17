@@ -72,7 +72,8 @@ In the first test, we timed a simple loop like the one above that stepped throug
 
 By reducing the number of database queries, this second test finished in **18 minutes**.
 
-In our final test, we loaded the file using our wrapper on the COPY command. It finished in just **4 minutes and 45 seconds**.
+In our final test, we loaded the file using our wrapper on the COPY command. It finished in just **4 minutes and 45 seconds**. Now imagine how much faster it would
+be if it wasn't running on a three-year-old ThinkPad.
 
 ### What now?
 
