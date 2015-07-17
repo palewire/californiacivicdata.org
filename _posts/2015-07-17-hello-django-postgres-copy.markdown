@@ -68,7 +68,7 @@ In the first test, we timed a simple loop like the one above that stepped throug
 
  On our test machine, a three-year-old Lenovo ThinkPad x220, it took **1 hour and 23 minutes** to complete.
 
- In the second test, we reorganized our loop to lump the rows into groups of 1000 records. Along the way we used Django's [bulk_create](https://docs.djangoproject.com/en/1.8/ref/models/querysets/#bulk-create) command to drop those groups into the database as large batches.
+ In the second test, we reorganized our script to lump the rows into groups of 1000 records. Along the way we used Django's [bulk_create](https://docs.djangoproject.com/en/1.8/ref/models/querysets/#bulk-create) command to drop those groups into the database as large batches.
 
 By reducing the number of database queries, this second test finished in **18 minutes**.
 
