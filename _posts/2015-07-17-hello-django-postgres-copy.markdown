@@ -64,7 +64,7 @@ With 4.5 million records spread across dozens of columns, the file fills 1.3 gig
 
 (This size falls into a zone we think of as "medium data:" Too big and complex to be managable in Excel, but not so big that it requires heavy duty tools like [Hadoop](https://hadoop.apache.org/). In our opinion, this area is in critical need of better software to help analysts get a foothold.)
 
-In the first test, we timed a simple loop like the one above that stepped through each row in the CSV and loaded that record into the database. By design, Django will ferry each row into the database individually. This adds up quickly.
+In the first test, we timed a simple loop like the one above that stepped through each row in the data file and loaded records into the database one by one. By design, Django will ferry each row into the database individually. This adds up quickly.
 
  On our test machine, a three-year-old Lenovo ThinkPad x220, it took **1 hour and 23 minutes** to complete.
 
