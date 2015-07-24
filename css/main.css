@@ -168,3 +168,15 @@ div.bio-item .title {
 div.bio-item .org {
     font-style: italic;
 }
+.quote {
+    margin: 10px 0;
+}
+.quote .text {
+    font-size: 125%;
+    font-style: italic;
+    padding-right: 3px;
+}
+.quote .attribution {
+    text-align: right;
+    display:inline;
+}
