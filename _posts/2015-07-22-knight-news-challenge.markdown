@@ -14,9 +14,15 @@ Our plan, outlined in [this initial proposal](https://www.newschallenge.org/chal
 
 We also plan to host a series of code sprints where journalists, campaign-finance experts and computer programmers will be invited to collaborate with our core team.
 
+### The pitch
+
+<iframe width="750" height="422" src="https://www.youtube.com/embed/GLqIdZq3H3k" frameborder="0" allowfullscreen></iframe>
+
+Ben Welsh of the Los Angeles Times explained the mission at the Annette Strauss Institute for Civic Life in Austin, Texas.
+
 ### We want you
 
-That means we are hiring. We are seeking a developer who will not just code but also lead product development, partnering with our core team and others to shape the project’s future.
+This means we are hiring. We are seeking a developer who will not just code but also lead product development, partnering with our core team and others to shape the project’s future.
 
 Applicants need computer-programming experience. Expertise in campaign-finance analysis is an advantage but not a requirement. Passion for open-source software is a must.
 
