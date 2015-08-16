@@ -1,0 +1,20 @@
+---
+layout: post
+title: "Sacramento Bee editor agrees: CAL-ACCESS is a mess"
+deckhead: ""
+byline: "By [Ben Welsh](http://palewi.re/who-is-ben-welsh/)"
+published: true
+---
+
+Our effort to untangle CAL-ACCESS, the state of California's database of
+money in statehouse politics, is the subject of [today's column](http://www.sacbee.com/opinion/opn-columns-blogs/joyce-terhaar/article31239362.html) by Sacramento Bee Executive Editor Joyce
+Terhaar.
+
+She writes:
+
+> The secretary of state’s database, intended to allow the public to track campaign money, is virtually useless unless you’re particularly skilled at working with databases and have quite a bit of extra time.
+
+Working with the data is so difficult, Terhaar said, Bee reporter Jim Miller needed outside technical help to nail down [his Feb. 6 investigation](http://www.sacbee.com/news/investigations/the-public-eye/article9471695.html) into the confusing pipeline that fuels statehouse races.
+
+Terhaar mentions our work, and Secretary of State Alex Padilla's recent [denial of our public
+records request](/2015/03/15/closed-data/). Read it all over at [The Bee](http://www.sacbee.com/opinion/opn-columns-blogs/joyce-terhaar/article31239362.html).
