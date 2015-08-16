@@ -8,7 +8,7 @@ published: true
 
 Our effort to untangle CAL-ACCESS, the state of California's database of
 money in statehouse politics, is the subject of [today's column](http://www.sacbee.com/opinion/opn-columns-blogs/joyce-terhaar/article31239362.html) by Sacramento Bee Executive Editor Joyce
-Terhaar.
+Terhaar. Her words:
 
 > The secretary of state’s database, intended to allow the public to track campaign money, is virtually useless unless you’re particularly skilled at working with databases and have quite a bit of extra time.
 
