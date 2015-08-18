@@ -1,0 +1,41 @@
+---
+layout: post
+title: "Join California Code Rush 2 at Media Party 2015 in Buenos Aires"
+deckhead: "A second challenge to hacks, hackers and newbies of all ages"
+byline: "By [Ben Welsh](http://palewi.re/who-is-ben-welsh/)"
+image: "http://www.californiacivicdata.org/img/coderush2.jpg"
+published: true
+---
+
+Argentina, the California Civic Data Coalition is coming. And we need your help.
+
+I will be representing our team at the upcoming Media Party conference [in Buenos Aires](http://mediaparty.info/). And I'm bringing a to-do list with me: Dozens of tickets, of all shapes and sizes, to continue our quest to master [CAL-ACCESS](/about/), the government database tracking money in California politics.
+
+<img src="/img/coderush2.png" height="200" style="margin: 8px 0 0 14px; float:right;">
+
+We're asking you to close them out.
+
+We're call it the California Code Rush. It’s a simple game. Submit a patch, win a prize.
+
+We had so much fun with a first run at the idea [at NICAR 2015 in Atlanta](/2015/03/11/code-rush-recap/) that I'm back to try it again.
+
+Since then our project was named a [winner of the Knight News Challenge](/2015/07/22/knight-news-challenge/) and we're aiming to push things even farther.
+
+**Don't worry if you’re new to open source.** Spend some time and I'll guide you through your first contribution, from fork to patch to pull.
+
+A small-sized ticket won't take longer than 20 minutes. You'll learn how to use GitHub, make you first open-source software contribution and walk away with a [limited-edition sticker](/img/coderush2.png) (designed just for this event by our man [Thomas Suh Lauder](https://twitter.com/thomas06037), using his revolutionary aesthetic, [Blobmorphic Design](https://www.youtube.com/watch?v=dQw4w9WgXcQ)™).
+
+Close a bigger ticket and we'll send you a custom t-shirt.
+
+I plan to host a workshop and hold down an open table at the hackathon scheduled for Saturday. You can also find me in the hallways looking for contributors. Find me to learn more and get and involved.
+
+But you don't have to be in Argentina to win a prize. Close a ticket at any time between now and the conference's close on August 29 and your prize will soon be in the mail.
+
+Dozens of challenges are waiting for you in our two active applications. Grab one to get going.
+
+* [django-calaccess-raw-data](https://github.com/california-civic-data-coalition/django-calaccess-raw-data/issues) A backend app for downloading, extracting and loading the raw data from the state.
+* [django-calaccess-campaign-browser](https://github.com/california-civic-data-coalition/django-calaccess-campaign-browser/issues) A complementary app for refining, reviewing and publishing the raw campaign finance data.
+
+Many of the small ones, particularly the ones asking for [documentation](https://github.com/california-civic-data-coalition/django-calaccess-campaign-browser/issues?q=is%3Aopen+is%3Aissue+label%3Adocumentation), won't require you to install any software. But if you take on something big you'll need to download the code [as described here](http://django-calaccess-campaign-browser.californiacivicdata.org/en/latest/howtocontribute.html).
+
+Want to know more? Email me at <a href="mailto:ben.welsh@gmail.com">ben.welsh@gmail.com</a>.
