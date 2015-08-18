@@ -19,7 +19,7 @@ We're call it the California Code Rush. It’s a simple game. Submit a patch, wi
 
 We had so much fun with a first run at the idea [at NICAR 2015 in Atlanta](/2015/03/11/code-rush-recap/) that I'm back to try it again.
 
-Since then our project was named a [winner of the Knight News Challenge](/2015/07/22/knight-news-challenge/) and we're aiming to push things even farther.
+Since then our project was named a [winner of the Knight News Challenge](/2015/07/22/knight-news-challenge/) and we're aiming to push things even further.
 
 **Don't worry if you’re new to open source.** Spend some time and I'll guide you through your first contribution, from fork to patch to pull.
 
