@@ -3,7 +3,7 @@ layout: post
 title: "Join California Code Rush 2 at Media Party 2015 in Buenos Aires"
 deckhead: "A second challenge to hacks, hackers and newbies of all ages"
 byline: "By [Ben Welsh](http://palewi.re/who-is-ben-welsh/)"
-image: "http://www.californiacivicdata.org/img/coderush2.jpg"
+image: "http://www.californiacivicdata.org/img/coderush2.png"
 published: true
 ---
 
