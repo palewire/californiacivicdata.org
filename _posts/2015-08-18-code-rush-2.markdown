@@ -15,7 +15,7 @@ I will be representing our team at the upcoming Media Party conference [in Bueno
 
 We're asking you to close them out.
 
-We're call it the California Code Rush. It’s a simple game. Submit a patch, win a prize.
+We call it the California Code Rush. It’s a simple game. Submit a patch, win a prize.
 
 We had so much fun with a first run at the idea [at NICAR 2015 in Atlanta](/2015/03/11/code-rush-recap/) that I'm back to try it again.
 
