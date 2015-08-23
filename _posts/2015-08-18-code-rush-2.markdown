@@ -36,6 +36,6 @@ Dozens of challenges are waiting for you in our two active applications. Grab on
 * [django-calaccess-raw-data](https://github.com/california-civic-data-coalition/django-calaccess-raw-data/issues) A backend app for downloading, extracting and loading the raw data from the state.
 * [django-calaccess-campaign-browser](https://github.com/california-civic-data-coalition/django-calaccess-campaign-browser/issues) A complementary app for refining, reviewing and publishing the raw campaign finance data.
 
-Many of the small ones, particularly the ones asking for [documentation](https://github.com/california-civic-data-coalition/django-calaccess-campaign-browser/issues?q=is%3Aopen+is%3Aissue+label%3Adocumentation), won't require you to install any software. But if you take on something big you'll need to download the code [as described here](http://django-calaccess-campaign-browser.californiacivicdata.org/en/latest/howtocontribute.html).
+Many of the small ones, particularly the ones asking for [documentation](https://github.com/california-civic-data-coalition/django-calaccess-raw-data/milestones/California%20Code%20Rush%202:%20Media%20Party%202015), won't require you to install any software. But if you take on something big you'll need to download the code [as described here](http://django-calaccess-campaign-browser.californiacivicdata.org/en/latest/howtocontribute.html).
 
 Want to know more? Email me at <a href="mailto:ben.welsh@gmail.com">ben.welsh@gmail.com</a>.
