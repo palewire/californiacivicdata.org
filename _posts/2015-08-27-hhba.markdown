@@ -6,14 +6,19 @@ byline: "By [Ben Welsh](http://palewi.re/who-is-ben-welsh/)"
 published: false
 ---
 
-This morning I delivered a brief speech at Media Party 2015, the annual
+This morning I delivered a brief speech at [Media Party 2015](http://www.meetup.com/HacksHackersBA/events/223765925/), the annual
 conference put on by the Buenos Aires chapter of Hacks/Hackers.
 
-My message: News nerds (i.e. hacks) have done smart things to raise their
-tech game. But to take advantage of our vibrant community and the potential
-for open-source collaboration, we need to:
-
-* Lock in on the common building blocks of our work
-* Foster a specific set of technical skills (i.e. ["dotadiw" design](https://en.wikipedia.org/wiki/Unix_philosophy), [software packaging](https://en.wikipedia.org/wiki/Package_(package_management_system)), documentation writing)
-
 https://docs.google.com/presentation/d/1BWIyHq3bPAEBhckYRQ_2I5e2AzChFuMN8z9KMOejpQ4/pub?start=false&loop=false&delayms=3000
+
+My message: Data journalists are raising their tech game. But to take advantage of our vibrant community and harness the potential for open-source collaboration, we need to:
+
+* Identify the common tasks of newsroom data analysis where we're all reinventing the wheel
+* Start open-source projects that try to tackle them once and for all
+* Foster underappreciated open-source skills like ["dotadiw" design](https://en.wikipedia.org/wiki/Unix_philosophy), [software packaging](https://en.wikipedia.org/wiki/Package_(package_management_system)), [[unit testing](https://en.wikipedia.org/wiki/Unit_testing), [continuous integration](https://en.wikipedia.org/wiki/Continuous_integration) and documentation writing
+
+Today I took the position that the tedious and painstaking pipeline scripts journalists write to access, transform and load common public data sets like election results, crime reports and government spending are fertile ground for this approach. But I'm sure it could work in other components of our work as well.
+
+As we've [written before](http://www.californiacivicdata.org/2014/09/24/pluggable-data/), this
+approach is what originally animated our open-source project to master California's jumbled, dirty and difficult database tracking money in state politics.
+
