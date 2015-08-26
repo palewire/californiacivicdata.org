@@ -1,0 +1,19 @@
+---
+layout: post
+title: "Talk: Media Party 2015 in Buenos Aires"
+deckhead: "All the slides and links from my keynote speech"
+byline: "By [Ben Welsh](http://palewi.re/who-is-ben-welsh/)"
+published: false
+---
+
+This morning I delivered a brief speech at Media Party 2015, the annual
+conference put on by the Buenos Aires chapter of Hacks/Hackers.
+
+My message: News nerds (i.e. hacks) have done smart things to raise their
+tech game. But to take advantage of our vibrant community and the potential
+for open-source collaboration, we need to:
+
+* Lock in on the common building blocks of our work
+* Foster a specific set of technical skills (i.e. ["dotadiw" design](https://en.wikipedia.org/wiki/Unix_philosophy), [software packaging](https://en.wikipedia.org/wiki/Package_(package_management_system)), documentation writing)
+
+https://docs.google.com/presentation/d/1BWIyHq3bPAEBhckYRQ_2I5e2AzChFuMN8z9KMOejpQ4/pub?start=false&loop=false&delayms=3000
