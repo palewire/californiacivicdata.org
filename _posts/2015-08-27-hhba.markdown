@@ -18,6 +18,7 @@ My message: Data journalists are raising their tech game. But to take advantage 
 * Identify the common tasks of newsroom data work where we're reinventing wheels
 * Start or contribute to open-source projects that try to tackle them once and for all
 * Help spread underappreciated open-source skills like ["dotadiw" design](https://en.wikipedia.org/wiki/Unix_philosophy), [software packaging](https://en.wikipedia.org/wiki/Package_(package_management_system)), [unit testing](https://en.wikipedia.org/wiki/Unit_testing), [continuous integration](https://en.wikipedia.org/wiki/Continuous_integration) and documentation writing
+* Organize events, code sprints and conferences focused on pushing towards milestones
 
 I take the position that the tedious and painstaking pipeline scripts journalists write to access, transform and load common public data sets like election results, crime reports and government spending are fertile ground for this approach. But I'm sure it could work in other components of our work as well.
 
