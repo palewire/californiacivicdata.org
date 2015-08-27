@@ -27,7 +27,7 @@ approach is what originally animated our open-source project to master Californi
 
 And that's why I'm here at Media Party asking everyone to participate in [California Code
 Rush 2](http://www.californiacivicdata.org/2015/08/18/code-rush-2/), a loosely organized code sprint where hackers can help us make a difference and newbies can learn how to use GitHub to
-contribute to a real open source project.
+contribute to a real open-source project.
 
 ### Citations
 
