@@ -3,6 +3,7 @@ layout: post
 title: "Talk: Media Party 2015 in Buenos Aires"
 deckhead: "All the slides and links from my keynote speech"
 byline: "By [Ben Welsh](http://palewi.re/who-is-ben-welsh/)"
+image: "http://www.californiacivicdata.org/img/hhba.png"
 published: true
 ---
 
