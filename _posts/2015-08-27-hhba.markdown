@@ -3,22 +3,45 @@ layout: post
 title: "Talk: Media Party 2015 in Buenos Aires"
 deckhead: "All the slides and links from my keynote speech"
 byline: "By [Ben Welsh](http://palewi.re/who-is-ben-welsh/)"
-published: false
+published: true
 ---
 
 This morning I delivered a brief speech at [Media Party 2015](http://www.meetup.com/HacksHackersBA/events/223765925/), the annual
 conference put on by the Buenos Aires chapter of Hacks/Hackers.
 
-https://docs.google.com/presentation/d/1BWIyHq3bPAEBhckYRQ_2I5e2AzChFuMN8z9KMOejpQ4/pub?start=false&loop=false&delayms=3000
+
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'>
+<iframe src="https://docs.google.com/presentation/d/1BWIyHq3bPAEBhckYRQ_2I5e2AzChFuMN8z9KMOejpQ4/embed?start=false&loop=false&delayms=3000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></div>
 
 My message: Data journalists are raising their tech game. But to take advantage of our vibrant community and harness the potential for open-source collaboration, we need to:
 
-* Identify the common tasks of newsroom data analysis where we're all reinventing the wheel
-* Start open-source projects that try to tackle them once and for all
-* Foster underappreciated open-source skills like ["dotadiw" design](https://en.wikipedia.org/wiki/Unix_philosophy), [software packaging](https://en.wikipedia.org/wiki/Package_(package_management_system)), [[unit testing](https://en.wikipedia.org/wiki/Unit_testing), [continuous integration](https://en.wikipedia.org/wiki/Continuous_integration) and documentation writing
+* Identify the common tasks of newsroom data work where we're reinventing wheels
+* Start or contribute to open-source projects that try to tackle them once and for all
+* Help spread underappreciated open-source skills like ["dotadiw" design](https://en.wikipedia.org/wiki/Unix_philosophy), [software packaging](https://en.wikipedia.org/wiki/Package_(package_management_system)), [unit testing](https://en.wikipedia.org/wiki/Unit_testing), [continuous integration](https://en.wikipedia.org/wiki/Continuous_integration) and documentation writing
 
-Today I took the position that the tedious and painstaking pipeline scripts journalists write to access, transform and load common public data sets like election results, crime reports and government spending are fertile ground for this approach. But I'm sure it could work in other components of our work as well.
+I take the position that the tedious and painstaking pipeline scripts journalists write to access, transform and load common public data sets like election results, crime reports and government spending are fertile ground for this approach. But I'm sure it could work in other components of our work as well.
 
-As we've [written before](http://www.californiacivicdata.org/2014/09/24/pluggable-data/), this
+As the California Civic Data Coalition has [written before](http://www.californiacivicdata.org/2014/09/24/pluggable-data/), this
 approach is what originally animated our open-source project to master California's jumbled, dirty and difficult database tracking money in state politics.
 
+### Citations
+
+Here is a list of links to materials featured in the slides.
+
+* [Pinches Tacos](http://www.yelp.com/search?find_desc=pinche+tacos&find_loc=Los+Angeles%2C+CA&ns=1)
+* [No Jodas Cuban Kitchen](http://www.yelp.com/biz/no-jodas-cuban-kitchen-los-angeles-2)
+* [911 breakdowns at the LAFD](http://www.latimes.com/local/lafddata/)
+* [Hit and runs take a rising toll on cyclists](http://graphics.latimes.com/la-bike-hit-and-runs/)
+* [Walking in L.A.](http://graphics.latimes.com/la-pedestrians/)
+* [Where do people drink the most beer, wine and spirits](http://fivethirtyeight.com/datalab/dear-mona-followup-where-do-people-drink-the-most-beer-wine-and-spirits/)
+* [github.com/fivethirtyeight/data](https://github.com/fivethirtyeight/data)
+* [Immigration Authorities Are Far More Likely To Jail You If You’re Mexican](http://www.buzzfeed.com/davidnoriega/vast-disparities-by-nationality-in-immigration-jailings)
+* [github.com/BuzzFeedNews/2015-08-immigrant-detention](https://github.com/BuzzFeedNews/2015-08-immigrant-detention)
+* [github.com/kennethreitz/requests](https://github.com/kennethreitz/requests)
+* [openstates.org](http://openstates.org/)
+* [openelections.net](http://openelections.net/)
+* [www.illinoissunshine.org](http://www.illinoissunshine.org/)
+* [data.okfn.org](http://data.okfn.org/)
+* [treasury.io](http://treasury.io/)
+* [github.com/california-civic-data-coalition](https://github.com/california-civic-data-coalition)
+* [Join California Code Rush 2 at Media Party 2015 in Buenos Aires](http://www.californiacivicdata.org/2015/08/18/code-rush-2/)
