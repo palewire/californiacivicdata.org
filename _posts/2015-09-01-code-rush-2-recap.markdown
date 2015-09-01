@@ -20,7 +20,7 @@ code sprint. We had so much fun trying it for [the first time](http://www.califo
 As expected, our industrious community rose to the challenge. By the end of the conference,
 27 different people from around the world contributed more than 250 code commits.
 
-It added up to enough to meet the milestone we set for the event: To fully document
+It added up to enough to meet the milestone we set: To fully document
 the more than 1,400 fields in the sprawling database that tracks money in
 California politics.
 
