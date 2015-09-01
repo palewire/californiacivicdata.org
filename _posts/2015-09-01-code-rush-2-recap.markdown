@@ -21,7 +21,7 @@ As expected, our industrious community rose to the challenge. By the end of the 
 27 different people from around the world contributed more than 250 code commits.
 
 It added up to enough to meet the milestone we set: To fully document
-the more than 1,400 fields in the sprawling database that tracks money in
+the more than 1,400 fields in CAL-ACCESS, the sprawling database that tracks money in
 California politics.
 
 <figure>
