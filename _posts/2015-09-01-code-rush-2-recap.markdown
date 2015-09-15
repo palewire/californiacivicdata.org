@@ -41,7 +41,7 @@ Others, like [Luciana Godoy](https://about.me/tocateunvals), [Burt Herman](http:
 
 [Daniel Cloud](http://danielcloud.org/), a veteran of The Sunlight Foundation, [dug deep](https://github.com/california-civic-data-coalition/django-postgres-copy/pull/14) into our Python wrapper on PostgreSQL's bulk loading command to make a crucial fix.
 
-Tomas, an 18-year-old hacker interested in news, [redesigned](https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/toolbox/templates/toolbox/models.rst) our database documentation to be more compact and legible.
+Tomás Wehner, an 18-year-old hacker interested in news, [redesigned](https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/toolbox/templates/toolbox/models.rst) our database documentation to be more compact and legible.
 
 By the end of the drive, our GitHub contribution charts spiked to a new high and the total number of outside contributors to our open-source effort topped 75 people.
 
