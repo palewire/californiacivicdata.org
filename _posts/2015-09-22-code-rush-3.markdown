@@ -23,7 +23,7 @@ We've had such a blast running with the idea [at NICAR 2015 in Atlanta](/2015/03
 
 **Don't worry if you’re new to open source.** Spend some time and we'll guide you through your first contribution, from fork to patch to pull.
 
-A small-sized ticket won't take longer than 20 minutes. You'll learn how to use GitHub, make you first open-source software contribution and walk away with a [limited-edition sticker](/img/coderush3.png) (designed just for this event by our man [Thomas Suh Lauder](https://twitter.com/thomas06037), using his iconoclastic aesthetic, [Snoopmorphic Design](https://www.youtube.com/watch?v=dQw4w9WgXcQ)™).
+A small-sized ticket won't take longer than 20 minutes. You'll learn how to use GitHub, make you first open-source software contribution and walk away with a [limited-edition sticker](/img/coderush3.png) (designed just for this event by our man [Thomas Suh Lauder](https://twitter.com/thomas06037), using his iconoclastic aesthetic, [Eazymorphic Design](https://www.youtube.com/watch?v=dQw4w9WgXcQ)™).
 
 Close a bigger ticket and we'll send you a custom t-shirt.
 
