@@ -3,7 +3,7 @@ layout: post
 title: "ONA attendees map dozens of crucial CAL-ACCESS database keys"
 deckhead: "California Code Rush 3 sprinted past another milestone thanks to ONA 2015 volunteers"
 byline: "By [Ben Welsh](http://palewi.re/who-is-ben-welsh/)"
-image: http://www.californiacivicdata.org/img/coderush3.png
+image: http://www.californiacivicdata.org/img/code-rush-3-share.jpg
 published: true
 ---
 
