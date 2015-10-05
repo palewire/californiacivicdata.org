@@ -15,7 +15,7 @@ an annual gathering of digital journalists from across America and the world.
 This year the event was held in [Los Angeles](http://ona15.journalists.org/). So we didn't have to travel far to launch our third California Code Rush.
 
 It's a simple idea. We bring a pile of tickets for improvements to our open-source software
-for an informal variation on the classic code sprint.
+for an informal twist on the classic code sprint.
 
 And it comes a simple pitch: Submit a patch, win a prize.
 
