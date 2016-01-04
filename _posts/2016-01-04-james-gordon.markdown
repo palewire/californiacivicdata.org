@@ -3,7 +3,7 @@ layout: post
 title: "Meet the California Civic Data Coalition's new lead developer"
 deckhead: "His name is James Gordon"
 byline: "By [Ben Welsh](http://palewi.re/who-is-ben-welsh/), [Cheryl Phillips](http://www.twitter.com/cephillips), [Aaron Williams](http://aboutaaron.com/) and [Jennifer LaFleur](https://twitter.com/j_la28)"
-image: http://www.californiacivicdata.org/img/james-gordon.jpg
+image: http://www.californiacivicdata.org/img/james-gordon-twitter.jpg
 published: true
 ---
 
