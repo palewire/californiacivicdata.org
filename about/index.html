@@ -2,6 +2,12 @@
 layout: default
 title: About - The California Civic Data Coalition
 permalink: /about/
+developers:
+  - name: James Gordon
+    url: http://www.californiacivicdata.org/2016/01/04/james-gordon/
+    image: /img/james-gordon.jpg
+    twitter: je_gordon
+    email: gordon.je@gmail.com
 leaders:
   - name: Jennifer LaFleur
     url: https://www.revealnews.org/author/jennifer-lafleur/
@@ -93,11 +99,38 @@ leaders:
 </section>
 
 <section>
+    <h3>Lead developer</h3>
+
+    <div class="row">
+    {% for obj in page.developers %}
+        <div class="bio-item col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <img alt="{{ obj.name }}" title="{{ obj.name }}" src="{{ obj.image }}">
+            <h4><a href="{{ obj.url }}">{{ obj.name }}</a></h4>
+            <span class="bio-metadata">
+                <span class="twitter">
+                    <a href="http://twitter.com/{{ obj.twitter }}">
+                        @{{ obj.twitter }}
+                    </a>
+                </span>
+                <span class="email">
+                    <a href="mailto:{{ obj.email }}">{{ obj.email }}</a>
+                </span>
+            </span>
+        </div>
+        {% if forloop.index == 2 %}
+        <div class="clearfix visible-xs-block visible-sm-block"></div>
+        {% endif %}
+    {% endfor %}
+    </div>
+</section>
+
+<section>
     <h3>Contact</h3>
     <ul class="bullets">
         <li>Email: <a href="mailto:cacivicdata@gmail.com">cacivicdata@gmail.com</a></li>
         <li>GitHub: <a href="https://github.com/california-civic-data-coalition">california-civic-data-coalition</a></li>
         <li>Twitter: <a href="http://www.twitter.com/cacivicdata">@cacivicdata</a></li>
+        <li>Slack: <a href="http://newsnerdery.org/">News Nerdery's</a> <a href="https://newsnerdery.slack.com/messages/california-civic-data/">#california-civic-data</a>
         <li>Freenode IRC: <a href="http://webchat.freenode.net/?channels=californiacivicdata">#californiacivicdata</a></li>
     </ul>
 
