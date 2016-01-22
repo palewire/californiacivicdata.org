@@ -6,7 +6,7 @@ byline: "By [Ben Welsh](http://palewi.re/who-is-ben-welsh/), [Cheryl Phillips](h
 published: True
 ---
 
-<img style="-webkit-user-select: none; cursor: zoom-in;" src="/img/cli_2.gif" width="543" height="97">
+<img style="-webkit-user-select: none; cursor: zoom-in;" src="/img/cli_2.gif" width="100%">
 
 Today we're releasing version 0.2.0 of our [software](http://django-calaccess-raw-data.californiacivicdata.org/en/latest/) for downloading, cleaning and loading raw campaign finance and lobbying data.
 
