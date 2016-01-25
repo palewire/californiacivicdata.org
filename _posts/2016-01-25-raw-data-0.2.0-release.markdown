@@ -1,0 +1,51 @@
+---
+layout: post
+title: "New CAL-ACCESS code release boasts more command options, flexibility for users"
+deckhead: "Thanks to the frequent support of coders like you"
+byline: "By [James Gordon](https://twitter.com/je_gordon)"
+published: True
+---
+
+Today we're releasing version 0.2 of [django-calaccess-raw-data](http://django-calaccess-raw-data.californiacivicdata.org/en/latest/), our open-source software for handling California's campaign finance and lobbying activity data.
+
+The goal of the app is simple: Make access to bulk data behind [CAL-ACCESS](http://cal-access.ss.ca.gov/) &mdash; the jumbled, dirty and difficult site tracking money in state politics &mdash; as simple as a few keystrokes.
+
+With the improvements included in this release, our users now have greater control over the flow of the data pipeline.
+
+<img style="-webkit-user-select: none; cursor: zoom-in;" src="/img/cli_2.gif" width="100%">
+
+### What's in the release
+
+* A new command, `updatecalaccessrawdata`, that downloads, cleans and loads the raw data into your database in one straightforward step
+* If your download is interrupted, restart were you left off by invoking the `--resume-download` option
+* Load files into any database configured in your Django project by invoking the `--database` command line option
+* The `loadcalaccessrawfile` command takes a `--csv` option that in case you need to load from another source into our data models
+* Since downloading and processing up to 12 gigabytes of data has been an issue for some of our users, each of the app's commands will now clear out the original and intermediate files once they are loaded into the database. If you'd prefer to keep these files, you can invoke the `--keep-files` option.
+* [Expanded documentation](http://django-calaccess-raw-data.californiacivicdata.org/en/latest/managementcommands.html) of all the management commands
+* Support for Django versions 1.8 and 1.9
+* Support for Python version 3.5
+* Hundreds of table and field definitions patched by dozens of contributors at our [California](http://www.californiacivicdata.org/2015/10/04/code-rush-3-recap/) [Code](http://www.californiacivicdata.org/2015/09/01/code-rush-2-recap/) [Rush](http://www.californiacivicdata.org/2015/03/11/code-rush-recap/) events
+* Automatically generated [table documentation](http://django-calaccess-raw-data.californiacivicdata.org/en/latest/models.html) based on those contributions
+
+### Who to thank
+
+Dozens of contributors have volunteered their time and energy to make this release possible.
+
+In particular, [Ben Cipilloni](https://github.com/bcipolli/) and [Aaron Borden](https://github.com/adborden) authored or instigated many of the improvements to the management commands that form the backbone of the application. Ben and Aaron are both doing great work with [CA Civic Lab](http://caciviclab.org/), a collection of regional groups using our code as a foundation to analyze money in local elections.
+
+### What's next
+
+There's still much work to do. This release is only an early milestone towards our [goals set out last year](/2015/07/22/knight-news-challenge/) when our project was named a winner of the Knight News Challenge.
+
+Stay tuned for future releases, which will include a public web site where simplified versions of the state's bulk
+data will be available for download and reuse.
+
+### How you can help
+
+Dozens of issues remain unresolved on [our GitHub repositories](https://github.com/california-civic-data-coalition/). Many more will be added soon. Jump in and see if anything interests you.
+
+If you'd like to contribute to the raw data application, a good place to start
+is installing the source code for yourself, as outlined here in [our getting started guide](http://django-calaccess-raw-data.californiacivicdata.org/en/latest/howtocontribute.html).
+
+If you have any questions, contact us at [cacivicdata@gmail.com](mailto:cacivicdata@gmail.com). Or find us anytime in
+[News Nerdery's](http://newsnerdery.org/) [#california-civic-data](https://newsnerdery.slack.com/messages/california-civic-data/) Slack chat or in [#californiacivicdata](http://webchat.freenode.net/?channels=californiacivicdata) on Freenode IRC.
