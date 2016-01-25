@@ -8,7 +8,7 @@ published: True
 
 Today we're releasing version 0.2 of [django-calaccess-raw-data](http://django-calaccess-raw-data.californiacivicdata.org/en/latest/), our open-source software for handling California's campaign finance and lobbying activity data.
 
-The goal of the app is simple: Make access to bulk data behind [CAL-ACCESS](http://cal-access.ss.ca.gov/) &mdash; the jumbled, dated and difficult site tracking money in state politics &mdash; as simple as a few keystrokes.
+The goal of the app is simple: Make access to the bulk data behind [CAL-ACCESS](http://cal-access.ss.ca.gov/) &mdash; the jumbled, dated and difficult site tracking money in state politics &mdash; as simple as a few keystrokes.
 
 With the improvements included in this release, our users now have greater control over the flow of the data pipeline.
 
