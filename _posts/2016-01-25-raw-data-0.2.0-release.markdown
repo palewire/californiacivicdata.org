@@ -35,7 +35,7 @@ In particular, [Ben Cipilloni](https://github.com/bcipolli/) and [Aaron Borden](
 
 ### What's next
 
-There's still much work to do. This release is only an early milestone towards our [goals set out last year](/2015/07/22/knight-news-challenge/) when our project was named a winner of the Knight News Challenge.
+There's still much work to do. This release is only an early milestone toward the [goals set out last year](/2015/07/22/knight-news-challenge/) when our project was named a winner of the Knight News Challenge.
 
 Stay tuned for future releases, which will include a public web site where simplified versions of the state's bulk
 data will be available for download and reuse.
