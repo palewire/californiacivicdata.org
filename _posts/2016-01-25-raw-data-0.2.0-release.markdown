@@ -16,7 +16,7 @@ With the improvements included in this release, our users now have greater contr
 
 ### What's in the release
 
-* A new command, `updatecalaccessrawdata`, that downloads, cleans and loads the raw data into your database in one straightforward step
+* A new command, `updatecalaccessrawdata`, downloads, cleans and loads the raw data into your database in one straightforward step
 * If your download is interrupted, restart were you left off by invoking the `--resume-download` option
 * Load files into any database configured in your Django project by invoking the `--database` command line option
 * The `loadcalaccessrawfile` command takes a `--csv` option that in case you need to load from another source into our data models
