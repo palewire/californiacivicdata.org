@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "New CAL-ACCESS code release boasts more command options, flexibility for users"
+title: "New CAL-ACCESS code release offers more command options, flexibility for users"
 deckhead: "Thanks to the frequent support of coders like you"
 byline: "By [James Gordon](https://twitter.com/je_gordon)"
 published: True
