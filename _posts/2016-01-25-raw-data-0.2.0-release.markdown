@@ -17,9 +17,9 @@ With the improvements included in this release, our users now have greater contr
 ### What's in the release
 
 * A new command, `updatecalaccessrawdata`, downloads, cleans and loads the raw data into your database in one straightforward step
-* If your download is interrupted, restart were you left off by invoking the `--resume-download` option
-* Load files into any database configured in your Django project by invoking the `--database` command line option
-* The `loadcalaccessrawfile` command takes a `--csv` option that in case you need to load from another source into our data models
+* If your download is interrupted, restart were you left off by invoking the `--resume-download` command line option
+* Load files into any database configured in your Django project by invoking the `--database` option
+* The `loadcalaccessrawfile` command takes a `--csv` option in case you need to load from another source into our data models
 * Since downloading and processing up to 12 gigabytes of data has been an issue for some of our users, each of the app's commands will now clear out the original and intermediate files once they are loaded into the database. If you'd prefer to keep these files, you can invoke the `--keep-files` option.
 * [Expanded documentation](http://django-calaccess-raw-data.californiacivicdata.org/en/latest/managementcommands.html) of all the management commands
 * Support for Django versions 1.8 and 1.9
