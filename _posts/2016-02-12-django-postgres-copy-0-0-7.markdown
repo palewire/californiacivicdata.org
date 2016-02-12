@@ -10,7 +10,7 @@ published: true
 Today we released a new version of [django-postgres-copy](http://django-postgres-copy.californiacivicdata.org/en/latest/),
 our open-source software library that allows users of the Django web framework to more quickly load comma-delimited data into PostgreSQL databases.
 
-It includes a series of bug fixes and features from members of user base, who
+It includes a series of bug fixes and features from members of our user base, who
 are not participating in [our core project](/about/) but share our need for better tools
 to bulk load big data files.
 
