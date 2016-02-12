@@ -3,6 +3,7 @@ layout: post
 title: "Introducing django-postgres-copy v0.0.7"
 deckhead: "A new release of our bulk-loading tool includes features contributed by our users"
 byline: "By [Ben Welsh](http://palewi.re/who-is-ben-welsh/)"
+image: "http://www.californiacivicdata.org/img/logo.png"
 published: true
 ---
 
