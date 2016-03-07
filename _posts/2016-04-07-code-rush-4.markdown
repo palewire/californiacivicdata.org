@@ -4,7 +4,7 @@ title: "Join California Code Rush 4 at NICAR in Denver"
 deckhead: "A fourth challenge to hacks, hackers and newbies of all ages"
 byline: "By [Ben Welsh](http://palewi.re/who-is-ben-welsh/)"
 image: "http://www.californiacivicdata.org/img/coderush4.png"
-published: true
+published: false
 ---
 
 NICAR16, the California Civic Data Coalition needs you.
@@ -22,9 +22,11 @@ We've had such a blast running with the idea [at NICAR 2015 in Atlanta](/2015/03
 
 **Don't worry if you’re new to open source.** Spend some time and we'll guide you through your first contribution, from fork to patch to pull.
 
-A small-sized ticket won't take longer than 20 minutes. You'll learn how to use GitHub, make your first open-source software contribution and walk away with a [limited-edition sticker](/img/coderush3.png) (designed just for this event by our man [Thomas Suh Lauder](https://twitter.com/thomas06037), using his iconoclastic aesthetic, [Eazymorphic Design](https://www.youtube.com/watch?v=dQw4w9WgXcQ)™).
+A small-sized ticket won't take longer than 20 minutes. You'll learn how to use GitHub, make your first open-source software contribution and walk away with a [limited-edition sticker](/img/coderush4.png) (designed just for this event by our man [Thomas Suh Lauder](https://twitter.com/thomas06037), using his  aesthetic, [Scoobymorphic Design](https://www.youtube.com/watch?v=dQw4w9WgXcQ)™).
 
 Close a bigger ticket and we'll send you a custom t-shirt.
+
+
 
 Our team will be behind the official Los Angeles Times table for most of the conference. Find us there, or flag us down in the the hallways to learn more and get involved.
 
