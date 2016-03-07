@@ -26,6 +26,8 @@ we'll guide you through your first contribution, from fork to patch to pull.
 
 A small-sized ticket won't take longer than 20 minutes. You'll learn how to use GitHub, make your first open-source software contribution and walk away with a [limited-edition sticker](/img/coderush4.png) (designed just for this event by our man [Thomas Suh Lauder](https://twitter.com/thomas06037), using his  mind-altering, [Scoobymorphic Design](https://www.youtube.com/watch?v=dQw4w9WgXcQ)™).
 
+<img src="/img/swaglode4.jpg" style="border: 1px solid black;">
+
 You'll also be entered in raffle to win a prize from this year's swaglode of California collectables. It includes:
 
 * A full-sized California state flag
