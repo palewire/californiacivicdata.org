@@ -19,7 +19,7 @@ We're asking you to help us close them out.
 
 We call it the California Code Rush. It’s a simple game. Submit a patch, win a prize.
 
-We've had a blast running with the idea [at NICAR last year in Atlanta](/2015/03/11/code-rush-recap/) and [Media Party 2015 in Buenos Aires](http://www.californiacivicdata.org/2015/09/01/code-rush-2-recap/) and [ONA15 in Los Angeles](/2015/10/04/code-rush-3-recap/). We're back to try it again.
+We've had a blast running with the idea [at NICAR last year in Atlanta](/2015/03/11/code-rush-recap/), [Media Party 2015 in Buenos Aires](http://www.californiacivicdata.org/2015/09/01/code-rush-2-recap/) and [ONA15 in Los Angeles](/2015/10/04/code-rush-3-recap/). We're back to try it again.
 
 **Don't worry if you’re new to open source.** Spend some time with our team and
 we'll guide you through your first contribution, from fork to patch to pull.
