@@ -1,0 +1,50 @@
+---
+layout: post
+title: "Join California Code Rush 4 at NICAR in Denver"
+deckhead: "A fourth challenge to hacks, hackers and newbies of all ages"
+byline: "By [Ben Welsh](http://palewi.re/who-is-ben-welsh/) and [James Gordon](https://twitter.com/je_gordon)"
+image: "http://www.californiacivicdata.org/img/coderush4.png"
+published: true
+---
+
+There will be swag.
+
+Our crew is headed to Denver this week for [the annual NICAR conference](http://www.ire.org/conferences/nicar2016/).
+And we're packing a trunk full of tickets to continue our open-source quest to
+master [CAL-ACCESS](/about/), the government database tracking California campaign cash.
+
+<img src="/img/coderush4.png" height="200" style="margin: 8px 0 0 14px; float:right;">
+
+We're asking you to help us close them out.
+
+We call it the California Code Rush. It’s a simple game. Submit a patch, win a prize.
+
+We've had a blast running with the idea [at NICAR last year in Atlanta](/2015/03/11/code-rush-recap/) and [Media Party 2015 in Buenos Aires](http://www.californiacivicdata.org/2015/09/01/code-rush-2-recap/) and [ONA15 in Los Angeles](/2015/10/04/code-rush-3-recap/). We're back to try it again.
+
+**Don't worry if you’re new to open source.** Spend some time with our team and
+we'll guide you through your first contribution, from fork to patch to pull.
+
+A small-sized ticket won't take longer than 20 minutes. You'll learn how to use GitHub, make your first open-source software contribution and walk away with a [limited-edition sticker](/img/coderush4.png) (designed just for this event by our man [Thomas Suh Lauder](https://twitter.com/thomas06037), using his  mind-altering, [Scoobymorphic Design](https://www.youtube.com/watch?v=dQw4w9WgXcQ)™).
+
+You'll also be entered in raffle to win a prize from this year's swaglode of California collectables. It includes:
+
+* A full-sized California state flag
+* Two bags of [Blue Bottle](https://bluebottlecoffee.com/) coffee beans
+* A hacked [Oakland "Mathletics"](http://image.spreadshirtmedia.com/image-server/v1/products/1003396451/views/1,width=400,height=400,appearanceId=92,version=1416851181.jpg) t-shirt
+* A remixed ["Beats don't kale my vibes"](http://rlv.zcache.com.au/beets_dont_kale_my_vibe_shirts-r1072a89fa4e54faea92f22c6e3ea7cce_jf4g2_630.jpg?view_padding=%5B285%2C0%2C285%2C0%5D) t-shirt
+* A bottle of spicy mustard from [Phillipe "The Original"](http://www.yelp.com/biz/philippe-the-original-los-angeles)
+* A vial of Habanero hot sauce from the kitchen at [Chichen Itza](http://www.yelp.com/biz/chichen-itza-restaurant-los-angeles)
+* A set of coasters featuring the designs of [Charles and Ray Eames](http://www.eamesoffice.com/eames-office/charles-and-ray/)
+* A fresh, fitted [Cali cap from New Era](http://www.ecapcity.com/cali-new-era-white-blue.html)
+
+Our whole crew will converge on the "Colorado A" room for a scheduled session [Saturday March 12 at 2:15 p.m.](http://www.ire.org/events-and-training/event/2198/2457/) to spend the afternoon hacking. Meet us there to learn more and get involved.
+
+Or find us around the conference and we'll help you start in. We're planning on pitching a tent during our free time and blasting the location on Twitter with the hashtag [#NICAR16](https://twitter.com/search?f=realtime&q=%23NICAR16&src=tyah).
+
+**You don't have to be in Denver to win a prize.** Close a ticket at any time between now and the conference's close on March 13 and your prize will soon be in the mail.
+
+Challenges are waiting in our core application, [django-calaccess-raw-data](https://github.com/california-civic-data-coalition/django-calaccess-raw-data/issues), a backend app for downloading, extracting and loading the raw data from the state. Grab one and get going.
+
+Many of the small ones, particularly the ones asking for [documentation](https://github.com/california-civic-data-coalition/django-calaccess-raw-data/milestones/California%20Code%20Rush%204), won't require you to install any software. But if you take on something big you'll need to download the code [as described here](http://django-calaccess-raw-data.californiacivicdata.org/en/latest/howtocontribute.html).
+
+Want to know more? Email me at <a href="mailto:ben.welsh@gmail.com">ben.welsh@gmail.com</a>.
