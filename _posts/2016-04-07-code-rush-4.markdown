@@ -1,0 +1,40 @@
+---
+layout: post
+title: "Join California Code Rush 4 at NICAR in Denver"
+deckhead: "A fourth challenge to hacks, hackers and newbies of all ages"
+byline: "By [Ben Welsh](http://palewi.re/who-is-ben-welsh/)"
+image: "http://www.californiacivicdata.org/img/coderush4.png"
+published: true
+---
+
+NICAR16, the California Civic Data Coalition needs you.
+
+<img src="/img/coderush4.png" height="200" style="margin: 8px 0 0 14px; float:right;">
+
+We've packed up a trunk full of tickets as we continue our open-source quest to
+master [CAL-ACCESS](/about/), the government database tracking California campaign cash.
+
+We're asking you to help us close them out.
+
+We call it the California Code Rush. It’s a simple game. Submit a patch, win a prize.
+
+We've had such a blast running with the idea [at NICAR 2015 in Atlanta](/2015/03/11/code-rush-recap/) and [Media Party 2015 in Buenos Aires](http://www.californiacivicdata.org/2015/09/01/code-rush-2-recap/) and [ONA15 in Los Angeles](/2015/10/04/code-rush-3-recap/) that we're back to try it again.
+
+**Don't worry if you’re new to open source.** Spend some time and we'll guide you through your first contribution, from fork to patch to pull.
+
+A small-sized ticket won't take longer than 20 minutes. You'll learn how to use GitHub, make your first open-source software contribution and walk away with a [limited-edition sticker](/img/coderush3.png) (designed just for this event by our man [Thomas Suh Lauder](https://twitter.com/thomas06037), using his iconoclastic aesthetic, [Eazymorphic Design](https://www.youtube.com/watch?v=dQw4w9WgXcQ)™).
+
+Close a bigger ticket and we'll send you a custom t-shirt.
+
+Our team will be behind the official Los Angeles Times table for most of the conference. Find us there, or flag us down in the the hallways to learn more and get involved.
+
+But you don't have to be in L.A. to win a prize. Close a ticket at any time between now and the conference's close on Sept. 27 and your prize will soon be in the mail.
+
+Dozens of challenges are waiting for you in our two core applications. Grab one to get going.
+
+* [django-calaccess-raw-data](https://github.com/california-civic-data-coalition/django-calaccess-raw-data/issues) A backend app for downloading, extracting and loading the raw data from the state.
+* [django-calaccess-campaign-browser](https://github.com/california-civic-data-coalition/django-calaccess-campaign-browser/issues) A complementary app for refining, reviewing and publishing the raw campaign finance data.
+
+Many of the small ones, particularly the ones asking for [documentation](https://github.com/california-civic-data-coalition/django-calaccess-raw-data/milestones/California%20Code%20Rush%203:%20ONA%2015), won't require you to install any software. But if you take on something big you'll need to download the code [as described here](http://django-calaccess-campaign-browser.californiacivicdata.org/en/latest/howtocontribute.html).
+
+Want to know more? Email me at <a href="mailto:ben.welsh@gmail.com">ben.welsh@gmail.com</a>.
