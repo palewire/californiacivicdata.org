@@ -1,0 +1,49 @@
+---
+layout: post
+title: "Raw CAL-ACCESS data app ready for production"
+deckhead: ""
+byline: "By [James Gordon](https://twitter.com/je_gordon)"
+published: False
+---
+
+<img style="-webkit-user-select: none; cursor: zoom-in;" src="/img/jasmine_and_ben.jpg" width="100%">
+
+Today marks a significant milestone toward our goal of delivering bulk data extracted from California's campaign finance and lobbyist disclosure database, known as CAL-ACCESS.
+
+We're announcing the release of version 1.0 of [our app](http://django-calaccess.readthedocs.io/en/latest/apps/calaccess_raw.html) that downloads, cleans and loads the raw CAL-ACCESS data. With this rollout of enhancements, we've climbed out of beta mode, and we're now inviting more users to rely on our software.
+
+Transparency is one of the guiding principles of this project, so for the past several months we've focused on picking up the slack for the administrators of CAL-ACCESS, who have allowed their documentation to grow stale and incomplete.
+
+Maybe these admins thought column names like `PFORM_TYPE`, which is found on the`SPLT_CD` table, were just too obvious to bother explaining. Of course, the `PFORM_TYPE` column stores an ID referencing the parent filing form of a given sub-itemization record. How could anyone not see that?
+
+To spare you from having to sift through the Secretary of State's old, incomplete and inconsistent documentation, we've published [our own docs](http://django-calaccess.readthedocs.io/en/latest/calaccess.html) with explanations and details about each of the 1,467 fields on the 80 raw CAL-ACCESS data files.
+
+This include meticulously mapping hundreds of indecipheriable abbreviated codes to their human-readable descriptions. No more hunting for which office code represents "Supreme Court Justice" (now was it `SPM` or `SUP`?). Not only does this include the so-called "valid" codes buried in the official documentation, but also the values actually observed in the database fields and our best guess as to what they mean.
+
+Our docs are -- and will continue to be -- the most detailed and up-to-date publicly available description of the CAL-ACCESS database. Period.
+
+How can we be so confident? Because rather than typing all these docs out manually, we've integrated the descriptions and source material references into our data models so that we can programmatically generate these documents and automatically detect any pieces that might be missing.
+
+Our docs are the main event today, but this release also includes other important improvements. For instance:
+* You can now resume a previously interrupted database update at any stage of the process.
+* We've added a setting to enforcing archiving of earlier versions of the raw data files.
+
+See the full list of changes [here](http://django-calaccess.readthedocs.io/en/latest/apps/calaccess_raw/changelog.html#may-2016).
+
+### Thanks (once again) to our contributors
+
+We could not have succeed in this gargantuan effort were it not for our ever-helpful contributors who volunteered their time and energy to our cause.
+
+In particular, we want to thank the approximately 50 contributors who showed up to our fourth California Code Rush at NICAR 2016 in Denver. At this event alone, we had over 100 commits to the raw data app. 
+
+Brick-by-brick and database column-by-database column, these commits by the code rushers added up to a huge boost in our documenting effort. Also, a special thanks to [Anthony Pesce](https://github.com/anthonyjpesce) of the Los Angeles Times Data Desk for laying the groundwork for our new archving feature.
+
+### Now what?
+
+With the first major component of our project complete, we're excited to begin work on the next link in the data pipeline: A ["processed data" app](http://django-calaccess.californiacivicdata.org/en/latest/apps/calaccess_raw.html) that will normalize the raw CAL-ACCESS data and shoehorn it into simpler data models that are easier to query and analyze.
+
+We're also beginning work on a public website where anyone will be able to download the current or previous versions of the raw CAL-ACCESS data files and (eventually) our processed data files.
+
+### How you can help
+
+If you're a journalist covering California state politics or a political scientist eager to incorporate CAL-ACCESS data into your research, we want to hear from you. What questions would you expect to answer with these data? Give us a shout on [email](cacivicdata@gmail.com), [Twitter](https://twitter.com/cacivicdata) or the #california-civic-data channel of the [News Nerdery Slack](http://newsnerdery.org/).
