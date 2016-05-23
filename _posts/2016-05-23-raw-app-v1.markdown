@@ -6,7 +6,7 @@ byline: "By [James Gordon](https://twitter.com/je_gordon)"
 published: False
 ---
 
-<img style="-webkit-user-select: none; cursor: zoom-in;" src="/img/jasmine_and_ben_w.jpg" width="100%">
+<img style="-webkit-user-select: none; cursor: zoom-in;" src="/img/jasmine_and_ben_w.jpg" height="400" style="margin: 8px 0 0 14px; float:right;">
 
 Today marks a significant milestone toward our goal of delivering bulk data extracted from California's campaign finance and lobbyist disclosure database, known as CAL-ACCESS.
 
