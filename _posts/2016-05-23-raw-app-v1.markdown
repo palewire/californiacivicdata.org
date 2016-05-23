@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Raw CAL-ACCESS data app ready for production"
-deckhead: "We culled through every minor detail of this data so you don't have to"
+deckhead: "We culled through every annoying detail of this database so you don't have to"
 byline: "By [James Gordon](https://twitter.com/je_gordon)"
 published: False
 ---
