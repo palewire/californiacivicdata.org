@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Raw CAL-ACCESS data app ready for production"
-deckhead: ""
+deckhead: "We culled through every minor detail of this data so you don't have to"
 byline: "By [James Gordon](https://twitter.com/je_gordon)"
-published: True
+published: False
 ---
 
 <img style="-webkit-user-select: none; cursor: zoom-in;" src="/img/jasmine_and_ben.jpg" width="100%">
