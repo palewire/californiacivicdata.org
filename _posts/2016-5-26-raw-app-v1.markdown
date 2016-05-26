@@ -6,9 +6,9 @@ byline: "By [James Gordon](https://twitter.com/je_gordon)"
 published: False
 ---
 
-<figure style="margin: 8px 0 0 10px; float:right;">
-    <img alt="California Code Rusher Jasmine Han claims her prize." title="California Code Rusher Jasmine Han claims her prize." src="/img/jasmine-and-ben.jpg" height="325">
-    <figcaption style="text-align:right;">California Code Rusher Jasmine Han claims her prize.</figcaption>
+<figure style="margin: 8px 0 0 10px; width: 100%">
+    <iframe width="100%" height="400" src="https://www.youtube.com/embed/IE9sKGWoYNk" frameborder="0" allowfullscreen></iframe>
+    <figcaption style="text-align:right;">Video by University of Missouri students Jennifer Lu and Yang Sun</figcaption>
 </figure>
 
 Today we're announcing the release of version 1.0 of our [raw-data app](http://django-calaccess.californiacivicdata.org/en/latest/apps/calaccess_raw.html), marking a major milestone toward our goal of delivering bulk access to California state campaign finance and lobbyist disclosure data.
