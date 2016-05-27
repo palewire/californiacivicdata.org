@@ -32,7 +32,7 @@ through the data column by column to help us beef up our documentation.
     <figcaption style="text-align:right;">Video by University of Missouri students Jennifer Lu and Yang Sun</figcaption>
 </figure>
 
-After all their work, our core team pulled together the finishing touches and
+After all their work, our core team applied the finishing touches and
 prepared today's release. To review the full list of changes to our code check out [the changelog](http://django-calaccess.californiacivicdata.org/en/latest/apps/calaccess_raw/changelog.html#may-2016).
 The documentation is now available at [django-calaccess.californiacivicdata.org](http://django-calaccess.californiacivicdata.org/).
 
