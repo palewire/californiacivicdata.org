@@ -68,9 +68,9 @@ begin work on the next link in our planned data pipeline: A ["processed data" ap
 that will refine the raw CAL-ACCESS data and shoehorn it into simpler data models
 that are easier to query and analyze.
 
-We're also beginning work on a public website where anyone will be able to
-download the current or previous versions of the raw CAL-ACCESS data files
-and eventually our processed data files.
+We're also beginning work an online archive where the public will be able to
+download current and previous versions of the raw CAL-ACCESS data files
+and, eventually, our processed data files.
 
 ### How you can help
 
