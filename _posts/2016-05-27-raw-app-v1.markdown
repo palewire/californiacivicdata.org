@@ -76,8 +76,7 @@ and eventually our processed data files.
 
 If you're a journalist covering California state politics or a political scientist
 eager to incorporate CAL-ACCESS data into your research, we want to hear
-from you.  Give
-us a shout on [email](cacivicdata@gmail.com) or the #california-civic-data channel of the [News Nerdery Slack](http://newsnerdery.org/).
+from you.  Give us a shout on [email](cacivicdata@gmail.com) or in the #california-civic-data channel of the [News Nerdery Slack](http://newsnerdery.org/).
 
 If you're a coder eager to get cracking, check out [our repositories on GitHub](https://github.com/california-civic-data-coalition/)
 and the [getting started section](http://django-calaccess.californiacivicdata.org/en/latest/howtocontribute.html) of our documentation. There you will find dozens of tickets where you can make a difference today.
