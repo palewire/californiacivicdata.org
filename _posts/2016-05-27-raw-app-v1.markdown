@@ -56,7 +56,7 @@ the database records against paper filings.)
 
 We also meticulously mapped hundreds of cryptic abbreviations to
 human-readable descriptions. No more hunting for which office code represents
-"Supreme Court Justice" (now was it `SPM` or `SUP`?).
+"Supreme Court Justice" (Was it `SPM` or `SUP`?).
 
 And we mapped [the dozens of different forms](http://django-calaccess.californiacivicdata.org/en/latest/calaccess/filingforms.html) submitted by campaigns and lobbyists to the tables where
 their information is stored, the most complete connection between the two that we suspect has ever been published.
