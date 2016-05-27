@@ -10,11 +10,12 @@
     <meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %}/img/logo.png{% endif %}"/>
     <meta property="og:description" content="{{ page.deckhead }}"/>
 
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image:src" content="{% if page.image %}{{ page.image }}{% else %}/img/logo.png{% endif %}">
-    <meta name="twitter:site" content="@latimes">
-    <meta name="twitter:title" content="{{ page.title }}">
-    <meta name="twitter:description" content="{{ page.deckhead }}"/>
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:image:src" content="{% if page.image %}{{ page.image }}{% else %}/img/logo.png{% endif %}">
+    <meta property="twitter:site" content="@latimes">
+    <meta property="twitter:title" content="{{ page.title }}">
+    <meta property="twitter:description" content="{{ page.deckhead }}"/>
+    <meta property="twitter:image" content="{% if page.image %}{{ page.image }}{% else %}http://www.californiacivicdata.org/img/logo.png{% endif %}" />
 
     <link rel="image_src" type="image/jpeg" href="{% if page.image %}{{ page.image }}{% else %}http://www.californiacivicdata.org/img/logo.png{% endif %}" />
 </head>
