@@ -47,7 +47,7 @@ is too self-evident to bother explaining.
 That not enough to put you off? Try imaging 1,466 more columns just like it.
 
 To spare anyone else from having to sift through Padilla's outdated, incomplete
-and inconsistent documentation for the answers ever again, we've compiled [our own](http://django-calaccess.californiacivicdata.org/en/latest/calaccess/dbtables.html)
+and inconsistent [documentation](http://django-calaccess.californiacivicdata.org/en/latest/calaccess/officialdocumentation.html) ever again, we've compiled [our own](http://django-calaccess.californiacivicdata.org/en/latest/calaccess/dbtables.html)
 explanations for each of the system's 80 data tables.
 
 (Spoiler: The `PFORM_TYPE` column stores an ID referencing the parent filing form of a
