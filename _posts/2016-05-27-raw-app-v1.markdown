@@ -1,73 +1,70 @@
 ---
 layout: post
-title: "Foundational CAL-ACCESS app hits version 1.0"
-deckhead: "We wouldn't have made it this far with our community of fellow civic data hackers"
+title: "CAL-ACCESS app hits version 1.0"
+deckhead: "With your help, we've decoded California's cryptic database tracking money in politics. Now let's do something with it."
 byline: "By [James Gordon](https://twitter.com/je_gordon)"
-published: False
+image: "http://www.californiacivicdata.org/img/code-rush-4-share.png"
+published: true
 ---
+
+
+Today we're announcing the release of version 1.0 of the
+[django-calaccess-raw-data](http://django-calaccess.californiacivicdata.org/en/latest/apps/calaccess_raw.html) library,
+a major step towards our goal of making it easier to analyze the role of money in California politics.
+
+Alongside the code, we're introducing [new, comprehensive documentation for CAL-ACCESS](http://django-calaccess.californiacivicdata.org/en/latest/calaccess.html),
+the jumbled, dirty and difficult state database that powers our project. 
+
+Both achievements are thanks to our growing crowd of open-source contributors,
+which now numbers <b>nearly 150 journalists, computer programmers and other volunteers</b>.
+
+The final sprint was aided by more than 50 people who participated in our fourth California Code Rush
+event at [NICAR 2016 in Denver](/2016/03/07/code-rush-4/).
+
+There, hackers like [Anthony Pesce](https://github.com/anthonyjpesce) contributed code to improve our Django application that downloads,
+extracts and loads the state's massive database.
+
+Others, like [Neil Bedi](https://github.com/nbedi) and [Maegan Clawges](https://github.com/mclawges22), marched
+through the data column by column to help us beef up our documentation.
 
 <figure style="margin: 8px 0 0 10px; width: 100%">
     <iframe width="100%" height="400" src="https://www.youtube.com/embed/IE9sKGWoYNk" frameborder="0" allowfullscreen></iframe>
     <figcaption style="text-align:right;">Video by University of Missouri students Jennifer Lu and Yang Sun</figcaption>
 </figure>
 
-Today we're announcing the release of version 1.0 of our
-[raw-data app](http://django-calaccess.californiacivicdata.org/en/latest/apps/calaccess_raw.html),
-marking a major milestone toward our goal of delivering bulk access to California state
-campaign finance and lobbyist disclosure data.
+After all their work, our core team pulled together the finishing touches and
+prepared today's release. To review the full list of changes to our code check out [the changelog](http://django-calaccess.californiacivicdata.org/en/latest/apps/calaccess_raw/changelog.html#may-2016).
+The documentation is now available at [django-calaccess.californiacivicdata.org](http://django-calaccess.californiacivicdata.org/).
 
-Thanks to a big boost by our XXX contributors, we've climbed out of beta mode,
-and we're now inviting more users to rely on our code to deal
-with [CAL-ACCESS](http://cal-access.ss.ca.gov/), California's messy campaign
-finance and lobbyist reporting database.
+### Why did this take so long?
 
-See the full list of changes [here](http://django-calaccess.californiacivicdata.org/en/latest/apps/calaccess_raw/changelog.html#may-2016).
+The CAL-ACCESS database, maintained by California Secretary of State Alex Padilla,
+is one of the most confusing systems we've ever encountered. 
 
-### Read The Awesome Docs
+For instance, its adminstrators think a column like the `SPLT_CD` table's `PFORM_TYPE`
+is too self-evident to bother explaining.
 
-Transparency is one of the guiding principles of this project, so for the past
-several months we've focused on picking up the slack for the administrators of
-CAL-ACCESS, who have allowed their documentation to grow stale and incomplete.
+That not enough to put you off? Try imaging 1,466 more columns just like it.
 
-Maybe these admins thought column names like `PFORM_TYPE`, which is found on
-the`SPLT_CD` table, were just too self-evident to bother explaining. Of course,
-the `PFORM_TYPE` column stores an ID referencing the parent filing form of a
-given sub-itemization record. 
+To spare anyone else from having to sift through Padilla's outdated, incomplete
+and inconsistent documentation for the answers ever again, we've compiled [our own](http://django-calaccess.californiacivicdata.org/en/latest/calaccess/dbtables.html)
+explanations for each of the system's 80 data tables.
 
-How could that be any more obvious?
+(Spoiler: The `PFORM_TYPE` column stores an ID referencing the parent filing form of a
+given sub-itemization record. That's hard-won knowledge we puzzled out after hours of comparing
+the database records against paper filings.)
 
-To spare you from having to sift through the Secretary of State's old, incomplete
-and inconsistent documentation, we've compiled [our own documentation](http://django-calaccess.californiacivicdata.org/en/latest/calaccess.html)
-with explanations and details about each of the 1,467 fields on the 80 raw CAL-ACCESS data files.
-
-This includes meticulously mapping hundreds of cryptic abbreviated codes to their
+We also meticulously mapped hundreds of cryptic abbreviations to
 human-readable descriptions. No more hunting for which office code represents
-"Supreme Court Justice" (now was it `SPM` or `SUP`?). We've covered, not only
-the so-called "valid" codes buried in the official documentation, but also the
-values actually observed in the database fields and our best guess as to what
-they mean.
+"Supreme Court Justice" (now was it `SPM` or `SUP`?).
 
-Our docs are &mdash; and will continue to be &mdash; the most detailed and
-up-to-date publicly available description of the CAL-ACCESS database. 
-
-How can we be so confident? Because rather than manually typing out all
-these docs, we've integrated the descriptions and source material references
-into our data models. This means we can programmatically generate these
-documents and automatically detect any pieces that might be missing.
-
-### Community-Powered Project 
-
-A big shout out to the roughly 50 attendants of our fourth California Code Rush
-at NICAR 2016 in Denver. Marching database column-by-database column, code
-rushers made over 100 commits that helped us beef up our documentation.
-
-Also, a special thanks to code rusher [Anthony Pesce](https://github.com/anthonyjpesce) of
-the Los Angeles Times Data Desk for laying the groundwork for our new archiving feature.
+And we mapped [the dozens of different forms](http://django-calaccess.californiacivicdata.org/en/latest/calaccess/filingforms.html) submitted by campaigns and lobbyists to the tables where
+their information is stored, the most complete connection between the two that we suspect has ever been published.
 
 ### Now what?
 
 With the first major component of our project complete, we're excited to
-begin work on the next link in the data pipeline: A ["processed data" app](http://django-calaccess.californiacivicdata.org/en/latest/apps/calaccess_processed.html)
+begin work on the next link in our planned data pipeline: A ["processed data" app](http://django-calaccess.californiacivicdata.org/en/latest/apps/calaccess_processed.html)
 that will refine the raw CAL-ACCESS data and shoehorn it into simpler data models
 that are easier to query and analyze.
 
@@ -79,5 +76,8 @@ and (eventually) our processed data files.
 
 If you're a journalist covering California state politics or a political scientist
 eager to incorporate CAL-ACCESS data into your research, we want to hear
-from you. What questions would you expect to answer with these data? Give
-us a shout on [email](cacivicdata@gmail.com), [Twitter](https://twitter.com/cacivicdata) or the #california-civic-data channel of the [News Nerdery Slack](http://newsnerdery.org/).
+from you.  Give
+us a shout on [email](cacivicdata@gmail.com) or the #california-civic-data channel of the [News Nerdery Slack](http://newsnerdery.org/).
+
+If you're a coder eager to get cracking, check out [our repositories on GitHub](https://github.com/california-civic-data-coalition/)
+and the [getting started section](http://django-calaccess.californiacivicdata.org/en/latest/howtocontribute.html) of our documentation. There you will find dozens of tickets where you can make a difference today.
