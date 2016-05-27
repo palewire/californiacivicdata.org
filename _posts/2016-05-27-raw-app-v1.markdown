@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "CAL-ACCESS app hits version 1.0"
-deckhead: "With your help, we've decoded California's cryptic database tracking money in politics. Now let's do something with it."
+deckhead: "With your help, we've decoded California's cryptic database tracking money in state politics. Now let's do something with it."
 byline: "By [James Gordon](https://twitter.com/je_gordon)"
 image: "http://www.californiacivicdata.org/img/code-rush-4-share.png"
 published: true
