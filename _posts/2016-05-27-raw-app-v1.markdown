@@ -70,7 +70,7 @@ that are easier to query and analyze.
 
 We're also beginning work on a public website where anyone will be able to
 download the current or previous versions of the raw CAL-ACCESS data files
-and (eventually) our processed data files.
+and eventually our processed data files.
 
 ### How you can help
 
