@@ -9,9 +9,9 @@ published: true
 
 Now that we've nailed down the [first component](http://www.californiacivicdata.org/2016/05/27/raw-app-v1/) of our [data pipeline](http://django-calaccess.californiacivicdata.org/en/latest/index.html) for California's campaign cash, we've started moving our software to the cloud with Amazon Web Services.
 
-But we hit a snag this week: Our new archiving process, which keeps a raw and cleaned version of each file in the [daily 700MB data dump](http://www.sos.ca.gov/campaign-lobbying/cal-access-resources/raw-data-campaign-finance-and-lobbying-activity/), slowed to crawl when we configured an [Amazon S3](https://en.wikipedia.org/wiki/Amazon_S3) to store the files.
+But we hit a snag this week: Our new archiving process, which keeps a raw and cleaned version of each file in the [daily 750MB data dump](http://www.sos.ca.gov/campaign-lobbying/cal-access-resources/raw-data-campaign-finance-and-lobbying-activity/), slowed to crawl when we configured an [Amazon S3](https://en.wikipedia.org/wiki/Amazon_S3) to store the files.
 
-But then we tried "Transfer Acceleration." It's a not-so-obvious option that Amazon rolled out [last month](https://aws.amazon.com/blogs/aws/aws-storage-update-amazon-s3-transfer-acceleration-larger-snowballs-in-more-regions/).
+But then we tried "transfer acceleration." It's a not-so-obvious option that Amazon rolled out [last month](https://aws.amazon.com/blogs/aws/aws-storage-update-amazon-s3-transfer-acceleration-larger-snowballs-in-more-regions/).
 
 We found out that it's easy to implement, and it cut our archiving time **in half**, from more than five hours down less than three.
 
