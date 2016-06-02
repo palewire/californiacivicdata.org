@@ -32,13 +32,13 @@ We did it simply by clicking this button in the web panel.
 Once that was set, we made a small modification to our ``settings.py`` file to point django-storages at the accelerated upload service. This setting:
 
 {% highlight python %}
-S3_URL = 'https://{bucket_name}.s3.amazonaws.com/'
+S3_URL = 'https://<your_bucket_name_here>.s3.amazonaws.com/'
 {% endhighlight %}
 
 Became this:
 
 {% highlight python %}
-S3_URL = 'https://{bucket_name}.s3-accelerate.amazonaws.com'
+S3_URL = 'https://<your_bucket_name_here>.s3-accelerate.amazonaws.com'
 {% endhighlight %}
 
 That was it! All our uploads started flying up about twice as fast as before.
