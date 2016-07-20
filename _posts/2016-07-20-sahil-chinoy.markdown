@@ -3,7 +3,7 @@ layout: post
 title: "Meet the California Civic Data Coalition's first student developer"
 deckhead: "His name is Sahil Chinoy"
 byline: "By [Ben Welsh](http://palewi.re/who-is-ben-welsh/), [Cheryl Phillips](http://www.twitter.com/cephillips), [Aaron Williams](http://aboutaaron.com/) and [Jennifer LaFleur](https://twitter.com/j_la28)"
-image: http://www.californiacivicdata.org/img/james-gordon-twitter.jpg
+image: http://www.californiacivicdata.org/img/sahil-chinoy-twitter.jpg
 published: true
 ---
 
@@ -29,7 +29,7 @@ You can email Sahil at [sahil.chinoy@gmail.com](mailto:sahil.chinoy@gmail.com). 
 On weekdays Sahil and the coalition's leadership team can be found
 in the [#california-civic-data channel](https://newsnerdery.slack.com/messages/california-civic-data/) of the [News Nerdery](http://newsnerdery.org/) Slack account.
 
-His work is paid for by philanthropic funding from the Knight Foundation, the Democracy Fund, the William and Flora Hewlett Foundation and the Rita Allen Foundation. The grant was awarded last year when the coalition was named a 
+His work is paid for by philanthropic funding from the Knight Foundation, the Democracy Fund, the William and Flora Hewlett Foundation and the Rita Allen Foundation. The grant was awarded last year when the coalition was named a
 winner of the [Knight News Challenge](/2015/07/22/knight-news-challenge/).
 
 If you're a California student interested in working with our team, reach out today to [cacivicdata@gmail.com](mailto:cacivicdata@gmail.com).
