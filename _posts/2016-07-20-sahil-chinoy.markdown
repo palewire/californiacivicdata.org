@@ -29,7 +29,7 @@ You can email Sahil at [sahil.chinoy@gmail.com](mailto:sahil.chinoy@gmail.com). 
 On weekdays Sahil and the coalition's leadership team can be found
 in the [#california-civic-data channel](https://newsnerdery.slack.com/messages/california-civic-data/) of the [News Nerdery](http://newsnerdery.org/) Slack account.
 
-His work is paid for by philanthropic funding from the Knight Foundation, the Democracy Fund, the William and Flora Hewlett Foundation and the Rita Allen Foundation. The grant was awarded last year when the coalition was named
+His work is paid for by philanthropic funding from the Knight Foundation, the Democracy Fund, the William and Flora Hewlett Foundation and the Rita Allen Foundation. The grant was awarded last year when the coalition was named a 
 winner of the [Knight News Challenge](/2015/07/22/knight-news-challenge/).
 
 If you're a California student interested in working with our team, reach out today to [cacivicdata@gmail.com](mailto:cacivicdata@gmail.com).
