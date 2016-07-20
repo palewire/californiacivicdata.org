@@ -19,7 +19,7 @@ open-source effort to master [CAL-ACCESS](http://cal-access.ss.ca.gov/), the
 jumbled, dirty and difficult government database that tracks campaign finance
 and lobbying activity in California politics.
 
-While studying physics and economics, Chinoy also created stories, news applications and interactive graphics
+While studying physics and economics, Chinoy has also created stories, news applications and interactive graphics
 for [The Daily Californian](http://www.dailycal.org/author/schinoy/).
 
 Last summer he interned at the [Los Angeles Times Data Desk](https://twitter.com/LATdatadesk), one of the partners on the CAL-ACCESS project.  
