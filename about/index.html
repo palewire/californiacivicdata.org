@@ -6,8 +6,15 @@ developers:
   - name: James Gordon
     url: http://www.californiacivicdata.org/2016/01/04/james-gordon/
     image: /img/james-gordon.jpg
+    title: Lead developer
     twitter: je_gordon
     email: gordon.je@gmail.com
+  - name: Sahil Chinoy
+    url: http://sahilchinoy.com/
+    image: /img/sahil-chinoy.jpg
+    title: Student developer
+    twitter: sahilchinoy
+    email: sahil.chinoy@gmail.com
 leaders:
   - name: Jennifer LaFleur
     url: https://www.revealnews.org/author/jennifer-lafleur/
@@ -96,7 +103,7 @@ leaders:
 </section>
 
 <section>
-    <h3>Lead developer</h3>
+    <h3>Developers</h3>
 
     <div class="row">
     {% for obj in page.developers %}
@@ -104,6 +111,7 @@ leaders:
             <img alt="{{ obj.name }}" title="{{ obj.name }}" src="{{ obj.image }}">
             <h4><a href="{{ obj.url }}">{{ obj.name }}</a></h4>
             <span class="bio-metadata">
+                <span class="title">{{ obj.title }}</span>
                 <span class="twitter">
                     <a href="http://twitter.com/{{ obj.twitter }}">
                         @{{ obj.twitter }}
