@@ -40,4 +40,4 @@ in the [#california-civic-data channel](https://newsnerdery.slack.com/messages/c
 on freenode IRC.
 
 His work is paid for by philanthropic funding from the Knight Foundation, the Democracy Fund, the William and Flora Hewlett Foundation and the Rita Allen Foundation. It was awarded last year when the coalition was named
-winner of the [Knight News Challenge](http://localhost:4000/2015/07/22/knight-news-challenge/). IRE is acting as the coalition's fiscal agent.
+winner of the [Knight News Challenge](/2015/07/22/knight-news-challenge/). IRE is acting as the coalition's fiscal agent.
