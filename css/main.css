@@ -1,16 +1,5 @@
 @import "pygments.css";
-p {
-    font-size: 18px;
-    line-height: 27px;
-    margin: 12px 0;
-}
-a{
-    color:#b71234;
-    text-decoration: underline;
-}
-a:hover{
-    color:#d87d85;
-}
+
 ul.bullets li {
     font-size: 18px;
     line-height: 27px;
@@ -33,53 +22,11 @@ td.center, th.center{
 .post li {
     margin: 8px 0;
 }
-/* Header and nav */
-header, footer {
-    padding: 5px 0 0 0 !important;
-}
-header a {
-    text-decoration: none;
-}
-.red-border {
-    border-bottom: solid 7px #b71234;
-    height: 45px;
-}
-.section-select{
-    width:100%;
-    z-index: 100;
-}
-.affix{
-    top:0px;
-    width:100%;
-}
-.navbar-default {
-    background-color: #fff;
-    border-color: #fff;
-}
-.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
-    color: #ba0a35;
-    background-color: #fff;
-}
-.nav>li>a {
-    position: relative;
-    display: block;
-    padding: 10px 15px 8px 15px;
-    border-radius:0px;
-    color:#000;
-}
-.nav>li>a:hover {
-    color:#fff;
-    background-color:#ba0a35;
-}
-@media (max-width: 767px) {
-    .nav-pills { padding-left: 10px; }
-}
-footer .red-border {
-    height: 20px !important;
-}
+
 img {
-	max-width: 100%;
+    max-width: 100%;
 }
+
 /* Post */
 .post h1.title {
     margin-top: 15px;
@@ -92,6 +39,7 @@ img {
     font-size: 15px;
     line-height: 20px;
     margin: 4px 0;
+    color: #000;
 }
 .bigbox {
     background: transparent;
@@ -179,4 +127,310 @@ div.bio-item .org {
 .quote .attribution {
     text-align: right;
     display:inline;
+}
+
+body {
+    font-family: Source Sans Pro;
+    font-weight: 300;
+}
+header, footer {
+    padding: 5px 0 0 0 !important;
+}
+section {
+    margin-bottom: 60px;
+}
+p {
+    font-size: 17px;
+    color: #7f7f7f;
+}
+a, a.btn-default{
+    color:#ba0a35;
+}
+a:hover{
+    color:#d87d85;
+}
+kbd {
+    padding: 10px;
+    border-radius: 0;
+}
+table {
+    font-size: 13px;
+}
+th, td {
+  padding: 2px;
+}
+th {
+    background-color: #fefefe;
+}
+th[data-sort="int"]:hover, th[data-sort="currency"]:hover, th[data-sort="date"]:hover, th[data-sort="string"]:hover {
+    cursor: pointer;
+}
+
+td.right, th.right {
+    text-align:right;
+}
+td.center, th.center{
+    text-align:center;
+}
+
+.bg-red {
+    background-color: #ba0a35;
+    color:  #fdfdfd;
+}
+.bg-red p {
+    color:  #fdfdfd;
+}
+.red-border {
+    border-bottom: solid 7px #ba0a35;
+}
+
+/* Buttons */
+.btn-lg {
+    font-size: 20px !important;
+}
+.btn-calaccess,
+.btn-calaccess:focus {
+    color: #ba0a35;
+    background-color: #fff;
+    border: 1px solid #ba0a35;
+    border-radius: 0;
+    font-size: 18px;
+}
+.btn-calaccess:hover,
+.btn-calaccess.active {
+    background-color: #ba0a35;
+    color: #fdfdfd;
+}
+.btn-calaccess:hover i {
+    color: #ba0a35;
+}
+
+/* Breadcrumbs */
+
+.breadcrumb {
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 0;
+    background-color: #fff;
+    list-style: none;
+}
+.breadcrumb>li>a {
+    background-color: #ba0a35;
+    color: #fff;
+    padding: 2px 4px;
+}
+.align-right {
+    float: right;
+    text-align: right;
+}
+
+/* Navbar */
+header {
+    box-shadow: 0 1px 10px #D0D0D0;
+    margin-bottom: 20px;
+}
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:hover,
+.nav-pills>li.active>a:focus {
+    border-bottom: 3px solid #ba0a35;
+    background-color: #fff;
+    color: #ba0a35;
+    font-weight: 600;
+}
+.nav>li {
+    width: 80px;
+    text-align: center;
+    margin: 10px 15px 8px 15px;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    border-radius:0px;
+    color:#000;
+    padding-left: 0;
+    padding-right: 0;
+}
+.nav>li>a:hover {
+    border-bottom: 3px solid #ba0a35;
+    background-color:#fff;
+}
+.nav .logo {
+    display:inline;
+    padding-top:0;
+}
+.nav .logo:hover, .nav .logo:active, .nav .logo:focus {
+    background:#fff;
+    border-bottom: none;
+}
+.nav .logo img {
+    margin-top: 5px;
+}
+
+
+.navbar-default .navbar-nav>li>a {
+    color: #ba0a35;
+}
+.pagination>li>a, .pagination>li>span {
+    color: #ba0a35;
+}
+.pagination>li>a:hover, .pagination>li>span:hover {
+    color:#d87d85;
+}
+.pagination>.active>a,
+.pagination>.active>span,
+.pagination>.active>a:hover,
+.pagination>.active>span:hover,
+.pagination>.active>a:focus,
+.pagination>.active>span:focus {
+    z-index: 2;
+    color: #fff;
+    cursor: default;
+    background-color: #ba0a35;
+    border-color: #ba0a35;
+}
+
+/* Homepage */
+.home h1 {
+    font-size: 45px;
+    font-weight: 600;
+}
+.home h2 {
+    font-weight: 600;
+}
+.home .row {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.home .home-card {
+    height: 300px;
+    background-color: #ba0a35;
+    padding: 20px;
+    margin: 0 auto;
+}
+.home .card-container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.home .home-card i {
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.home .home-card p {
+    color: #fdfdfd;
+}
+
+/* Version detail */
+.filters {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.filters .btn {
+    width: 120px;
+}
+.filters .dropdown-menu {
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 0;
+}
+.file-card {
+    border: 1px solid #a6a6a6;
+    padding: 10px;
+    margin: 10px auto 40px auto;
+}
+.file-card hr {
+    margin: 5px 0;
+}
+.file-card h4 {
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+.file-card .lbl-group {
+    margin-top: 5px;
+    margin-bottom: 0;
+    color: #000;
+    font-weight: 600;
+    font-size: 14px;
+}
+.file-card .btn-download {
+    margin-left: 15px;
+}
+.right-desktop {
+    text-align: right;
+}
+.file-card .btn-download {
+    margin-top: -10px;
+}
+
+.stats {
+    margin: 10px 15px 10px 0;
+    display: inline-block;
+}
+.stats h4, .stats p {
+    color: #000;
+    font-size: 14px;
+    margin: 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #ba0a35;
+    color: #fdfdfd;
+    margin-top: 20px;
+}
+footer .row {
+    padding: 10px;
+}
+footer img {
+    width: 180px;
+}
+footer h3 {
+    font-weight: 600;
+    text-align: left;
+}
+footer ul {
+    text-align: left;
+    list-style: none;
+    margin: 20px 0;
+    padding: 0;
+    font-size: 16px;
+}
+footer ul > li {
+    margin: 10px auto;
+}
+footer a,
+footer a:hover {
+    color: #fdfdfd;
+}
+footer p {
+    color: #fdfdfd;
+    font-size: 14px;
+    font-weight: 200;
+}
+footer p a {
+    font-weight: 600;
+}
+
+@media only screen
+and (max-width : 992px) {
+    .align-right{
+        float: left;
+        text-align: left;
+    }
+    section {
+        margin-bottom: 30px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+
+    .nav>li {
+        width: 40px;
+    }
+    .nav .logo img {
+        width: 45px;
+        margin-top: 10px;
+    }
 }
