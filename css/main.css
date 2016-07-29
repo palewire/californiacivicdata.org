@@ -18,6 +18,7 @@ td.center, th.center{
     font-size: 18px;
     line-height: 27px;
     margin: 5px 0;
+    color: #7f7f7f;
 }
 .post li {
     margin: 8px 0;
@@ -31,9 +32,12 @@ img {
 .post h1.title {
     margin-top: 15px;
 }
-.post h3.deckhead {
+.post .deckhead {
     margin-top: 10px;
     line-height:130%;
+}
+.post .deckhead p {
+    color: #000;
 }
 .byline p, .pubdate p {
     font-size: 15px;
@@ -140,8 +144,9 @@ section {
     margin-bottom: 60px;
 }
 p {
-    font-size: 17px;
+    font-size: 18px;
     color: #7f7f7f;
+    margin: 12px 0;
 }
 a, a.btn-default{
     color:#ba0a35;
@@ -257,6 +262,7 @@ header {
 .nav .logo {
     display:inline;
     padding-top:0;
+    border-bottom: none !important;
 }
 .nav .logo:hover, .nav .logo:active, .nav .logo:focus {
     background:#fff;
@@ -265,7 +271,6 @@ header {
 .nav .logo img {
     margin-top: 5px;
 }
-
 
 .navbar-default .navbar-nav>li>a {
     color: #ba0a35;
