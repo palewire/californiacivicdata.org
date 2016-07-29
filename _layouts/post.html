@@ -29,9 +29,21 @@
                 <h4 class="deckhead">{{ page.deckhead|markdownify }}</h4>
                 <div class="byline">{{ page.byline|markdownify }}</div>
                 <div class="pubdate"><p><time datetime="{{ page.date|date:"%Y-%m-%d" }}">{{ page.date|date:"%B %e, %Y" }}</time></p></div>
-                
                 {{ content }}
             </article>
+            <script type="text/javascript">
+                var url = window.location;
+                // Will only work if string in href matches with location
+                $('ul.nav a[href="/archive/"]').parent().addClass('active');
+                // Will also work for relative and absolute hrefs
+                $('ul.nav a').filter(function() {
+                    return this.href == url;
+                }).parent().addClass('active');
+                $("#small-icon").css("cursor", "pointer");
+                $("#small-icon").click(function () {
+                    window.location = '/';
+                });
+            </script>
             </div>
         </div>
     </div>
