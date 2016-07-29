@@ -18,10 +18,13 @@ td.center, th.center{
     font-size: 18px;
     line-height: 27px;
     margin: 5px 0;
-    color: #7f7f7f;
+    color: #454545;
 }
 .post li {
     margin: 8px 0;
+}
+.post b, .post strong {
+    font-weight: 500;
 }
 
 img {
@@ -134,7 +137,7 @@ div.bio-item .org {
 }
 
 body {
-    font-family: Source Sans Pro;
+    font-family: Source Sans Pro, monospace, sans;
     font-weight: 300;
 }
 header, footer {
@@ -144,8 +147,8 @@ section {
     margin-bottom: 60px;
 }
 p {
-    font-size: 18px;
-    color: #7f7f7f;
+    font-size: 20px;
+    color: #454545;
     margin: 12px 0;
 }
 a, a.btn-default{
