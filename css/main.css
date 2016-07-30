@@ -139,6 +139,7 @@ div.bio-item .org {
 body {
     font-family: Source Sans Pro, monospace, sans;
     font-weight: 300;
+    line-height: 1.5;
 }
 header, footer {
     padding: 5px 0 0 0 !important;
