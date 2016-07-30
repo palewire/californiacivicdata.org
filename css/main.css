@@ -34,6 +34,7 @@ img {
 /* Post */
 .post h1.title {
     margin-top: 15px;
+    font-size: 40px;
 }
 .post .deckhead {
     margin-top: 10px;
@@ -445,5 +446,12 @@ and (max-width : 992px) {
     .nav .logo img {
         width: 45px;
         margin-top: 10px;
+    }
+}
+
+@media only screen
+and (max-width : 490px) {
+    .post h1.title {
+        font-size: 36px;
     }
 }
