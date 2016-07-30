@@ -452,6 +452,9 @@ and (max-width : 992px) {
 
 @media only screen
 and (max-width : 490px) {
+    .nav>li>a {
+        padding-bottom: 2px;
+    }
     .post h1.title {
         font-size: 36px;
     }
