@@ -427,6 +427,9 @@ footer p {
 footer p a {
     font-weight: 600;
 }
+footer .easteregg a {
+    font-weight: 200;
+}
 
 @media only screen
 and (max-width : 992px) {
