@@ -14,19 +14,6 @@ td.right, th.right {
 td.center, th.center{
     text-align:center;
 }
-.post ol, .post ul {
-    font-size: 18px;
-    line-height: 27px;
-    margin: 5px 0;
-    color: #454545;
-}
-.post li {
-    margin: 8px 0;
-}
-.post b, .post strong {
-    font-weight: 500;
-}
-
 img {
     max-width: 100%;
 }
@@ -49,6 +36,19 @@ img {
     margin: 4px 0;
     color: #000;
 }
+.post ol, .post ul {
+    font-size: 18px;
+    line-height: 27px;
+    margin: 5px 0;
+    color: #454545;
+}
+.post li {
+    margin: 8px 0;
+}
+.post b, .post strong {
+    font-weight: 500;
+}
+
 .bigbox {
     background: transparent;
     text-align: center;
@@ -259,6 +259,7 @@ header {
     color:#000;
     padding-left: 0;
     padding-right: 0;
+    padding-bottom: 6px;
 }
 .nav>li>a:hover {
     border-bottom: 3px solid #ba0a35;
