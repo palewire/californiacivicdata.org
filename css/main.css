@@ -5,9 +5,6 @@ body {
 header, footer {
     padding: 5px 0 0 0 !important;
 }
-section {
-    margin: 30px auto;
-}
 p {
     font-size: 20px;
     color: #454545;
@@ -97,7 +94,6 @@ td.center, th.center{
 /* Navbar */
 header {
     box-shadow: 0 1px 10px #D0D0D0;
-    margin-bottom: 20px;
 }
 .nav-pills>li.active>a,
 .nav-pills>li.active>a:hover,
@@ -296,9 +292,6 @@ and (max-width : 992px) {
     .align-right{
         float: left;
         text-align: left;
-    }
-    section {
-        margin: 15px auto;
     }
     h2 {
         font-size: 28px;

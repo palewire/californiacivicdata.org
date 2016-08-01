@@ -1,7 +1,7 @@
 @import "pygments.css";
 
 header {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 ul.bullets li {
     font-size: 18px;
@@ -21,9 +21,25 @@ img {
     max-width: 100%;
 }
 
+.bigbox {
+    background: transparent;
+    text-align: center;
+    padding:25px 0 0 0 !important;
+}
+.bigbox .logo {
+    width: 100%;
+    display: block;
+}
+.bigbox p {
+    display: block;
+    margin-top: 30px;
+    font-size: 22px;
+    line-height: 30px;
+}
+
 /* Post */
 .post h1.title {
-    margin-top: 15px;
+    margin-top: 20px;
     font-size: 40px;
 }
 .post .deckhead {
