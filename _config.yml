@@ -1,5 +1,5 @@
 markdown: kramdown
-highlighter: rouge
+highlighter: pygments #rouge
 permalink: /:year/:month/:day/:title/
 repository: https://github.com/california-civic-data-coalition/california-civic-data-coalition.github.io.git
 
