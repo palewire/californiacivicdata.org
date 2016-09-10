@@ -48,14 +48,10 @@ img {
 .post b, .post strong {
     font-weight: 500;
 }
-
 .bigbox {
     background: transparent;
     text-align: center;
     padding:25px 0 0 0 !important;
-}
-.bigbox h1 {
-/*display: inline-block;*/
 }
 .bigbox .logo {
     width: 100%;
