@@ -1,0 +1,138 @@
+@import "pygments.css";
+
+header {
+    margin-bottom: 15px;
+}
+ul.bullets li {
+    font-size: 18px;
+    line-height: 27px;
+    padding: 4px 0;
+}
+table {
+    font-size:13px;
+}
+td.right, th.right {
+    text-align:right;
+}
+td.center, th.center{
+    text-align:center;
+}
+img {
+    max-width: 100%;
+}
+
+.bigbox {
+    background: transparent;
+    text-align: center;
+    padding:25px 0 0 0 !important;
+}
+.bigbox .logo {
+    width: 100%;
+    display: block;
+}
+.bigbox p {
+    display: block;
+    margin-top: 30px;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+/* Post */
+.post h1.title {
+    margin-top: 20px;
+    font-size: 40px;
+}
+.post .deckhead {
+    margin-top: 10px;
+    line-height:130%;
+}
+.post .deckhead p {
+    color: #000;
+}
+.byline p, .pubdate p {
+    font-size: 15px;
+    line-height: 20px;
+    margin: 4px 0;
+    color: #000;
+}
+.post ol, .post ul {
+    font-size: 18px;
+    line-height: 27px;
+    margin: 5px 0;
+    color: #454545;
+}
+.post li {
+    margin: 8px 0;
+}
+.post b, .post strong {
+    font-weight: 500;
+}
+hr {
+    margin-bottom: 0;
+}
+.projectlist h2 {
+    margin-bottom: 5px;
+}
+.projectitem {
+    padding: 10px 0;
+    border-bottom: 1px dotted #ddd;
+}
+.projectitem:last-child {
+    border-bottom: none;
+}
+.projectitem h4 {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.projectlist p {
+    margin: 8px 0;
+}
+@media (max-width: 767px) {
+    .bigbox p { font-size: 16px; line-height:22px; }
+    .projectlist p { font-size: 16px; line-height: 22px; }
+}
+figcaption {
+    font-style: italic;
+    font-size: 12px;
+    text-align: right;
+}
+h3 {
+    line-height:130%;
+}
+div.bio-item h4 {
+    margin-bottom: 4px;
+}
+div.bio-item {
+    font-size: 14px;
+    margin: 8px 0;
+}
+div.bio-item .title,
+div.bio-item .org {
+    font-size: 15px;
+}
+div.bio-item .title,
+div.bio-item .org,
+div.bio-item .twitter,
+div.bio-item .email {
+    display: block;
+    clear: both;
+    padding: 1px 0;
+}
+div.bio-item .title {
+
+}
+div.bio-item .org {
+    font-style: italic;
+}
+.quote {
+    margin: 10px 0;
+}
+.quote .text {
+    font-size: 125%;
+    font-style: italic;
+    padding-right: 3px;
+}
+.quote .attribution {
+    text-align: right;
+    display:inline;
+}
