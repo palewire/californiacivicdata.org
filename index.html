@@ -1,67 +1,207 @@
 ---
 title: The California Civic Data Coalition
-projects:
-  - name: "django-calaccess"
-    url: "http://django-calaccess.californiacivicdata.org"
-    description: "A collection of Django apps that make it easier to work with CAL-ACCESS, the jumbled, dirty and difficult government database that tracks campaign finance and lobbying activity in California politics."
-  - name: django-postgres-copy
-    url: "http://django-postgres-copy.californiacivicdata.org"
-    description: "Quickly load comma-delimited data into a Django model using PostgreSQL's COPY command"
 ---
 
 
-<!doctype HTML>
-<html lang="en">
-<head>
-    {% include head.html %}
-    <meta property="og:site_name" content="www.californiacivicdata.org"/>
+<!DOCTYPE html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en" >
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>California Civic Data Coalition</title>
+    <meta name="description" content="An open-source team of journalists and computer programmers from news organizations across America.">
+
+
+    <meta property="og:site_name" content="calaccess.californiacivicdata.org"/>
     <meta property="og:title" content="California Civic Data Coalition"/>
-    <meta property="og:image" content="http://www.californiacivicdata.org/img/logo.png"/>
-    <meta property="og:description" content="An open-source team of journalists and computer programmers from
-    news organizations across America."/>
+    <meta property="og:description" content="An open-source team of journalists and computer programmers from news organizations across America."/>
+    <meta property="og:url" content="http://calaccess.californiacivicdata.org/index.html" />
+    <meta property="og:image" content="http://calaccess.californiacivicdata.org/static/calaccess_website/images/red-bear-share.png"/>
 
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image:src" content="http://www.californiacivicdata.org/img/logo.png">
-    <meta name="twitter:site" content="@latimes">
-    <meta name="twitter:title" content="California Civic Data Coalition">
-    <meta name="twitter:description" content="An open-source team of journalists and computer programmers from
-    news organizations across America."/>
+    <meta property="twitter:site" content="@cacivicdata">
+    <meta property="twitter:title" content="California Civic Data Coalition">
+    <meta property="twitter:description" content="An open-source team of journalists and computer programmers from news organizations across America."/>
+    <meta property="twitter:url" content="http://calaccess.californiacivicdata.org/index.html" />
+    <meta property="twitter:image:src" content="http://calaccess.californiacivicdata.org/static/calaccess_website/images/red-bear-share.png">
+    <meta property="twitter:card" content="summary_large_image">
 
-    <link rel="image_src" type="image/jpeg" href="/img/logo.png" />
-</head>
-<body>
-    {% include header.html %}
-    <div class="container content">
+    <link rel="stylesheet" href="http://calaccess.californiacivicdata.org/static/compressor/css/e5fe95f3937e.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,600" rel="stylesheet">
+    <script type="text/javascript" src="http://calaccess.californiacivicdata.org/static/calaccess_website/js/jquery.min.js"></script>
+  </head>
+  <body >
+
+  {% include header.html %}
+
+<section class="hero">
+    <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-md-10 col-sm-12 col-xs-12 col-lg-offset-2 col-md-offset-1">
-                <div style="margin: 0 auto;" class="bigbox">
-                    <img class="logo"
-                         src="/img/logo.png"
-                         alt="California Civic Data Coalition">
-                    <p>
-                        An open-source team of journalists and computer programmers from
-                        news organizations across America.
-                    </p>
-                </div>
-
-                <hr>
-
-                <div class="row projectlist">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <h2>Projects</h2>
-                        {% for obj in page.projects %}
-                        <div class="projectitem">
-                            <h4><a href="{{ obj.url }}">{{ obj.name }}</a></h4>
-                            <p>{{ obj.description }}</p>
-                        </div>
-                        {% endfor %}
-                    </div>
-                </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <h1>Download California campaign finance data with ease</h1>
+                <p class="lead">
+                    An open-source archive serving up daily downloads from
+                    CAL-ACCESS, California's database tracking money in state politics. <a href="">Learn more &raquo;</a>
+                </p>
+                <a href="/downloads/latest/" class="btn btn-calaccess btn-lg" role="button">
+                    Download latest data
+                </a>
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                <img src="http://calaccess.californiacivicdata.org/static/calaccess_website/images/brown-geobear.svg"
+                     alt="California Civic Data Coalition logo"
+                     title="California Civic Data Coalition logo">
             </div>
         </div>
     </div>
-    <div style="padding:40px 0;"></div>
-    {% include footer.html %}
-</body>
+</section>
+<article class="home homepage">
+<div class="container">
+    <section class="row boxes">
+        <div class="col-md-10 col-md-offset-1 md-center">
+            <div class="row">
+                <section class="col-lg-4 col-md-4 col-sm-4 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+                    <a class="home-card-link" href="/downloads/latest/">
+                        <div class="home-card">
+                            <div class="card-container">
+                                <h2>Downloads</h2>
+                                <i class="fa fa-database" aria-hidden="true"></i>
+                                <p>
+                                    Grab the latest data and get started.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </section>
+                <section class="col-lg-4 col-md-4 col-sm-4 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+                    <a href="/documentation/">
+                        <div class="home-card">
+                            <div class="card-container">
+                                <h2>Documentation</h2>
+                                <i class="fa fa-files-o" aria-hidden="true"></i>
+                                <p>Learn how to work with data from CAL-ACCESS.</p>
+                            </div>
+                        </div>
+                    </a>
+                </section>
+                <section class="col-lg-4 col-md-4 col-sm-4 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+                    <a href="https://github.com/california-civic-data-coalition/">
+                        <div class="home-card">
+                            <div class="card-container">
+                                <h2>Code</h2>
+                                <i class="fa fa-code" aria-hidden="true"></i>
+                                <p>Improve our open source on GitHub.</p>
+                            </div>
+                        </div>
+                    </a>
+                </section>
+            </div>
+        </div>
+    </section>
 
+    <section class="row questions">
+        <div class="col-md-6 col-md-offset-3 xs-left md-center">
+            <section class="row question who-are-we">
+                <div class="col-md-12">
+                    <h2>Who are we?</h2>
+                    <p>
+                         The California Civic Data Coalition is an open-source team of journalists and computer programmers from news organizations across America.
+                         <a href="http://www.californiacivicdata.org/about/">Read more &raquo;</a>
+                    </p>
+                </div>
+            </section>
+            <section class="row question what-do-we-do">
+                <div class="col-md-12">
+                    <h2>What do we do?</h2>
+                    <p>
+                         We create software that makes California's public data easier to analyze.
+                         Our current focus is CAL-ACCESS, the database tracking money in state politics.
+                         <a href="/downloads/latest/">Download and get started &raquo;</a>
+                    </p>
+                </div>
+            </section>
+            <section class="row question how-can-you-get-involved">
+                <div class="col-md-12">
+                    <h2>How can you get involved?</h2>
+                    <p>
+                        Hundreds of journalists at dozens of news outlets have joined our effort.
+                        We want you to be next. Fork us on <a href="https://github.com/california-civic-data-coalition">GitHub</a>,
+                        send an <a href="mailto:californiacivicdata@gmail.com">e-mail</a> or
+                        join our <a href="https://newsnerdery.slack.com/messages/california-civic-data/">Slack</a>.
+                    </p>
+                </div>
+            </section>
+        </div>
+
+        <section class="col-md-12 xs-left md-center question no-border sponsors">
+            <div class="funders row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2>Who are our sponsors?</h2>
+                        </div>
+                        <div class="col-sm-4 col-xs-12">
+                            <a href="http://www.knightfoundation.org/">
+                                <img src="http://calaccess.californiacivicdata.org/static/calaccess_website/images/knight-logo-3000px-black.jpg"
+                                     alt="Knight Foundation logo"
+                                     title="Knight Foundation logo">
+                            </a>
+                        </div>
+                        <div class="col-sm-4 col-xs-12">
+                            <a href="http://www.ire.org/">
+                                <img src="http://calaccess.californiacivicdata.org/static/calaccess_website/images/ire.png"
+                                     alt="Investigative Reporters and Editors logo"
+                                     title="Investigative Reporters and Editors logo">
+                            </a>
+                        </div>
+                        <div class="col-sm-4 col-xs-12">
+                            <a href="https://opennews.org/">
+                                <img src="http://calaccess.californiacivicdata.org/static/calaccess_website/images/opennews.png"
+                                     alt="OpenNews logo"
+                                     title="OpenNews logo">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="leaders row">
+                <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
+                    <div class="row">
+                        <div class="col-sm-4 col-xs-6">
+                            <a href="http://www.latimes.com/">
+                                <img src="http://calaccess.californiacivicdata.org/static/calaccess_website/images/latimes.png"
+                                     alt="Los Angeles Times logo"
+                                     title="Los Angeles Times logo">
+                            </a>
+                        </div>
+                        <div class="col-sm-4 col-xs-6">
+                            <a href="http://cjlab.stanford.edu/">
+                                <img src="http://calaccess.californiacivicdata.org/static/calaccess_website/images/stanford.png"
+                                     alt="Stanford logo"
+                                     title="Stanford logo">
+                            </a>
+                        </div>
+                        <div class="clearfix visible-xs-block"></div>
+                        <div class="col-sm-4 col-xs-6">
+                            <a href="https://www.revealnews.org/">
+                                <img src="http://calaccess.californiacivicdata.org/static/calaccess_website/images/reveal.jpg"
+                                     alt="Reveal logo"
+                                     title="Reveal logo">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+</div>
+</article>
+
+    {% include footer.html %}
+
+
+    <script type="text/javascript" src="http://calaccess.californiacivicdata.org/static/compressor/js/1c35e6db6f50.js"></script>
+  </body>
 </html>
