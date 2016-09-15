@@ -13,7 +13,7 @@ Until now, analysts investigating the role of lobbyists and campaign donors at t
 
 [We've built something better](http://www.californiacivicdata.org/). And we've got even more in the works.
 
-## First, making access easy
+### First, making access easy
 
 As of this morning, the latest state data is downloaded, parsed, cleaned and republished each day at [calaccess.californiacivicdata.org/downloads/latest/](http://calaccess.californiacivicdata.org/downloads/latest/).
 
@@ -28,7 +28,7 @@ easily imported to spreadsheets and other database software.
     <figcaption style="text-align:right;">Download individual raw files or a ZIP of everything.</figcaption>
 </figure>
 
-## Second, archiving everything
+### Second, archiving everything
 
 We also automatically archive each day's source files. That is unlike the state dump, which officials overwrite each day.
 
@@ -41,7 +41,7 @@ If you want to rewind CAL-ACCESS to yesterday, last week or a month ago, [we've 
     <figcaption style="text-align:right;">We're archiving ever database snapshot in case anyone ever needs to rewind the CAL-ACCESS clock.</figcaption>
 </figure>
 
-## Third, cracking the codes
+### Third, cracking the codes
 
 The CAL-ACCESS database is one of the most confusing systems we’ve ever encountered. California's Secretary of State Alex Padilla
 has called it ["a Frankenstein monster of code."](http://www.sacbee.com/news/politics-government/capitol-alert/article49257065.html)
@@ -55,7 +55,7 @@ Thanks to the more than 150 volunteers who have contributed to our project over 
     <figcaption style="text-align:right;">Our comprehensive docs will help you traverse the wilderness of CAL-ACCESS.</figcaption>
 </figure>
 
-## Fourth, establishing a simple API
+### Fourth, establishing a simple API
 
 Repeat visitors can probably tell we've put a lot of effort into Aaron William's redesign for the site. But beneath the surface
 is something more: The foundation of a new [web API](https://en.wikipedia.org/wiki/Web_API) that aims to improve access
@@ -75,13 +75,17 @@ Or, to be a little more creative, fetch the [campaign disclosure cover sheets fi
 $ curl http://calaccess.download/latest/cvr_campaign_disclosure_cd.csv | csvgrep -c FORM_TYPE -m F460 > f460_cvrs.csv
 {% endhighlight %}
 
-## Fifth, charting the course ahead
+### Fifth, charting the course ahead
 
-For newcomers to the weird little universe of CAL-ACCESS, a lot of this still might seem rather intimidating. Not to worry, we are already hard at work chiselling easy-to-understand data models out of CAL-ACCESS' convoluted structure.
+We're proud of what we've put together. But our work is far from finished.
 
-Stay tuned for more. Or if your feeling bold, we would love your help. Head over to our processed-data app repo where all the excitement is currently happening.
+For newcomers, the the odd structure of the CAL-ACCESS database's source files remains a significant obstacle.
 
-## Finally, how you can play and win
+But don't worry, our team working on it. We're already hard at chiseling easy-to-understand files that simplify the system's convoluted structure.
+
+Look for those to arrive in the coming weeks, or jump into the embryonic [django-calaccess-processed-data](https://github.com/california-civic-data-coalition/django-calaccess-processed-data) code repository where that work is happening.
+
+### Finally, how you can play and win
 
 Our new logo is :fire: right?
 
