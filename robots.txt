@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Sitemap: http://www.californiacivicdata.org/blog-sitemap.xml
+Sitemap: http://www.californiacivicdata.org/other-sitemap.xml

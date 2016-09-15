@@ -1,8 +1,5 @@
 @import "pygments.css";
 
-header {
-    margin-bottom: 15px;
-}
 ul.bullets li {
     font-size: 18px;
     line-height: 27px;
