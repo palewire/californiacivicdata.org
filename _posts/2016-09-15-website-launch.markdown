@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Introducing the new CAL-ACCESS bulk downloads website"
-deckhead: "Raw California campaign finance and lobbyist disclosure data never looked so good."
+title: "Introducing our new CAL-ACCESS bulk downloads website"
+deckhead: "California campaign finance and lobbyist disclosure data never looked so good."
 byline: "By [Ben Welsh](http://palewi.re/who-is-ben-welsh/), [Cheryl Phillips](http://www.twitter.com/cephillips), [Aaron Williams](http://aboutaaron.com/), [Jennifer LaFleur](https://twitter.com/j_la28), [James Gordon](https://twitter.com/je_gordon) and [Sahil Chinoy](http://sahilchinoy.com/)"
 image:
 published: false
@@ -54,14 +54,13 @@ Or fetch the campaign disclosure sheets file and filter to only the Form 460 and
 
 ```bash
 $ curl http://calaccess.download/latest/cvr_campaign_disclosure_cd.csv | csvgrep -c FORM_TYPE -m F460 > f460_cvrs.csv
-
 ```
 
 ## What's next
 
-For those who are new to the weird little universe of CAL-ACCESS, a lot of this might still seem rather intimidating. Not to worry, we're already hard at work chiselling easy-to-understand models out of the original crazy database structure.
+For newcomers to the weird little universe of CAL-ACCESS, a lot of this still might seem rather intimidating. Not to worry, we are already hard at work chiselling easy-to-understand data models out of CAL-ACCESS' convoluted structure.
 
-Stay tuned for more. Or if your feeling bold or charitable, we would love to have your help. Head over to our processed-data app repo where all the excitement is currently happening.
+Stay tuned for more. Or if your feeling bold, we would love your help. Head over to our processed-data app repo where all the excitement is currently happening.
 
 ## T-shirt contest
 
