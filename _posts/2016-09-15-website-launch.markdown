@@ -21,9 +21,9 @@ There you can download the entire dump, or just the files you want. The numerous
 errors that litter the source files have been eliminated. The data are converted to simple flat files of comma-separated values,
 easily imported to spreadsheets and other database software.
 
-<figure style="margin: 28px 0;">
+<figure style="margin: 28px 0 8px 0;">
     <a href="http://calaccess.californiacivicdata.org/downloads/latest/">
-        <img src="/img/archived_files.png" style="border: 1px solid #ddd;">
+        <img src="/img/latest_download.png">
     </a>
     <figcaption style="text-align:right;">Download individual raw files or a ZIP of everything.</figcaption>
 </figure>
@@ -34,7 +34,7 @@ We also automatically archive each day's source files. That is unlike the state 
 
 If you want to rewind CAL-ACCESS to yesterday, last week or a month ago, [we've got you covered](http://calaccess.californiacivicdata.org/downloads/). We plan to save and serve each day's data into the foreseeable future.
 
-<figure style="margin: 28px 0;">
+<figure style="margin: 28px 0 8px 0;">
     <a href="http://calaccess.californiacivicdata.org/downloads/">
         <img src="/img/archived_zips.png" width="100%;">
     </a>
@@ -50,8 +50,10 @@ To spare anyone else from having to sift through the state's outdated, incomplet
 
 Thanks to the more than 150 volunteers who have contributed to our project over the past two years, each file, field and lookup code is now linked online.
 
-<figure style="margin: 28px 0;">
-    <img src="/img/file_details.png" width="100%;">
+<figure style="margin: 28px 0 8px 0;">
+    <a href="http://calaccess.californiacivicdata.org/documentation/calaccess-files/debt-cd/">
+        <img src="/img/file_details.png" width="100%;">
+    </a>
     <figcaption style="text-align:right;">Our comprehensive docs will help you traverse the wilderness of CAL-ACCESS.</figcaption>
 </figure>
 

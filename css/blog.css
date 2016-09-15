@@ -35,22 +35,14 @@ img {
 }
 
 /* Post */
-.post h1.title {
+.post {
     margin-top: 20px;
-    font-size: 40px;
-}
-.post .deckhead {
-    margin-top: 10px;
-    line-height:130%;
-}
-.post .deckhead p {
-    color: #000;
 }
 .byline p, .pubdate p {
     font-size: 15px;
     line-height: 20px;
     margin: 4px 0;
-    color: #000;
+    color: #fff;
 }
 .post ol, .post ul {
     font-size: 18px;

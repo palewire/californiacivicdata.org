@@ -16,21 +16,35 @@
     <meta property="twitter:title" content="{{ page.title }}">
     <meta property="twitter:description" content="{{ page.deckhead }}"/>
     <meta property="twitter:image" content="{% if page.image %}{{ page.image }}{% else %}http://calaccess.californiacivicdata.org/static/calaccess_website/images/brown-bear-share.png{% endif %}" />
-
     <link rel="image_src" type="image/jpeg" href="{% if page.image %}{{ page.image }}{% else %}http://calaccess.californiacivicdata.org/static/calaccess_website/images/brown-bear-share.png{% endif %}" />
 </head>
 <body>
     {% include header.html %}
+    <article>
+    <div class="bg-red">
+        <div class="container">
+            <div class="row">
+                <nav class="col-md-9">
+                    <ol class="breadcrumb">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/archive/">Blog</a></li>
+                    </ol>
+                </nav>
+                <div class="col-md-9">
+                    <h1>{{ page.title }}</h1>
+                    <p>
+                        {{ page.deckhead|markdownify }}
+                    </p>
+                    <div class="byline">{{ page.byline|markdownify }}</div>
+                <div class="pubdate"><p><time datetime="{{ page.date|date:"%Y-%m-%d" }}">{{ page.date|date:"%B %e, %Y" }}</time></p></div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="container content">
         <div class="row">
             <div class="post col-lg-8 col-md-10 col-sm-12 col-xs-12">
-            <article>
-                <h1 class="title">{{ page.title }}</h1>
-                <h4 class="deckhead">{{ page.deckhead|markdownify }}</h4>
-                <div class="byline">{{ page.byline|markdownify }}</div>
-                <div class="pubdate"><p><time datetime="{{ page.date|date:"%Y-%m-%d" }}">{{ page.date|date:"%B %e, %Y" }}</time></p></div>
                 {{ content }}
-            </article>
             <script type="text/javascript">
                 var url = window.location;
                 // Will only work if string in href matches with location
@@ -47,6 +61,7 @@
             </div>
         </div>
     </div>
+    </article>
     {% include footer.html %}
 </body>
 </html>
