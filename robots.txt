@@ -7,3 +7,4 @@ Sitemap: http://calaccess.californiacivicdata.org/other-sitemap.xml
 Sitemap: http://calaccess.californiacivicdata.org/file-sitemap.xml
 Sitemap: http://calaccess.californiacivicdata.org/file-downloads-sitemap.xml
 Sitemap: http://calaccess.californiacivicdata.org/form-sitemap.xml
+Sitemap: http://www.californiacivicdata.org/blog-sitemap.xml
