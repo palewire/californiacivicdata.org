@@ -1,31 +1,30 @@
 ---
 layout: post
-title: "Introducing our new CAL-ACCESS bulk downloads website"
-deckhead: "California campaign finance and lobbyist disclosure data never looked so good."
-byline: "By [Ben Welsh](http://palewi.re/who-is-ben-welsh/), [Cheryl Phillips](http://www.twitter.com/cephillips), [Aaron Williams](http://aboutaaron.com/), [Jennifer LaFleur](https://twitter.com/j_la28), [James Gordon](https://twitter.com/je_gordon) and [Sahil Chinoy](http://sahilchinoy.com/)"
+title: "Introducing a new bulk downloads site tracking money in California politics"
+deckhead: "Check out the beta version of our online archive and walk away with a prize."
+byline: "By [James Gordon](https://twitter.com/je_gordon), [Aaron Williams](http://aboutaaron.com/), [Sahil Chinoy](http://sahilchinoy.com/), [Ben Welsh](http://palewi.re/who-is-ben-welsh/) and the [California Civic Data Coalition](/about/)"
 image: http://www.californiacivicdata.org/img/dl_site_homepage.png
 published: false
 ---
 
-Today we're launching our new bulk downloads website, the only online destination with hassle-free access to bulk California campaign finance and lobbyist disclosure data.
+Today we're launching an expansion of this site, remaking it as the only destination offering hassle-free access to the bulk data tracking money in California politics.
 
-Until now, reporters and researchers investigating the role of money in California politics have been limited to the [official CAL-ACCESS database export](http://www.sos.ca.gov/campaign-lobbying/cal-access-resources/raw-data-campaign-finance-and-lobbying-activity/) published on the California Secretary of State's website.
+Until now, analysts investigating the role of lobbyists and campaign donors at the Sacramento statehouse have been limited to the [official database dump](http://www.sos.ca.gov/campaign-lobbying/cal-access-resources/raw-data-campaign-finance-and-lobbying-activity/) from CAL-ACCESS, the jumbled, dirty and difficult database maintained by California's Secretary of State.
 
-We've built something better.
+[We've built something better](http://www.californiacivicdata.org/). And we've got even more in the works.
 
-Instead of forcing you to download a 750 MB zip just to get the one or two data files you want, you can download each data file from our website or, if you like, all the data files zipped together.
+## First, making access easy
 
-<figure style="margin: 8px 0;">
-    <img src="/img/archived_files.png" style="border: 1px solid black;">
+Instead of forcing you to download a 750 MB zip from the state, just to get the one or two data files you want, you can download each data file from our website or, if you like, all the data files zipped together.
+
+<figure style="margin: 28px 0;">
+    <img src="/img/archived_files.png" style="border: 1px solid #ddd;">
     <figcaption style="text-align:right;">Download individual raw files or a ZIP of everything.</figcaption>
 </figure>
 
 Instead of sprinkling in parsing errors that corrupt analysis or simply block loading into database managers, we publish files cleaned by our [raw-data](http://django-calaccess.readthedocs.io/en/latest/apps/calaccess_raw.html) app. All parsing errors are either fixed or segmented into a separate error log, which is also available to download (for the super data-mungers).
 
-<figure style="margin: 8px 0;">
-    <img src="/img/errata.png" style="border: 1px solid black;">
-    <figcaption style="text-align:right;">We've stripped the bad records out of the data files, but their available to download if you really want them.</figcaption>
-</figure>
+## Second, archiving everything
 
 Instead of overwriting the current database snapshot every single day, we automatically archive the original source files, our cleaned files and the error logs. If you want to rewind CAL-ACCESS to yesterday, last week or a month ago, we've got you covered.
 
@@ -33,6 +32,8 @@ Instead of overwriting the current database snapshot every single day, we automa
     <img src="/img/archived_zips.png" width="100%;">
     <figcaption style="text-align:right;">We're archiving ever database snapshot in case anyone ever needs to rewind the CAL-ACCESS clock.</figcaption>
 </figure>
+
+## Third, cracking the codes
 
 Instead of digging through PDF upon PDF of outdated, contradictory and cryptic documentation, our extensive explanations of each file, field and lookup code are linked in at every turn.
 
@@ -48,9 +49,9 @@ And we've documented each form submitted by campaigns and lobbyists, broken them
     <figcaption style="text-align:right;">Connecting the CAL-ACCESS tables to the filing forms has helped up map origin story of the data.</figcaption>
 </figure>
 
-## API-like access at calaccess.download
+## Fourth, establishing a simple API
 
-Obviously, we think the design of our new bulk downloads site is prrrreeeetty hot (I mean, have you SEEN our new logo?!). But some nerds just wanna shell. 
+Obviously, we think the design of our new bulk downloads site is prrrreeeetty hot (I mean, have you SEEN our new logo?!). But some nerds just wanna shell.
 
 We get it, and that's why we've made all our downloads available at stable and concise URLs so that you can download and unzip the latest full zip:
 
@@ -65,13 +66,13 @@ Or fetch the campaign disclosure sheets file and filter to only the Form 460 and
 $ curl http://calaccess.download/latest/cvr_campaign_disclosure_cd.csv | csvgrep -c FORM_TYPE -m F460 > f460_cvrs.csv
 ```
 
-## What's next
+## Fifth, charting the course ahead
 
 For newcomers to the weird little universe of CAL-ACCESS, a lot of this still might seem rather intimidating. Not to worry, we are already hard at work chiselling easy-to-understand data models out of CAL-ACCESS' convoluted structure.
 
 Stay tuned for more. Or if your feeling bold, we would love your help. Head over to our processed-data app repo where all the excitement is currently happening.
 
-## T-shirt contest
+## Finally, how you can play and win
 
 Our new logo is :fire: right?
 
