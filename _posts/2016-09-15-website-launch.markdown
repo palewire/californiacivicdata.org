@@ -9,38 +9,43 @@ published: false
 
 Today we're launching our new bulk downloads website, the only online destination with hassle-free access to bulk California campaign finance and lobbyist disclosure data.
 
-Until now, reporters and researchers investigating the role of money in California politics have been limited to the official CAL-ACCESS database export published on the California Secretary of State's website.
+Until now, reporters and researchers investigating the role of money in California politics have been limited to the [official CAL-ACCESS database export](http://www.sos.ca.gov/campaign-lobbying/cal-access-resources/raw-data-campaign-finance-and-lobbying-activity/) published on the California Secretary of State's website.
 
 We've built something better.
 
 Instead of forcing you to download a 750 MB zip just to get the one or two data files you want, you can download each data file from our website or, if you like, all the data files zipped together.
 
 <figure style="margin: 8px 0;">
-    <img src="/img/archived_files.png" width="100%;">
+    <img src="/img/archived_files.png" style="border: 1px solid black;">
+    <figcaption style="text-align:right;">Download individual raw files or a ZIP of everything.</figcaption>
 </figure>
 
-Instead of sprinkling in parsing errors that corrupt analysis or simply block loading into database managers, we publish files cleaned by our raw-data app. All parsing errors are either fixed or segmented into a separate error log, which is also available to download (for the super data-mungers).
+Instead of sprinkling in parsing errors that corrupt analysis or simply block loading into database managers, we publish files cleaned by our [raw-data](http://django-calaccess.readthedocs.io/en/latest/apps/calaccess_raw.html) app. All parsing errors are either fixed or segmented into a separate error log, which is also available to download (for the super data-mungers).
 
 <figure style="margin: 8px 0;">
-    <img src="/img/errata.png" width="100%;">
+    <img src="/img/errata.png" style="border: 1px solid black;">
+    <figcaption style="text-align:right;">We've stripped the bad records out of the data files, but their available to download if you really want them.</figcaption>
 </figure>
 
 Instead of overwriting the current database snapshot every single day, we automatically archive the original source files, our cleaned files and the error logs. If you want to rewind CAL-ACCESS to yesterday, last week or a month ago, we've got you covered.
 
 <figure style="margin: 8px 0;">
     <img src="/img/archived_zips.png" width="100%;">
+    <figcaption style="text-align:right;">We're archiving ever database snapshot in case anyone ever needs to rewind the CAL-ACCESS clock.</figcaption>
 </figure>
 
 Instead of digging through PDF upon PDF of outdated, contradictory and cryptic documentation, our extensive explanations of each file, field and lookup code are linked in at every turn.
 
 <figure style="margin: 8px 0;">
     <img src="/img/file_details.png" width="100%;">
+    <figcaption style="text-align:right;">Our comprehensive docs will help you traverse the wilderness of CAL-ACCESS.</figcaption>
 </figure>
 
 And we've documented each form submitted by campaigns and lobbyists, broken them down by section and linked them to database tables where their information is stored. Because, as far as we know, no one else has ever bothered.
 
 <figure style="margin: 8px 0;">
     <img src="/img/form_details.png" width="100%;">
+    <figcaption style="text-align:right;">Connecting the CAL-ACCESS tables to the filing forms has helped up map origin story of the data.</figcaption>
 </figure>
 
 ## API-like access at calaccess.download
@@ -72,12 +77,14 @@ Our new logo is :fire: right?
 
 <figure style="margin: 8px 0;">
     <img src="/img/geo_bear.png" width="100%;">
+    <figcaption style="text-align:right;">This is geo-bear.</figcaption>
 </figure>
 
 But wouldn't it be :fire::fire: if it were on a t-shirt?
 
 <figure style="margin: 8px 0;">
     <img src="/img/tshirt.png" width="100%;">
+    <figcaption style="text-align:right;">This is geo-bear on a t-shirt.</figcaption>
 </figure>
 
 BUT wouldn't it be :fire::fire::fire: if it were on YOUR t-shirt?
