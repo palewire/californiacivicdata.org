@@ -67,15 +67,11 @@ All of our downloads are now available at stable and concise URLs at a new domai
 
 It allows you to always download and unzip the latest full archive from your terminal.
 
-{% highlight bash %}
-$ curl -O http://calaccess.download/latest/clean.zip && unzip clean.zip
-{% endhighlight %}
+<input type="text" class="download-link input-monospace" value="curl -O http://calaccess.download/latest/clean.zip && unzip clean.zip" readonly="">
 
 Or, to be a little more creative, fetch the [campaign disclosure cover sheets file](http://calaccess.californiacivicdata.org/documentation/calaccess-files/cvr-campaign-disclosure-cd/) and filter it down to only filings of [Form 460](http://calaccess.californiacivicdata.org/documentation/calaccess-forms/f460/), saving the result to a new file:
 
-{% highlight bash %}
-$ curl http://calaccess.download/latest/cvr_campaign_disclosure_cd.csv | csvgrep -c FORM_TYPE -m F460 > f460_cvrs.csv
-{% endhighlight %}
+<input type="text" class="download-link input-monospace" value="$ curl http://calaccess.download/latest/cvr_campaign_disclosure_cd.csv | csvgrep -c FORM_TYPE -m F460 > f460_cvrs.csv" readonly="">
 
 ### Fifth, charting the course ahead
 
