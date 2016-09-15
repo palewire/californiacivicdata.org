@@ -43,36 +43,37 @@ If you want to rewind CAL-ACCESS to yesterday, last week or a month ago, [we've 
 
 ## Third, cracking the codes
 
-Instead of digging through PDF upon PDF of outdated, contradictory and cryptic documentation, our extensive explanations of each file, field and lookup code are linked in at every turn.
+The CAL-ACCESS database is one of the most confusing systems we’ve ever encountered. California's Secretary of State Alex Padilla
+has called it ["a Frankenstein monster of code."](http://www.sacbee.com/news/politics-government/capitol-alert/article49257065.html)
+
+To spare anyone else from having to sift through the state's outdated, incomplete and inconsistent [documentation](http://calaccess.californiacivicdata.org/documentation/calaccess-official-documentation/) ever again, we’ve compiled simple searchable explanations for each of the system’s [80 data tables](http://calaccess.californiacivicdata.org/documentation/calaccess-files/) and [42 forms](http://calaccess.californiacivicdata.org/documentation/calaccess-forms/).
+
+Thanks to the more than 150 volunteers who have contributed to our project over the past two years, each file, field and lookup code is now linked online.
 
 <figure style="margin: 8px 0;">
     <img src="/img/file_details.png" width="100%;">
     <figcaption style="text-align:right;">Our comprehensive docs will help you traverse the wilderness of CAL-ACCESS.</figcaption>
 </figure>
 
-And we've documented each form submitted by campaigns and lobbyists, broken them down by section and linked them to database tables where their information is stored. Because, as far as we know, no one else has ever bothered.
-
-<figure style="margin: 8px 0;">
-    <img src="/img/form_details.png" width="100%;">
-    <figcaption style="text-align:right;">Connecting the CAL-ACCESS tables to the filing forms has helped up map origin story of the data.</figcaption>
-</figure>
-
 ## Fourth, establishing a simple API
 
-Obviously, we think the design of our new bulk downloads site is prrrreeeetty hot (I mean, have you SEEN our new logo?!). But some nerds just wanna shell.
+Repeat visitors can probably tell we've put a lot of effort into Aaron William's redesign for the site. But beneath the surface
+is something more: The foundation of a new [web API](https://en.wikipedia.org/wiki/Web_API) that aims to improve access
+not just for people, but for the scripts they write as well.
 
-We get it, and that's why we've made all our downloads available at stable and concise URLs so that you can download and unzip the latest full zip:
+All of our downloads are now available at stable and concise URLs at a new domain, calaccess.download.
 
-```bash
-$ curl -O http://calaccess.download/latest/clean.zip
-$ unzip clean.zip
-```
+It allows you to always download and unzip the latest full archive from your terminal.
 
-Or fetch the campaign disclosure sheets file and filter to only the Form 460 and save them to their own file:
+{% highlight bash %}
+$ curl -O http://calaccess.download/latest/clean.zip && unzip clean.zip
+{% endhighlight %}
 
-```bash
+Or, to be a little more creative, fetch the [campaign disclosure cover sheets file](http://calaccess.californiacivicdata.org/documentation/calaccess-files/cvr-campaign-disclosure-cd/) and filter it down to only filings of [Form 460](http://calaccess.californiacivicdata.org/documentation/calaccess-forms/f460/), saving the result to a new file:
+
+{% highlight bash %}
 $ curl http://calaccess.download/latest/cvr_campaign_disclosure_cd.csv | csvgrep -c FORM_TYPE -m F460 > f460_cvrs.csv
-```
+{% endhighlight %}
 
 ## Fifth, charting the course ahead
 
