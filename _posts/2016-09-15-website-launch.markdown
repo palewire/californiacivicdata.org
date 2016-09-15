@@ -96,7 +96,7 @@ But wouldn't it be :fire::fire: if it were on a t-shirt?
 
 <figure style="margin: 28px 0;">
     <img src="/img/tshirt.png" width="100%;">
-    <figcaption style="text-align:right;">This is geo-bear on a t-shirt. Thomas Lauder made it.</figcaption>
+    <figcaption style="text-align:right;">This is geo-bear on a t-shirt. Thomas Suh Lauder made it.</figcaption>
 </figure>
 
 BUT wouldn't it be :fire::fire::fire: if it were on YOUR t-shirt?
