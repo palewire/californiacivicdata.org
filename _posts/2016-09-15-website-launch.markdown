@@ -20,12 +20,20 @@ We've built something better.
 Instead of forcing you to download a 750 MB zip just to get the one or two data files you want, you can download each data file from our website or, if you like, all the data files zipped together.
 
 <figure style="margin: 8px 0;">
-    <img src="/img/latest_download.png" width="100%;">
+    <img src="/img/archived_files.png" width="100%;">
 </figure>
 
 Instead of sprinkling in parsing errors that corrupt analysis or simply block loading into database managers, we publish files cleaned by our raw-data app. All parsing errors are either fixed or segmented into a separate error log, which is also available to download (for the super data-mungers).
 
+<figure style="margin: 8px 0;">
+    <img src="/img/errata.png" width="100%;">
+</figure>
+
 Instead of overwriting the current database snapshot every single day, we automatically archive the original source files, our cleaned files and the error logs. If you want to rewind CAL-ACCESS to yesterday, last week or a month ago, we've got you covered.
+
+<figure style="margin: 8px 0;">
+    <img src="/img/archived_zips.png" width="100%;">
+</figure>
 
 Instead of digging through PDF upon PDF of outdated, contradictory and cryptic documentation, our extensive explanations of each file, field and lookup code are linked in at every turn.
 
@@ -36,7 +44,7 @@ Instead of digging through PDF upon PDF of outdated, contradictory and cryptic d
 And we've documented each form submitted by campaigns and lobbyists, broken them down by section and linked them to database tables where their information is stored. Because, as far as we know, no one else has ever bothered.
 
 <figure style="margin: 8px 0;">
-    <img src="/img/form_detials.png" width="100%;">
+    <img src="/img/form_details.png" width="100%;">
 </figure>
 
 ## API-like access at calaccess.download
