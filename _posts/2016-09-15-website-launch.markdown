@@ -105,6 +105,6 @@ But wouldn't it be :fire::fire: if it were on a t-shirt?
 
 BUT wouldn't it be :fire::fire::fire: if it were on YOUR t-shirt?
 
-This could really happen. The first five people who visit GitHub and file a confirmed bug report or merged pull request for [our open-source website](https://github.com/california-civic-data-coalition/django-calaccess-downloads-website) win a t-shirt with our new logo.
+This can happen. The first five people who visit GitHub and file a confirmed bug report or merged pull request for [our open-source website](https://github.com/california-civic-data-coalition/django-calaccess-downloads-website) win a t-shirt with our new logo.
 
 See you there.
