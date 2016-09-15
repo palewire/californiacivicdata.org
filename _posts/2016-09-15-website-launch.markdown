@@ -93,14 +93,14 @@ Our new logo is :fire: right?
 
 <figure style="margin: 28px 0;">
     <img src="http://www.californiacivicdata.org/img/geobear.svg" width="100%;">
-    <figcaption style="text-align:right;">This is geo-bear.</figcaption>
+    <figcaption style="text-align:right;">This is geo-bear. Aaron Williams made him.</figcaption>
 </figure>
 
 But wouldn't it be :fire::fire: if it were on a t-shirt?
 
 <figure style="margin: 28px 0;">
     <img src="/img/tshirt.png" width="100%;">
-    <figcaption style="text-align:right;">This is geo-bear on a t-shirt.</figcaption>
+    <figcaption style="text-align:right;">This is geo-bear on a t-shirt. Thomas Lauder made it.</figcaption>
 </figure>
 
 BUT wouldn't it be :fire::fire::fire: if it were on YOUR t-shirt?
