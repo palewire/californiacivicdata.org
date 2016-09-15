@@ -15,7 +15,7 @@ Until now, analysts investigating the role of lobbyists and campaign donors at t
 
 ### First, making access easy
 
-As of this morning, the latest state data is downloaded, parsed, cleaned and republished each day at [calaccess.californiacivicdata.org/downloads/latest/](http://calaccess.californiacivicdata.org/downloads/latest/).
+As of this morning, the latest state data are downloaded, parsed, cleaned and republished each day at [calaccess.californiacivicdata.org/downloads/latest/](http://calaccess.californiacivicdata.org/downloads/latest/).
 
 There you can download the entire dump, or just the files you want. The numerous
 errors that litter the source files have been eliminated. The data have been converted to simple flat files of comma-separated values,
