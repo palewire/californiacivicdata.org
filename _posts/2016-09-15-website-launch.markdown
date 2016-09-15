@@ -4,32 +4,40 @@ title: "Introducing a new bulk downloads site tracking money in California polit
 deckhead: "Check out the beta version of our online archive and walk away with a prize."
 byline: "By [James Gordon](https://twitter.com/je_gordon), [Aaron Williams](http://aboutaaron.com/), [Sahil Chinoy](http://sahilchinoy.com/), [Ben Welsh](http://palewi.re/who-is-ben-welsh/) and the [California Civic Data Coalition](/about/)"
 image: http://www.californiacivicdata.org/img/dl_site_homepage.png
-published: false
+published: true
 ---
 
 Today we're launching an expansion of this site, remaking it as the only destination offering hassle-free access to the bulk data tracking money in California politics.
 
-Until now, analysts investigating the role of lobbyists and campaign donors at the Sacramento statehouse have been limited to the [official database dump](http://www.sos.ca.gov/campaign-lobbying/cal-access-resources/raw-data-campaign-finance-and-lobbying-activity/) from CAL-ACCESS, the jumbled, dirty and difficult database maintained by California's Secretary of State.
+Until now, analysts investigating the role of lobbyists and campaign donors at the Sacramento statehouse have been limited to an [unwieldy dump from CAL-ACCESS](http://www.sos.ca.gov/campaign-lobbying/cal-access-resources/raw-data-campaign-finance-and-lobbying-activity/), the jumbled, dirty and difficult database maintained by California's Secretary of State.
 
 [We've built something better](http://www.californiacivicdata.org/). And we've got even more in the works.
 
 ## First, making access easy
 
-Instead of forcing you to download a 750 MB zip from the state, just to get the one or two data files you want, you can download each data file from our website or, if you like, all the data files zipped together.
+As of this morning, the latest state data is downloaded, parsed, cleaned and republished each day at [calaccess.californiacivicdata.org/downloads/latest/](http://calaccess.californiacivicdata.org/downloads/latest/).
+
+There you can download the entire dump, or just the files you want. The numerous
+errors that litter the source files have been eliminated. The data are converted to simple flat files of comma-separated values,
+easily imported to spreadsheets and other database software.
 
 <figure style="margin: 28px 0;">
-    <img src="/img/archived_files.png" style="border: 1px solid #ddd;">
+    <a href="http://calaccess.californiacivicdata.org/downloads/latest/">
+        <img src="/img/archived_files.png" style="border: 1px solid #ddd;">
+    </a>
     <figcaption style="text-align:right;">Download individual raw files or a ZIP of everything.</figcaption>
 </figure>
 
-Instead of sprinkling in parsing errors that corrupt analysis or simply block loading into database managers, we publish files cleaned by our [raw-data](http://django-calaccess.readthedocs.io/en/latest/apps/calaccess_raw.html) app. All parsing errors are either fixed or segmented into a separate error log, which is also available to download (for the super data-mungers).
-
 ## Second, archiving everything
 
-Instead of overwriting the current database snapshot every single day, we automatically archive the original source files, our cleaned files and the error logs. If you want to rewind CAL-ACCESS to yesterday, last week or a month ago, we've got you covered.
+We also automatically archive each day's source files. That is unlike the state dump, which officials overwrite each day.
+
+If you want to rewind CAL-ACCESS to yesterday, last week or a month ago, [we've got you covered](http://calaccess.californiacivicdata.org/downloads/). We plan to save and serve each day's data into the foreseeable future.
 
 <figure style="margin: 8px 0;">
-    <img src="/img/archived_zips.png" width="100%;">
+    <a href="http://calaccess.californiacivicdata.org/downloads/">
+        <img src="/img/archived_zips.png" width="100%;">
+    </a>
     <figcaption style="text-align:right;">We're archiving ever database snapshot in case anyone ever needs to rewind the CAL-ACCESS clock.</figcaption>
 </figure>
 
