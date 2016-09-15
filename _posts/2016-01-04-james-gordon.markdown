@@ -39,5 +39,5 @@ On weekdays Gordon and the rest of the coalition's leadership team can be found
 in the [#california-civic-data channel](https://newsnerdery.slack.com/messages/california-civic-data/) of the [News Nerdery](http://newsnerdery.org/) Slack account and the public [#californiacivicdata channel](http://webchat.freenode.net/?channels=californiacivicdata)
 on freenode IRC.
 
-His work is paid for by philanthropic funding from the Knight Foundation, the Democracy Fund, the William and Flora Hewlett Foundation and the Rita Allen Foundation. It was awarded last year when the coalition was named
+His work is paid for by philanthropic funding from the Knight Foundation, the Democracy Fund, the William and Flora Hewlett Foundation and the Rita Allen Foundation. Funds were awarded last year after the coalition was named a
 winner of the [Knight News Challenge](/2015/07/22/knight-news-challenge/). IRE is acting as the coalition's fiscal agent.
