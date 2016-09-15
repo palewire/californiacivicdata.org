@@ -65,7 +65,7 @@ not just for people, but for the scripts they write as well.
 
 All of our downloads are now available at stable and concise URLs at a new domain, calaccess.download.
 
-It allows you to always download and unzip the latest full archive from your terminal.
+That means you can always download and unzip the latest full archive from your terminal like this:
 
 <input type="text" class="download-link input-monospace" style="font-size:14px;" value="curl -O http://calaccess.download/latest/clean.zip && unzip clean.zip" readonly="">
 
