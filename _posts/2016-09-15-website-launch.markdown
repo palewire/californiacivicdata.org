@@ -34,7 +34,7 @@ We also automatically archive each day's source files. That is unlike the state 
 
 If you want to rewind CAL-ACCESS to yesterday, last week or a month ago, [we've got you covered](http://calaccess.californiacivicdata.org/downloads/). We plan to save and serve each day's data into the foreseeable future.
 
-<figure style="margin: 8px 0;">
+<figure style="margin: 28px 0;">
     <a href="http://calaccess.californiacivicdata.org/downloads/">
         <img src="/img/archived_zips.png" width="100%;">
     </a>
@@ -50,7 +50,7 @@ To spare anyone else from having to sift through the state's outdated, incomplet
 
 Thanks to the more than 150 volunteers who have contributed to our project over the past two years, each file, field and lookup code is now linked online.
 
-<figure style="margin: 8px 0;">
+<figure style="margin: 28px 0;">
     <img src="/img/file_details.png" width="100%;">
     <figcaption style="text-align:right;">Our comprehensive docs will help you traverse the wilderness of CAL-ACCESS.</figcaption>
 </figure>
@@ -89,20 +89,20 @@ Look for those to arrive in the coming weeks, or jump into the embryonic [django
 
 Our new logo is :fire: right?
 
-<figure style="margin: 8px 0;">
-    <img src="/img/geo_bear.png" width="100%;">
+<figure style="margin: 28px 0;">
+    <img src="http://www.californiacivicdata.org/img/geobear.svg" width="100%;">
     <figcaption style="text-align:right;">This is geo-bear.</figcaption>
 </figure>
 
 But wouldn't it be :fire::fire: if it were on a t-shirt?
 
-<figure style="margin: 8px 0;">
+<figure style="margin: 28px 0;">
     <img src="/img/tshirt.png" width="100%;">
     <figcaption style="text-align:right;">This is geo-bear on a t-shirt.</figcaption>
 </figure>
 
 BUT wouldn't it be :fire::fire::fire: if it were on YOUR t-shirt?
 
-This could really happen. The first five people who file a confirmed bug on our website win a t-shirt with our new logo.
+This could really happen. The first five people who visit GitHub and file a confirmed bug report or merged pull request for [our open-source website](https://github.com/california-civic-data-coalition/django-calaccess-downloads-website) win a t-shirt with our new logo.
 
-Ready, set, go!
+See you there.
