@@ -3,15 +3,11 @@ layout: post
 title: "Introducing our new CAL-ACCESS bulk downloads website"
 deckhead: "California campaign finance and lobbyist disclosure data never looked so good."
 byline: "By [Ben Welsh](http://palewi.re/who-is-ben-welsh/), [Cheryl Phillips](http://www.twitter.com/cephillips), [Aaron Williams](http://aboutaaron.com/), [Jennifer LaFleur](https://twitter.com/j_la28), [James Gordon](https://twitter.com/je_gordon) and [Sahil Chinoy](http://sahilchinoy.com/)"
-image:
+image: http://www.californiacivicdata.org/img/dl_site_homepage.png
 published: false
 ---
 
 Today we're launching our new bulk downloads website, the only online destination with hassle-free access to bulk California campaign finance and lobbyist disclosure data.
-
-<figure style="margin: 8px 0;">
-    <img src="/img/dl_site_homepage.png" width="100%;">
-</figure>
 
 Until now, reporters and researchers investigating the role of money in California politics have been limited to the official CAL-ACCESS database export published on the California Secretary of State's website.
 
