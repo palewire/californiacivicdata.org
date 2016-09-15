@@ -85,6 +85,9 @@ figcaption {
     font-size: 12px;
     text-align: right;
 }
+.post h3 {
+    margin-top: 30px;
+}
 h3 {
     line-height:130%;
 }
