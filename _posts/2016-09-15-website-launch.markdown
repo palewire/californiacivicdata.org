@@ -67,7 +67,7 @@ All of our downloads are now available at stable and concise URLs at a new domai
 
 That means you can always download and unzip the latest full archive from your terminal like this:
 
-<input type="text" class="download-link input-monospace" style="font-size:14px;" value="curl -O http://calaccess.download/latest/clean.zip && unzip clean.zip" readonly="">
+<input type="text" class="download-link input-monospace" style="font-size:14px;" value="$ curl -O http://calaccess.download/latest/clean.zip && unzip clean.zip" readonly="">
 
 Or, to be a little more creative, fetch the [campaign disclosure cover sheets file](http://calaccess.californiacivicdata.org/documentation/calaccess-files/cvr-campaign-disclosure-cd/) and filter it down to only filings of [Form 460](http://calaccess.californiacivicdata.org/documentation/calaccess-forms/f460/), saving the result to a new file:
 
