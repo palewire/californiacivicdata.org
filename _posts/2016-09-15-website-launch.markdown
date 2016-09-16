@@ -15,7 +15,7 @@ Until now, analysts investigating the role of lobbyists and campaign donors at t
 
 ### First, making access easy
 
-As of this morning, the latest state data are downloaded, parsed, cleaned and republished each day at [calaccess.californiacivicdata.org/downloads/latest/](http://calaccess.californiacivicdata.org/downloads/latest/).
+As of this morning, the latest state data are downloaded, parsed, cleaned and republished each day at <span style="word-wrap: break-word;">[calaccess.californiacivicdata.org/downloads/latest/](http://calaccess.californiacivicdata.org/downloads/latest/).</span>
 
 There you can download the entire dump, or just the files you want. The numerous
 errors that litter the source files have been eliminated. The data have been converted to simple flat files of comma-separated values,
@@ -38,7 +38,7 @@ If you want to rewind CAL-ACCESS to yesterday, last week or a month ago, [we've 
     <a href="http://calaccess.californiacivicdata.org/downloads/">
         <img src="/img/archived_zips.png" width="100%;">
     </a>
-    <figcaption style="text-align:right;">We're archiving ever database snapshot in case anyone ever needs to rewind the CAL-ACCESS clock.</figcaption>
+    <figcaption style="text-align:right;">We're archiving every database snapshot in case anyone ever needs to rewind the CAL-ACCESS clock.</figcaption>
 </figure>
 
 ### Third, cracking the codes
@@ -59,7 +59,7 @@ Thanks to the more than 150 volunteers who have contributed to our project over 
 
 ### Fourth, establishing a simple API
 
-Repeat visitors can probably tell we've put a lot of effort into Aaron William's redesign for the site. But beneath the surface
+Repeat visitors can probably tell we've put a lot of effort into Aaron Williams's redesign for the site. But beneath the surface
 is something more: The foundation of a new [web API](https://en.wikipedia.org/wiki/Web_API) that aims to improve access
 not just for people, but for the scripts they write as well.
 
