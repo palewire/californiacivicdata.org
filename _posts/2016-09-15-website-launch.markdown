@@ -59,7 +59,7 @@ Thanks to the more than 150 volunteers who have contributed to our project over 
 
 ### Fourth, establishing a simple API
 
-Repeat visitors can probably tell we've put a lot of effort into Aaron William's redesign for the site. But beneath the surface
+Repeat visitors can probably tell we've put a lot of effort into Aaron Williams's redesign for the site. But beneath the surface
 is something more: The foundation of a new [web API](https://en.wikipedia.org/wiki/Web_API) that aims to improve access
 not just for people, but for the scripts they write as well.
 
