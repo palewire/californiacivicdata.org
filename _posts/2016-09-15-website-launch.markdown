@@ -77,7 +77,7 @@ Or, to be a little more creative, fetch the [campaign disclosure cover sheets fi
 
 We're proud of what we've put together. But our work is far from finished.
 
-For newcomers, the the odd structure of the CAL-ACCESS database's source files remains a significant obstacle.
+For newcomers, the odd structure of the CAL-ACCESS database's source files remains a significant obstacle.
 
 But don't worry, our team is working on it. We're already hard at work chiseling easy-to-understand files that simplify the system's convoluted structure.
 
