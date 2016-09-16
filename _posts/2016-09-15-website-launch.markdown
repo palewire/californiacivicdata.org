@@ -38,7 +38,7 @@ If you want to rewind CAL-ACCESS to yesterday, last week or a month ago, [we've 
     <a href="http://calaccess.californiacivicdata.org/downloads/">
         <img src="/img/archived_zips.png" width="100%;">
     </a>
-    <figcaption style="text-align:right;">We're archiving ever database snapshot in case anyone ever needs to rewind the CAL-ACCESS clock.</figcaption>
+    <figcaption style="text-align:right;">We're archiving every database snapshot in case anyone ever needs to rewind the CAL-ACCESS clock.</figcaption>
 </figure>
 
 ### Third, cracking the codes
