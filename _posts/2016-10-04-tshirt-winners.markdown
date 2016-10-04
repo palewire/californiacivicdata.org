@@ -9,11 +9,11 @@ published: true
 
 Last month, [we launched](/2016/09/15/website-launch/) a new version of this website with a simple call to action: File a patch and win a prize.
 
+The bounty for a confirmed bug report or merged pull request to [our open-source website](https://github.com/california-civic-data-coalition/django-calaccess-downloads-website) was a t-shirt with our new logo.
+
 <figure style="margin: 28px 0; max-width:300px; float: right;">
     <img src="/img/tshirt.png" style="max-width:300px" alt="The shirt" title="The shirt">
 </figure>
-
-The bounty for a confirmed bug report or merged pull request to [our open-source website](https://github.com/california-civic-data-coalition/django-calaccess-downloads-website) was a t-shirt with our new logo.
 
 The response was rapid. Today I'm proud to announce the winners, who added to the accomplishments of our open-source community, which now can claim contributions from more than 150 volunteers.
 
