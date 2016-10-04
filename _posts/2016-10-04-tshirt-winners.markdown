@@ -15,7 +15,7 @@ The bounty for a confirmed bug report or merged pull request to [our open-source
     <img src="/img/tshirt.png" style="max-width:300px">
 </figure>
 
-The response was rapid. Today I'm proud to announce the winners, who added to the accomplishments of our open-source community, which now can claim contributors from more than 150 volunteers.
+The response was rapid. Today I'm proud to announce the winners, who added to the accomplishments of our open-source community, which now can claim contributions from more than 150 volunteers.
 
 The winners are:
 
@@ -26,4 +26,4 @@ The winners are:
 
 If you want to get involved, there's plenty more to do as we continue our quest to master CAL-ACCESS, the jumbled, dirty and difficult database that track money in California politics.
 
-Kick around our site. Try out our [new downloads](http://calaccess.californiacivicdata.org/downloads/latest/) and [documentation](http://calaccess.californiacivicdata.org/documentation/). File any bugs or patches over on [Github](https://github.com/california-civic-data-coalition/django-calaccess-downloads-website/issues), or contact me directly at [ben.welsh@gmail.com](mailto:ben.welsh@gmail.com). 
+Kick around our site. Try out our [new downloads](http://calaccess.californiacivicdata.org/downloads/latest/) and [documentation](http://calaccess.californiacivicdata.org/documentation/). File any bugs or patches over on [Github](https://github.com/california-civic-data-coalition/django-calaccess-downloads-website/issues), or contact me directly at [ben.welsh@gmail.com](mailto:ben.welsh@gmail.com).
