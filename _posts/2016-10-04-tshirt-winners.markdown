@@ -3,7 +3,7 @@ layout: post
 title: "Meet the volunteers who improved our online archive and walked away with a free t-shirt"
 deckhead: "Will you be the next to join our open-source enterprise?"
 byline: "By [Ben Welsh](http://palewi.re/who-is-ben-welsh/)"
-image: http://www.californiacivicdata.org/img/tshirt-winners.png
+image: http://www.californiacivicdata.org/img/tshirt-winners.png?rev=2
 published: true
 ---
 
