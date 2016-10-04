@@ -26,4 +26,4 @@ The winners are:
 
 If you want to get involved, there's plenty more to do as we continue our quest to master CAL-ACCESS, the jumbled, dirty and difficult database that track money in California politics.
 
-Kick around our site. Try out our [new downloads](http://calaccess.californiacivicdata.org/downloads/latest/) and [documentation](http://calaccess.californiacivicdata.org/documentation/). File any bugs or patches over on [Github](https://github.com/california-civic-data-coalition/django-calaccess-downloads-website/issues), or contact me directly at [ben.welsh@gmail.com](mailto:ben.welsh@gmail.com).
+Kick around our site. Try out our [new downloads](http://calaccess.californiacivicdata.org/downloads/latest/) and [documentation](http://calaccess.californiacivicdata.org/documentation/). File any bugs or patches over on [Github](https://github.com/california-civic-data-coalition/django-calaccess-downloads-website/issues), or contact me directly at [ben.welsh@gmail.com](mailto:ben.welsh@gmail.com). 
