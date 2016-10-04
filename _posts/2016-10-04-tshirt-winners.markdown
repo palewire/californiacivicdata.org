@@ -9,11 +9,11 @@ published: true
 
 Last month, [we launched](/2016/09/15/website-launch/) a new version of this website with a simple call to action: File a patch and win a prize.
 
-The bounty for a confirmed bug report or merged pull request to [our open-source website](https://github.com/california-civic-data-coalition/django-calaccess-downloads-website) was a t-shirt with our new logo, seen below.
-
 <figure style="margin: 28px 0; max-width:300px; float: right;">
-    <img src="/img/tshirt.png" style="max-width:300px">
+    <img src="/img/tshirt.png" style="max-width:300px" alt="The shirt" title="The shirt">
 </figure>
+
+The bounty for a confirmed bug report or merged pull request to [our open-source website](https://github.com/california-civic-data-coalition/django-calaccess-downloads-website) was a t-shirt with our new logo.
 
 The response was rapid. Today I'm proud to announce the winners, who added to the accomplishments of our open-source community, which now can claim contributions from more than 150 volunteers.
 
@@ -22,7 +22,11 @@ The winners are:
 * [Michael Keller](https://twitter.com/mhkeller?lang=en), a Bloomberg reporter, who discovered a bug in our site's footer.
 * [Stephen Suen](https://twitter.com/s2tephen), an MIT graduate on the job hunt, who fixed that bug.
 * [Nelson Pecora](https://twitter.com/nelsonpecora), a New York Magazine developer, who upgraded our code to comply with the Python programming language's [official style guide](https://www.python.org/dev/peps/pep-0008/).
-* [Christine Zhang](https://twitter.com/christinezhang), an Open News Fellow at the Los Angeles Times, who created a [favicon](https://en.wikipedia.org/wiki/Favicon) out of our new logo to display in the corner of browser tabs.
+* [Christine Zhang](https://twitter.com/christinezhang), an Open News Fellow at the Los Angeles Times, who created a [favicon](https://en.wikipedia.org/wiki/Favicon) to display in the corner of browser tabs.
+
+<figure style="margin: 18px 0;">
+    <img style="width:100%;" src="http://www.californiacivicdata.org/img/tshirt-winners.png?rev=2">
+</figure>
 
 If you want to get involved, there's plenty more to do as we continue our quest to master CAL-ACCESS, the jumbled, dirty and difficult database that track money in California politics.
 
