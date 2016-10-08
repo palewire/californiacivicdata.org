@@ -15,7 +15,7 @@ far as Mexicali, Mexico &mdash; to learn advanced online research techniques, re
 instruction and develop other skills during two days of training.
 
 <figure style="margin: 28px 0; width:100% display: block; clear:both;">
-    <img src="/img/ire_sd.jpg" style="width:100%" alt="The shirt" title="The shirt">
+    <img src="/img/ire_sd.jpg" style="width:100%" alt="#ire_sd" title="#ire_sd">
 </figure>
 
 One of the offerings was a new class created by our team titled ["First Python Notebook: Scripting your way to the story."](https://github.com/california-civic-data-coalition/python-calaccess-notebooks/blob/master/first-python-notebook.ipynb)
@@ -26,4 +26,4 @@ Our subject: Contributions to campaigns for and again Proposition 64, a ballot m
 
 The data: Drawn from [this site's bulk download service repacking CAL-ACCESS](http://calaccess.californiacivicdata.org/downloads/latest/), the jumbled, dirty and difficult database that tracks money in California politics.
 
-The complete script for the class is [now available online on GitHub](https://github.com/california-civic-data-coalition/python-calaccess-notebooks/blob/master/first-python-notebook.ipynb) for anyone to take at home or teach elsewhere. We're aiming to expand and improve it for future events, so if you give it a try I'd love to hear your feedback. Email me anytime at [ben.welsh@gmail.com](mailto:ben.welsh@gmail.com).
+The complete script for the class is [now available online on GitHub](https://github.com/california-civic-data-coalition/python-calaccess-notebooks/blob/master/first-python-notebook.ipynb) for anyone to take at home or teach elsewhere. We're aiming to expand and improve it for future events, so if you give it a try I'd love to hear your feedback. Email me any time at [ben.welsh@gmail.com](mailto:ben.welsh@gmail.com).
