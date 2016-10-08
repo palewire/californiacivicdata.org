@@ -1,5 +1,9 @@
 @import "pygments.css";
 
+h1 {
+  font-family: 'Raleway', 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+}
 ul.bullets li {
     font-size: 18px;
     line-height: 27px;

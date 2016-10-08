@@ -1,9 +1,13 @@
 body {
-    font-family: Source Sans Pro, monospace, sans;
+    font-family: 'Source Sans Pro', monospace, sans;
     font-weight: 300;
 }
 header, footer {
     padding: 5px 0 0 0 !important;
+}
+h1 {
+  font-family: 'Raleway', 'Source Sans Pro', sans-serif;
+  font-weight: 600;
 }
 p {
     font-size: 20px;
