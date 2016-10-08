@@ -24,6 +24,6 @@ Over three hours I walked about 20 students through the fundamentals of the [Pyt
 
 Our subject: Contributions to campaigns for and again Proposition 64, a ballot measure asking California voters to decide if recreational marijuana should be legalized.
 
-The data: Drawn from [this site's bulk download service repacking CAL-ACCESS](http://calaccess.californiacivicdata.org/downloads/latest/), the jumbled, dirty and difficult database that tracks money in California politics.
+The data: Drawn from [this site's bulk download service that repackages CAL-ACCESS](http://calaccess.californiacivicdata.org/downloads/latest/), the jumbled, dirty and difficult database that tracks money in California politics.
 
 The complete script for the class is [now available online on GitHub](https://github.com/california-civic-data-coalition/python-calaccess-notebooks/blob/master/first-python-notebook.ipynb) for anyone to take at home or teach elsewhere. We're aiming to expand and improve it for future events, so if you give it a try I'd love to hear your feedback. Email me any time at [ben.welsh@gmail.com](mailto:ben.welsh@gmail.com).
