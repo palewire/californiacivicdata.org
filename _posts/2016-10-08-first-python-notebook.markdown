@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Learn how to exlore data with Python's Jupyter Notebook"
+title: "Learn how to explore data with Python's Jupyter Notebook"
 deckhead: "Try your hand at investigating California campaign cash with our free and open-source course"
 byline: "By [Ben Welsh](http://palewi.re/who-is-ben-welsh/)"
 image: http://www.californiacivicdata.org/img/ire_sd.jpg
