@@ -32,7 +32,7 @@ We doing it by harnessing the power of [Apache Spark](http://spark.apache.org/),
 
 Over the last 8 months, the Databricks team has been hard at work integrating Spark into a free [community edition](https://community.cloud.databricks.com/) where,  thanks to the power of cloud computing, even beginners can quickly import, transform and analyze gigantic data files using only their web browser.
 
-### Take a test drive today with California's campaign cash database
+### Take a test drive today
 
 When the California Civic Data Coalition [announced last month](http://www.californiacivicdata.org/2016/09/15/website-launch/) it was launching an API for accessing the latest data from the state's campaign finance database, I realized that our new [Databricks notebook](https://docs.cloud.databricks.com/docs/latest/databricks_guide/01%20Databricks%20Overview/03%20Notebooks.html) could make it easy for users to get started querying the data without having to install any software.
 
