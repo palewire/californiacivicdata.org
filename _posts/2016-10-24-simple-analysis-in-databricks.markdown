@@ -11,7 +11,7 @@ published: true
 
 <figure style="margin: 8px 0 0 18px; float:right;" >
    <a href="http://billchambers.me/about.html">
-    <img src="/img/bill-chambers.jpg" height="200" alt="Bill Chambers" style="float:right; clear:both;" title="Bill Chambers">
+    <img src="/img/bill-chambers.jpg" height="150" alt="Bill Chambers" style="float:right; clear:both;" title="Bill Chambers">
    </a>
    <figcaption style="float:left; clear:both;">Bill Chambers</figcaption>
 </figure>
