@@ -38,7 +38,7 @@ When the California Civic Data Coalition [announced last month](http://www.calif
 
 The Databricks notebook is an interactive workspace &mdash; similar to the [Jupyter Notebook](http://www.californiacivicdata.org/2016/10/08/first-python-notebook/) &mdash; where you can use your browser to code and collaborate in an easy-to-use environment that leverages our powerful Spark backend. You can see [numerous examples](https://databricks.com/resources/type/example-notebooks) on our site, or watch [the following introductory video](https://vimeo.com/137874931).
 
-<iframe src="https://player.vimeo.com/video/137874931?byline=0&portrait=0" width="750" height="422" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/137874931?byline=0&portrait=0" width="750" height="422" style="margin:12px 0;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 What's amazing about Spark is that it can turn any structured files into an immediately queryable database. And the [CAL-ACCESS](http://calaccess.californiacivicdata.org/documentation/) database that is cleaned and served by the California Civic Data Coalition is no different.
 
