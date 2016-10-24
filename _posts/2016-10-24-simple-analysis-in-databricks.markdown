@@ -28,7 +28,7 @@ In my experience teaching at [UC Berkeley](https://www.ischool.berkeley.edu/cour
 
 Now I'm working for new site called [Databricks](https://databricks.com/), which is aiming to solve this problem by making starting and sharing data science easier.
 
-We started by harnessing the power of [Apache Spark](http://spark.apache.org/), a free and open-source tool for high-speed data processing that, for the most the part, is only used by super nerds.
+We doing it by harnessing the power of [Apache Spark](http://spark.apache.org/), a free and open-source tool for high-speed data processing that, for the most the part, is only used by super nerds.
 
 Over the last 8 months, the Databricks team has been hard at work integrating Spark into a free [community edition](https://community.cloud.databricks.com/) where even beginners can quickly import, transform and analyze gigantic data files using only their web browser thanks to the power of cloud computing.
 
