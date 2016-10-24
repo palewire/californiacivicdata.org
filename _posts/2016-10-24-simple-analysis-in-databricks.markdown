@@ -26,9 +26,9 @@ In my experience teaching at [UC Berkeley](https://www.ischool.berkeley.edu/cour
 
 ### The Databricks fix
 
-Now I'm working for new site called [Databricks](https://databricks.com/), which is aiming to solve this problem by making starting and sharing data science easier.
+Now I'm working for [Databricks](https://databricks.com/), which is aiming to solve this problem by making starting and sharing data science easier.
 
-We doing it by harnessing the power of [Apache Spark](http://spark.apache.org/), a free and open-source tool for high-speed data processing that, for the most the part, is only used by super nerds.
+We doing it by harnessing the power of [Apache Spark](http://spark.apache.org/), a free and open-source tool for high-speed data processing created by our founders that, for the most the part, is only used by super nerds.
 
 Over the last 8 months, the Databricks team has been hard at work integrating Spark into a free [community edition](https://community.cloud.databricks.com/) where,  thanks to the power of cloud computing, even beginners can quickly import, transform and analyze gigantic data files using only their web browser.
 
@@ -56,4 +56,4 @@ To see it in action, all you have to do is make an account and clone my [Databri
 
 Then push the "run" button and the notebook will automatically download and import the state's sprawling database. In mere minutes it will be available for exploration using SQL and other tools.
 
-I've already used it to see top lobbying contributions within the data. What can you find?
+I've already used it to take a rough cut at the biggest lobbying payments in the data. What can you find?
