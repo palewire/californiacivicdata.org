@@ -34,8 +34,6 @@ Over the last 8 months, the Databricks team has been hard at work integrating Sp
 
 ### Take a test drive today with California's campaign cash database
 
-As a Databricks project manager I'm constantly on the look out for innovative ways that our tools can be used.
-
 When the California Civic Data Coalition [announced last month](http://www.californiacivicdata.org/2016/09/15/website-launch/) that were launching an API for accessing the latest data from the state's campaign finance database, I realized that our new [Databricks notebook](https://docs.cloud.databricks.com/docs/latest/databricks_guide/01%20Databricks%20Overview/03%20Notebooks.html) could make it easy for users to get started querying the data without having to install any software.
 
 The Databricks notebook is an interactive workspace &mdash; similar to the [Jupyter Notebook](http://www.californiacivicdata.org/2016/10/08/first-python-notebook/) &mdash; where you can use your browser to code and collaborate in an easy-to-use environment that leverages our powerful Spark backend. You can see [numerous examples](https://databricks.com/resources/type/example-notebooks) on our site, or watch [the following introductory video](https://vimeo.com/137874931).
