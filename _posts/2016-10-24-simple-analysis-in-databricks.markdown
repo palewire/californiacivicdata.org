@@ -42,7 +42,7 @@ The Databricks notebook is an interactive workspace &mdash; similar to the [Jupy
 
 What's amazing about Spark is that it can turn any structured files into an immediately queryable database. And the [CAL-ACCESS](http://calaccess.californiacivicdata.org/documentation/) database that is cleaned and served by the California Civic Data Coalition is no different.
 
-To see it in action, all you have to do is make an account and clone my [the Databricks notebook](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/346304/3910054895802185/484361/latest.html). Instructions on how to do that are [here](https://docs.databricks.com/user-guide/notebooks/index.html#importing-notebooks).
+To see it in action, all you have to do is make an account and clone my [Databricks notebook](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/346304/3910054895802185/484361/latest.html) that downloads data from the Coalition's API, racks it up with Spark and starts in on analysis. Instructions on how to make your copy are [here](https://docs.databricks.com/user-guide/notebooks/index.html#importing-notebooks).
 
 <figure style="margin: 8px 0;">
     <a href="https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/346304/3910054895802185/484361/latest.html">
