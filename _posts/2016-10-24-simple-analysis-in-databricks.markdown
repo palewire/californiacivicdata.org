@@ -7,7 +7,7 @@ image: http://www.californiacivicdata.org/img/databricks-promo.png
 published: true
 ---
 
-*Editor's note: This post was written (and submitted [via pull request](https://github.com/california-civic-data-coalition/california-civic-data-coalition.github.io/pull/15)) by a contributor to our open-source project who is also a Databricks employee.*
+*Editor's note: This post was written (and submitted without pay [via pull request](https://github.com/california-civic-data-coalition/california-civic-data-coalition.github.io/pull/15)) by a volunteer to our open-source project who is also a Databricks employee.*
 
 <figure style="margin: 8px 0 0 18px; float:right;" >
    <a href="http://billchambers.me/about.html">
