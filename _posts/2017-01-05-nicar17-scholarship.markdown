@@ -46,7 +46,7 @@ Here's how it works. If you qualify, please [apply today](https://www.surveymonk
 
 * If you know someone from the state who would be a good candidate, please encourage them to apply.
 * There are many other IRE-related fellowships and scholarships you can [find on their site](https://www.ire.org/events-and-training/fellowships-and-scholarships/).
-* We'll be at NICAR teaching an all day class on data analysis with Python that's open to anyone. If you're attending and interested, sign up when [the schedule](http://ire.org/conferences/nicar2017/) is finalized.
+* We'll be at NICAR teaching a class on data analysis with Python that's open to anyone. If you're attending and interested, sign up when [the schedule](http://ire.org/conferences/nicar2017/) is finalized.
 * [Sign up for our email newsletter](http://eepurl.com/cwn7-v) to keep up with our work and future events.
 
 ### What about this other thing?
