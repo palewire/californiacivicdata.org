@@ -15,7 +15,7 @@ The winner will join our leadership team at the world's top data journalism conf
 hundreds of others in the field.
 
 Past NICAR conferences have been home to [a](http://www.californiacivicdata.org/2016/05/27/raw-app-v1/) [series](http://www.californiacivicdata.org/2015/02/26/code-rush/) of events for our team. We're looking to show their fruits this year
-by debuting several new data products. We'll also be offering a new training session on rapid data analysis with the Python programming language.
+by debuting several data products. We'll also be offering a new training session on rapid data analysis with the Python programming language.
 
 <figure style="margin:25px 0 15px 0;">
 <img width="100%" src="http://www.californiacivicdata.org/img/code-rush-nicar15.jpg" alt="The California Code Rush at NICAR15" title="The California Code Rush at NICAR15">
