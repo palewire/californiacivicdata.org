@@ -3,6 +3,7 @@ layout: post
 title: "Apply now for a free trip to NICAR17 in Jacksonville"
 deckhead: "The California Civic Data Coalition is awarding a travel scholarship to world's premier data journalism conference"
 byline: "By [Ben Welsh](http://palewi.re/who-is-ben-welsh/)"
+image: "http://www.californiacivicdata.org/img/code-rush-nicar15.jpg"
 published: true
 ---
 
