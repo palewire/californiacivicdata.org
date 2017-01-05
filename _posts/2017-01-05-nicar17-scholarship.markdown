@@ -28,7 +28,7 @@ Here's how it works. If you qualify, please [apply today](https://www.surveymonk
 
 ### What's the deal?
 
-* Our scholarship will be cover all costs of airfare, registration and lodging. You will be on your own for food, cabs and anything else you do.
+* Our scholarship will cover all costs of airfare, registration and lodging. You will be on your own for food, cabs and anything else you do.
 
 ### Who can apply?
 
