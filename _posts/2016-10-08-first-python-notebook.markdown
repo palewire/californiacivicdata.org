@@ -18,7 +18,7 @@ instruction and develop other skills during two days of training.
     <img src="/img/ire_sd.jpg" style="width:100%" alt="#ire_sd" title="#ire_sd">
 </figure>
 
-One of the offerings was a new class created by our team titled ["First Python Notebook: Scripting your way to the story."](https://github.com/california-civic-data-coalition/python-calaccess-notebooks/blob/master/first-python-notebook.ipynb)
+One of the offerings was a new class created by our team titled ["First Python Notebook: Scripting your way to the story."](https://github.com/california-civic-data-coalition/python-calaccess-notebooks/blob/master/tutorials/first-python-notebook.ipynb)
 
 Over three hours I walked about 20 students through the fundamentals of the [Python](https://www.python.org/) programming language by using the [Jupyter Notebook](http://jupyter.org/) programming environment to interrogate data and develop a story.
 
