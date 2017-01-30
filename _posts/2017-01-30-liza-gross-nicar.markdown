@@ -17,7 +17,7 @@ She was selected by our leadership team from an impressive pool of journalists, 
 </figure>
 
 
-Gross is an independent journalist and part-time editor at [PLOS Biology](http://journals.plos.org/plosbiology/) who writes frequently about the intersection between science and society, specializing in environmental, public and mental health. She’s also a reporter for the [Food & Environment Reporting Network](https://thefern.org/).
+Gross is an independent California journalist and part-time editor at [PLOS Biology](http://journals.plos.org/plosbiology/) who writes frequently about the intersection between science and society, specializing in environmental, public and mental health. She’s also a reporter for the [Food & Environment Reporting Network](https://thefern.org/).
 
 She’s written for other publications including The Intercept, The Nation, The New York Times, Discover, Science, The Washington Post and Slate. She first delved into the database tracking California campaign contributions for a 2011 story, [“Money to Burn,”](http://www.eastbayexpress.com/oakland/money-to-burn/Content?oid=3042155), which revealed a $23 million chemical-industry lobbying campaign to defeat five bills designed to regulate flame retardants.
 
