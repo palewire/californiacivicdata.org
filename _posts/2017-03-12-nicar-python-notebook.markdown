@@ -3,7 +3,7 @@ layout: post
 title: "First Python Notebook goes pro at NICAR17"
 deckhead: "We expanded our guide to investigating campaign cash. Use it to teach yourself at home."
 byline: "By [Ben Welsh](http://palewi.re/who-is-ben-welsh/)"
-image: http://www.californiacivicdata.org/img/nicar17.jpg
+image: http://www.californiacivicdata.org/img/nicar17-facebook.jpg
 published: true
 ---
 
