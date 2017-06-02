@@ -27,6 +27,6 @@ In addition to Python instruction, we're also inviting California based journali
 
 ### Where it all started
 
-The MOOC marks the next step for a couse we started developing to popularize our work last year. Earlier versions have been taught at professional workshop in San Diego, a class of [Stanford graduate students](http://www.californiacivicdata.org/2017/02/17/stanford-python-notebook/) and at [the world's leading data journalism conference](http://www.californiacivicdata.org/2017/03/12/nicar-python-notebook/).
+The MOOC marks the next step for a couse we started developing to popularize our work last year. Earlier versions have been taught at a professional workshop in San Diego, a class of [Stanford graduate students](http://www.californiacivicdata.org/2017/02/17/stanford-python-notebook/) and at [the world's leading data journalism conference](http://www.californiacivicdata.org/2017/03/12/nicar-python-notebook/).
 
 The evolving script for the class is available for anyone to teach themselves at [firstpythonnotebook.org](http://www.firstpythonnotebook.org/). The document itself is open source and available for remixing and reuse on [GitHub](https://github.com/california-civic-data-coalition/first-python-notebook).
