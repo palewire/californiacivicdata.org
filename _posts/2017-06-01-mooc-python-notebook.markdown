@@ -13,7 +13,7 @@ published: true
 
 The California Civic Data Coalition's open-source course ["First Python Notebook."](http://first-python-notebook.readthedocs.io) is expanding to become a massive open online course (often known as a "MOOC") hosted by the Knight Center for Journalism in the Americas at the University of Texas.
 
-The class starts June 12. It will guide students through an investigation of money in politics using data from our downloads site. [Registration is free and open to anyone](http://journalismcourses.org/PDJ0517.html).
+The class starts June 12. It will guide students through an investigation of money in politics using data from this site. [Registration is free and open to anyone](http://journalismcourses.org/PDJ0517.html).
 
 If you’ve tried Python once or twice, have a good attitude and know how to take a few code crashes in stride, you are qualified to join more than 1,400 students around the world who have already registered.
 
