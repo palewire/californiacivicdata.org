@@ -26,11 +26,17 @@ title: The California Civic Data Coalition
     <meta property="twitter:site" content="@cacivicdata">
     <meta property="twitter:title" content="California Civic Data Coalition">
     <meta property="twitter:description" content="An open-source team of journalists and computer programmers from news organizations across America."/>
-    <meta property="twitter:url" content="//calaccess.californiacivicdata.org/index.html" />
+    <meta property="twitter:url" content="http://calaccess.californiacivicdata.org/index.html" />
     <meta property="twitter:image:src" content="//calaccess.californiacivicdata.org/static/calaccess_website/images/brown-bear-share.png">
     <meta property="twitter:card" content="summary_large_image">
 
-    <link rel="stylesheet" href="//calaccess.californiacivicdata.org/static/compressor/css/e5fe95f3937e.css" type="text/css" />
+    <link type="text/css" rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="//calaccess.californiacivicdata.org/static/calaccess_website/css/sourcesanspro.css">
+    <link rel="stylesheet" type="text/css" href="//calaccess.californiacivicdata.org/static/calaccess_website/css/main.css">
+
+    <link type="text/css" rel="stylesheet" href="/css/font-awesome.min.css">
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,600" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Raleway:400,600" rel="stylesheet">
     <script type="text/javascript" src="//calaccess.californiacivicdata.org/static/calaccess_website/js/jquery.min.js"></script>
     <script>
@@ -212,7 +218,33 @@ title: The California Civic Data Coalition
 
     {% include footer.html %}
 
+     <script src="//calaccess.californiacivicdata.org/static/calaccess_website/js/bootstrap.js"></script>
+      <script src="//calaccess.californiacivicdata.org/static/calaccess_website/js/underscore-min.js"></script>
 
-    <script type="text/javascript" src="//calaccess.californiacivicdata.org/static/compressor/js/1c35e6db6f50.js"></script>
+<script type="text/javascript">
+// Filter logic
+$('.dropdown-menu a').click(function() {
+    $('#filterDropdown').html($(this).html() + ' <span class="caret"></span>');
+    $('.file-card').removeClass('hidden');
+    var group = $(this).data('group');
+    if (group != 'all') {
+      $('.file-card:not(.' + group + ')').addClass('hidden');
+    }
+});
+</script>
+<script type="text/javascript">
+  $('body').scrollspy({ target: '#affix-nav'});
+  $('#affix-nav').affix({
+    offset: {
+      top: function () {
+        return (this.top = $('.affix-container').position()['top'])
+      },
+      bottom: function () {
+        return (this.bottom = $('.footer').outerHeight(true))
+      }
+    }
+  });
+</script>
+
   </body>
 </html>
