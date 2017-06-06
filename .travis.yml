@@ -14,8 +14,7 @@ env:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 
 install:
-  - gem install jekyll html-proofer jemoji
+  - gem install jekyll jemoji
 
 script:
   - bundle exec jekyll build
-  - bundle exec htmlproofer ./_site --disable-external
