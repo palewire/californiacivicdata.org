@@ -14,7 +14,7 @@ env:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 
 install:
-  - gem install jekyll jemoji
+  - bundle install
 
 script:
   - bundle exec jekyll build
