@@ -1,0 +1,24 @@
+---
+layout: post
+title: "Our site is now encrypted with HTTPS"
+deckhead: "Downloading data should be more swift and secure"
+byline: "By [Ben Welsh](http://palewi.re/who-is-ben-welsh/)"
+image: http://www.californiacivicdata.org/img/https.jpg
+published: true
+---
+
+Starting today, all pages and data downloads offered by the California Civic Data Coalition are available using HTTPS, the global standard for guaranteeing the confidentiality and integrity of Internet traffic.
+
+That means that all traffic to our site will now be automatically encrypted.
+
+Links to pages and bulk downloads now begin with "https" by default rather than "http."
+
+For instance, a [curl](https://en.wikipedia.org/wiki/CURL) request to download the file containing all of today's archive would look like this:
+
+<input type="text" class="download-link input-monospace" style="font-size:14px;" value="$ curl -O https://calaccess.download/latest/clean.zip" readonly="">
+
+The old http links should redirect to the new ones.
+
+Upgrading to HTTPS also allowed us to begin serving our site using the new [HTTP/2](https://developers.google.com/web/fundamentals/performance/http2/) standard, which will bring the added benefit of speeding up the site.
+
+To learn more about how HTTPS works and why it matters, consult this helpful explainer written by [Secure The News](https://securethe.news/why/).
