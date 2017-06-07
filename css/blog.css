@@ -92,8 +92,11 @@ figcaption {
 .post h3 {
     margin-top: 30px;
 }
-h3 {
+h3, h4 {
     line-height:130%;
+}
+.post h4 {
+    margin-top: 25px;
 }
 div.bio-item h4 {
     margin-bottom: 4px;
