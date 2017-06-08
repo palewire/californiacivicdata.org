@@ -13,7 +13,7 @@ The ten-week course offers undergraduates an overview of technical topics in jou
 
 I was inspired by the California Civic Data Coalition’s “First Python Notebook” class [at the NICAR conference in Jacksonville](/2017/03/12/nicar-python-notebook/). So this year I set out to follow its example and teach my students data analysis with the Python programming language using the [Jupyter Notebook](http://jupyter.org/) and [pandas](http://pandas.pydata.org/) data analysis toolkit.
 
-Happily for me, the Coalition’s [open-source curriculum](http://www.firstpythonotebook.org/) was expanded and improved for a massive open online course hosted by the Knight Center For Journalism In the Americas. The free class will run from June 12 to July 9. ([And there’s still time to sign up](https://knightcenter.utexas.edu/blog/00-18396-sign-now-our-new-online-course-data-journalism-python-data-journalists-analyzing-money).)
+Happily for me, the Coalition’s [open-source curriculum](http://www.firstpythonnotebook.org/) was expanded and improved for a massive open online course hosted by the Knight Center For Journalism In the Americas. The free class will run from June 12 to July 9. ([And there’s still time to sign up](https://knightcenter.utexas.edu/blog/00-18396-sign-now-our-new-online-course-data-journalism-python-data-journalists-analyzing-money).)
 
 Last month, I worked through its lesson plan with 12 students in my class. We spread the material over three sessions that lasted between two and three hours each. Most students had little prior experience coding. Many of them are aspiring broadcast journalists.
 
