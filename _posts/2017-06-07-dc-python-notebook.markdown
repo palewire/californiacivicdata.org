@@ -9,7 +9,7 @@ published: true
 
 For almost three years I have taught a class called [“Digital Frameworks”](https://digitalframeworks-spring2017.github.io/) at Northwestern University’s Washington D.C. campus.
 
-The ten-week course offers undergraduates an overview of technical topics in journalism, including spreadshees, web scraping, data visualization and map making.
+The ten-week course offers undergraduates an overview of technical topics in journalism, including spreadsheets, web scraping, data visualization and map making.
 
 I was inspired by the California Civic Data Coalition’s “First Python Notebook” class [at the NICAR conference in Jacksonville](/2017/03/12/nicar-python-notebook/). So this year I set out to follow its example and teach my students data analysis with the Python programming language using the [Jupyter Notebook](http://jupyter.org/) and [pandas](http://pandas.pydata.org/) data analysis toolkit.
 
