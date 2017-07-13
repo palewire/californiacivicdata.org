@@ -3,7 +3,7 @@ layout: post
 title: "Seven lessons learned teaching Python in journalism school"
 deckhead: 'A San Diego State professor shares her experience teaching “First Python Notebook”'
 byline: "By [Amy Schmitz Weiss](http://jms.sdsu.edu/index.php/faculty/schmitz-weiss)"
-image: http://www.californiacivicdata.org/img/eads-dc.jpg
+image: http://www.californiacivicdata.org/img/sdsu.jpg
 published: true
 ---
 
@@ -11,9 +11,14 @@ As a digital journalism educator at San Diego State University, I am always seek
 
 I was first introduced to Ben years ago at an online journalism conference.  We kept in touch and reconnected last fall when Investigative Reporters and Editors and our School of Journalism and Media Studies co-hosted [a two-day Watchdog Workshop](https://www.californiacivicdata.org/2016/10/08/first-python-notebook/). At the event, Ben introduced a group of journalists and SDSU journalism students to Python via an early version of the Coalition’s lesson plan.
 
-As I worked through the lesson with the students I grew excited by the tools it teaches – the [pandas](http://pandas.pydata.org/) analysis library and the [Jupyter Notebook](http://jupyter.org/) development framework. Right then, I knew that I would bring this exercise into my undergraduate class “JMS 430: Digital Journalism.”
+As I worked through the lesson with the students I grew excited by the tools it teaches – the [pandas](http://pandas.pydata.org/) analysis library and the [Jupyter Notebook](http://jupyter.org/) development framework. Right then, I knew that I would bring this exercise into my undergraduate class [“JMS 430: Digital Journalism.”](https://sunspot.sdsu.edu/schedule/sectiondetails?scheduleNumber=21887&period=20172&admin_unit=R)
 
 This past spring, I had the opportunity to take my students through an expanded version of the tutorial that Ben gave last fall. Here are some of the lessons I learned that may be helpful for other journalism educators interested in using the Coalition’s open-source curriculum.
+
+<figure style="margin: 20px 0; width:100% display: block; clear:both;">
+    <img src="/img/sdsu.jpg" style="width:100%" alt="San Diego State University" title="San Diego State University">
+    <figcaption class="figcaption">Hepner Hall at San Diego State University (SDSU).</figcaption>
+</figure>
 
 ### 1. First Python Notebook is the best place to jump in.
 
