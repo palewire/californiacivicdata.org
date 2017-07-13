@@ -27,17 +27,17 @@ When I went through the tutorial on my home and work computer, I had issues caus
 
 ### 3. Prepare extra laptops with the necessary applications.
 
-In my case, several of our students have laptops with limited capacity, space or administrative access, so I ended up setting up several Apple laptops with the necessary applications (and the open administrative access) so that students could go through the tutorial easily.
+In my case, several of our students have laptops with limited capacity, space or administrative access. So I ended up setting up several Apple laptops with the necessary applications and administrative access so that students could go through the tutorial easily.
 
-It made the threshold to learn a lot easier when the students knew it was not going to be their own computer that they would be using.
+It made the threshold to learn a lot lower when the students knew it was not going to be their own computer that they would be using.
 
 ### 4. Allow plenty of time to teach.
 
-The IRE workshop Ben did in last fall lasted about 3-4 hours. I thought having two full lectures devoted to the tutorial would be sufficient, but I was in for a surprise.
+The IRE workshop Ben taught fall lasted three to four hours. I thought having two full lectures devoted to the tutorial would be sufficient, but I was in for a surprise.
 
 I went through the tutorial with my students line by line – so I could introduce the concepts and troubleshoot technical issues along the way – which took a lot longer than I imagined.
 
-Revisiting of what we did in previous class before jumping into the next day’s work also took time. I am not a newbie to computer programming and languages, but whether you are an expert or novice, it’s best to give yourself more time than not enough.
+Revisiting what we did in previous class before jumping into the next day’s work also took time. I am not a newbie to computer programming and languages. Whether you are an expert or novice, it’s best to give yourself more time than not enough.
 
 I ended up devoting two weeks of class time to the project. In hindsight, I wish I would have devoted three weeks instead.
 
