@@ -47,17 +47,17 @@ As I practiced to teach the class, I drafted a tip sheet along the way for mysel
 
 I also created a shorter version of the tutorial itself, sans screen grabs and trimmed down to just the Python code scripts and major milestones in the class.
 
-Providing the students with both helped students to see the bigger picture as well as detailed view of how everything was connected. Providing different formats can make a difference for all kinds of learners.
+Providing the students with both helped students to see the bigger picture as well as a detailed view of how everything was connected. Providing different formats can make a difference for different kinds of learners.
 
 ### 6. Make the tutorial count for class credit.
 
-Also, for class credit, I made the students answer the specific questions Ben laid out in the tutorial. They had them turn in their answers based on the scripts they ran.
+For class credit, I made the students answer the specific questions Ben laid out in the tutorial. They had to then turn in their answers based on the scripts they ran.
 
 This allowed me to see if they could follow along with the tutorial and perform the necessary steps and actions. Doing this assignment helped the students understand the bigger picture of what the scripts and applications can do in a journalism context versus just going through the motions of running scripts.
 
 ### 7. Remember the first time is only the beginning.
 
-At the end of the two weeks, some of my students had completed the tutorial and other students hadn’t. Those who didn’t either ran out of time, made script errors or had issues with getting the prerequisites installed. Because we were ending the semester, there was not enough time for us to do more. Thus, I wish I would have scheduled time for the tutorial.
+At the end of the two weeks, some of my students had completed the tutorial and other students hadn’t. Those who didn’t either ran out of time, made script errors or had issues with getting the prerequisites installed. Because we were ending the semester, there was not enough time for us to do more. Thus, I wish I would have scheduled more time for the tutorial.
 
 The students who did finish were excited at the outcome. They felt rewarded for all the effort they put into the class. They also had a new perspective on how to explore data and use it in news gathering and reporting. Some of them were craving more Python. That made me happy in knowing that the time we spent was worthwhile.
 
