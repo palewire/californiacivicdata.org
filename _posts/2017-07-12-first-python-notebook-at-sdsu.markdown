@@ -61,6 +61,6 @@ At the end of the two weeks, some of my students had completed the tutorial and 
 
 The students who did finish were excited at the outcome. They felt rewarded for all the effort they put into the class. They also had a new perspective on how to explore data and use it in news gathering and reporting. Some of them were craving more Python. That made me happy in knowing that the time we spent was worthwhile.
 
-I am excited to delve deeper into Python, pandas and the Jupyter Notebook and learn all I can so I can take this into my future digital journalism classes.
+I am excited to delve deeper into Python, pandas and the Jupyter Notebook so I can go further into my future digital journalism classes.
 
 I am not a Python whiz, but I am willing to learn and try. There is so much power to what it can do. As journalism educators we should introduce our students, one line of code at a time.
