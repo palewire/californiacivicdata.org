@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Seven lessons learned teaching Python in journalism school"
-deckhead: 'A San Diego State professor shares her experience teaching “First Python Notebook”'
+deckhead: 'A San Diego State professor shares her experience with “First Python Notebook”'
 byline: "By [Amy Schmitz Weiss](http://jms.sdsu.edu/index.php/faculty/schmitz-weiss)"
 image: http://www.californiacivicdata.org/img/sdsu.jpg
 published: true
