@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Seven lessons learned teaching Python in journalism school"
-deckhead: 'A San Diego State professor shares her experience with “First Python Notebook”'
+title: "Seven lessons I learned teaching data analysis with Python"
+deckhead: 'A San Diego State journalism professor shares her experience with “First Python Notebook”'
 byline: "By [Amy Schmitz Weiss](http://jms.sdsu.edu/index.php/faculty/schmitz-weiss)"
 image: http://www.californiacivicdata.org/img/sdsu.jpg
 published: true
@@ -17,7 +17,7 @@ This past spring, I had the opportunity to take my students through an expanded 
 
 <figure style="margin: 20px 0; width:100% display: block; clear:both;">
     <img src="/img/sdsu.jpg" style="width:100%" alt="San Diego State University" title="San Diego State University">
-    <figcaption class="figcaption">Hepner Hall at San Diego State University (SDSU)</figcaption>
+    <figcaption class="figcaption">Hepner Hall at San Diego State University by <a href="https://www.flickr.com/photos/stuseeger/9194916846/in/photostream/">Stuart Seeger</a></figcaption>
 </figure>
 
 ### 1. First Python Notebook is the best place to jump in.
@@ -68,4 +68,4 @@ The students who did finish were excited at the outcome. They felt rewarded for 
 
 I am excited to delve deeper into Python, pandas and the Jupyter Notebook so I can go further into my future digital journalism classes.
 
-I am not a Python whiz, but I am willing to learn and try. There is so much power to what it can do. As journalism educators we should introduce our students, one line of code at a time.
+I am not a Python whiz, but I am willing to learn and try. There is so much power to what it can do. As journalism educators we should introduce our students to the possibilities of what Python can do for news gathering and reporting of important civic issues, one line of code at a time.
