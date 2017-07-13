@@ -17,7 +17,7 @@ This past spring, I had the opportunity to take my students through an expanded 
 
 <figure style="margin: 20px 0; width:100% display: block; clear:both;">
     <img src="/img/sdsu.jpg" style="width:100%" alt="San Diego State University" title="San Diego State University">
-    <figcaption class="figcaption">Hepner Hall at San Diego State University (SDSU).</figcaption>
+    <figcaption class="figcaption">Hepner Hall at San Diego State University (SDSU)</figcaption>
 </figure>
 
 ### 1. First Python Notebook is the best place to jump in.
