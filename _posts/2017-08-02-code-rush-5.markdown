@@ -1,0 +1,90 @@
+---
+layout: post
+title: "Join California Code Rush 5 in the cloud"
+deckhead: "A fifth challenge to hacks, hackers and newbies of all ages"
+byline: "By [Ben Welsh](http://palewi.re/who-is-ben-welsh/)"
+image: "http://www.californiacivicdata.org/img/coderush4.png"
+published: true
+---
+
+The California Civic Data Coalition is asking you to join our open-source quest to master [CAL-ACCESS](/about/), the jumbled, dirty and difficult state government database tracking campaign cash.
+
+<img src="/img/coderush5.png" height="200" style="margin: 8px 0 0 14px; float:right;">
+
+Today we are opening our fifth California Code Rush. That's what we call our occasional campaigns to improve the Coalition's open-source software. Four previous events (in [Denver](https://www.californiacivicdata.org/2016/03/07/code-rush-4/), [Los Angeles](https://www.californiacivicdata.org/2015/09/22/code-rush-3/), [Buenos Aires](https://www.californiacivicdata.org/2015/08/18/code-rush-2/) and [Atlanta](https://www.californiacivicdata.org/2015/03/11/code-rush-recap/))  have yielded hundreds of improvements.
+
+This is the first code rush conducted entirely online. As in the past, if make a patch to code you win a custom sticker designed for the event by Thomas Suh Lauder.
+
+All you have to do is complete the challenge below. Don't worry if you're new to open-source software. The task is designed for newbies.
+
+### The mission
+
+As part of processing the California's secretary of state jumbled campaign-finance database, the Coalition discovered hundreds of candidates for office logged without a political party. Lacking this information, it is impossible to accurately calculate and compare how much each party's candidates have raised.
+
+Your job is to pick one of those candidates, research their political party and record it within the Coalition's software system.
+
+### Step 1: Log into GitHub
+
+Start off by heading to [github.com](http://www.github.com), the social network for code collaboration where the Coalition's work is stored. If you don't have an account, make one now. If you do, login.
+
+<img src="http://i.imgur.com/8HKpxeJ.png" style="padding: 10px">
+
+### Step 2: Pick a candidate without a party from the coalition's list
+
+Click [this link](https://github.com/california-civic-data-coalition/django-calaccess-processed-data/blob/master/calaccess_processed/corrections/candidate_party.csv) to jump into the list of candidates without a party in the Coalition's "processed-data" repository. You will find a comma-delimited file (that's nerdspeak for a spreadsheet).
+
+At the top you can see some parties have already been already filled in by others. All the rows with an empty party column need our attention. Pick one. You'll want to note the candidate's name plus the year and type of the election they competed in.
+
+<img src="http://i.imgur.com/3OvyZVI.gif" style="padding: 10px">
+
+### Step 3: Review official election results to determine that candidate's party
+
+Visit [the "Prior Elections" page of past results](http://www.sos.ca.gov/elections/prior-elections/prior-statewide-elections/) maintained by California's secretary of state.
+
+<img src="http://i.imgur.com/8evFXa6.png" style="padding: 10px">
+
+Navigate down to the page for the election linked to the candidate you're working on. Find the "statement of vote" PDF file that contains the official results.
+
+<img src="http://i.imgur.com/jnUMYsr.gif" style="padding: 10px">
+
+Search the document for your candidate. Note the party they represented.
+
+<img src="http://i.imgur.com/vaSXYOH.gif" style="padding: 10px">
+
+If you can't find your candidate there, try digging into other PDFs on the secretary of state's website. We can cite anything official from their materials. Do not turn to Wikipedia or other unofficial sources. We will not rely on them.
+
+### Step 4: Add the candidate's party and a link to your source to the list
+
+Now that you know the answer, return to [the Coalition's list of candidates](https://github.com/california-civic-data-coalition/django-calaccess-processed-data/blob/master/calaccess_processed/corrections/candidate_party.csv) on GitHub. This time click the small pencil button to the upper right of the data to begin editing the file.
+
+<img src="http://i.imgur.com/UAE0v6E.gif" style="padding: 10px">
+
+Click into the line for your candidate. Carefully add the party you found between the two commas at the end of the line.
+
+You should type out the full name of the party as the Coalition's system expects it. Democrats should go in as "DEMOCRATIC" and Republicans as "REPUBLICAN". If the candidate does not have a party, enter "NO PARTY PREFERENCE".
+
+After the final comma, paste in the URL of the official PDF where you found this information. Only links to the secretary of state's site will be accepted.
+
+<img src="http://i.imgur.com/BENtrdt.gif" style="padding: 10px">
+
+Next scroll to the bottom of the page and register you change as a "commit" with GitHub. This requires you leave a message describing your work.
+
+<img src="http://i.imgur.com/kFpG51L.gif" style="padding: 10px">
+
+### Step 5: Make a pull request proposing your change
+
+Congratulations, you've made your first commit to an open-source project. But don't celebrate yet.
+
+So far, your work is only saved in a copy of the Coalition's repository made with on GitHub account. To have your work included in the repository that power's the Coalition's site, you will need to propose your change to the Coalition's developers.
+
+This can be easily done on GitHub by filing what they call a "pull request." The page that comes up after your commit is saved has a big button helping you do this. Click it and submit the form that comes up next.
+
+<img src="http://i.imgur.com/6zpkHt2.gif" style="padding: 10px">
+
+### Claim your prize!
+
+Soon after you file the request, I will review your work. If there are no errors I will merge it into the the core repository.
+
+All that's left is to claim your prize. Send your mailing address to [ben.welsh@gmail.com](mailto:ben.welsh@gmail.com) and you'll soon see your custom sticker in the mail.
+
+If you have any free time while you wait, feel free to research more candidates without parties and submit as many pull requests as you can.
