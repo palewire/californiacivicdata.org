@@ -13,7 +13,7 @@ The California Civic Data Coalition is asking you to join our open-source quest 
 
 Today we are opening our fifth California Code Rush. That's what we call our occasional campaigns to improve the Coalition's open-source software. Four previous events (in [Denver](https://www.californiacivicdata.org/2016/03/07/code-rush-4/), [Los Angeles](https://www.californiacivicdata.org/2015/09/22/code-rush-3/), [Buenos Aires](https://www.californiacivicdata.org/2015/08/18/code-rush-2/) and [Atlanta](https://www.californiacivicdata.org/2015/03/11/code-rush-recap/))  have yielded hundreds of improvements.
 
-This is the first code rush conducted entirely online. As in the past, if make a patch to code you win a custom sticker designed for the event by Thomas Suh Lauder.
+This is the first code rush conducted entirely online. As in the past, if make a patch to our code you win a custom sticker designed for the event by Thomas Suh Lauder.
 
 All you have to do is complete the challenge below. Don't worry if you're new to open-source software. The task is designed for newbies.
 
