@@ -27,7 +27,7 @@ Your job is to pick one of those candidates, research their political party and 
 
 Start off by heading to [github.com](http://www.github.com), the social network for code collaboration where the Coalition's work is stored. If you don't have an account, make one now. If you do, login.
 
-<img src="http://i.imgur.com/8HKpxeJ.png" style="padding: 10px">
+<img src="/img/coderush5-github.png" style="padding: 10px">
 
 ### Step 2: Pick a candidate without a party from the coalition's list
 
@@ -35,21 +35,21 @@ Click [this link](https://github.com/california-civic-data-coalition/django-cala
 
 At the top you can see some parties have already been already filled in by others. All the rows with an empty party column need our attention. Pick one. You'll want to note the candidate's name plus the year and type of the election they competed in.
 
-<img src="http://i.imgur.com/3OvyZVI.gif" style="padding: 10px">
+<img src="/img/coderush5-list.gif" style="padding: 10px">
 
 ### Step 3: Review official election results to determine that candidate's party
 
 Visit [the "Prior Elections" page of past results](http://www.sos.ca.gov/elections/prior-elections/prior-statewide-elections/) maintained by California's secretary of state.
 
-<img src="http://i.imgur.com/8evFXa6.png" style="padding: 10px">
+<img src="/img/coderush5-results.png" style="padding: 10px">
 
 Navigate down to the page for the election linked to the candidate you're working on. Find the "statement of vote" PDF file that contains the official results.
 
-<img src="http://i.imgur.com/jnUMYsr.gif" style="padding: 10px">
+<img src="/img/coderush5-pdf.gif" style="padding: 10px">
 
 Search the document for your candidate. Note the party they represented.
 
-<img src="http://i.imgur.com/vaSXYOH.gif" style="padding: 10px">
+<img src="/img/coderush5-find.gif" style="padding: 10px">
 
 If you can't find your candidate there, try digging into other PDFs on the secretary of state's website. We can cite anything official from their materials. Do not turn to Wikipedia or other unofficial sources. We will not rely on them.
 
@@ -57,7 +57,7 @@ If you can't find your candidate there, try digging into other PDFs on the secre
 
 Now that you know the answer, return to [the Coalition's list of candidates](https://github.com/california-civic-data-coalition/django-calaccess-processed-data/blob/master/calaccess_processed/corrections/candidate_party.csv) on GitHub. This time click the small pencil button to the upper right of the data to begin editing the file.
 
-<img src="http://i.imgur.com/UAE0v6E.gif" style="padding: 10px">
+<img src="/img/coderush5-edit.gif" style="padding: 10px">
 
 Click into the line for your candidate. Carefully add the party you found between the two commas at the end of the line.
 
@@ -65,11 +65,11 @@ You should type out the full name of the party as the Coalition's system expects
 
 After the final comma, paste in the URL of the official PDF where you found this information. Only links to the secretary of state's site will be accepted.
 
-<img src="http://i.imgur.com/BENtrdt.gif" style="padding: 10px">
+<img src="/img/coderush5-typing.gif" style="padding: 10px">
 
 Next scroll to the bottom of the page and register you change as a "commit" with GitHub. This requires you leave a message describing your work.
 
-<img src="http://i.imgur.com/kFpG51L.gif" style="padding: 10px">
+<img src="/img/coderush5-commit.gif" style="padding: 10px">
 
 ### Step 5: Make a pull request proposing your change
 
@@ -79,7 +79,7 @@ So far, your work is only saved in a copy of the Coalition's repository made wit
 
 This can be easily done on GitHub by filing what they call a "pull request." The page that comes up after your commit is saved has a big button helping you do this. Click it and submit the form that comes up next.
 
-<img src="http://i.imgur.com/6zpkHt2.gif" style="padding: 10px">
+<img src="/img/coderush5-pr.gif" style="padding: 10px">
 
 ### Claim your prize!
 
