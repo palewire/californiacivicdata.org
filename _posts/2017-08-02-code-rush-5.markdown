@@ -51,7 +51,7 @@ Search the document for your candidate. Note the party they represented.
 
 <img src="/img/coderush5-find.gif" style="padding: 10px">
 
-If you can't find your candidate there, try digging into other PDFs on the secretary of state's website. We can cite anything official from their materials. Do not turn to Wikipedia or other unofficial sources. We will not rely on them.
+If you can't find your candidate there, try digging into other PDFs on the secretary of state's website. We can cite anything official from their materials. Do not turn to Wikipedia or other unofficial sources. We do not rely on them.
 
 ### Step 4: Add the candidate's party and a link to your source to the list
 
