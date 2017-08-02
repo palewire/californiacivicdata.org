@@ -19,7 +19,7 @@ All you have to do is complete the challenge below. Don't worry if you're new to
 
 ### The mission
 
-As part of processing the California's secretary of state jumbled campaign-finance database, the Coalition discovered hundreds of candidates for office logged without a political party. Lacking this information, it is impossible to accurately calculate and compare how much each party's candidates have raised.
+As part of processing the California secretary of state's jumbled campaign-finance database, the Coalition discovered hundreds of candidates for office logged without a political party. Lacking this information, it is impossible to accurately calculate and compare how much each party's candidates have raised.
 
 Your job is to pick one of those candidates, research their political party and record it within the Coalition's software system.
 
