@@ -15,7 +15,7 @@ Today we are opening our fifth California Code Rush. That's what we call our occ
 
 This is the first code rush conducted entirely online.
 
-We're opening it to celebrate the conclusion of our massive open online course ["Python for Data Journalists."](http://journalismcourses.org/PDJ0517.html) Over the past two months, our free ["First Python Notebook"](http://www.firstpythonnotebook.org) lesson plan has served as the foundation for the MOOC, instructing more than 2,800 students around the world on data analysis with the Python programming language.  
+We're opening it to celebrate the conclusion of our massive open online course ["Python for Data Journalists."](http://journalismcourses.org/PDJ0517.html) Over the past two months our free ["First Python Notebook"](http://www.firstpythonnotebook.org) lesson plan has served as the foundation for the MOOC, instructing more than 2,800 students around the world on data analysis with the Python programming language.  
 
 As in the past, if make a patch to our code you win a custom sticker designed for the event by Thomas Suh Lauder. All you have to do is complete the challenge below. Don't worry if you're new to open-source software. The task is designed for newbies.
 
