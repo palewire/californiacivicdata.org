@@ -23,7 +23,7 @@ As part of processing the California secretary of state's jumbled campaign-finan
 
 Your job is to pick one of those candidates, research their political party and record it within the Coalition's software system.
 
-### Step 1: Log into GitHub
+### Step 1: Login to GitHub
 
 Start off by heading to [github.com](http://www.github.com), the social network for code collaboration where the Coalition's work is stored. If you don't have an account, make one now. If you do, login.
 
