@@ -75,7 +75,7 @@ Next scroll to the bottom of the page and register you change as a "commit" with
 
 Congratulations, you've made your first commit to an open-source project. But don't celebrate yet.
 
-So far, your work is only saved in a copy of the Coalition's repository made for your GitHub account. To have your work included in the repository that power's the Coalition's site, you will need to propose your change to the Coalition's developers.
+So far, your work is only saved in a copy of the Coalition's repository made for your GitHub account. To have your work included in the repository that powers the Coalition's site, you will need to propose your change to the Coalition's developers.
 
 This can be easily done on GitHub by filing what they call a "pull request." The page that comes up after your commit is saved has a big button helping you do this. Click it and submit the form that comes up next.
 
