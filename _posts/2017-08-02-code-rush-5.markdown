@@ -3,7 +3,7 @@ layout: post
 title: "Join California Code Rush 5 in the cloud"
 deckhead: "A fifth challenge to hacks, hackers and newbies of all ages"
 byline: "By [Ben Welsh](http://palewi.re/who-is-ben-welsh/)"
-image: "http://www.californiacivicdata.org/img/coderush4.png"
+image: "http://www.californiacivicdata.org/img/coderush5.png"
 published: true
 ---
 
