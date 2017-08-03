@@ -63,7 +63,7 @@ Now that you know the answer, return to [the Coalition's list of candidates](htt
 
 Click into the line for your candidate. Carefully add the party you found between the two commas at the end of the line.
 
-You should type out the full name of the party as the Coalition's system expects it. Democrats should go in as "DEMOCRATIC" and Republicans as "REPUBLICAN". If the candidate does not have a party, enter "NO PARTY PREFERENCE".
+You should type out the full name of the party as the Coalition's system expects it. Democrats should go in as "DEMOCRATIC" and Republicans as "REPUBLICAN". Other valid party inputs include "AMERICAN INDEPENDENT PARTY", "AMERICANS ELECT", "GREEN PARTY", "LIBERTARIAN", "NATURAL LAW", "PEACE AND FREEDOM" and "REFORM PARTY". If the candidate does not have a party, enter "NO PARTY PREFERENCE".
 
 After the final comma, paste in the URL of the official PDF where you found this information. Only links to the secretary of state's site will be accepted.
 
