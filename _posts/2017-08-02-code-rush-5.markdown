@@ -23,7 +23,7 @@ As in the past, if make a patch to our code you win a custom sticker designed fo
 
 As part of processing the California secretary of state's jumbled campaign-finance database, the Coalition discovered hundreds of candidates for office logged without a political party. Lacking this information, it is impossible to accurately calculate and compare how much each party's candidates have raised.
 
-Your job is to pick one of those candidates, research their political party and record it within the Coalition's software system.
+Your job is to pick one of those candidates, research their political party and record it within the Coalition's software system. It should only take a complete minutes to complete. 
 
 ### Step 1: Login to GitHub
 
