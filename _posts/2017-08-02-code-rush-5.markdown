@@ -31,7 +31,7 @@ Start off by heading to [github.com](http://www.github.com), the social network 
 
 <img src="/img/coderush5-github.png" style="padding: 10px">
 
-### Step 2: Pick a candidate without a party from the coalition's list
+### Step 2: Pick a candidate without a party from the Coalition's list
 
 Click [this link](https://github.com/california-civic-data-coalition/django-calaccess-processed-data/blob/master/calaccess_processed/corrections/candidate_party.csv) to jump into the list of candidates without a party in the Coalition's "processed-data" repository. You will find a comma-delimited file (that's nerdspeak for a spreadsheet).
 
