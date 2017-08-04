@@ -23,7 +23,7 @@ As in the past, if make a patch to our code you win a custom sticker designed fo
 
 As part of processing the California secretary of state's jumbled campaign-finance database, the Coalition discovered hundreds of candidates for office logged without a political party. Lacking this information, it is impossible to accurately calculate and compare how much each party's candidates have raised.
 
-Your job is to pick one of those candidates, research their political party and record it within the Coalition's software system.
+Your job is to pick one of those candidates, research their political party and record it within the Coalition's software system. It should only take a complete minutes to complete. 
 
 ### Step 1: Login to GitHub
 
@@ -31,7 +31,7 @@ Start off by heading to [github.com](http://www.github.com), the social network 
 
 <img src="/img/coderush5-github.png" style="padding: 10px">
 
-### Step 2: Pick a candidate without a party from the coalition's list
+### Step 2: Pick a candidate without a party from the Coalition's list
 
 Click [this link](https://github.com/california-civic-data-coalition/django-calaccess-processed-data/blob/master/calaccess_processed/corrections/candidate_party.csv) to jump into the list of candidates without a party in the Coalition's "processed-data" repository. You will find a comma-delimited file (that's nerdspeak for a spreadsheet).
 
@@ -63,7 +63,7 @@ Now that you know the answer, return to [the Coalition's list of candidates](htt
 
 Click into the line for your candidate. Carefully add the party you found between the two commas at the end of the line.
 
-You should type out the full name of the party as the Coalition's system expects it. Democrats should go in as "DEMOCRATIC" and Republicans as "REPUBLICAN". If the candidate does not have a party, enter "NO PARTY PREFERENCE".
+You should type out the full name of the party as the Coalition's system expects it. Democrats should go in as "DEMOCRATIC" and Republicans as "REPUBLICAN". Other valid party inputs include "AMERICAN INDEPENDENT PARTY", "AMERICANS ELECT", "GREEN PARTY", "LIBERTARIAN", "NATURAL LAW", "PEACE AND FREEDOM" and "REFORM PARTY". If the candidate does not have a party, enter "NO PARTY PREFERENCE".
 
 After the final comma, paste in the URL of the official PDF where you found this information. Only links to the secretary of state's site will be accepted.
 
