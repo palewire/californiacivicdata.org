@@ -59,7 +59,7 @@ Person.objects.to_csv(
 
 The Coalition invented this tool as part of its open-source quest to master [CAL-ACCESS](/about/), the jumbled, dirty and difficult government database tracking money in California politics.
 
-We are now nearing the completion of a pipeline of Python code that downloads, extracts, cleans, loads, transforms and republishes the state's raw data as easy-to-understand spreadsheets. This new wrapper on COPY TO allows our pipeline to quickly and clearly export a set of simplified flat files for our end users.
+We are nearing the completion of a pipeline of Python code that downloads, extracts, cleans, loads, transforms and republishes the state's raw data as easy-to-understand spreadsheets. This new wrapper on COPY TO allows our pipeline to quickly and clearly export a set of simplified flat files for our end users.
 
 ### What else can it do?
 
