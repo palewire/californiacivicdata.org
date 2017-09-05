@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to export Django data faster than ever before"
-deckhead: "Use our open-source software to take advantage of PostgreSQL's power COPY TO command"
+deckhead: "Use our open-source software to take advantage of PostgreSQL's powerful COPY TO command"
 byline: "By [Ben Welsh](http://palewi.re/who-is-ben-welsh/)"
 image: "http://calaccess.californiacivicdata.org/static/calaccess_website/images/brown-bear-share.png"
 published: true
