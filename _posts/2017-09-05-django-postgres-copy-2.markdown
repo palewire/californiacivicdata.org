@@ -59,11 +59,11 @@ Person.objects.to_csv(
 
 The Coalition invented this tool as part of its open-source quest to master [CAL-ACCESS](/about/), the jumbled, dirty and difficult government database tracking money in California politics.
 
-We are nearing the completion of a pipeline of Python code that downloads, extracts, cleans, loads, transforms and republishes the state's raw data as easy-to-understand spreadsheets. This new wrapper on COPY TO allows our pipeline to quickly and clearly export a set of simplified flat files for our end users.
+We are nearing the completion of a pipeline of Python code that downloads, extracts, cleans, loads, transforms and republishes the state's raw data as easy-to-understand spreadsheets. This new wrapper for COPY TO allows our pipeline to quickly and clearly export a set of simplified flat files for end users.
 
 ### What else can it do?
 
-The library has long supported swiftly importing data files with PostgreSQL's COPY command. Starting today, that old tool is easier to access with the new from_csv method on our custom manager. Code like the following can load millions of records in your database in a matter of seconds.
+The library has long supported swiftly importing data files with PostgreSQL's COPY command. Starting today, that old tool is easier to access with a new from_csv method on our custom manager. Code like the following can load millions of records in your database in a matter of seconds.
 
 {% highlight python %}
 Person.objects.from_csv(
