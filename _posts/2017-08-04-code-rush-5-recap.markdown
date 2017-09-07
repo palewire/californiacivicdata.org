@@ -17,7 +17,7 @@ Thanks to a wave of contributions from journalists, developers and volunteers ar
 
 It's an occasional campaign we call a code rush. Four previous events (at conferences in [Denver](https://www.californiacivicdata.org/2016/03/07/code-rush-4/), [Los Angeles](https://www.californiacivicdata.org/2015/09/22/code-rush-3/), [Buenos Aires](https://www.californiacivicdata.org/2015/08/18/code-rush-2/) and [Atlanta](https://www.californiacivicdata.org/2015/03/11/code-rush-recap/)) yielded hundreds of improvements.
 
-This was the first code rush conducted entirely online. The responsive was instant and overwhelming.
+This was the first code rush conducted entirely online. The response was instant and overwhelming.
 
 We asked for help identifying the political affiliation of nearly 900 candidates logged by the state without a party. In less than two days, we received [more than 70 pull requests](https://github.com/california-civic-data-coalition/django-calaccess-processed-data/pulls?q=is%3Apr+is%3Aclosed) that filled in [all of the blanks](https://github.com/california-civic-data-coalition/django-calaccess-processed-data/blob/master/calaccess_processed/corrections/candidate_party.csv).
 
