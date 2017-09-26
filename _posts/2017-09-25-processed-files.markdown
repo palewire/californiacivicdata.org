@@ -4,7 +4,7 @@ title: "Introducing our new processed data files"
 deckhead: "Scraped from CAL-ACCESS and re-formatted into a new community-developed data standard"
 byline: "By [James Gordon](https://twitter.com/je_gordon)"
 image: ""
-published: false
+published: true
 ---
 
 Today the Coalition is excited to announce the release of nearly two decades worth of data on California elections. This information, which the Secretary of State has withheld from exports of its CAL-ACCESS system, will now be published and archived here daily.
@@ -14,6 +14,8 @@ These new "processed" data files are the first implementation of a new community
 The elections data can be download in flat or relational formats, in a single ZIP or as individual comma-delimited files.
 
 This new data, and the open-source code we've released which made it possible, bring us closer than ever to our ultimate goal: Frictionless access to comprehensive California state campaign finance and lobbying activity data.
+
+* List the files. Link to each. Some kind of GIF or art of the file download or the data in a spreadsheet.
 
 
 ### Introducing django-calaccess-scraped-data
@@ -28,6 +30,9 @@ That left us with only one option: Scraping the CAL-ACCESS website. Thankfully, 
 
 His work is now available as a stand-alone application written in the Django web framework. Just download our [package from PyPi](https://pypi.python.org/pypi/django-calaccess-scraped-data), plug it into your project, [read our docs](http://django-calaccess.californiacivicdata.org/en/latest/apps/calaccess_scraped.html) and scrape away.
 
+* Photo of Sahil
+* A sentence explaining what scraping.
+* Could we GIF the data we are scraping? Highlight the table with the inspector.
 
 ### Open data in an open standard
 
@@ -40,6 +45,9 @@ The OCD folks invited yours truly to draft an [enhancement proposal](https://ope
 
 Many months and pull requests later, python-opencivicdata 2.0 was packaged and released on PyPi. Isn't community open-source coding fun?
 
+* OCD logo.
+* Link to the discussion thread. Poppolo. Google. Socrata. ProPublica.
+* Can we drum up a couple examples of where OCD schemas have been used elsewhere. OpenElections. OpenStates. This creates the potential for people in other states to build off our work.
 
 ### Next steps
 
@@ -49,6 +57,7 @@ Once we implement Abe's campaign finance specs, we'll be able to round off the w
 
 The processed app is already churning out the scraped elections data in OCD format and archiving those files on our downloads website. Be on the look out for this list of processed files to expand in the coming weeks.
 
+* This is only the beginning. There's more exciting to come. Form 460.
 
 ### This data is already fueling great journalism
 
