@@ -52,6 +52,8 @@ The processed app is already churning out the scraped elections data in OCD form
 
 ### This data is already fueling great journalism
 
+<img src="/img/governor-2018-graphic.gif" style="padding: 10px">
+
 Reporters at the LA Times have been crushing it lately, revealing how deep-pocketed donors affiliated with California's [cannabis industry](http://www.latimes.com/politics/la-pol-ca-newsom-cannabis-20170727-story.html) and [Hollywood](http://www.latimes.com/politics/la-pol-ca-hollywood-money-governors-race-20170804-story.html) are shoveling money at 2018 gubernatorial candidate Gavin Newsom. These and other stories were made possible through our open-source code and data releases.
 
 http://www.latimes.com/politics/la-pol-ca-newsom-waterfront-governor-20170519-story.html
