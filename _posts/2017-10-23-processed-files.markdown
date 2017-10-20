@@ -11,11 +11,11 @@ Today the Coalition is excited to announce the release of nearly two decades wor
 
 These new "processed" data files are the first implementation of a new community-driven standard we drafted and implemented in the hope of facilitating similar civic data projects across U.S. and international jurisdictions.
 
-The elections data can be download in flat or relational formats, in a single ZIP or as individual comma-delimited files.
+Get the [latest](http://calaccess.californiacivicdata.org/documentation/processed-files/downloads/latest/) data in a simplified "flat" format if who would rather the skip the `JOIN` queries. Or if you would rather load everything into database manager, grab the full set files in "relational" format.
+
+You can also download individual CSV files from our [full list](http://calaccess.californiacivicdata.org/documentation/processed-files/documentation/processed-files/).
 
 This new data — and our open-source code that made it possible — bring us closer than ever to our ultimate goal: Frictionless access to comprehensive California state campaign finance and lobbying activity data.
-
-* List the files. Link to each. Some kind of GIF or art of the file download or the data in a spreadsheet.
 
 
 ### Introducing django-calaccess-scraped-data
@@ -26,18 +26,20 @@ Much to our disappointment, the [nightly exports](http://www.sos.ca.gov/campaign
 
 To be clear, this information does reside in CAL-ACCESS. It's displayed on their website and outlined in the database schema. But when we asked the Secretary of State's office to include these tables in their bulk data releases, [they said "no"](https://www.californiacivicdata.org/2015/03/15/closed-data/).
 
-That left us with only one option: Scraping the CAL-ACCESS website. Thankfully, the coalition's student developer, [Sahil Chinoy](http://sahilchinoy.com/), was up to the task.
+That left us with only one option: Scraping. So we wrote code that would routinely navigate through the CAL-ACCESS website and parse the essential data out of their crufty markup.
+
+<figure style="margin: 8px 0 0 10px; float:right;">
+    <img alt="Sahil Chinoy" title="Sahil Chinoy" src="/img/sahil-chinoy.jpg" height="150">
+    <figcaption style="text-align:right;">Sahil Chinoy, web scraping hero.</figcaption>
+</figure>
+
+Thankfully, the coalition's student developer, [Sahil Chinoy](http://sahilchinoy.com/), was up to the task.
 
 His work is now available as a stand-alone application written in the Django web framework. Just download our [package from PyPi](https://pypi.python.org/pypi/django-calaccess-scraped-data), plug it into your project, [read our docs](http://django-calaccess.californiacivicdata.org/en/latest/apps/calaccess_scraped.html) and scrape away.
 
-* Photo of Sahil
-* A sentence explaining what scraping.
-* Could we GIF the data we are scraping? Highlight the table with the inspector.
-
 ### Open data in an open standard
 
-CAL-ACCESS is notoriously closed-source with a nearly impenetrable database design. By contrast, we've
-conformed our scraped elections data to meet a new standard, which we authored with the lovable nerds at Open Civic Data.
+CAL-ACCESS is notoriously closed-source with a nearly impenetrable database design. By contrast, we've conformed our scraped elections data to meet a new standard, which we authored with the lovable nerds at Open Civic Data.
 
 OCD is a collaboration by civic data hackers including Forest Gregg of DataMade and James Turk of Open States. Its organizing principle is to share the work of defining data models for domains such as legislative roll call votes.
 
@@ -53,11 +55,9 @@ Many months and pull requests later, python-opencivicdata 2.0 was packaged and r
 
 Along with our specs focused on elections, Abraham Epton of Socrata submitted another OCD enhancement proposal focused on [campaign finance filings](https://opencivicdata.readthedocs.io/en/latest/proposals/drafts/campaign_finance_filings.html).
 
-Once we implement Abe's campaign finance specs, we'll be able to round off the work we've already put into our django-calaccess-processed-data app, currently in beta release.
+Once we implement Abe's campaign finance specs, we'll be able to round off the work we've already put into our [django-calaccess-processed-data](https://pypi.python.org/pypi/django-calaccess-processed-data) app, currently in beta release.
 
-The processed app is already churning out the scraped elections data in OCD format and archiving those files on our downloads website. Be on the look out for this list of processed files to expand in the coming weeks.
-
-* This is only the beginning. There's more exciting to come. Form 460.
+The processed app is already churning out the scraped elections data in OCD format and archiving those files on our downloads website. Next up, we'll begin publishing committees, contributions and expenditures extracted from filings of [California Form 460](https://calaccess.californiacivicdata.org/documentation/calaccess-forms/f460/), the disclosure report regularly filed by all recipients of campaign contributions.
 
 ### This data is already fueling great journalism
 
