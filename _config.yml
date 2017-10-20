@@ -8,3 +8,5 @@ prose:
 
 gems:
   - jemoji
+
+future: true
