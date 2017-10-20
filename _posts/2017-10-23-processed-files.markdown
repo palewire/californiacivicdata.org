@@ -13,7 +13,7 @@ These new "processed" data files are the first implementation of a new community
 
 The elections data can be download in flat or relational formats, in a single ZIP or as individual comma-delimited files.
 
-This new data, and the open-source code we've released which made it possible, bring us closer than ever to our ultimate goal: Frictionless access to comprehensive California state campaign finance and lobbying activity data.
+This new data — and our open-source code that made it possible — bring us closer than ever to our ultimate goal: Frictionless access to comprehensive California state campaign finance and lobbying activity data.
 
 * List the files. Link to each. Some kind of GIF or art of the file download or the data in a spreadsheet.
 
@@ -22,7 +22,7 @@ This new data, and the open-source code we've released which made it possible, b
 
 The raw material of our project is mined from [CAL-ACCESS](http://cal-access.sos.ca.gov), California's state government system that tracks how much money political campaigns raise and spend leading up to elections.
 
-Much to our disappointment, however, the [nightly exports](http://www.sos.ca.gov/campaign-lobbying/cal-access-resources/raw-data-campaign-finance-and-lobbying-activity/) of CAL-ACCESS data released by the California Secretary of State don't include distinct lists of elections, races, public offices, candidates or ballot measures.
+Much to our disappointment, the [nightly exports](http://www.sos.ca.gov/campaign-lobbying/cal-access-resources/raw-data-campaign-finance-and-lobbying-activity/) of CAL-ACCESS data released by the California Secretary of State don't include distinct lists of elections, races, public offices, candidates or ballot measures.
 
 To be clear, this information does reside in CAL-ACCESS. It's displayed on their website and outlined in the database schema. But when we asked the Secretary of State's office to include these tables in their bulk data releases, [they said "no"](https://www.californiacivicdata.org/2015/03/15/closed-data/).
 
@@ -43,7 +43,7 @@ OCD is a collaboration by civic data hackers including Forest Gregg of DataMade 
 
 The OCD folks invited yours truly to draft an [enhancement proposal](https://opencivicdata.readthedocs.io/en/latest/proposals/drafts/elections.html) outlining `Election` and its related data types (`Candidate`, `Contest`, `BallotMeasure` etc.), and then implement those specs in their Django application for use in our project or anyone else's for that matter.
 
-Many months and pull requests later, python-opencivicdata 2.0 was packaged and released on PyPi. Isn't community open-source coding fun?
+Many months and pull requests later, python-opencivicdata 2.0 was packaged and released on PyPi. Open-source collaboration FTW.
 
 * OCD logo.
 * Link to the discussion thread. Poppolo. Google. Socrata. ProPublica.
