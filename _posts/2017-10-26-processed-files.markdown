@@ -15,6 +15,8 @@ Get the [latest](http://calaccess.californiacivicdata.org/documentation/processe
 
 You can also download individual CSV files from our [full list](http://calaccess.californiacivicdata.org/documentation/processed-files/documentation/processed-files/).
 
+<img src="/img/ballot-measure-downloads.gif" style="padding: 10px">
+
 This new data — and our open-source code that made it possible — bring us closer than ever to our ultimate goal: Frictionless access to comprehensive California state campaign finance and lobbying activity data.
 
 
@@ -39,21 +41,21 @@ His work is now available as a stand-alone application written in the Django web
 
 ### Open data in an open standard
 
-CAL-ACCESS is notoriously closed-source with a nearly impenetrable database design. By contrast, we've conformed our scraped elections data to meet a new standard, which we authored with the lovable nerds at Open Civic Data.
+CAL-ACCESS is notoriously closed-source with an impenetrable database design. By contrast, we've conformed our scraped elections data to meet a new standard, which we authored with the lovable nerds at Open Civic Data.
 
-OCD is a collaboration by civic data hackers including Forest Gregg of DataMade and James Turk of Open States. Its organizing principle is to share the work of defining data models for domains such as legislative roll call votes.
+<img src="/img/opencivicdata-logo_default_1000.png" style="padding: 10px">
 
-The OCD folks invited yours truly to draft an [enhancement proposal](https://opencivicdata.readthedocs.io/en/latest/proposals/drafts/elections.html) outlining `Election` and its related data types (`Candidate`, `Contest`, `BallotMeasure` etc.), and then implement those specs in their Django application for use in our project or anyone else's for that matter.
+OCD is a hub for hackers working in the related fields of civic technology, open government and journalism. Its ranks include the likes of Forest Gregg of [DataMade](https://datamade.us), James McKinney of [Popolo Project](http://www.popoloproject.com)) and Rachel Shorey of [The New York Times](https://www.nytimes.com)).
 
-Many months and pull requests later, python-opencivicdata 2.0 was packaged and released on PyPi. Open-source collaboration FTW.
+The organizing principle is share the work of defining data models and maintaining software packages that power important projects like [Open States](https://openstates.org/), which is steered by Sunlight Foundation alumnus James Turk.
 
-* OCD logo.
-* Link to the discussion thread. Poppolo. Google. Socrata. ProPublica.
-* Can we drum up a couple examples of where OCD schemas have been used elsewhere. OpenElections. OpenStates. This creates the potential for people in other states to build off our work.
+The folks at OCD invited yours truly to draft an [enhancement proposal](https://opencivicdata.readthedocs.io/en/latest/proposals/drafts/elections.html) outlining `Election` and its related data types (`Candidate`, `Contest`, `BallotMeasure` etc.), and then implement those specs in their Django application for use in our project or anyone else's for that matter.
+
+After many months of [back-and-forth](https://github.com/opencivicdata/docs.opencivicdata.org/pull/64), python-opencivicdata 2.0 was packaged and [released on PyPi](https://pypi.python.org/pypi/opencivicdata). Open-source collaboration FTW.
 
 ### Next steps
 
-Along with our specs focused on elections, Abraham Epton of Socrata submitted another OCD enhancement proposal focused on [campaign finance filings](https://opencivicdata.readthedocs.io/en/latest/proposals/drafts/campaign_finance_filings.html).
+Along with our specs focused on elections, Abraham Epton of [Socrata](https://socrata.com) submitted another OCD enhancement proposal focused on [campaign finance filings](https://opencivicdata.readthedocs.io/en/latest/proposals/drafts/campaign_finance_filings.html).
 
 Once we implement Abe's campaign finance specs, we'll be able to round off the work we've already put into our [django-calaccess-processed-data](https://pypi.python.org/pypi/django-calaccess-processed-data) app, currently in beta release.
 
