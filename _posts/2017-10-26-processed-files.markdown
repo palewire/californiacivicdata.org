@@ -7,13 +7,11 @@ image: ""
 published: true
 ---
 
-Today the Coalition is excited to announce the release of nearly two decades worth of data on California elections. This information, which the Secretary of State has withheld from exports of its CAL-ACCESS system, will now be published and archived here daily.
+Today the Coalition is excited to announce the release of nearly two decades worth of data on California elections. This information, which the Secretary of State has withheld from exports of its CAL-ACCESS system, will now be published and archived [here](https://calaccess.californiacivicdata.org/downloads/latest/) daily.
 
 These new "processed" data files are the first implementation of a new community-driven standard we drafted and implemented in the hope of facilitating similar civic data projects across U.S. and international jurisdictions.
 
-Get the [latest](http://calaccess.californiacivicdata.org/documentation/processed-files/downloads/latest/) data in a simplified "flat" format if who would rather the skip the `JOIN` queries. Or if you would rather load everything into database manager, grab the full set files in "relational" format.
-
-You can also download individual CSV files from our [full list](http://calaccess.californiacivicdata.org/documentation/processed-files/documentation/processed-files/).
+Our [flat files](https://calaccess.californiacivicdata.org/latest/#basic) are great for quick and simple analysis. Or if you would rather load everything into your database manager, grab all the [relational files](https://calaccess.californiacivicdata.org/latest/#advanced). The record layouts and archived versions of each file are available [here](http://calaccess.californiacivicdata.org/documentation/processed-files/documentation/processed-files/).
 
 <img src="/img/ballot-measure-downloads.gif" style="padding: 10px">
 
@@ -76,11 +74,9 @@ Reporters at the LA Times have been crushing it lately, shining a light on  the 
 
 <img src="/img/governor-2018-graphic.gif" style="padding: 10px">
 
-In the money race, Lieutenant governor Gavin Newsom leads the pack with more campaign contributions than all his combined competitors. According to reporting by the Times, Newsom is the clear favorite of California's [cannabis industry](http://www.latimes.com/politics/la-pol-ca-newsom-cannabis-20170727-story.html) and [Hollywood](http://www.latimes.com/politics/la-pol-ca-hollywood-money-governors-race-20170804-story.html). Contrary to his environmentalist image, he has also found favor among [waterfront real estate developers in San Francisco](http://www.latimes.com/politics/la-pol-ca-newsom-waterfront-governor-20170519-story.html), where he previously served as mayor.
+In the money race, Lieutenant governor Gavin Newsom leads the pack with more campaign contributions than all his combined competitors. According to reporting by the Times, Newsom is the clear favorite of California's [cannabis industry](http://www.latimes.com/politics/la-pol-ca-newsom-cannabis-20170727-story.html) and [Hollywood](http://www.latimes.com/politics/la-pol-ca-hollywood-money-governors-race-20170804-story.html). Contrary to his environmentalist image, he also has been favored by [waterfront real estate developers in San Francisco](http://www.latimes.com/politics/la-pol-ca-newsom-waterfront-governor-20170519-story.html), where he previously served as mayor.
 
 These stories were made possible through our open-source code and data releases.
-
-http://www.latimes.com/politics/la-pol-ca-newsom-waterfront-governor-20170519-story.html
 
 ### Give us feedback
 
