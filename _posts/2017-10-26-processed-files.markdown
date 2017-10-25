@@ -2,23 +2,20 @@
 layout: post
 title: "Introducing our new processed data files"
 deckhead: "Scraped from CAL-ACCESS and re-formatted into a new community-developed data standard"
-byline: "By [James Gordon](https://twitter.com/je_gordon)"
+byline: "By [James Gordon](https://twitter.com/je_gordon) and the [California Civic Data Coalition](/about/)"
 image: ""
 published: true
 ---
 
-Today the Coalition is excited to announce the release of nearly two decades worth of data on California elections. This information, which the Secretary of State has withheld from exports of its CAL-ACCESS system, will now be published and archived [here](https://calaccess.californiacivicdata.org/downloads/latest/) daily.
+The Coalition is excited to announce the release of nearly two decades worth of data on California elections. This information, which Secretary of State Alex Padilla has [blocked](https://www.californiacivicdata.org/2015/03/15/closed-data/) from public release, will now be published and archived daily [here on this site](https://calaccess.californiacivicdata.org/downloads/latest/).
 
-These new "processed" data files are the first implementation of a new community-driven standard we drafted and implemented in the hope of facilitating similar civic data projects across U.S. and international jurisdictions.
+These new data files catalog every candidate, ballot measure and election found in the jumbled, dirty and difficult database tracking money in state politics.
 
-Our [flat files](https://calaccess.californiacivicdata.org/latest/#basic) are great for quick and simple analysis. Or if you would rather load everything into your database manager, grab all the [relational files](https://calaccess.californiacivicdata.org/latest/#advanced). The record layouts and archived versions of each file are available [here](http://calaccess.californiacivicdata.org/documentation/processed-files/documentation/processed-files/).
+Simple standalone files are now available for quick access and analysis. You can find them on [our redesigned download page](https://calaccess.californiacivicdata.org/downloads/latest/), where the state's disorderly data is reformatted to fit a new open-source standard.
 
 <img src="/img/ballot-measure-downloads.gif" style="padding: 10px">
 
-This new data — and our open-source code that made it possible — bring us closer than ever to our ultimate goal: Frictionless access to comprehensive California state campaign finance and lobbying activity data.
-
-
-### Introducing django-calaccess-scraped-data
+### How'd we do it? Scrapers.
 
 The raw material of our project is mined from [CAL-ACCESS](http://cal-access.sos.ca.gov), California's state government system that tracks how much money political campaigns raise and spend leading up to elections.
 
