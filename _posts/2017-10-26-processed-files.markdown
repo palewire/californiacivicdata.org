@@ -30,6 +30,8 @@ To be clear, this information does reside in CAL-ACCESS. It's displayed on their
 
 That left us with only one option: Scraping. So we wrote code that would routinely navigate through the CAL-ACCESS website and parse the essential data out of their crufty markup.
 
+<img src="/img/web-inspector.gif" style="padding: 10px">
+
 <figure style="margin: 8px 0 0 10px; float:right;">
     <img alt="Sahil Chinoy" title="Sahil Chinoy" src="/img/sahil-chinoy.jpg" height="150">
     <figcaption style="text-align:right;">Sahil Chinoy, web scraping hero.</figcaption>
@@ -47,7 +49,7 @@ CAL-ACCESS is notoriously closed-source with an impenetrable database design. By
 
 OCD is a hub for hackers working in the related fields of civic technology, open government and journalism. Its ranks include the likes of Forest Gregg of [DataMade](https://datamade.us), James McKinney of [Popolo Project](http://www.popoloproject.com)) and Rachel Shorey of [The New York Times](https://www.nytimes.com)).
 
-The organizing principle is share the work of defining data models and maintaining software packages that power important projects like [Open States](https://openstates.org/), which is steered by Sunlight Foundation alumnus James Turk.
+OCD's organizing principle is to share the work of defining data models and maintaining software packages that power important projects like [Open States](https://openstates.org/), which is steered by Sunlight Foundation alumnus James Turk.
 
 The folks at OCD invited yours truly to draft an [enhancement proposal](https://opencivicdata.readthedocs.io/en/latest/proposals/drafts/elections.html) outlining `Election` and its related data types (`Candidate`, `Contest`, `BallotMeasure` etc.), and then implement those specs in their Django application for use in our project or anyone else's for that matter.
 
@@ -61,16 +63,24 @@ Once we implement Abe's campaign finance specs, we'll be able to round off the w
 
 The processed app is already churning out the scraped elections data in OCD format and archiving those files on our downloads website. Next up, we'll begin publishing committees, contributions and expenditures extracted from filings of [California Form 460](https://calaccess.californiacivicdata.org/documentation/calaccess-forms/f460/), the disclosure report regularly filed by all recipients of campaign contributions.
 
+<figure style="margin: 28px 0 8px 0;">
+    <a href="https://calaccess.californiacivicdata.org/documentation/calaccess-forms/f460/">
+        <img src="/img/form-460-summary.png" style="border: 1px solid black;">
+    </a>
+    <figcaption style="text-align:right;">Our next release on Form 460 data. Get excited.</figcaption>
+</figure>
+
 ### This data is already fueling great journalism
+
+Reporters at the LA Times have been crushing it lately, shining a light on  the [insane amount of money](http://www.latimes.com/projects/la-pol-ca-california-governor-2018-money/) already raised by California's 2018 gubernatorial candidates.
 
 <img src="/img/governor-2018-graphic.gif" style="padding: 10px">
 
-Reporters at the LA Times have been crushing it lately, revealing how deep-pocketed donors affiliated with California's [cannabis industry](http://www.latimes.com/politics/la-pol-ca-newsom-cannabis-20170727-story.html) and [Hollywood](http://www.latimes.com/politics/la-pol-ca-hollywood-money-governors-race-20170804-story.html) are shoveling money at 2018 gubernatorial candidate Gavin Newsom. These and other stories were made possible through our open-source code and data releases.
+In the money race, Lieutenant governor Gavin Newsom leads the pack with more campaign contributions than all his combined competitors. According to reporting by the Times, Newsom is the clear favorite of California's [cannabis industry](http://www.latimes.com/politics/la-pol-ca-newsom-cannabis-20170727-story.html) and [Hollywood](http://www.latimes.com/politics/la-pol-ca-hollywood-money-governors-race-20170804-story.html). Contrary to his environmentalist image, he has also found favor among [waterfront real estate developers in San Francisco](http://www.latimes.com/politics/la-pol-ca-newsom-waterfront-governor-20170519-story.html), where he previously served as mayor.
+
+These stories were made possible through our open-source code and data releases.
 
 http://www.latimes.com/politics/la-pol-ca-newsom-waterfront-governor-20170519-story.html
-
-http://www.latimes.com/projects/la-pol-ca-california-governor-2018-money/
-
 
 ### Give us feedback
 
