@@ -57,7 +57,7 @@ Our hope is that this work can help power other open-source projects working wit
 
 ### What this data is already doing
 
-Early versions of these files have already been put to work by reporters at the Los Angeles Times.
+Early versions of these files have been put to work by reporters at the Los Angeles Times.
 
 [Maloy Moore](http://www.latimes.com/la-bio-maloy-moore-staff.html) and [Ryan Menezes](http://www.latimes.com/la-bio-ryan-menezes-staff.html) have used the experimental release of our software (available to everyone on [GitHub](http://django-calaccess.californiacivicdata.org/en/latest/)) to generate a series of pieces on the millions of dollars flooding the race to be California's next governor.
 
