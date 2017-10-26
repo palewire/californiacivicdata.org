@@ -47,7 +47,7 @@ Rather than force users to wade through its arcane data structures, we've modifi
 
 <img src="/img/opencivicdata-logo_default_1000.png" style="padding: 10px">
 
-OCD ranks include Forest Gregg of [DataMade](https://datamade.us), James McKinney of [Popolo Project](http://www.popoloproject.com) and Rachel Shorey of [The New York Times](https://www.nytimes.com).
+OCD's ranks include Forest Gregg of [DataMade](https://datamade.us), James McKinney of [Popolo Project](http://www.popoloproject.com) and Rachel Shorey of [The New York Times](https://www.nytimes.com).
 
 With their guidance, yours truly drafted a [proposal](https://opencivicdata.readthedocs.io/en/latest/proposals/drafts/elections.html) outlining a new data schema for elections and related data types like candidates, contests and ballot measures. I then implemented those specs in their Django application for use in our project or anyone else's for that matter.
 
