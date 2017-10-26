@@ -9,7 +9,7 @@ published: true
 
 The Coalition is excited to announce the release of nearly two decades worth of data on California elections. This information, previously [blocked](https://www.californiacivicdata.org/2015/03/15/closed-data/) from public release by state officials, is now updated daily [on this site](https://calaccess.californiacivicdata.org/downloads/latest/).
 
-These new data files catalog every candidate, ballot measure and election found in the jumbled, dirty and difficult governoment database tracking money in state politics.
+The new data files catalog every candidate, ballot measure and election found in the jumbled, dirty and difficult governoment database tracking money in state politics.
 
 You can find them on [our redesigned download page](https://calaccess.californiacivicdata.org/downloads/latest/), where the state's disorderly data is reformatted to fit our new open-source standard.
 
