@@ -15,24 +15,24 @@ Simple standalone files are now available for quick access and analysis. You can
 
 <img src="/img/ballot-measure-downloads.gif" style="padding: 10px">
 
-### How'd we do it? Scrapers.
+### How we did it
 
-The raw material of our project is mined from [CAL-ACCESS](http://cal-access.sos.ca.gov), California's state government system that tracks how much money political campaigns raise and spend leading up to elections.
+The raw material of our project is mined from [CAL-ACCESS](http://cal-access.sos.ca.gov), California's state government system that tracks how much money political campaigns raise and spend on elections.
 
-Much to our disappointment, the [nightly exports](http://www.sos.ca.gov/campaign-lobbying/cal-access-resources/raw-data-campaign-finance-and-lobbying-activity/) of CAL-ACCESS data released by the California Secretary of State don't include distinct lists of elections, races, public offices, candidates or ballot measures.
-
-To be clear, this information does reside in CAL-ACCESS. It's displayed on their website and outlined in the database schema. But when we asked the Secretary of State's office to include these tables in their bulk data releases, [they said "no"](https://www.californiacivicdata.org/2015/03/15/closed-data/).
-
-That left us with only one option: Scraping. So we wrote code that would routinely navigate through the CAL-ACCESS website and parse the essential data out of their crufty markup.
-
-<img src="/img/web-inspector.gif" style="padding: 10px">
+Much to our disappointment, the [bulk exports](http://www.sos.ca.gov/campaign-lobbying/cal-access-resources/raw-data-campaign-finance-and-lobbying-activity/) of CAL-ACCESS data released by the California Secretary of State don't include distinct lists of elections, races, public offices, candidates or ballot measures.
 
 <figure style="margin: 8px 0 0 10px; float:right;">
     <img alt="Sahil Chinoy" title="Sahil Chinoy" src="/img/sahil-chinoy.jpg" height="150">
-    <figcaption style="text-align:right;">Sahil Chinoy, web scraping hero.</figcaption>
+    <figcaption style="text-align:right;">Sahil Chinoy</figcaption>
 </figure>
 
-Thankfully, the coalition's student developer, [Sahil Chinoy](http://sahilchinoy.com/), was up to the task.
+To be clear, this information does reside in CAL-ACCESS. It's displayed on their website and outlined in the database schema. When we asked Secretary of State Alex Padilla's office to include these tables in their bulk data releases, they said "no."
+
+That left us with only one option: Scraping it off their site.
+
+Thankfully, the coalition's student developer, [Sahil Chinoy](http://sahilchinoy.com/), was up to the task. He expanded on [earlier contributions](https://www.californiacivicdata.org/2015/02/17/opennews-scrapers/) to our project to train a computer script to navigate through the CAL-ACCESS website and parse the essential data out.
+
+<img src="/img/web-inspector.gif" style="padding: 10px">
 
 His work is now available as a stand-alone application written in the Django web framework. Just download our [package from PyPi](https://pypi.python.org/pypi/django-calaccess-scraped-data), plug it into your project, [read our docs](http://django-calaccess.californiacivicdata.org/en/latest/apps/calaccess_scraped.html) and scrape away.
 
