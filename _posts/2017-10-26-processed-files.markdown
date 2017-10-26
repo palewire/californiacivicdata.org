@@ -73,7 +73,7 @@ Contrary to the candidate's environmentalist image, Times reporters have also do
 
 As a companion to our work, Abraham Epton of [Socrata](https://socrata.com) has submitted a OCD proposal focused on standardizing [campaign finance filings](https://opencivicdata.readthedocs.io/en/latest/proposals/drafts/campaign_finance_filings.html) across states.
 
-Our next mission is to implement Abe's ideas so we can begin churning out cleaned up files containing the valuable data on campaign committees, contributions and expenditures that now locked inside of CAL-ACCESS and its Form 460 filings.
+Our next mission is to implement Abe's ideas so we can begin churning out cleaned up files containing the valuable data on campaign committees, contributions and expenditures now locked inside of CAL-ACCESS and its Form 460 filings.
 
 <figure style="margin: 28px 0 8px 0;">
     <a href="https://calaccess.californiacivicdata.org/documentation/calaccess-forms/f460/">
