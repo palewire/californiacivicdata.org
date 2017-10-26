@@ -84,5 +84,5 @@ Our next mission is to implement Abe's ideas so we can begin churning out cleane
 
 ### What you can do
 
-Download our files. Play with them. See something you don't like. Tell us about it. Whatever addition or change to our new processed data files that would make your life easier – no matter how small – we want to hear it. File a [ticket](https://github.com/california-civic-data-coalition/django-calaccess-processed-data/issues), shoot an [email](mailto:cacivicdata@gmail.com) or find us anytime in
+[Download our files](https://calaccess.californiacivicdata.org/downloads/latest/). Play with them. See something you don't like. Tell us about it. Whatever addition or change to our new processed data files that would make your life easier – no matter how small – we want to hear it. File a [ticket](https://github.com/california-civic-data-coalition/django-calaccess-processed-data/issues), shoot an [email](mailto:cacivicdata@gmail.com) or find us anytime in
 [News Nerdery's](http://newsnerdery.org/) [#california-civic-data](https://newsnerdery.slack.com/messages/california-civic-data/).
