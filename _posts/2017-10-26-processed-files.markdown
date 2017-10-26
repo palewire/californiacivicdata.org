@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Introducing our new source for clean data on California elections"
+title: "Introducing a new source for California elections data"
 deckhead: "How we took CAL-ACCESS to the cleaners"
 byline: "By [James Gordon](https://twitter.com/je_gordon) and the [California Civic Data Coalition](/about/)"
 image: ""
