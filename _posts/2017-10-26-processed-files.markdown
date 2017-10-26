@@ -17,7 +17,7 @@ You can find them on [our redesigned download page](https://calaccess.california
 
 ### How we got the data
 
-The raw material of our project is mined from [CAL-ACCESS](http://cal-access.sos.ca.gov), the California state government's system tracking how much money political campaigns raise and spend on elections.
+The raw material of our project is mined from [CAL-ACCESS](http://cal-access.sos.ca.gov), the California state government's system for tracking the money political campaigns raise and spend on elections.
 
 Much to our disappointment, the [bulk exports](http://www.sos.ca.gov/campaign-lobbying/cal-access-resources/raw-data-campaign-finance-and-lobbying-activity/) of CAL-ACCESS data released by Secretary of State Alex Padilla don't include coherent and complete lists of elections, races, public offices, candidates or ballot measures.
 
