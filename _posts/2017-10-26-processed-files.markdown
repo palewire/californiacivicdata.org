@@ -49,7 +49,7 @@ Rather than force users to wade through its arcane data structures, we've modifi
 
 OCD's ranks include Forest Gregg of [DataMade](https://datamade.us), James McKinney of [Popolo Project](http://www.popoloproject.com) and Rachel Shorey of [The New York Times](https://www.nytimes.com).
 
-With their guidance, yours truly drafted a [proposal](https://opencivicdata.readthedocs.io/en/latest/proposals/drafts/elections.html) outlining a new data schema for elections and related data types like candidates, contests and ballot measures. I then implemented those specs in their Django application for use in our project or anyone else's for that matter.
+With their guidance, yours truly drafted a [proposal](https://opencivicdata.readthedocs.io/en/latest/proposals/drafts/elections.html) outlining a new data schema for elections and related data types like candidates, contests and ballot measures. I then implemented those specs in their Django application for use in our project, or anyone else's.
 
 After many months of [back-and-forth](https://github.com/opencivicdata/docs.opencivicdata.org/pull/64) &mdash; and comments from our peers at Google, Socrata and elsewhere &mdash; python-opencivicdata version 2.0 was packaged and [released on PyPi](https://pypi.python.org/pypi/opencivicdata).
 
