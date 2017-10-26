@@ -79,7 +79,6 @@ Our next mission is to implement Abe's ideas so we can begin churning out cleane
     <a href="https://calaccess.californiacivicdata.org/documentation/calaccess-forms/f460/">
         <img src="/img/form-460-summary.png" style="border: 1px solid black;">
     </a>
-    <figcaption style="text-align:right;">Our next release on Form 460 data. Get excited.</figcaption>
 </figure>
 
 ### What you can do
