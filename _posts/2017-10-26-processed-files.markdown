@@ -34,7 +34,7 @@ Thankfully, the Coalition's student developer, [Sahil Chinoy](http://sahilchinoy
 
 <img src="/img/web-inspector.gif" style="padding: 10px">
 
-His work is now available as a stand-alone application written in the Django web framework. Just download our [package from PyPi](https://pypi.python.org/pypi/django-calaccess-scraped-data), plug it into your project, [read our docs](http://django-calaccess.californiacivicdata.org/en/latest/apps/calaccess_scraped.html) and scrape away.
+His work is now available as a stand-alone application written in the Django web framework. Just download our [package from PyPI](https://pypi.python.org/pypi/django-calaccess-scraped-data), plug it into your project, [read our docs](http://django-calaccess.californiacivicdata.org/en/latest/apps/calaccess_scraped.html) and scrape away.
 
 ### How we improved the data
 
@@ -51,7 +51,7 @@ OCD's ranks include Forest Gregg of [DataMade](https://datamade.us), James McKin
 
 With their guidance, yours truly drafted a [proposal](https://opencivicdata.readthedocs.io/en/latest/proposals/drafts/elections.html) outlining a new data schema for elections and related data types like candidates, contests and ballot measures. I then implemented those specs in their Django application for use in our project, or anyone else's.
 
-After many months of [back-and-forth](https://github.com/opencivicdata/docs.opencivicdata.org/pull/64) &mdash; and comments from our peers at Google, Socrata and elsewhere &mdash; python-opencivicdata version 2.0 was packaged and [released on PyPi](https://pypi.python.org/pypi/opencivicdata).
+After many months of [back-and-forth](https://github.com/opencivicdata/docs.opencivicdata.org/pull/64) &mdash; and comments from our peers at Google, Socrata and elsewhere &mdash; python-opencivicdata version 2.0 was packaged and [released on PyPI](https://pypi.python.org/pypi/opencivicdata).
 
 Our hope is that this work can help power other open-source projects working with similar data sets in other states and countries.
 
