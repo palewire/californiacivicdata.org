@@ -41,7 +41,7 @@ His work is now available as a stand-alone application written in the Django web
 
 CAL-ACCESS is a mess. And you don't have to take our word for it.
 
-In [a recent public filing](https://twitter.com/palewire/status/922861435461410816), the Padilla's office described it as an "old," "fragile" and "not well documented" system that "cannot be patched or modified" and is at risk of collapse.
+In [a recent public filing](https://twitter.com/palewire/status/922861435461410816), Padilla's office described it as an "old," "fragile" and "not well documented" system that "cannot be patched or modified" and is at risk of collapse.
 
 Rather than force users to wade through its arcane data structures, we've modified our files to meet a new standard we authored with [Open Civic Data](https://opencivicdata.readthedocs.io), a community of leaders in our field aiming to define common schemas for consolidating public data.
 
