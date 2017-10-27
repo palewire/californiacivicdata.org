@@ -24,7 +24,7 @@ You can find the new data on [our revamped download page](https://calaccess.cali
 
 Our original source is [CAL-ACCESS](http://cal-access.sos.ca.gov), the California state government's system for tracking the money political campaigns raise and spend on elections.
 
-While containing some useful information, the [bulk export](http://www.sos.ca.gov/campaign-lobbying/cal-access-resources/raw-data-campaign-finance-and-lobbying-activity/) of CAL-ACCESS data released by Secretary of State Alex Padilla don't include coherent and complete lists of elections, races, public offices, candidates or ballot measures.
+While containing some useful information, the [bulk export](http://www.sos.ca.gov/campaign-lobbying/cal-access-resources/raw-data-campaign-finance-and-lobbying-activity/) of CAL-ACCESS data released by Secretary of State Alex Padilla does not include coherent and complete lists of elections, races, public offices, candidates or ballot measures.
 
 <figure style="margin: 8px 0 0 10px; float:right;">
     <img alt="Sahil Chinoy" title="Sahil Chinoy" src="/img/sahil-chinoy.jpg" height="150">
