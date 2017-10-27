@@ -31,7 +31,7 @@ While containing some useful information, the [bulk export](http://www.sos.ca.go
     <figcaption style="text-align:right;">Sahil Chinoy</figcaption>
 </figure>
 
-To be clear, *this information does reside in CAL-ACCESS*. It is collected by Padilla's office, displayed on its website and outlined its official database schema.
+To be clear, *this information does reside in CAL-ACCESS*. It is collected by the Secretary of State's office, displayed on its website and outlined its official database schema.
 
 But when we asked Padilla's office to include it in their bulk data release, [they said "no."](https://github.com/california-civic-data-coalition/django-calaccess-raw-data/issues/62#issuecomment-58655390)
 
