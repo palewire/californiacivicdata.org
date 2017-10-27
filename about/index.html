@@ -46,244 +46,247 @@ leaders:
     email: aaron.colby.williams@gmail.com
 ---
 
-<div class="bg-red">
-    <div class="container">
-        <div class="row">
-            <nav class="col-md-9">
-                <ol class="breadcrumb">
-                    <li><a href="/">Home</a></li>
-                    <li>About</li>
-                </ol>
-            </nav>
-            <div class="col-md-9">
-                <h1>About</h1>
-                <p>
-                    The California Civic Data Coalition is an open-source team of
-                    journalists and computer programmers from news organizations across America.
-                </p>
+<article class="about">
+
+    <div class="bg-red">
+        <div class="container">
+            <div class="row">
+                <nav class="col-md-9">
+                    <ol class="breadcrumb">
+                        <li><a href="/">Home</a></li>
+                        <li>About</li>
+                    </ol>
+                </nav>
+                <div class="col-md-9">
+                    <h1>About</h1>
+                    <p>
+                        The California Civic Data Coalition is an open-source team of
+                        journalists and computer programmers from news organizations across America.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-<div class="container content">
-    <div class="row">
-        <div class="col-lg-8 col-md-10 col-sm-12 col-xs-12">
+    <div class="container content">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 col-sm-12 col-xs-12">
 
-<section id="description">
-    <h3>History</h3>
-    <p>
-        The coalition was formed in 2014 by <a href="http://palewi.re/who-is-ben-welsh/">Ben Welsh</a>
-        and Agustin Armendariz to lead the development of open-source software
-        that makes California's public data easier to access
-        and analyze. The effort has drawn hundreds of contributions
-        from developers and journalists at dozens of news organizations.
-    </p>
+    <section id="description">
+        <h3>History</h3>
+        <p>
+            The coalition was formed in 2014 by <a href="http://palewi.re/who-is-ben-welsh/">Ben Welsh</a>
+            and Agustin Armendariz to lead the development of open-source software
+            that makes California's public data easier to access
+            and analyze. The effort has drawn hundreds of contributions
+            from developers and journalists at dozens of news organizations.
+        </p>
 
-    <p>
-        Our primary focus is refining <a href="http://cal-access.ss.ca.gov/">CAL-ACCESS</a>, the
-        jumbled, dirty and difficult government database that tracks
-        campaign finance and lobbying activity in California politics.
-    </p>
+        <p>
+            Our primary focus is refining <a href="http://cal-access.ss.ca.gov/">CAL-ACCESS</a>, the
+            jumbled, dirty and difficult government database that tracks
+            campaign finance and lobbying activity in California politics.
+        </p>
 
-    <p>
-        In 2015 the coalition was named a winner of the <a href="/2015/07/22/knight-news-challenge/">Knight News Challenge</a> and awarded $250,000 in philanthropic funding
-        from the Knight Foundation, the Democracy Fund, the William and Flora Hewlett Foundation and the Rita Allen Foundation.
-    </p>
-</section>
+        <p>
+            In 2015 the coalition was named a winner of the <a href="/2015/07/22/knight-news-challenge/">Knight News Challenge</a> and awarded $250,000 in philanthropic funding
+            from the Knight Foundation, the Democracy Fund, the William and Flora Hewlett Foundation and the Rita Allen Foundation.
+        </p>
+    </section>
 
-<section id="team">
-    <h3>Leadership</h3>
+    <section id="team">
+        <h3>Leadership</h3>
 
-    <div class="row">
-    {% for obj in page.leaders %}
-        <div class="bio-item col-lg-3 col-md-3 col-sm-6 col-xs-6">
-            <img alt="{{ obj.name }}" title="{{ obj.name }}" src="{{ obj.image }}">
-            <h4><a href="{{ obj.url }}">{{ obj.name }}</a></h4>
-            <span class="bio-metadata">
-                <span class="title">{{ obj.title }}</span>
-                <span class="org">{{ obj.organization }}</span>
-                <span class="twitter">
-                    <a href="http://twitter.com/{{ obj.twitter }}">
-                        @{{ obj.twitter }}
-                    </a>
+        <div class="row">
+        {% for obj in page.leaders %}
+            <div class="bio-item col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                <img alt="{{ obj.name }}" title="{{ obj.name }}" src="{{ obj.image }}">
+                <h4><a href="{{ obj.url }}">{{ obj.name }}</a></h4>
+                <span class="bio-metadata">
+                    <span class="title">{{ obj.title }}</span>
+                    <span class="org">{{ obj.organization }}</span>
+                    <span class="twitter">
+                        <a href="http://twitter.com/{{ obj.twitter }}">
+                            @{{ obj.twitter }}
+                        </a>
+                    </span>
+                    <span class="email">
+                        <a href="mailto:{{ obj.email }}">{{ obj.email }}</a>
+                    </span>
                 </span>
-                <span class="email">
-                    <a href="mailto:{{ obj.email }}">{{ obj.email }}</a>
-                </span>
-            </span>
+            </div>
+            {% if forloop.index == 2 %}
+            <div class="clearfix visible-xs-block visible-sm-block"></div>
+            {% endif %}
+        {% endfor %}
         </div>
-        {% if forloop.index == 2 %}
-        <div class="clearfix visible-xs-block visible-sm-block"></div>
-        {% endif %}
-    {% endfor %}
-    </div>
-</section>
+    </section>
 
-<section id="developers">
-    <h3>Developers</h3>
+    <section id="developers">
+        <h3>Developers</h3>
 
-    <div class="row">
-    {% for obj in page.developers %}
-        <div class="bio-item col-lg-3 col-md-3 col-sm-6 col-xs-6">
-            <img alt="{{ obj.name }}" title="{{ obj.name }}" src="{{ obj.image }}">
-            <h4><a href="{{ obj.url }}">{{ obj.name }}</a></h4>
-            <span class="bio-metadata">
-                <span class="title">{{ obj.title }}</span>
-                <span class="twitter">
-                    <a href="http://twitter.com/{{ obj.twitter }}">
-                        @{{ obj.twitter }}
-                    </a>
+        <div class="row">
+        {% for obj in page.developers %}
+            <div class="bio-item col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                <img alt="{{ obj.name }}" title="{{ obj.name }}" src="{{ obj.image }}">
+                <h4><a href="{{ obj.url }}">{{ obj.name }}</a></h4>
+                <span class="bio-metadata">
+                    <span class="title">{{ obj.title }}</span>
+                    <span class="twitter">
+                        <a href="http://twitter.com/{{ obj.twitter }}">
+                            @{{ obj.twitter }}
+                        </a>
+                    </span>
+                    <span class="email">
+                        <a href="mailto:{{ obj.email }}">{{ obj.email }}</a>
+                    </span>
                 </span>
-                <span class="email">
-                    <a href="mailto:{{ obj.email }}">{{ obj.email }}</a>
-                </span>
-            </span>
+            </div>
+            {% if forloop.index == 2 %}
+            <div class="clearfix visible-xs-block visible-sm-block"></div>
+            {% endif %}
+        {% endfor %}
         </div>
-        {% if forloop.index == 2 %}
-        <div class="clearfix visible-xs-block visible-sm-block"></div>
-        {% endif %}
-    {% endfor %}
-    </div>
-</section>
+    </section>
 
-<section id="contact">
-    <h3>Contact</h3>
-    <ul class="bullets">
-        <li>Email: <a href="mailto:cacivicdata@gmail.com">cacivicdata@gmail.com</a></li>
-        <li>GitHub: <a href="https://github.com/california-civic-data-coalition">california-civic-data-coalition</a></li>
-        <li>Twitter: <a href="http://www.twitter.com/cacivicdata">@cacivicdata</a></li>
-        <li>Slack: <a href="http://newsnerdery.org/">News Nerdery's</a> <a href="https://newsnerdery.slack.com/messages/california-civic-data/">#california-civic-data</a>
-        <li>Freenode IRC: <a href="http://webchat.freenode.net/?channels=californiacivicdata">#californiacivicdata</a></li>
+    <section id="contact">
+        <h3>Contact</h3>
+        <ul class="bullets">
+            <li>Email: <a href="mailto:cacivicdata@gmail.com">cacivicdata@gmail.com</a></li>
+            <li>GitHub: <a href="https://github.com/california-civic-data-coalition">california-civic-data-coalition</a></li>
+            <li>Twitter: <a href="http://www.twitter.com/cacivicdata">@cacivicdata</a></li>
+            <li>Slack: <a href="http://newsnerdery.org/">News Nerdery's</a> <a href="https://newsnerdery.slack.com/messages/california-civic-data/">#california-civic-data</a>
+            <li>Freenode IRC: <a href="http://webchat.freenode.net/?channels=californiacivicdata">#californiacivicdata</a></li>
+        </ul>
+
+    </section>
+
+    <section id="events">
+        <h3>Events</h3>
+
+        <p>
+            Development has been advanced by a series of code sprints and training events.
+        </p>
+
+        <ul class="bullets">
+            <li>2014.08: <a href="https://source.opennews.org/en-US/articles/introducing-california-civic-data-coalition/">OpenNews Convening (San Francisco)</a></li>
+            <li>2015.01: <a href="/2015/02/17/opennews-scrapers/">OpenNews Bootcamp (USC)</a></li>
+            <li>2015.03: <a href="/2015/03/11/code-rush-recap/">California Code Rush I (NICAR Atlanta)</a></li>
+            <li>2015.08: <a href="/2015/09/01/code-rush-2-recap/">California Code Rush II (Media Party Buenos Aires)</a></a></li>
+            <li>2015.09: <a href="/2015/10/04/code-rush-3-recap/">California Code Rush III (ONA Los Angeles)</a></a></li>
+            <li>2016.03: <a href="/2016/03/07/code-rush-4/">California Code Rush IV (NICAR Denver)</a></a></li>
+            <li>2016.10: <a href="/2016/10/08/first-python-notebook/">First Python Notebook (San Diego State University)</a></a></li>
+            <li>2017.02: <a href="/2017/02/17/stanford-python-notebook/">First Python Notebook (Stanford)</a></li>
+            <li>2017.03: <a href="/2017/03/12/nicar-python-notebook/">First Python Notebook (NICAR Jacksonville)</a></li>
+            <li>2017.04: <a href="/2017/07/12/first-python-notebook-at-sdsu/">First Python Notebook (San Diego State)</a></li>
+            <li>2017.05: <a href="/2017/06/07/dc-python-notebook/">First Python Notebook (Northwestern)</a></li>
+            <li>2017.06: <a href="/2017/06/01/mooc-python-notebook/">First Python Notebook (MOOC)</a></li>
+            <li>2017.08: <a href="/2017/08/04/code-rush-5-recap/">California Code Rush V (The Cloud)</a></li>
     </ul>
+    </section>
 
-</section>
-
-<section id="events">
-    <h3>Events</h3>
-
-    <p>
-        Development has been advanced by a series of code sprints and training events.
-    </p>
-
-    <ul class="bullets">
-        <li>2014.08: <a href="https://source.opennews.org/en-US/articles/introducing-california-civic-data-coalition/">OpenNews Convening (San Francisco)</a></li>
-        <li>2015.01: <a href="/2015/02/17/opennews-scrapers/">OpenNews Bootcamp (USC)</a></li>
-        <li>2015.03: <a href="/2015/03/11/code-rush-recap/">California Code Rush I (NICAR Atlanta)</a></li>
-        <li>2015.08: <a href="/2015/09/01/code-rush-2-recap/">California Code Rush II (Media Party Buenos Aires)</a></a></li>
-        <li>2015.09: <a href="/2015/10/04/code-rush-3-recap/">California Code Rush III (ONA Los Angeles)</a></a></li>
-        <li>2016.03: <a href="/2016/03/07/code-rush-4/">California Code Rush IV (NICAR Denver)</a></a></li>
-        <li>2016.10: <a href="/2016/10/08/first-python-notebook/">First Python Notebook (San Diego State University)</a></a></li>
-        <li>2017.02: <a href="/2017/02/17/stanford-python-notebook/">First Python Notebook (Stanford)</a></li>
-        <li>2017.03: <a href="/2017/03/12/nicar-python-notebook/">First Python Notebook (NICAR Jacksonville)</a></li>
-        <li>2017.04: <a href="/2017/07/12/first-python-notebook-at-sdsu/">First Python Notebook (San Diego State)</a></li>
-        <li>2017.05: <a href="/2017/06/07/dc-python-notebook/">First Python Notebook (Northwestern)</a></li>
-        <li>2017.06: <a href="/2017/06/01/mooc-python-notebook/">First Python Notebook (MOOC)</a></li>
-        <li>2017.08: <a href="/2017/08/04/code-rush-5-recap/">California Code Rush V (The Cloud)</a></li>
-</ul>
-</section>
-
-<section id="what-others-are-saying">
-    <h3>What others are saying</h3>
-    <div class="quote">
-        <span class="text">
-            &ldquo;A terrific idea.&rdquo;
-        </span>
-        <span class="attribution">
-            <a href="http://www.huffingtonpost.com/entry/knight-news-challenge-awards_55afc537e4b08f57d5d33e11">The Huffington Post</a>
-        </span>
-    </div>
-
-    <div class="quote">
-        <span class="text">
-            &ldquo;This is important work.&rdquo;
-        </span>
-        <span class="attribution">
-            <a href="http://www.sacbee.com/opinion/opn-columns-blogs/joyce-terhaar/article31239362.html">Joyce Terhaar, Executive Editor, Sacramento Bee</a>
-        </span>
-    </div>
-
-    <div class="quote">
-        <span class="text">
-            &ldquo;Turns ugly government data into something useful for reporters.&rdquo;
-        </span>
-        <span class="attribution">
-            <a href="http://opennews.org/blog/fellowship-onboarding-ccdc/">Ryan Pitts, OpenNews</a>
-        </span>
-    </div>
-    <div class="quote">
-        <span class="text">
-            &ldquo;These folks are the best in the business.&rdquo;
-        </span>
-        <span class="attribution">
-            <a href="https://twitter.com/brianboyer/status/624364569889214466">Brian Boyer, Editor, NPR Visuals</a>
-        </span>
-    </div>
-    <div class="quote">
-        <span class="text">
-            &ldquo;Great stuff.&rdquo;
-        </span>
-        <span class="attribution">
-            <a href="https://twitter.com/EllnMllr/status/524932919643484160">Ellen Miller, Co-Founder, Sunlight Foundation</a>
-        </span>
-    </div>
-    <div class="quote">
-        <span class="text">
-            &ldquo;One of the journalism projects I talk about most often. So smart.&rdquo;
-        </span>
-        <span class="attribution">
-            <a href="https://twitter.com/AnjDelgado/status/776851700414029824">Anjanette Delgado, Gannett</a>
-        </span>
-    </div>
-    <div class="quote">
-        <span class="text">
-            &ldquo;Que coisa foda!&rdquo;
-        </span>
-        <span class="attribution">
-            <a href="https://twitter.com/rodolfoviana/status/882357749950148608">Rodolfo Viana, Freelance journalist</a>
-        </span>
-    </div>
-    <div class="quote">
-        <span class="text">
-            &ldquo;Fantastic&rdquo;
-        </span>
-        <span class="attribution">
-            <a href="https://twitter.com/simonw/status/885732890469847040">Simon Willison, Co-Creator, Django</a>
-        </span>
-    </div>
-    <div class="quote">
-        <span class="text">
-            &ldquo;Saved me a ton of work.&rdquo;
-        </span>
-        <span class="attribution">
-            <a href="https://www.facebook.com/palewire/posts/10213807077231952?comment_id=10213807335278403&comment_tracking=%7B%22tn%22%3A%22R%22%7D">Michael Corey, Reveal and The Center for Investigative Reporting</a>
-        </span>
-    </div>
-    <div class="quote">
-        <span class="text">
-            &ldquo;This is dank af.&rdquo;
-        </span>
-        <span class="attribution">
-            <a href="https://www.facebook.com/groups/hhcivic/permalink/1105198402907138/?comment_id=1105199129573732&comment_tracking=%7B%22tn%22%3A%22R2%22%7D">Michael Rosenberg, HH Civic Hackers</a>
-        </span>
-    </div>
-</section>
-
-<section id="logos">
-    <h3>Logo</h3>
-    <p>
-        The coalition's official logo is known as the geobear. It was created by Aaron Williams
-        based on <a href="https://thenounproject.com/search/?q=geometric+bear&i=362152">Bennett Kowald's
-        design</a> for the Noun Project.
-    </p>
-    <div class="row" style="margin-bottom: 35px; margin-top: 15px;">
-        <div class="col-md-4">
-            <img src="/img/geobear.svg" alt="California Civic Data Coalition logo" title="California Civic Data Coalition logo">
+    <section id="what-others-are-saying">
+        <h3>What others are saying</h3>
+        <div class="quote">
+            <span class="text">
+                &ldquo;A terrific idea.&rdquo;
+            </span>
+            <span class="attribution">
+                <a href="http://www.huffingtonpost.com/entry/knight-news-challenge-awards_55afc537e4b08f57d5d33e11">The Huffington Post</a>
+            </span>
         </div>
+
+        <div class="quote">
+            <span class="text">
+                &ldquo;This is important work.&rdquo;
+            </span>
+            <span class="attribution">
+                <a href="http://www.sacbee.com/opinion/opn-columns-blogs/joyce-terhaar/article31239362.html">Joyce Terhaar, Executive Editor, Sacramento Bee</a>
+            </span>
+        </div>
+
+        <div class="quote">
+            <span class="text">
+                &ldquo;Turns ugly government data into something useful for reporters.&rdquo;
+            </span>
+            <span class="attribution">
+                <a href="http://opennews.org/blog/fellowship-onboarding-ccdc/">Ryan Pitts, OpenNews</a>
+            </span>
+        </div>
+        <div class="quote">
+            <span class="text">
+                &ldquo;These folks are the best in the business.&rdquo;
+            </span>
+            <span class="attribution">
+                <a href="https://twitter.com/brianboyer/status/624364569889214466">Brian Boyer, Editor, NPR Visuals</a>
+            </span>
+        </div>
+        <div class="quote">
+            <span class="text">
+                &ldquo;Great stuff.&rdquo;
+            </span>
+            <span class="attribution">
+                <a href="https://twitter.com/EllnMllr/status/524932919643484160">Ellen Miller, Co-Founder, Sunlight Foundation</a>
+            </span>
+        </div>
+        <div class="quote">
+            <span class="text">
+                &ldquo;One of the journalism projects I talk about most often. So smart.&rdquo;
+            </span>
+            <span class="attribution">
+                <a href="https://twitter.com/AnjDelgado/status/776851700414029824">Anjanette Delgado, Gannett</a>
+            </span>
+        </div>
+        <div class="quote">
+            <span class="text">
+                &ldquo;Que coisa foda!&rdquo;
+            </span>
+            <span class="attribution">
+                <a href="https://twitter.com/rodolfoviana/status/882357749950148608">Rodolfo Viana, Freelance journalist</a>
+            </span>
+        </div>
+        <div class="quote">
+            <span class="text">
+                &ldquo;Fantastic&rdquo;
+            </span>
+            <span class="attribution">
+                <a href="https://twitter.com/simonw/status/885732890469847040">Simon Willison, Co-Creator, Django</a>
+            </span>
+        </div>
+        <div class="quote">
+            <span class="text">
+                &ldquo;Saved me a ton of work.&rdquo;
+            </span>
+            <span class="attribution">
+                <a href="https://www.facebook.com/palewire/posts/10213807077231952?comment_id=10213807335278403&comment_tracking=%7B%22tn%22%3A%22R%22%7D">Michael Corey, Reveal and The Center for Investigative Reporting</a>
+            </span>
+        </div>
+        <div class="quote">
+            <span class="text">
+                &ldquo;This is dank af.&rdquo;
+            </span>
+            <span class="attribution">
+                <a href="https://www.facebook.com/groups/hhcivic/permalink/1105198402907138/?comment_id=1105199129573732&comment_tracking=%7B%22tn%22%3A%22R2%22%7D">Michael Rosenberg, HH Civic Hackers</a>
+            </span>
+        </div>
+    </section>
+
+    <section id="logos">
+        <h3>Logo</h3>
+        <p>
+            The coalition's official logo is known as the geobear. It was created by Aaron Williams
+            based on <a href="https://thenounproject.com/search/?q=geometric+bear&i=362152">Bennett Kowald's
+            design</a> for the Noun Project.
+        </p>
+        <div class="row" style="margin-bottom: 35px; margin-top: 15px;">
+            <div class="col-md-4">
+                <img src="/img/geobear.svg" alt="California Civic Data Coalition logo" title="California Civic Data Coalition logo">
+            </div>
+        </div>
+    </section>
+
+
     </div>
-</section>
-
-
-</div>
-</div>
-</div>
+    </div>
+    </div>
+</article>
