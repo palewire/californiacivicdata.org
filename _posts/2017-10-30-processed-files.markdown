@@ -41,7 +41,7 @@ The Coalition's student developer, [Sahil Chinoy](http://sahilchinoy.com/), was 
 
 <img src="/img/web-inspector.gif" style="padding: 10px">
 
-Chinoy's work is now integrated into our open-source data pipeline and also available as a stand-alone application for the Django web framework. Anyone download it [package from PyPI](https://pypi.python.org/pypi/django-calaccess-scraped-data), plug it into their project, [read our docs](http://django-calaccess.californiacivicdata.org/en/latest/apps/calaccess_scraped.html) and scrape away.
+Chinoy's work is now integrated into our open-source data pipeline and also available as a stand-alone application for the Django web framework. Anyone can download it [package from PyPI](https://pypi.python.org/pypi/django-calaccess-scraped-data), plug it into their project, [read our docs](http://django-calaccess.californiacivicdata.org/en/latest/apps/calaccess_scraped.html) and scrape away.
 
 
 ### How we improved the data
