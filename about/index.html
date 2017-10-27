@@ -17,12 +17,11 @@ developers:
     email: sahil.chinoy@gmail.com
 leaders:
   - name: Jennifer LaFleur
-    url: https://www.revealnews.org/author/jennifer-lafleur/
+    url: http://www.american.edu/soc/news/jennifer-lafleuer-joins-irw-data-editor.cfm
     image: /img/jennifer-lafleur.jpg
-    title: Senior Editor, Data Journalism
-    organization: "Reveal and The Center for Investigative Reporting"
+    title: Data Editor
+    organization: "Investigative Reporting Workshop"
     twitter: j_la28
-    email: jlafleur@cironline.org
   - name: Cheryl Phillips
     url: https://comm.stanford.edu/faculty-phillips/
     image: /img/cheryl-phillips.jpg
@@ -44,6 +43,46 @@ leaders:
     organization: The Washington Post
     twitter: aboutaaron
     email: aaron.colby.williams@gmail.com
+events:
+    - date: 2014.08
+      title: OpenNews Convening (San Francisco)
+      url: https://source.opennews.org/en-US/articles/introducing-california-civic-data-coalition/
+    - date: 2015.01
+      title: OpenNews Bootcamp (USC)
+      url: /2015/02/17/opennews-scrapers/
+    - date: 2015.03
+      title: California Code Rush I (NICAR Atlanta)
+      url: /2015/03/11/code-rush-recap/
+    - date: 2015.08
+      title: California Code Rush II (Media Party Buenos Aires)
+      url: /2015/09/01/code-rush-2-recap/
+    - date: 2015.09
+      title: California Code Rush III (ONA Los Angeles)
+      url: /2015/10/04/code-rush-3-recap/
+    - date: 2016.03
+      title: California Code Rush IV (NICAR Denver)
+      url: /2016/03/07/code-rush-4/
+    - date: 2016.10
+      title: First Python Notebook (San Diego State University)
+      url: /2016/10/08/first-python-notebook/
+    - date: 2017.02
+      title: First Python Notebook (Stanford)
+      url: /2017/02/17/stanford-python-notebook/
+    - date: 2017.03
+      title: First Python Notebook (NICAR Jacksonville)
+      url: /2017/03/12/nicar-python-notebook/
+    - date: 2017.04
+      title: First Python Notebook (San Diego State)
+      url: /2017/07/12/first-python-notebook-at-sdsu/
+    - date: 2017.05
+      title: First Python Notebook (Northwestern)
+      url: /2017/06/07/dc-python-notebook/
+    - date: 2017.06
+      title: First Python Notebook (MOOC)
+      url: /2017/06/01/mooc-python-notebook/
+    - date: 2017.08
+      title: California Code Rush V (The Cloud)
+      url: /2017/08/04/code-rush-5-recap/
 ---
 
 <article class="about">
@@ -60,7 +99,7 @@ leaders:
                 <div class="col-md-9">
                     <h1>About</h1>
                     <p>
-                        The California Civic Data Coalition is an open-source team of
+                        The California Civic Data Coalition is an open-source network of
                         journalists and computer programmers from news organizations across America.
                     </p>
                 </div>
@@ -73,7 +112,7 @@ leaders:
             <div class="col-lg-8 col-md-10 col-sm-12 col-xs-12">
 
     <section id="description">
-        <h3>History</h3>
+        <h2>History</h2>
         <p>
             The coalition was formed in 2014 by <a href="http://palewi.re/who-is-ben-welsh/">Ben Welsh</a>
             and Agustin Armendariz to lead the development of open-source software
@@ -95,7 +134,7 @@ leaders:
     </section>
 
     <section id="team">
-        <h3>Leadership</h3>
+        <h2>Leadership</h2>
 
         <div class="row">
         {% for obj in page.leaders %}
@@ -110,9 +149,11 @@ leaders:
                             @{{ obj.twitter }}
                         </a>
                     </span>
+                    {% if obj.email %}
                     <span class="email">
                         <a href="mailto:{{ obj.email }}">{{ obj.email }}</a>
                     </span>
+                    {% endif %}
                 </span>
             </div>
             {% if forloop.index == 2 %}
@@ -123,7 +164,7 @@ leaders:
     </section>
 
     <section id="developers">
-        <h3>Developers</h3>
+        <h2>Developers</h2>
 
         <div class="row">
         {% for obj in page.developers %}
@@ -150,7 +191,7 @@ leaders:
     </section>
 
     <section id="contact">
-        <h3>Contact</h3>
+        <h2>Contact</h2>
         <ul class="bullets">
             <li>Email: <a href="mailto:cacivicdata@gmail.com">cacivicdata@gmail.com</a></li>
             <li>GitHub: <a href="https://github.com/california-civic-data-coalition">california-civic-data-coalition</a></li>
@@ -162,31 +203,19 @@ leaders:
     </section>
 
     <section id="events">
-        <h3>Events</h3>
-
+        <h2>Events</h2>
         <p>
             Development has been advanced by a series of code sprints and training events.
         </p>
-
         <ul class="bullets">
-            <li>2014.08: <a href="https://source.opennews.org/en-US/articles/introducing-california-civic-data-coalition/">OpenNews Convening (San Francisco)</a></li>
-            <li>2015.01: <a href="/2015/02/17/opennews-scrapers/">OpenNews Bootcamp (USC)</a></li>
-            <li>2015.03: <a href="/2015/03/11/code-rush-recap/">California Code Rush I (NICAR Atlanta)</a></li>
-            <li>2015.08: <a href="/2015/09/01/code-rush-2-recap/">California Code Rush II (Media Party Buenos Aires)</a></a></li>
-            <li>2015.09: <a href="/2015/10/04/code-rush-3-recap/">California Code Rush III (ONA Los Angeles)</a></a></li>
-            <li>2016.03: <a href="/2016/03/07/code-rush-4/">California Code Rush IV (NICAR Denver)</a></a></li>
-            <li>2016.10: <a href="/2016/10/08/first-python-notebook/">First Python Notebook (San Diego State University)</a></a></li>
-            <li>2017.02: <a href="/2017/02/17/stanford-python-notebook/">First Python Notebook (Stanford)</a></li>
-            <li>2017.03: <a href="/2017/03/12/nicar-python-notebook/">First Python Notebook (NICAR Jacksonville)</a></li>
-            <li>2017.04: <a href="/2017/07/12/first-python-notebook-at-sdsu/">First Python Notebook (San Diego State)</a></li>
-            <li>2017.05: <a href="/2017/06/07/dc-python-notebook/">First Python Notebook (Northwestern)</a></li>
-            <li>2017.06: <a href="/2017/06/01/mooc-python-notebook/">First Python Notebook (MOOC)</a></li>
-            <li>2017.08: <a href="/2017/08/04/code-rush-5-recap/">California Code Rush V (The Cloud)</a></li>
-    </ul>
+            {% for obj in page.events %}
+                <li>{{ obj.date }}: <a href="{{ obj.url}}">{{ obj.title }}</a></li>
+            {% endfor %}
+        </ul>
     </section>
 
     <section id="what-others-are-saying">
-        <h3>What others are saying</h3>
+        <h2>What others are saying</h2>
         <div class="quote">
             <span class="text">
                 &ldquo;A terrific idea.&rdquo;
@@ -272,7 +301,7 @@ leaders:
     </section>
 
     <section id="logos">
-        <h3>Logo</h3>
+        <h2>Logo</h2>
         <p>
             The coalition's official logo is known as the geobear. It was created by Aaron Williams
             based on <a href="https://thenounproject.com/search/?q=geometric+bear&i=362152">Bennett Kowald's
