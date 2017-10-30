@@ -24,14 +24,14 @@ You can find the new data on [our revamped download page](https://calaccess.cali
 
 Our original source is [CAL-ACCESS](http://cal-access.sos.ca.gov), the California state government's system for tracking the money political campaigns raise and spend on elections.
 
-While containing some useful information, the [bulk export](http://www.sos.ca.gov/campaign-lobbying/cal-access-resources/raw-data-campaign-finance-and-lobbying-activity/) of CAL-ACCESS data released by Secretary of State Alex Padilla don't include coherent and complete lists of elections, races, public offices, candidates or ballot measures.
+While containing some useful information, the [bulk export](http://www.sos.ca.gov/campaign-lobbying/cal-access-resources/raw-data-campaign-finance-and-lobbying-activity/) of CAL-ACCESS data released by Secretary of State Alex Padilla does not include coherent and complete lists of elections, races, public offices, candidates or ballot measures.
 
 <figure style="margin: 8px 0 0 10px; float:right;">
     <img alt="Sahil Chinoy" title="Sahil Chinoy" src="/img/sahil-chinoy.jpg" height="150">
     <figcaption style="text-align:right;">Sahil Chinoy</figcaption>
 </figure>
 
-To be clear, *this information does reside in CAL-ACCESS*. It is collected by Padilla's office, displayed on its website and outlined its official database schema.
+To be clear, *this information does reside in CAL-ACCESS*. It is collected by the Secretary of State's office, displayed on its website and outlined its official database schema.
 
 But when we asked Padilla's office to include it in their bulk data release, [they said "no."](https://github.com/california-civic-data-coalition/django-calaccess-raw-data/issues/62#issuecomment-58655390)
 
@@ -41,7 +41,7 @@ The Coalition's student developer, [Sahil Chinoy](http://sahilchinoy.com/), was 
 
 <img src="/img/web-inspector.gif" style="padding: 10px">
 
-Chinoy's work is now integrated into our open-source data pipeline and also available as a stand-alone application for the Django web framework. Anyone download it [package from PyPI](https://pypi.python.org/pypi/django-calaccess-scraped-data), plug it into their project, [read our docs](http://django-calaccess.californiacivicdata.org/en/latest/apps/calaccess_scraped.html) and scrape away.
+Chinoy's work is now integrated into our open-source data pipeline and also available as a stand-alone application for the Django web framework. Anyone can download it [package from PyPI](https://pypi.python.org/pypi/django-calaccess-scraped-data), plug it into their project, [read our docs](http://django-calaccess.californiacivicdata.org/en/latest/apps/calaccess_scraped.html) and scrape away.
 
 
 ### How we improved the data
