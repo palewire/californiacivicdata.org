@@ -19,8 +19,7 @@ The author is [Liza Gross](http://www.lizagross.com/), the Coalition's [2017 NIC
 
 [Her wide-ranging story](https://www.theverge.com/2017/11/16/16658358/vape-lobby-vaping-health-risks-nicotine-big-tobacco-marketing) covers many topics. One of them is vaping's growing lobby in the Sacramento statehouse. She writes:
 
-> The tobacco and vaping industries have spent nearly $10 million to fight regulations on e-cigarettes and related legislation in California since 2009, state records show. Altria and Reynolds American spent over $70 million in 2016
-alone to fight taxes on tobacco and e-cigarettes in California.
+> The tobacco and vaping industries have spent nearly $10 million to fight regulations on e-cigarettes and related legislation in California since 2009, state records show.
 
 <figure style="margin: 8px 0 0 15px; float:right;">
     <img alt="Liza Gross" title="Liza Gross" src="/img/liza-gross.jpg" height="200">
