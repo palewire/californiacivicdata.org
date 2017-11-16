@@ -26,7 +26,7 @@ The author is [Liza Gross](http://www.lizagross.com/), the Coalition's [2017 NIC
     <figcaption style="text-align:right;">Liza Gross</figcaption>
 </figure>
 
-That finding, and several others in her story, are drawn from the lobbying disclosure data locked within CAL-ACCESS, the jumbled, dirty and difficult state database our project aims to open.
+That finding, and several others in her story, are drawn from the lobbying disclosure data locked within CAL-ACCESS, the jumbled, dirty and difficult state database our project aims to open. To learn how that money got spent to stop legislation in Sacramento, [read the whole story](https://www.theverge.com/2017/11/16/16658358/vape-lobby-vaping-health-risks-nicotine-big-tobacco-marketing).
 
 Gross is an independent journalist based in Kensington and a part-time editor at [PLOS Biology](http://journals.plos.org/plosbiology/).
 
