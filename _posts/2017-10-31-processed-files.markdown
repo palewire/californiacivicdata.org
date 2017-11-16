@@ -3,7 +3,7 @@ layout: post
 title: "Introducing a new source for California elections data"
 deckhead: "How we took CAL-ACCESS to the cleaners"
 byline: "By [James Gordon](https://twitter.com/je_gordon) and the [California Civic Data Coalition](/about/)"
-image: "http://www.californiacivicdata.org/img/processed-file.png"
+image: "https://www.californiacivicdata.org/img/processed-file.png"
 published: true
 ---
 

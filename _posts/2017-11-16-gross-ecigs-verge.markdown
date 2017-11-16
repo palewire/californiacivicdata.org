@@ -3,7 +3,7 @@ layout: post
 title: "Coalition scholar published by The Verge"
 deckhead: "Read Liza Gross' research on California's potent e-cigarette lobby"
 byline: "By [Ben Welsh](http://palewi.re/who-is-ben-welsh/)"
-image: "http://www.californiacivicdata.org/img/theverge.png"
+image: "https://www.californiacivicdata.org/img/theverge.png"
 published: true
 ---
 
