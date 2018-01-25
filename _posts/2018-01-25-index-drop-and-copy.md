@@ -67,6 +67,8 @@ MyModel.objects.from_csv(
 )
 {% endhighlight %}
 
-To learn more about how our loader works, visit the [technical documentation](http://django-postgres-copy.californiacivicdata.org/). There you'll find a more complete explanation and information about tricks not covered here, like the recently-added ability to export tables.
+As always, you mileage may vary. An obvious factor not tested here is the number and complexity of indexes and constraints on the database. Ours has two or three on most tables.
+
+To learn more about how django-postgres-copy works, visit the [technical documentation](http://django-postgres-copy.californiacivicdata.org/). There you'll find a more complete explanation and information about tricks not covered here, like the recently-added ability to export tables.
 
 Since django-postgres-copy was [first released](https://www.californiacivicdata.org/2015/07/17/hello-django-postgres-copy/) in 2015, it has drawn contributions from coders around the world, including some major improvements [from users in other fields](https://www.californiacivicdata.org/2016/11/14/django-postgres-copy-0.1/). If there are improvements you'd like to see, go get involved on [our GitHub repository](https://github.com/california-civic-data-coalition/django-postgres-copy).
