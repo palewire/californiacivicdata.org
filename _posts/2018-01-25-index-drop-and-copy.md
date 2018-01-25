@@ -51,7 +51,7 @@ Closer examination of the results shows that the bigger the table, the larger th
 
 That said, not every table improved. Small tables sometimes saw a decrease in speed, likely due to the extra time needed to drop and restore the indexes. Our analysis found that gains were not guaranteed until tables approached 20,000 rows in length.
 
-You can see result in this next chart, which compares each table's row count against its _percentage change in_ load time to put more emphasis on shifts seen by smaller tables.
+You can see that result in the next chart, which compares each table's row count against its _percentage change_ in_ load time. That puts more emphasis on shifts seen by smaller tables.
 
 <figure style="width: 100%; margin: 20px 0; padding:0;">
     <img src="/img/postgres-copy-index-scatter-two.png" style="padding: 10px">
