@@ -57,7 +57,7 @@ You can see that result in the next chart, which compares each table's row count
     <img src="/img/postgres-copy-index-scatter-two.png" style="padding: 10px">
 </figure>
 
-However, tables under 20,000 records loaded so quickly any declines were negligible. And if you'd prefer to opt-out of our new feature, you can always do so with the following keyword arguments:
+However, tables under 20,000 records loaded so quickly any lags were negligible. And if you'd prefer to opt-out of our new feature, you can always do so with the following keyword arguments:
 
 {% highlight python %}
 MyModel.objects.from_csv(
