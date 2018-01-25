@@ -17,7 +17,7 @@ After data are safely loaded, indexes and constraints are restored to the databa
 
 Current users of django-postgres-copy can benefit simply by upgrading. No code changes are necessary.
 
-If you're unfamiliar with our library, all you have to do is hook our custom manager to your database model and speed loading from a CSV becomes this easy:
+If you're unfamiliar with our library, all you have to do is hook our custom manager to your database model and speed loading from a comma-delimited file becomes this easy:
 
 {% highlight python %}
 MyModel.objects.from_csv("/path/to/your/import.csv")
