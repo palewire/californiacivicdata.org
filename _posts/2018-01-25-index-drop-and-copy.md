@@ -9,9 +9,9 @@ published: true
 
 Today the California Civic Data Coalition released a powerful improvement to its open-source tool for importing data via the Django web framework.
 
-Version 2.2 of [django-postgres-copy](http://django-postgres-copy.californiacivicdata.org/en/latest/), now available on the Python Package Index, boosts the performance of PostgreSQL's [COPY](https://www.postgresql.org/docs/9.2/static/sql-copy.html) command by automatically dropping indexes and constraints on the table prior to the load.
+Version 2.2 of [django-postgres-copy](http://django-postgres-copy.californiacivicdata.org/en/latest/), now available on the Python Package Index, boosts the performance of PostgreSQL's [COPY](https://www.postgresql.org/docs/9.2/static/sql-copy.html) command by automatically dropping indexes and constraints on tables prior to the loading.
 
-The result is a significantly faster ingestion. Our speed tests -- using tens of millions of state records -- found the change reduced load time of large tables *by nearly one third*.
+The result is significantly faster ingestion. Our speed tests -- using tens of millions of state records -- found the change reduced load time of large tables *by nearly one third*.
 
 After data are safely loaded, indexes and constraints are restored to the database.
 
