@@ -49,13 +49,15 @@ Closer examination of the results shows that the bigger the table, the larger th
     <img src="/img/postgres-copy-index-scatter-one.png" style="padding: 10px">
 </figure>
 
-That said, small tables sometimes sometimes saw a small decrease in speed, likely due to the extra time needed to drop and restore the indexes. Our analysis found that gains were not guaranteed until tables approached 20,000 rows in length.
+That said, not every table improved. Small tables sometimes saw a small decrease in speed, likely due to the extra time needed to drop and restore the indexes. Our analysis found that gains were not guaranteed until tables approached 20,000 rows in length.
+
+You can see result in this next chart, which compares each table's row count against its _percentage change in_ load time to put more emphasis on shifts seen by smaller tables.
 
 <figure style="width: 100%; margin: 20px 0; padding:0;">
     <img src="/img/postgres-copy-index-scatter-two.png" style="padding: 10px">
 </figure>
 
-However, tables under 20,000 records loaded so quickly any declines were negligible. If you'd prefer to opt-out of new feature, you can always do so by using two new keyword arguments.
+However, tables under 20,000 records loaded so quickly any declines were negligible. And if you'd prefer to opt-out of our new feature, you can always do so with the following keyword arguments:
 
 {% highlight python %}
 MyModel.objects.from_csv(
@@ -65,6 +67,6 @@ MyModel.objects.from_csv(
 )
 {% endhighlight %}
 
-To learn more about how it works, visit the [technical documentation](http://django-postgres-copy.californiacivicdata.org/). There you'll find more a complete explanation and information about other fancy tricks not covered here, like the capability to export and clean data on-the-fly as it's loaded into the database.
+To learn more about how our loader works, visit the [technical documentation](http://django-postgres-copy.californiacivicdata.org/). There you'll find more a complete explanation and information about tricks not covered here, like the capability to export or clean data on-the-fly as it's loaded into the database.
 
-Since it was [first released](https://www.californiacivicdata.org/2015/07/17/hello-django-postgres-copy/) in 2015, django-posgres-copy has drawn contributions from coders around the world, including some major improvements [from users other fields](https://www.californiacivicdata.org/2016/11/14/django-postgres-copy-0.1/). If there are improvements you'd like to see, go get involved on [our GitHub repository](https://github.com/california-civic-data-coalition/django-postgres-copy).
+Since django-postgres-copy was [first released](https://www.californiacivicdata.org/2015/07/17/hello-django-postgres-copy/) in 2015, it has drawn contributions from coders around the world, including some major improvements [from users other fields](https://www.californiacivicdata.org/2016/11/14/django-postgres-copy-0.1/). If there are improvements you'd like to see, go get involved on [our GitHub repository](https://github.com/california-civic-data-coalition/django-postgres-copy).
