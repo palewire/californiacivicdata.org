@@ -20,7 +20,7 @@ Current users of django-postgres-copy can benefit simply by upgrading. No code c
 If you're unfamiliar with our library, all you have to do is hook our custom manager to your database model and speed loading from a CSV becomes this easy:
 
 {% highlight python %}
-Person.objects.from_csv("/path/to/your/import.csv")
+MyModel.objects.from_csv("/path/to/your/import.csv")
 {% endhighlight %}
 
 ### Why we did it
@@ -58,7 +58,7 @@ That said, small tables sometimes sometimes saw a small decrease in speed, likel
 However, tables under 20,000 records loaded so quickly any declines were negligible. If you'd prefer to opt-out of new feature, you can always do so by using two new keyword arguments.
 
 {% highlight python %}
-Person.objects.from_csv(
+MyModel.objects.from_csv(
     "/path/to/your/import.csv",
     drop_indexes=False,
     drop_constraints=False
