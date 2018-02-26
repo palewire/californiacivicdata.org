@@ -20,7 +20,7 @@ Now that we're publishing with CORS, JavaScript code written at Observable, or a
     <figcaption style="clear:both; text-align:right;">Our first Observable notebook</figcaption>
 </figure>
 
-You can see an example in action in an analysis third-party candidates we [developed with Observable](https://beta.observablehq.com/@palewire/the-decline-of-third-parties-in-california-politics) at the Coalition's campus invasion of Stanford University earlier this month.
+You can see an example in action in an analysis of third-party candidates we [developed with Observable](https://beta.observablehq.com/@palewire/the-decline-of-third-parties-in-california-politics) at the Coalition's campus invasion of Stanford University earlier this month.
 
 There I worked with Cheryl Phillips' journalism students to document the stark drop off in third-party candidates since California adopted an open primary system.
 
