@@ -11,18 +11,18 @@ All data downloads offered by the California Civic Data Coalition are now served
 
 Also known as "CORS," [cross origin resource sharing](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) is an Internet publishing standard that allows code running on other sites to freely request and integrate data.
 
-This change was made to allow by an experimental integration with [Observeable](https://beta.observablehq.com), the promising new interactive notebook for developing data-driven applications in the cloud.
+This change was made to allow an experimental integration with [Observeable](https://beta.observablehq.com), the promising new interactive notebook for developing data-driven applications in the cloud.
 
 Now that we're publishing with CORS, JavaScript code written at Observable, or any other site, can pull data directly from URLs on our [downloads page](https://calaccess.californiacivicdata.org/downloads/latest/).
 
-<figure style="margin: 15px 0 20px 0; clear:both;  display:inline-block;">
+<figure style="margin: 25px 0 25px 0; clear:both;  display:inline-block;">
     <a href="https://beta.observablehq.com/@palewire/the-decline-of-third-parties-in-california-politics"><img src="/img/observable-pilot.gif" width="100%"></a>
     <figcaption style="clear:both; text-align:right;">Our first Observable notebook</figcaption>
 </figure>
 
 You can see an example in action in an analysis third-party candidates we [developed with Observable](https://beta.observablehq.com/@palewire/the-decline-of-third-parties-in-california-politics) at the Coalition's campus invasion of Stanford University earlier this month.
 
-There I worked with Cheryl Phillip's journalism students to document the stark drop off in third-party candidates since California adopted an open primary system.
+There I worked with Cheryl Phillips' journalism students to document the stark drop off in third-party candidates since California adopted an open primary system.
 
 <figure style="margin: 15px 0 20px 0; clear:both; display:inline-block;">
     <img src="/img/stanford-hack-day.jpg" width="100%">
