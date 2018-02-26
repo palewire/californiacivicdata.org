@@ -11,7 +11,7 @@ All data downloads offered by the California Civic Data Coalition are now served
 
 Also known as "CORS," [cross-origin resource sharing](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) is an Internet publishing standard that allows code running on other sites to freely request and integrate data.
 
-This change was made to allow an experimental integration with [Observeable](https://beta.observablehq.com), the promising new interactive notebook for developing data-driven applications in the cloud.
+This change was made to allow an experimental integration with [Observable](https://beta.observablehq.com), the promising new interactive notebook for developing data-driven applications in the cloud.
 
 Now that we're publishing with CORS, JavaScript code written at Observable, or any other site, can pull data directly from URLs on our [downloads page](https://calaccess.californiacivicdata.org/downloads/latest/).
 
