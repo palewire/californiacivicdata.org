@@ -6,6 +6,7 @@ byline: "By [Ben Welsh](http://palewi.re/who-is-ben-welsh/)"
 image: "http://www.californiacivicdata.org/img/james-gordon.jpg"
 published: true
 ---
+
 The Coalition's lead developer, James Gordon, is [moving on](https://www.rjionline.org/stories/rji-futures-lab-adds-new-senior-editor-to-its-team) to a new job as senior editor for the Futures Lab at the Reynolds Journalism Institute and Missouri School of Journalism.
 
 <figure style="margin: 8px 0 0 18px; float:right;" >
