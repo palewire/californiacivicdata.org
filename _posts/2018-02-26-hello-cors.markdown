@@ -9,7 +9,7 @@ published: true
 
 All data downloads offered by the California Civic Data Coalition are now served with cross-origin resource sharing allowed, opening our site for creative use in dynamic web applications.
 
-Also known as "CORS," [cross origin resource sharing](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) is an Internet publishing standard that allows code running on other sites to freely request and integrate data.
+Also known as "CORS," [cross-origin resource sharing](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) is an Internet publishing standard that allows code running on other sites to freely request and integrate data.
 
 This change was made to allow an experimental integration with [Observeable](https://beta.observablehq.com), the promising new interactive notebook for developing data-driven applications in the cloud.
 
