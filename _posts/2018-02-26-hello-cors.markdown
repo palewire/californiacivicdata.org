@@ -30,4 +30,4 @@ There I worked with Cheryl Phillips' journalism students to document the stark d
 </figure>
 
 
-If you're interested learning more about Observable, I encourage you to check out other examples, such as [Jeremy Ashkenas' earthquakes map](https://beta.observablehq.com/@jashkenas/quakespotter-0-1) and [a fascinating experiment with sound](https://beta.observablehq.com/@freedmand/sounds) by Stanford student Dylan Freedman. Then try to write your own!
+If you're interested in learning more about Observable, I encourage you to check out other examples, such as [Jeremy Ashkenas' earthquakes map](https://beta.observablehq.com/@jashkenas/quakespotter-0-1) and [a fascinating experiment with sound](https://beta.observablehq.com/@freedmand/sounds) by Stanford student Dylan Freedman. Then try to write your own!
