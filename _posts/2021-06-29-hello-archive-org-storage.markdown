@@ -17,8 +17,6 @@ The innovation points to a more sustainable model for archiving data. To encoura
 
 Download URLs previously listed on this site will no longer update. Our team will gradually end our reliance on a costly commercial hosting provider. All download URLs now point to our Internet Archive collection at [archive.org/details/california-civic-data-coalition](https://archive.org/details/california-civic-data-coalition). For the latest links, revisit [our download pages](https://calaccess.californiacivicdata.org/downloads/latest/) and make the change to what you see there now.
 
-Today’s release corresponds with the Los Angeles Times data journalism team publishing [a new page](https://www.latimes.com/projects/california-recall-election-money-newsom-vs-jenner-cox/) tracking the tens of millions of dollars flooding the campaign to recall California Governor Gavin Newsom. The reporters who developed that page — [Maloy Moore](https://www.latimes.com/people/maloy-moore) and [Ryan Menezes](https://www.latimes.com/people/ryan-menezes) — are among the leading consumers of the coalition's data services.
-
 The change was achieved by developing a new upload tool for the [Django web framework](https://www.djangoproject.com/). We call it [django-internetarchive-storage](https://github.com/california-civic-data-coalition/django-internetarchive-storage). It makes sending files to Internet Archive as easy as writing a couple lines of [Python code](https://en.wikipedia.org/wiki/Python_(programming_language)).
 
 All it takes is adding our custom file field to your database table. Like this:
@@ -39,3 +37,9 @@ You can learn more about the system, including how to save a file to the field, 
 Before you can being storing your work, you'll need to establish a special collection. The Internet Archive provides a guide on how to get one going [in its help section](https://help.archive.org/hc/en-us/articles/360017502272-How-to-request-a-collection-).
 
 We couldn't have figured it out without help from archive.org staffers [Mark Graham](https://www.linkedin.com/in/markjohngraham/) and Duncan Hall, who provided vital guidance and encouragement. You can support their efforts by <a href="https://archive.org/donate/?origin=iawww-TopNavDonateButton">donating to the non-profit's coffers</a>.
+
+Today’s release corresponds with the Los Angeles Times data journalism team publishing [a new page](https://www.latimes.com/projects/california-recall-election-money-newsom-vs-jenner-cox/) tracking the tens of millions of dollars flooding the campaign to recall California Governor Gavin Newsom. The reporters who developed that page — [Maloy Moore](https://www.latimes.com/people/maloy-moore) and [Ryan Menezes](https://www.latimes.com/people/ryan-menezes) — are among the leading consumers of the coalition's data services.
+
+Their work is a reminder of why our team remains focused on refining CAL-ACCESS, the jumbled, dirty and difficult government database that tracks campaign finance and lobbying activity in California politics.
+
+The coalition was formed in 2014 by myself and Agustin Armendariz to lead the development of open-source software that makes California's public data easier to access and analyze. The effort has drawn hundreds of contributions from developers and journalists at dozens of news organizations.
