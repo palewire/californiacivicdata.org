@@ -17,6 +17,8 @@ The innovation points to a more sustainable model for archiving data. To encoura
 
 Download URLs previously listed on this site will no longer update. Our team will gradually end our reliance on a costly commercial hosting provider. All download URLs now point to our Internet Archive collection at [archive.org/details/california-civic-data-coalition](https://archive.org/details/california-civic-data-coalition). For the latest links, revisit [our download pages](https://calaccess.californiacivicdata.org/downloads/latest/) and make the change to what you see there now.
 
+Today’s release corresponds with the Los Angeles Times data journalism team publishing [a new page](https://www.latimes.com/projects/california-recall-election-money-newsom-vs-jenner-cox/) tracking the tens of millions of dollars flooding the campaign to recall California Governor Gavin Newsom. The reporters who developed that page — [Maloy Moore](https://www.latimes.com/people/maloy-moore) and [Ryan Menezes](https://www.latimes.com/people/ryan-menezes) — are among the leading consumers of the coalition's data services.
+
 The change was achieved by developing a new upload tool for the [Django web framework](https://www.djangoproject.com/). We call it [django-internetarchive-storage](https://github.com/california-civic-data-coalition/django-internetarchive-storage). It makes sending files to Internet Archive as easy as writing a couple lines of [Python code](https://en.wikipedia.org/wiki/Python_(programming_language)).
 
 All it takes is adding our custom file field to your database table. Like this:
