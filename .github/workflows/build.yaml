@@ -21,20 +21,23 @@ jobs:
       - name: Run
         run: make build
 
+      - name: Configure
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "actions@github.com"
+          git config pull.rebase false
+
       - name: Checkout target
         run: | 
           git checkout gh-pages
           git merge master
           git pull origin gh-pages
 
-      - id: commit 
-        name: Commit
+      - name: Build
+        run: make build
+
+      - name: Commit
         run: |
-            git config --global user.name "github-actions[bot]"
-            git config --global user.email "actions@github.com"
-            git config pull.rebase false
-            git status
-            git pull origin $GITHUB_REF
-            git add ./
-            git commit -m "Build site" && git push || true
-        shell: bash
+          git status
+          git add ./docs
+          git commit -m "automated build" && git push || true
