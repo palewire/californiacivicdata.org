@@ -1,0 +1,265 @@
+<!doctype HTML>
+<html lang="en">
+<head>
+    <title>CAL-ACCESS app hits version 1.0</title>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="//www.californiacivicdata.org/favicon.png">
+
+<link type="text/css" rel="stylesheet" href="/css/bootstrap.min.css">
+
+<link rel="stylesheet" type="text/css" href="//calaccess.californiacivicdata.org/static/calaccess_website/css/sourcesanspro.css">
+<link rel="stylesheet" type="text/css" href="//calaccess.californiacivicdata.org/static/calaccess_website/css/main.css?foobar">
+
+<link type="text/css" rel="stylesheet" href="/css/font-awesome.min.css">
+<link href="//fonts.googleapis.com/css?family=Raleway:400,600" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="/css/blog.css">
+
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.js"></script>
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55129934-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+    <meta name="date" content="2016-05-27 00:00:00 +0000" />
+
+    <meta property="og:site_name" content="www.californiacivicdata.org"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="CAL-ACCESS app hits version 1.0"/>
+    <meta property="og:image" content="http://www.californiacivicdata.org/img/code-rush-4-share.png"/>
+    <meta property="og:description" content="With your help, we've decoded California's cryptic database tracking money in state politics. Now let's do something with it."/>
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:image:src" content="http://www.californiacivicdata.org/img/code-rush-4-share.png">
+    <meta property="twitter:site" content="@latimes">
+    <meta property="twitter:title" content="CAL-ACCESS app hits version 1.0">
+    <meta property="twitter:description" content="With your help, we've decoded California's cryptic database tracking money in state politics. Now let's do something with it."/>
+    <meta property="twitter:image" content="http://www.californiacivicdata.org/img/code-rush-4-share.png" />
+    <link rel="image_src" type="image/jpeg" href="http://www.californiacivicdata.org/img/code-rush-4-share.png" />
+</head>
+<body>
+    <header>
+  <nav class="container">
+    <div class="row">
+    <div class="col-md-12">
+      <ul class="nav nav-pills">
+        <li class="visible-lg-inline visible-md-inline visible-sm-inline invisible-xs-inline" style="margin-left:0;">
+            <a class="logo" href="https://www.californiacivicdata.org/">
+                <img
+                    src="//calaccess.californiacivicdata.org/static/calaccess_website/images/brown-geobear.svg"
+                    alt="California Civic Data Coalition logo"
+                    title="Home"
+                >
+            </a>
+        </li>
+        <li id="home"><a href="/">HOME</a></li>
+        <li id="data"><a href="https://calaccess.californiacivicdata.org/downloads/latest/">DATA</a></li>
+        <li id="docs"><a href="https://calaccess.californiacivicdata.org/documentation/">DOCS</a></li>
+        <li id="blog"><a href="/archive/">BLOG</a></li>
+        <li id="about"><a href="/about/">ABOUT</a></li>
+      </ul>
+    </div>
+    </div>
+  </nav>
+</header>
+
+<script type="text/javascript">
+    var url = window.location;
+    // Will only work if string in href matches with location
+    $('ul.nav a[href="' + url + '"]').parent().addClass('active');
+    // Will also work for relative and absolute hrefs
+    $('ul.nav a').filter(function() {
+        return this.href == url;
+    }).parent().addClass('active');
+    $("#small-icon").css("cursor", "pointer");
+    $("#small-icon").click(function () {
+        window.location = '/';
+    });
+</script>
+
+    <article>
+    <div class="bg-red">
+        <div class="container">
+            <div class="row">
+                <nav class="col-md-9">
+                    <ol class="breadcrumb">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/archive/">Blog</a></li>
+                    </ol>
+                </nav>
+                <div class="col-md-9">
+                    <h1>CAL-ACCESS app hits version 1.0</h1>
+                    <p>
+                        <p>With your help, we’ve decoded California’s cryptic database tracking money in state politics. Now let’s do something with it.</p>
+
+                    </p>
+                    <div class="byline"><p>By <a href="https://twitter.com/je_gordon">James Gordon</a></p>
+</div>
+                <div class="pubdate"><p><time datetime="2016-05-27">May 27, 2016</time></p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container content">
+        <div class="row">
+            <div class="post col-lg-8 col-md-10 col-sm-12 col-xs-12">
+                <p>Today we’re announcing the release of version 1.0 of the
+<a href="http://django-calaccess.californiacivicdata.org/en/latest/apps/calaccess_raw.html">django-calaccess-raw-data</a> library,
+a major step towards our goal of making it easier to analyze the role of money in California politics.</p>
+
+<p>Alongside the code, we’re introducing <a href="http://django-calaccess.californiacivicdata.org/en/latest/calaccess.html">new, comprehensive documentation for CAL-ACCESS</a>,
+the jumbled, dirty and difficult state database that powers our project.</p>
+
+<p>Both achievements are thanks to our growing crowd of open-source contributors,
+which now numbers <b>nearly 150 journalists, computer programmers and other volunteers</b>.</p>
+
+<p>The final sprint was aided by more than 50 people who participated in our fourth California Code Rush
+event at <a href="/2016/03/07/code-rush-4/">NICAR 2016 in Denver</a>.</p>
+
+<p>There, hackers like <a href="https://github.com/anthonyjpesce">Anthony Pesce</a> contributed code to improve our Django application that downloads,
+extracts and loads the state’s massive database.</p>
+
+<p>Others, like <a href="https://github.com/nbedi">Neil Bedi</a> and <a href="https://github.com/mclawges22">Maegan Clawges</a>, marched
+through the data column by column to help us beef up our documentation.</p>
+
+<figure style="margin: 8px 0 0 10px; width: 100%">
+    <iframe width="100%" height="400" src="https://www.youtube.com/embed/IE9sKGWoYNk" frameborder="0" allowfullscreen=""></iframe>
+    <figcaption style="text-align:right;">Video by University of Missouri students Jennifer Lu and Yang Sun</figcaption>
+</figure>
+
+<p>After all their work, our core team applied the finishing touches and
+prepared today’s release. To review the full list of changes to our code check out <a href="http://django-calaccess.californiacivicdata.org/en/latest/apps/calaccess_raw/changelog.html#may-2016">the changelog</a>.
+The documentation is now available at <a href="http://django-calaccess.californiacivicdata.org/">django-calaccess.californiacivicdata.org</a>.</p>
+
+<h3 id="why-did-this-take-so-long">Why did this take so long?</h3>
+
+<p>The CAL-ACCESS database, maintained by California Secretary of State Alex Padilla,
+is one of the most confusing systems we’ve ever encountered.</p>
+
+<p>For instance, its adminstrators think a column like the <code class="language-plaintext highlighter-rouge">SPLT_CD</code> table’s <code class="language-plaintext highlighter-rouge">PFORM_TYPE</code>
+is too self-evident to bother explaining.</p>
+
+<p>Not enough to put you off? Imagine 1,466 more columns just like it.</p>
+
+<p>To spare anyone else from having to sift through Padilla’s outdated, incomplete
+and inconsistent <a href="http://django-calaccess.californiacivicdata.org/en/latest/calaccess/officialdocumentation.html">documentation</a> ever again, we’ve compiled <a href="http://django-calaccess.californiacivicdata.org/en/latest/calaccess/dbtables.html">simple searchable explanations</a>
+for each of the system’s 80 data tables.</p>
+
+<p>(Spoiler: The <code class="language-plaintext highlighter-rouge">PFORM_TYPE</code> column stores an ID referencing the parent filing form of a
+given sub-itemization record. That’s hard-won knowledge we puzzled out after hours of comparing
+the database records against paper filings.)</p>
+
+<p>We also meticulously mapped hundreds of cryptic abbreviations to
+human-readable descriptions. No more hunting for which office code represents
+“Supreme Court Justice” (Was it <code class="language-plaintext highlighter-rouge">SPM</code> or <code class="language-plaintext highlighter-rouge">SUP</code>?).</p>
+
+<p>And we mapped <a href="http://django-calaccess.californiacivicdata.org/en/latest/calaccess/filingforms.html">the dozens of different forms</a> submitted by campaigns and lobbyists to the tables where
+their information is stored, the most complete connection between the two that we suspect has ever been published.</p>
+
+<h3 id="now-what">Now what?</h3>
+
+<p>With the first major component of our project complete, we’re excited to
+begin work on the next link in our planned data pipeline: A <a href="http://django-calaccess.californiacivicdata.org/en/latest/apps/calaccess_processed.html">“processed data” app</a>
+that will refine the raw CAL-ACCESS data and shoehorn it into simpler data models
+that are easier to query and analyze.</p>
+
+<p>We’re also beginning work an online archive where the public will be able to
+download current and previous versions of the raw CAL-ACCESS data files
+and, eventually, our processed data files.</p>
+
+<h3 id="how-you-can-help">How you can help</h3>
+
+<p>If you’re a journalist covering California state politics or a political scientist
+eager to incorporate CAL-ACCESS data into your research, we want to hear
+from you.  Give us a shout on <a href="cacivicdata@gmail.com">email</a> or in the #california-civic-data channel of the <a href="http://newsnerdery.org/">News Nerdery Slack</a>.</p>
+
+<p>If you’re a coder eager to get cracking, check out <a href="https://github.com/california-civic-data-coalition/">our repositories on GitHub</a>. There you will find dozens of tickets where you can make a difference today.</p>
+
+            <script type="text/javascript">
+                var url = window.location;
+                // Will only work if string in href matches with location
+                $('ul.nav a[href="/archive/"]').parent().addClass('active');
+                // Will also work for relative and absolute hrefs
+                $('ul.nav a').filter(function() {
+                    return this.href == url;
+                }).parent().addClass('active');
+                $("#small-icon").css("cursor", "pointer");
+                $("#small-icon").click(function () {
+                    window.location = '/';
+                });
+            </script>
+            </div>
+        </div>
+    </div>
+    </article>
+    <footer class="footer" aria-label="Footer">
+  <nav class="container">
+    <div class="row icon">
+      <a href="http://www.californiacivicdata.org/">
+        <img src="//calaccess.californiacivicdata.org/static/calaccess_website/images/white-geobear.svg"
+             alt="California Civic Data Coalition logo">
+      </a>
+    </div>
+    <div class="row">
+      <section class="col-md-2 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1">
+        <h3>CAL-ACCESS</h3>
+        <ul>
+            <li><a href="http://calaccess.californiacivicdata.org/downloads/latest/">Latest downloads</a></li>
+            <li><a href="http://calaccess.californiacivicdata.org/downloads/">Downloads archive</a></li>
+            <li><a href="http://calaccess.californiacivicdata.org/documentation/">Documentation</a></li>
+        </ul>
+      </section>
+      <section class="col-md-2 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-4 col-xs-offset-2">
+        <h3>Blog</h3>
+        <ul>
+          <li><a href="http://www.californiacivicdata.org/archive/">All posts</a></li>
+          <li><a href="http://www.californiacivicdata.org/archive/latest.xml">RSS</a></li>
+        </ul>
+      </section>
+      <div class="clearfix visible-sm visible-xs"></div>
+      <section class="col-md-2 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1">
+        <h3>About</h3>
+        <ul>
+          <li><a href="https://www.californiacivicdata.org/about/">Our story</a></li>
+          <li><a href="https://www.californiacivicdata.org/about/#team">The team</a></li>
+          <li><a href="https://www.californiacivicdata.org/about/#events">Events</a></li>
+          <li><a href="https://www.californiacivicdata.org/about/#what-others-are-saying">What others are saying</a></li>
+        </ul>
+      </section>
+      <section class="col-md-2 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-4 col-xs-offset-2">
+        <h3>Contact</h3>
+        <ul>
+          <li><a href="mailto:cacivicdata@gmail.com">E-mail</a></li>
+          <li><a href="https://github.com/california-civic-data-coalition">GitHub</a></li>
+          <li><a href="https://newsnerdery.slack.com/archives/C0H8Y2QBD">Slack</a></li>
+        </ul>
+      </section>
+    </div>
+    <section class="row xs-left">
+      <p>
+        &copy; <span class="easteregg"><a href="https://www.youtube.com/watch?v=wPsA3TsK1Uk">2016 'til infinity</a></span>
+        <span><a href="https://www.californiacivicdata.org/">California Civic Data Coalition</a>.</span>
+        <span><span class="easteregg"><a href="https://en.wikipedia.org/wiki/Gratis_versus_libre">Gratis, libre and fermented</a></span> on <a href="https://github.com/california-civic-data-coalition/">GitHub</a>.</span>
+        <span class="easteregg"><a href="https://www.youtube.com/watch?v=wKgGXxoT5Ds">Westside right on time only thing fosho</a>.</span>
+      </p>
+    </section>
+  </nav>
+</footer>
+
+</body>
+</html>

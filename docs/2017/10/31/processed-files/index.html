@@ -1,0 +1,279 @@
+<!doctype HTML>
+<html lang="en">
+<head>
+    <title>Introducing a new source for California elections data</title>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="//www.californiacivicdata.org/favicon.png">
+
+<link type="text/css" rel="stylesheet" href="/css/bootstrap.min.css">
+
+<link rel="stylesheet" type="text/css" href="//calaccess.californiacivicdata.org/static/calaccess_website/css/sourcesanspro.css">
+<link rel="stylesheet" type="text/css" href="//calaccess.californiacivicdata.org/static/calaccess_website/css/main.css?foobar">
+
+<link type="text/css" rel="stylesheet" href="/css/font-awesome.min.css">
+<link href="//fonts.googleapis.com/css?family=Raleway:400,600" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="/css/blog.css">
+
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.js"></script>
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55129934-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+    <meta name="date" content="2017-10-31 00:00:00 +0000" />
+
+    <meta property="og:site_name" content="www.californiacivicdata.org"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="Introducing a new source for California elections data"/>
+    <meta property="og:image" content="https://www.californiacivicdata.org/img/processed-file.png"/>
+    <meta property="og:description" content="How we took CAL-ACCESS to the cleaners"/>
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:image:src" content="https://www.californiacivicdata.org/img/processed-file.png">
+    <meta property="twitter:site" content="@latimes">
+    <meta property="twitter:title" content="Introducing a new source for California elections data">
+    <meta property="twitter:description" content="How we took CAL-ACCESS to the cleaners"/>
+    <meta property="twitter:image" content="https://www.californiacivicdata.org/img/processed-file.png" />
+    <link rel="image_src" type="image/jpeg" href="https://www.californiacivicdata.org/img/processed-file.png" />
+</head>
+<body>
+    <header>
+  <nav class="container">
+    <div class="row">
+    <div class="col-md-12">
+      <ul class="nav nav-pills">
+        <li class="visible-lg-inline visible-md-inline visible-sm-inline invisible-xs-inline" style="margin-left:0;">
+            <a class="logo" href="https://www.californiacivicdata.org/">
+                <img
+                    src="//calaccess.californiacivicdata.org/static/calaccess_website/images/brown-geobear.svg"
+                    alt="California Civic Data Coalition logo"
+                    title="Home"
+                >
+            </a>
+        </li>
+        <li id="home"><a href="/">HOME</a></li>
+        <li id="data"><a href="https://calaccess.californiacivicdata.org/downloads/latest/">DATA</a></li>
+        <li id="docs"><a href="https://calaccess.californiacivicdata.org/documentation/">DOCS</a></li>
+        <li id="blog"><a href="/archive/">BLOG</a></li>
+        <li id="about"><a href="/about/">ABOUT</a></li>
+      </ul>
+    </div>
+    </div>
+  </nav>
+</header>
+
+<script type="text/javascript">
+    var url = window.location;
+    // Will only work if string in href matches with location
+    $('ul.nav a[href="' + url + '"]').parent().addClass('active');
+    // Will also work for relative and absolute hrefs
+    $('ul.nav a').filter(function() {
+        return this.href == url;
+    }).parent().addClass('active');
+    $("#small-icon").css("cursor", "pointer");
+    $("#small-icon").click(function () {
+        window.location = '/';
+    });
+</script>
+
+    <article>
+    <div class="bg-red">
+        <div class="container">
+            <div class="row">
+                <nav class="col-md-9">
+                    <ol class="breadcrumb">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/archive/">Blog</a></li>
+                    </ol>
+                </nav>
+                <div class="col-md-9">
+                    <h1>Introducing a new source for California elections data</h1>
+                    <p>
+                        <p>How we took CAL-ACCESS to the cleaners</p>
+
+                    </p>
+                    <div class="byline"><p>By <a href="https://twitter.com/je_gordon">James Gordon</a> and the <a href="/about/">California Civic Data Coalition</a></p>
+</div>
+                <div class="pubdate"><p><time datetime="2017-10-31">October 31, 2017</time></p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container content">
+        <div class="row">
+            <div class="post col-lg-8 col-md-10 col-sm-12 col-xs-12">
+                <p>After years of work, the Coalition is excited to release nearly two decades worth of data on California elections. The information, blocked from public release by state officials, is now published daily here on this site in open formats and according to a new open-source standard.</p>
+
+<p>This marks a major milestone in the Coalition’s effort to make it easier for reporters and researchers to explore the role of money in California politics. The new data files catalog every candidate, ballot measure and election found in the jumbled, dirty and difficult government database tracking money in state politics.</p>
+
+<p>You can find the new data on <a href="https://calaccess.californiacivicdata.org/downloads/latest/">our revamped download page</a>, where it will be joined by a second, expanded series of files in the coming months.</p>
+
+<figure style="width: 100%;">
+    <a href="https://calaccess.californiacivicdata.org/downloads/latest/">
+        <img src="/img/ballot-measure-downloads.gif" style="padding: 10px" title="The new downloads page" alt="The new downloads page" />
+    </a>
+</figure>
+
+<h3 id="how-we-got-the-data">How we got the data</h3>
+
+<p>Our original source is <a href="http://cal-access.sos.ca.gov">CAL-ACCESS</a>, the California state government’s system for tracking the money political campaigns raise and spend on elections.</p>
+
+<p>While containing some useful information, the <a href="http://www.sos.ca.gov/campaign-lobbying/cal-access-resources/raw-data-campaign-finance-and-lobbying-activity/">bulk export</a> of CAL-ACCESS data released by Secretary of State Alex Padilla does not include coherent and complete lists of elections, races, public offices, candidates or ballot measures.</p>
+
+<figure style="margin: 8px 0 0 10px; float:right;">
+    <img alt="Sahil Chinoy" title="Sahil Chinoy" src="/img/sahil-chinoy.jpg" height="150" />
+    <figcaption style="text-align:right;">Sahil Chinoy</figcaption>
+</figure>
+
+<p>To be clear, <em>this information does reside in CAL-ACCESS</em>. It is collected by the Secretary of State’s office, displayed on its website and outlined its official database schema.</p>
+
+<p>But when we asked Padilla’s office to include it in their bulk data release, <a href="https://github.com/california-civic-data-coalition/django-calaccess-raw-data/issues/62#issuecomment-58655390">they said “no.”</a></p>
+
+<p>That left us with only one option: Scraping it off the state’s site.</p>
+
+<p>The Coalition’s student developer, <a href="http://sahilchinoy.com/">Sahil Chinoy</a>, was up to the task. He expanded on <a href="https://www.californiacivicdata.org/2015/02/17/opennews-scrapers/">earlier contributions from an enterprising group of OpenNews fellows</a> to train a computer script to navigate through the CAL-ACCESS website and parse out the essential data.</p>
+
+<p><img src="/img/web-inspector.gif" style="padding: 10px" /></p>
+
+<p>Chinoy’s work is now integrated into our open-source data pipeline and also available as a stand-alone application for the Django web framework. Anyone can download it <a href="https://pypi.python.org/pypi/django-calaccess-scraped-data">package from PyPI</a>, plug it into their project, <a href="http://django-calaccess.californiacivicdata.org/en/latest/apps/calaccess_scraped.html">read our docs</a> and scrape away.</p>
+
+<h3 id="how-we-improved-the-data">How we improved the data</h3>
+
+<p>Look, CAL-ACCESS is a mess. And you don’t have to take our word for it.</p>
+
+<p>In <a href="https://twitter.com/palewire/status/922861435461410816">a recent public filing</a>, Padilla’s office described it as an “old,” “fragile” and “not well documented” system that “cannot be patched or modified” and is at risk of collapse.</p>
+
+<p>Rather than force users to wade through its arcane data structures, we’ve modified our files to meet a new standard we authored with <a href="https://opencivicdata.readthedocs.io">Open Civic Data</a>, a community of leaders in our field aiming to define common schemas for consolidating public data.</p>
+
+<p><img src="/img/opencivicdata-logo_default_1000.png" style="padding: 10px" /></p>
+
+<p>OCD’s ranks include Forest Gregg of <a href="https://datamade.us">DataMade</a>, James McKinney of <a href="http://www.popoloproject.com">Popolo Project</a> and Rachel Shorey of <a href="https://www.nytimes.com">The New York Times</a>.</p>
+
+<p>With their guidance, the Coalition’s James Gordon — that’s me — drafted a <a href="http://docs.opencivicdata.org/en/latest/proposals/0020.html">proposal</a> outlining a new data schema for elections and related data types like candidates, contests and ballot measures. We then implemented those specs in <a href="https://github.com/opencivicdata/python-opencivicdata">Open Civic Data’s Django application</a> for use in any project, including yours.</p>
+
+<p>After many months of <a href="https://github.com/opencivicdata/docs.opencivicdata.org/pull/64">back-and-forth</a> — and comments from our peers at Google, Socrata and elsewhere — python-opencivicdata version 2.0 was packaged and <a href="https://pypi.python.org/pypi/opencivicdata">released on PyPI</a>.</p>
+
+<p>Our hope is that this work can help power other open-source projects working with similar data sets in other states and countries.</p>
+
+<h3 id="who-is-already-using-this-data">Who is already using this data?</h3>
+
+<p>Early versions of these files have been put to work by reporters at the Los Angeles Times.</p>
+
+<p><a href="http://www.latimes.com/la-bio-maloy-moore-staff.html">Maloy Moore</a> and <a href="http://www.latimes.com/la-bio-ryan-menezes-staff.html">Ryan Menezes</a> have used the experimental release of our software (available to everyone on <a href="http://django-calaccess.californiacivicdata.org/en/latest/">GitHub</a>) to generate a series of pieces on the millions of dollars flooding the race to be California’s next governor.</p>
+
+<p><img src="/img/governor-2018-graphic.gif" style="padding: 10px" /></p>
+
+<p>Lieutenant Governor Gavin Newsom leads the pack with more campaign contributions than all competitors combined, according to the tally in <a href="http://www.latimes.com/projects/la-pol-ca-california-governor-2018-money/">their graphic, seen above</a>.</p>
+
+<p>Their reporting has uncovered Newsom’s connection to California’s burgeoning <a href="http://www.latimes.com/politics/la-pol-ca-newsom-cannabis-20170727-story.html">cannabis industry</a>, as well as his heavy support from <a href="http://www.latimes.com/politics/la-pol-ca-hollywood-money-governors-race-20170804-story.html">Hollywood</a>.</p>
+
+<p>Contrary to the candidate’s environmentalist image, Times reporters have also documented how Newsom has curried favor from <a href="http://www.latimes.com/politics/la-pol-ca-newsom-waterfront-governor-20170519-story.html">controversial real estate developers in San Francisco</a>.</p>
+
+<h3 id="what-were-doing-next">What we’re doing next</h3>
+
+<p>As a companion to our work, Abraham Epton of <a href="https://socrata.com">Socrata</a> has submitted a OCD proposal focused on standardizing <a href="https://opencivicdata.readthedocs.io/en/latest/proposals/drafts/campaign_finance_filings.html">campaign finance filings</a> across states.</p>
+
+<p>Our next mission is to implement Abe’s ideas so we can churn out cleaned up files containing the valuable data on campaign committees, contributions and expenditures now locked inside of CAL-ACCESS and its Form 460 filings.</p>
+
+<figure style="margin: 28px 0 8px 0;">
+    <a href="https://calaccess.californiacivicdata.org/documentation/calaccess-forms/f460/">
+        <img src="/img/form-460-summary.png" style="border: 1px solid black;" />
+    </a>
+</figure>
+
+<h3 id="what-you-can-do">What you can do</h3>
+
+<p><a href="https://calaccess.californiacivicdata.org/downloads/latest/">Download our files</a>. Play with them. See something you don’t like. Tell us about it.</p>
+
+<p>Whatever addition or change to our new processed data files that would make your life easier – no matter how small – we want to hear it. File a <a href="https://github.com/california-civic-data-coalition/django-calaccess-processed-data/issues">ticket</a>, shoot an <a href="mailto:cacivicdata@gmail.com">email</a> or find us anytime in
+<a href="http://newsnerdery.org/">News Nerdery’s</a> <a href="https://newsnerdery.slack.com/messages/california-civic-data/">#california-civic-data</a>.</p>
+
+            <script type="text/javascript">
+                var url = window.location;
+                // Will only work if string in href matches with location
+                $('ul.nav a[href="/archive/"]').parent().addClass('active');
+                // Will also work for relative and absolute hrefs
+                $('ul.nav a').filter(function() {
+                    return this.href == url;
+                }).parent().addClass('active');
+                $("#small-icon").css("cursor", "pointer");
+                $("#small-icon").click(function () {
+                    window.location = '/';
+                });
+            </script>
+            </div>
+        </div>
+    </div>
+    </article>
+    <footer class="footer" aria-label="Footer">
+  <nav class="container">
+    <div class="row icon">
+      <a href="http://www.californiacivicdata.org/">
+        <img src="//calaccess.californiacivicdata.org/static/calaccess_website/images/white-geobear.svg"
+             alt="California Civic Data Coalition logo">
+      </a>
+    </div>
+    <div class="row">
+      <section class="col-md-2 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1">
+        <h3>CAL-ACCESS</h3>
+        <ul>
+            <li><a href="http://calaccess.californiacivicdata.org/downloads/latest/">Latest downloads</a></li>
+            <li><a href="http://calaccess.californiacivicdata.org/downloads/">Downloads archive</a></li>
+            <li><a href="http://calaccess.californiacivicdata.org/documentation/">Documentation</a></li>
+        </ul>
+      </section>
+      <section class="col-md-2 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-4 col-xs-offset-2">
+        <h3>Blog</h3>
+        <ul>
+          <li><a href="http://www.californiacivicdata.org/archive/">All posts</a></li>
+          <li><a href="http://www.californiacivicdata.org/archive/latest.xml">RSS</a></li>
+        </ul>
+      </section>
+      <div class="clearfix visible-sm visible-xs"></div>
+      <section class="col-md-2 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1">
+        <h3>About</h3>
+        <ul>
+          <li><a href="https://www.californiacivicdata.org/about/">Our story</a></li>
+          <li><a href="https://www.californiacivicdata.org/about/#team">The team</a></li>
+          <li><a href="https://www.californiacivicdata.org/about/#events">Events</a></li>
+          <li><a href="https://www.californiacivicdata.org/about/#what-others-are-saying">What others are saying</a></li>
+        </ul>
+      </section>
+      <section class="col-md-2 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-4 col-xs-offset-2">
+        <h3>Contact</h3>
+        <ul>
+          <li><a href="mailto:cacivicdata@gmail.com">E-mail</a></li>
+          <li><a href="https://github.com/california-civic-data-coalition">GitHub</a></li>
+          <li><a href="https://newsnerdery.slack.com/archives/C0H8Y2QBD">Slack</a></li>
+        </ul>
+      </section>
+    </div>
+    <section class="row xs-left">
+      <p>
+        &copy; <span class="easteregg"><a href="https://www.youtube.com/watch?v=wPsA3TsK1Uk">2016 'til infinity</a></span>
+        <span><a href="https://www.californiacivicdata.org/">California Civic Data Coalition</a>.</span>
+        <span><span class="easteregg"><a href="https://en.wikipedia.org/wiki/Gratis_versus_libre">Gratis, libre and fermented</a></span> on <a href="https://github.com/california-civic-data-coalition/">GitHub</a>.</span>
+        <span class="easteregg"><a href="https://www.youtube.com/watch?v=wKgGXxoT5Ds">Westside right on time only thing fosho</a>.</span>
+      </p>
+    </section>
+  </nav>
+</footer>
+
+</body>
+</html>

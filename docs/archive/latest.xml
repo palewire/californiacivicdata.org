@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <description></description>
+    <link></link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>We’re storing open data at archive.org, and you can too</title>
+        <description>&lt;p&gt;All data downloads offered by the California Civic Data Coalition are now hosted by &lt;a href=&quot;https://archive.org/&quot;&gt;The Internet Archive&lt;/a&gt;, the non-profit library of free books, movies, software, music, websites and, in our case, open data. The change will ensure that the coalition’s collection of data tracking money in California politics will endure long into the future.&lt;/p&gt;
+
+&lt;p&gt;The innovation points to a more sustainable model for archiving data. To encourage others to experiment with this approach, the coalition is releasing &lt;a href=&quot;https://github.com/california-civic-data-coalition/django-internetarchive-storage&quot;&gt;the open-source software&lt;/a&gt; that made the migration possible so that other archival projects can more easily automate uploads to archive.org.&lt;/p&gt;
+
+&lt;figure style=&quot;margin: 25px 0 25px 0; clear:both;  display:inline-block;&quot;&gt;
+    &lt;a href=&quot;https://archive.org/details/california-civic-data-coalition&quot;&gt;&lt;img src=&quot;/img/internetarchive.png&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+    &lt;figcaption style=&quot;clear:both; text-align:right;&quot;&gt;Our special collection at archive.org&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Download URLs previously listed on this site will no longer update. Our team will gradually end our reliance on a costly commercial hosting provider. All download URLs now point to our Internet Archive collection at &lt;a href=&quot;https://archive.org/details/california-civic-data-coalition&quot;&gt;archive.org/details/california-civic-data-coalition&lt;/a&gt;. For the latest links, revisit &lt;a href=&quot;https://calaccess.californiacivicdata.org/downloads/latest/&quot;&gt;our download pages&lt;/a&gt; and make the change to what you see there now.&lt;/p&gt;
+
+&lt;p&gt;The change was achieved by developing a new upload tool for the &lt;a href=&quot;https://www.djangoproject.com/&quot;&gt;Django web framework&lt;/a&gt;. We call it &lt;a href=&quot;https://github.com/california-civic-data-coalition/django-internetarchive-storage&quot;&gt;django-internetarchive-storage&lt;/a&gt;. It makes sending files to Internet Archive as easy as writing a couple lines of &lt;a href=&quot;https://en.wikipedia.org/wiki/Python_(programming_language)&quot;&gt;Python code&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;All you need to do is add our custom file field to your database table. Like this:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;django.db&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;models&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;ia_storage.fields&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;InternetArchiveFileField&lt;/span&gt;
+
+
+&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Memento&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;models&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;models&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;CharField&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;max_length&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;url&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;models&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;URLField&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;InternetArchiveFileField&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# &amp;lt;--- Right here!
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;You can learn more about the system, including how to save a file to the field, by reading our documentation at &lt;a href=&quot;https://github.com/california-civic-data-coalition/django-internetarchive-storage&quot;&gt;github.com/california-civic-data-coalition/django-internetarchive-storage&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Before you can begin storing your work, you’ll need to establish a special collection. The Internet Archive provides a guide on how to get one going &lt;a href=&quot;https://help.archive.org/hc/en-us/articles/360017502272-How-to-request-a-collection-&quot;&gt;in its help section&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;We couldn’t have figured it out without help from archive.org staffers &lt;a href=&quot;https://www.linkedin.com/in/markjohngraham/&quot;&gt;Mark Graham&lt;/a&gt; and Duncan Hall, who provided vital guidance and encouragement. You can support their efforts by &lt;a href=&quot;https://archive.org/donate/?origin=iawww-TopNavDonateButton&quot;&gt;donating to the non-profit’s coffers&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Today’s release corresponds with the Los Angeles Times data journalism team publishing &lt;a href=&quot;https://www.latimes.com/projects/california-recall-election-money-newsom-vs-jenner-cox/&quot;&gt;a new page&lt;/a&gt; tracking the tens of millions of dollars flooding the campaign to recall California Governor Gavin Newsom. The reporters who developed that page — &lt;a href=&quot;https://www.latimes.com/people/maloy-moore&quot;&gt;Maloy Moore&lt;/a&gt; and &lt;a href=&quot;https://www.latimes.com/people/ryan-menezes&quot;&gt;Ryan Menezes&lt;/a&gt; — are among the leading consumers of the coalition’s data services.&lt;/p&gt;
+
+&lt;p&gt;Their work is a reminder of why our team remains focused on refining CAL-ACCESS, the jumbled, dirty and difficult government database that tracks campaign finance and lobbying activity in California politics.&lt;/p&gt;
+
+&lt;p&gt;The coalition was formed in 2014 by myself and Agustin Armendariz to lead the development of open-source software that makes California’s public data easier to access and analyze. The effort has drawn hundreds of contributions from developers and journalists at dozens of news organizations.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
+        <link>//2021/06/29/hello-archive-org-storage/</link>
+        <guid isPermaLink="true">//2021/06/29/hello-archive-org-storage/</guid>
+      </item>
+    
+      <item>
+        <title>Our downloads are now served with CORS</title>
+        <description>&lt;p&gt;All data downloads offered by the California Civic Data Coalition are now served with cross-origin resource sharing allowed, opening our site for creative use in dynamic web applications.&lt;/p&gt;
+
+&lt;p&gt;Also known as “CORS,” &lt;a href=&quot;https://en.wikipedia.org/wiki/Cross-origin_resource_sharing&quot;&gt;cross-origin resource sharing&lt;/a&gt; is an Internet publishing standard that allows code running on other sites to freely request and integrate data.&lt;/p&gt;
+
+&lt;p&gt;This change was made to allow an experimental integration with &lt;a href=&quot;https://beta.observablehq.com&quot;&gt;Observable&lt;/a&gt;, the promising new interactive notebook for developing data-driven applications in the cloud.&lt;/p&gt;
+
+&lt;p&gt;Now that we’re publishing with CORS, JavaScript code written at Observable, or any other site, can pull data directly from URLs on our &lt;a href=&quot;https://calaccess.californiacivicdata.org/downloads/latest/&quot;&gt;downloads page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;figure style=&quot;margin: 25px 0 25px 0; clear:both;  display:inline-block;&quot;&gt;
+    &lt;a href=&quot;https://beta.observablehq.com/@palewire/the-decline-of-third-parties-in-california-politics&quot;&gt;&lt;img src=&quot;/img/observable-pilot.gif&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+    &lt;figcaption style=&quot;clear:both; text-align:right;&quot;&gt;Our first Observable notebook&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;You can see an example in action in an analysis of third-party candidates we &lt;a href=&quot;https://beta.observablehq.com/@palewire/the-decline-of-third-parties-in-california-politics&quot;&gt;developed with Observable&lt;/a&gt; at the Coalition’s campus invasion of Stanford University earlier this month.&lt;/p&gt;
+
+&lt;p&gt;There I worked with Cheryl Phillips’ journalism students to document the stark drop off in third-party candidates since California adopted an open primary system.&lt;/p&gt;
+
+&lt;figure style=&quot;margin: 15px 0 20px 0; clear:both; display:inline-block;&quot;&gt;
+    &lt;img src=&quot;/img/stanford-hack-day.jpg&quot; width=&quot;100%&quot; /&gt;
+    &lt;figcaption style=&quot;clear:both; text-align:right;&quot;&gt;Ubuntu on the big screen, Kendrick on the soundsystem. We hacked all day in McClatchy 215.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;If you’re interested in learning more about Observable, I encourage you to check out other examples, such as &lt;a href=&quot;https://beta.observablehq.com/@jashkenas/quakespotter-0-1&quot;&gt;Jeremy Ashkenas’ earthquakes map&lt;/a&gt; and &lt;a href=&quot;https://beta.observablehq.com/@freedmand/sounds&quot;&gt;a fascinating experiment with sound&lt;/a&gt; by Stanford student Dylan Freedman. Then try to write your own!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 26 Feb 2018 00:00:00 +0000</pubDate>
+        <link>//2018/02/26/hello-cors/</link>
+        <guid isPermaLink="true">//2018/02/26/hello-cors/</guid>
+      </item>
+    
+      <item>
+        <title>James Gordon explains it all</title>
+        <description>&lt;p&gt;The Coalition’s lead developer, James Gordon, is &lt;a href=&quot;https://www.rjionline.org/stories/rji-futures-lab-adds-new-senior-editor-to-its-team&quot;&gt;moving on&lt;/a&gt; to a new job as senior editor for the Futures Lab at the Reynolds Journalism Institute and Missouri School of Journalism.&lt;/p&gt;
+
+&lt;figure style=&quot;margin: 8px 0 0 18px; float:right;&quot;&gt;
+    &lt;img src=&quot;/img/james-gordon.jpg&quot; height=&quot;150&quot; alt=&quot;James Gordon&quot; style=&quot;float:right; clear:both;&quot; title=&quot;James Gordon&quot; /&gt;
+   &lt;figcaption style=&quot;float:left; clear:both;&quot;&gt;James Gordon&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;James leaves behind an impressive body of work. In his time working for the Coalition, he led &lt;a href=&quot;/2016/09/15/website-launch/&quot;&gt;the creation of&lt;/a&gt; an open-source pipeline that downloads, transforms, documents and republishes valuable data from CAL-ACCESS, the state of California’s jumbled, dirty and difficult database tracking money in state politics. He also spearheaded a groundbreaking effort to develop &lt;a href=&quot;/2017/10/31/processed-files/&quot;&gt;a new open standard&lt;/a&gt; for publishing elections data, now in use on this site.&lt;/p&gt;
+
+&lt;p&gt;He will be wrapping up his time with the team in early March teaching a class on campaign-finance analysis at the annual conference of the National Institute for Computer-Assisted Reporting in Chicago. (&lt;a href=&quot;https://www.ire.org/events-and-training/event/3189/3501/&quot;&gt;Seats still available!&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;I interviewed James to learn more about his new role as an innovator and educator. The transcript has been condensed and edited for clarity.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What is the RJI Futures Lab?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The RJI Futures Lab is a testing ground for new ideas in journalism. We are constantly exploring services and products that empower journalists to do their job better. We’re trying to help make sure journalists keep up with new technology and we’re constantly thinking about how it can be used to do better journalism.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What will you be doing there?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s a mixed bag. In one silo there is mentoring students. There’s &lt;a href=&quot;https://www.rjionline.org/stories/series/rji-student-competition-2017&quot;&gt;a development competition&lt;/a&gt; that RJI holds every year where students participate in developing applications that have news value. I will eventually be helping students remove roadblocks and bring their ideas to fruition.&lt;/p&gt;
+
+&lt;p&gt;Lately they have shifted the competition. You used to have to actually build something, to have a working application up and running that was centered around a specific idea. But now it’s a little more open ended with students working to test out an idea. That can include doing market research, designing user experience and all the ideation work that helps convince other people that you have something that’s worth investing resources into. It doesn’t have to be a working application at the end of the competition, but it does have to be something that the students have confidence they can build, and something that people want.&lt;/p&gt;
+
+&lt;p&gt;There’s also been some discussion about teaching a class. The journalism school here has some extra slots to fill in terms of helping students get more comfortable working with technology platforms. Right now there’s no timeline about when we might do a class but I’m talking to some people about doing that.&lt;/p&gt;
+
+&lt;p&gt;Another thing is helping our team here find projects and experiments to participate in. One thing we’re doing right now is playing with building custom Alexa skills for serving people public calendar events based on their location. These are the sort of things that newspapers and news organizations have always been in the habit of collecting and publishing. We’re looking at adapting that to voice-activated applications. We’re striving to figure out what we can learn that we can share at the RJI show &lt;a href=&quot;https://www.rjionline.org/innovation-in-focus&quot;&gt;“Innovation in Focus.”&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What do you think Mizzou and universities in general need to be doing to better prepare students?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I think a lot of it comes with taking the time to learn about how technology works, actually. And to demystify it for people. Because every one of us now is a technology consumer and these things are often black boxes. I think showing students how they can use what’s out there to help bring out their own ideas and meet their own needs can help them have a closer and most honest relationship with technology. That’s something I think is needed. I find myself needing it in my own life.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Sounds like you’re prepared to teach &lt;a href=&quot;https://en.wikipedia.org/wiki/Hacker_ethic&quot;&gt;the hacker ethic&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Yes, absolutely. I am. And to break down some of the mythologies and stereotypes.&lt;/p&gt;
+
+&lt;p&gt;I think that the conversations about technology right now, and in media in particular, are in this place where we feel like from we went from believing that technology was a liberating force to feeling like it’s a destructive force. The reality is somewhere between the two extremes and we have to work harder at understanding the dynamic between people and technology. I think it’s something that all journalists need to be learning to cover any beat because technology is a big part of any story right now from the economy to health care to national security.&lt;/p&gt;
+
+&lt;p&gt;Anytime you take some artifact of technology or some thing that happened on the Internet and you dig into it until you get to the point where you discover the humans who are behind the curtains, that’s the sort of thing that I like to spend time learning about. I hope to bring other people along that path with me.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;If someone wants to join you on that path, how can they keep up with what you’re doing?.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Well, &lt;a href=&quot;https://twitter.com/je_gordon&quot;&gt;I’m on Twitter&lt;/a&gt;. And RJI has a blog that I hope to start contributing to. It’s at &lt;a href=&quot;https://www.rjionline.org&quot;&gt;RJIonline.org&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Any parting words for your friend CAL-ACCESS?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s been an incredible experience for me to focus on every layer of the stack needed to solve a problem.&lt;/p&gt;
+
+&lt;p&gt;The thing that I have appreciated the most was that it connected me with people who have either helped to empower the work I was doing or have been empowered by the work I was doing, or have cheered us on in some way.&lt;/p&gt;
+
+&lt;p&gt;The community around civic data and incorporating data into journalism, that is the thing that hooking me from the first time I went to NICAR. I am not walking away from this project or from that community. I’m trying to deepen my relationship with it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Good. Because we’re not going to let you.&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 16 Feb 2018 00:00:00 +0000</pubDate>
+        <link>//2018/02/16/gordon-to-rji/</link>
+        <guid isPermaLink="true">//2018/02/16/gordon-to-rji/</guid>
+      </item>
+    
+      <item>
+        <title>A new feature imported from Berlin</title>
+        <description>&lt;p&gt;Today the California Civic Data Coalition released a new version of &lt;a href=&quot;http://django-postgres-copy.californiacivicdata.org/en/latest/&quot;&gt;django-postgres-copy&lt;/a&gt;,
+an open-source software library that quickly loads large pools of data into PostgreSQL databases.&lt;/p&gt;
+
+&lt;figure style=&quot;margin: 8px 0 0 18px; float:right;&quot;&gt;
+   &lt;a href=&quot;https://github.com/jonathan-s&quot;&gt;
+    &lt;img src=&quot;/img/jonathan-sundqvist.jpg&quot; height=&quot;150&quot; alt=&quot;Jonathan Sundqvist&quot; style=&quot;float:right; clear:both;&quot; title=&quot;Jonathan Sundqvist&quot; /&gt;
+   &lt;/a&gt;
+   &lt;figcaption style=&quot;float:left; clear:both;&quot;&gt;Jonathan Sundqvist&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;It includes a new feature contributed by &lt;a href=&quot;https://github.com/jonathan-s&quot;&gt;Jonathan Sundqvist&lt;/a&gt; in Berlin, Germany. Thanks to Sundqvist’s work, our bulk loader is no longer limited to files stored on your local filesystem. Python file objects, which can be concocted entirely in memory, can now be loaded just as easily.&lt;/p&gt;
+
+&lt;p&gt;This easily, in fact:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;MyModel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;objects&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;from_csv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;file_obj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Unlike our team, Sundqvist doesn’t work in journalism. He works for a company called &lt;a href=&quot;https://zageno.com/&quot;&gt;Zageno&lt;/a&gt; that sells biotechnology products online.&lt;/p&gt;
+
+&lt;p&gt;“The dataset consists of products, their variants and prices,” Sundqvist &lt;a href=&quot;https://github.com/california-civic-data-coalition/django-postgres-copy/pull/70#issuecomment-363515674&quot;&gt;said&lt;/a&gt;. “There is probably 1 million of those products on the site at the moment. So when updates need to happen or new products are added speed is invaluable. Using this library will help in cleaning up some of that code.”&lt;/p&gt;
+
+&lt;figure style=&quot;width: 100%; margin: 20px 0; padding:0;&quot;&gt;
+    &lt;a href=&quot;https://zageno.com/&quot;&gt;
+        &lt;img src=&quot;/img/zageno.png&quot; style=&quot;padding: 10px&quot; title=&quot;Zageno&quot; alt=&quot;Zageno&quot; /&gt;
+    &lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;In our view, this collaboration reaffirms how open-source techniques allow developers in different fields to benefit from each other’s efforts. He is the latest in &lt;a href=&quot;https://www.californiacivicdata.org/2016/11/14/django-postgres-copy-0.1/&quot;&gt;a line&lt;/a&gt; of developers outside journalism who has contributed to django-postgres-copy.&lt;/p&gt;
+
+&lt;p&gt;Check out Sundqvists’s changes and learn more about django-postgres-copy in
+&lt;a href=&quot;http://django-postgres-copy.californiacivicdata.org/en/latest/&quot;&gt;the official documentation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If there are changes you’d like to see, go get involved on &lt;a href=&quot;https://github.com/california-civic-data-coalition/django-postgres-copy&quot;&gt;our GitHub repository&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 06 Feb 2018 00:00:00 +0000</pubDate>
+        <link>//2018/02/06/postgres-copy-file-objs/</link>
+        <guid isPermaLink="true">//2018/02/06/postgres-copy-file-objs/</guid>
+      </item>
+    
+      <item>
+        <title>Cut down database imports by a third using this one weird trick</title>
+        <description>&lt;p&gt;Today the California Civic Data Coalition released a powerful improvement to its open-source tool for importing data via the Django web framework.&lt;/p&gt;
+
+&lt;p&gt;Version 2.2 of &lt;a href=&quot;http://django-postgres-copy.californiacivicdata.org/en/latest/&quot;&gt;django-postgres-copy&lt;/a&gt;, now available on the Python Package Index, boosts the performance of PostgreSQL’s &lt;a href=&quot;https://www.postgresql.org/docs/9.2/static/sql-copy.html&quot;&gt;COPY&lt;/a&gt; command by automatically dropping indexes and constraints on tables prior to the loading.&lt;/p&gt;
+
+&lt;p&gt;The result is significantly faster ingestion. Our speed tests – using tens of millions of state records – found the change reduced load time of large tables &lt;em&gt;by nearly one third&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;After data are safely loaded, indexes and constraints are restored to the database.&lt;/p&gt;
+
+&lt;p&gt;Current users of django-postgres-copy can benefit simply by upgrading. No code changes are necessary.&lt;/p&gt;
+
+&lt;p&gt;If you’re unfamiliar with our library, all you have to do is hook our custom manager to your database model and loading from a comma-delimited file becomes this easy:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;n&quot;&gt;MyModel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;objects&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;from_csv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/path/to/your/import.csv&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;why-we-did-it&quot;&gt;Why we did it&lt;/h3&gt;
+
+&lt;p&gt;This improvement was pioneered by &lt;a href=&quot;https://twitter.com/je_gordon&quot;&gt;James Gordon&lt;/a&gt;, the Coalition’s lead developer.&lt;/p&gt;
+
+&lt;p&gt;He drew instruction from PostgreSQL’s official documentation, &lt;a href=&quot;https://www.postgresql.org/docs/10/static/populate.html&quot;&gt;which reads&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you are loading a freshly created table, the fastest method is to create the table, bulk load the table’s data using COPY, then create any indexes needed for the table. Creating an index on pre-existing data is quicker than updating it incrementally as each row is loaded.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you are adding large amounts of data to an existing table, it might be a win to drop the indexes, load the table, and then recreate the indexes.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/california-civic-data-coalition/django-postgres-copy/blob/3d7fa390b16c2ded087b206fa7ba9cdd378a415d/postgres_copy/managers.py#L12-L123&quot;&gt;Gordon’s code&lt;/a&gt; handles this task using rarely utilized, low-level tools in Django’s database manager.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-to-expect&quot;&gt;What to expect&lt;/h3&gt;
+
+&lt;p&gt;Our speed tests were conducted in a Jupyter Notebook &lt;a href=&quot;https://github.com/california-civic-data-coalition/python-calaccess-notebooks/blob/master/calaccess-exploration/django-postgres-copy%20speed%20tests.ipynb&quot;&gt;now available on GitHub&lt;/a&gt;. There you can see Python’s &lt;a href=&quot;https://docs.python.org/2/library/timeit.html&quot;&gt;timeit&lt;/a&gt; module load 41 million records from CAL-ACCESS, the state of California’s jumbled, dirty and difficult database tracking money in politics.&lt;/p&gt;
+
+&lt;p&gt;Each table was loaded three times with the indexes left in place, and then three times with all indexes dropped prior to loading.&lt;/p&gt;
+
+&lt;p&gt;The results were clear. Total load time dropped from 21 minutes and 9 seconds with indexes to just 14 minutes and 31 seconds without. That’s a decrease of 31%.&lt;/p&gt;
+
+&lt;p&gt;Closer examination of the results shows that the bigger the table, the larger the savings. The chart below compares table size with reductions in load time. As you can see, the biggest tables scored the biggest gains.&lt;/p&gt;
+
+&lt;figure style=&quot;width: 100%; margin: 20px 0; padding:0;&quot;&gt;
+    &lt;img src=&quot;/img/postgres-copy-index-scatter-one.png&quot; style=&quot;padding: 10px&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;That said, not every table improved. Small tables sometimes saw a decrease in speed, likely due to the extra time needed to drop and restore the indexes. Our analysis found that gains were not guaranteed until tables approached 20,000 rows in length.&lt;/p&gt;
+
+&lt;p&gt;You can see that result in the next chart, which compares each table’s row count against its &lt;em&gt;percentage change&lt;/em&gt; in load time. That puts more emphasis on shifts seen by smaller tables.&lt;/p&gt;
+
+&lt;figure style=&quot;width: 100%; margin: 20px 0; padding:0;&quot;&gt;
+    &lt;img src=&quot;/img/postgres-copy-index-scatter-two.png&quot; style=&quot;padding: 10px&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;However, tables under 20,000 records loaded so quickly lags were negligible. And if you’d prefer to opt out of our new feature, you can always do so with the following keyword arguments:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;n&quot;&gt;MyModel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;objects&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;from_csv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;&quot;/path/to/your/import.csv&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;drop_indexes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;drop_constraints&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;As always, you mileage may vary. An obvious factor not tested here is the number and complexity of indexes and constraints on the database. Ours has two or three on most tables.&lt;/p&gt;
+
+&lt;p&gt;To learn more about how django-postgres-copy works, visit the &lt;a href=&quot;http://django-postgres-copy.californiacivicdata.org/&quot;&gt;technical documentation&lt;/a&gt;. There you’ll find a more complete explanation and information about tricks not covered here, like the recently-added ability to export tables.&lt;/p&gt;
+
+&lt;p&gt;Since django-postgres-copy was &lt;a href=&quot;https://www.californiacivicdata.org/2015/07/17/hello-django-postgres-copy/&quot;&gt;first released&lt;/a&gt; in 2015, it has drawn contributions from coders around the world, including some major improvements &lt;a href=&quot;https://www.californiacivicdata.org/2016/11/14/django-postgres-copy-0.1/&quot;&gt;from users in other fields&lt;/a&gt;. If there are improvements you’d like to see, go get involved on &lt;a href=&quot;https://github.com/california-civic-data-coalition/django-postgres-copy&quot;&gt;our GitHub repository&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 25 Jan 2018 00:00:00 +0000</pubDate>
+        <link>//2018/01/25/index-drop-and-copy/</link>
+        <guid isPermaLink="true">//2018/01/25/index-drop-and-copy/</guid>
+      </item>
+    
+      <item>
+        <title>Coalition scholar published by The Verge</title>
+        <description>&lt;p&gt;Today the technology site The Verge published &lt;a href=&quot;https://www.theverge.com/2017/11/16/16658358/vape-lobby-vaping-health-risks-nicotine-big-tobacco-marketing&quot;&gt;“Smoke Screen,”&lt;/a&gt; a lengthy investigation into how the booming e-cigarette industry is pressuring scientists and regulators.&lt;/p&gt;
+
+&lt;p&gt;The author is &lt;a href=&quot;http://www.lizagross.com/&quot;&gt;Liza Gross&lt;/a&gt;, the Coalition’s &lt;a href=&quot;https://www.californiacivicdata.org/2017/01/30/liza-gross-nicar/&quot;&gt;2017 NICAR scholarship winner&lt;/a&gt;.&lt;/p&gt;
+
+&lt;figure style=&quot;width: 100%; margin: 20px 0; padding:0;&quot;&gt;
+    &lt;a href=&quot;https://www.theverge.com/2017/11/16/16658358/vape-lobby-vaping-health-risks-nicotine-big-tobacco-marketing&quot;&gt;
+        &lt;img src=&quot;/img/theverge.png&quot; style=&quot;padding: 10px&quot; title=&quot;The Verge&quot; alt=&quot;The Verge&quot; /&gt;
+    &lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.theverge.com/2017/11/16/16658358/vape-lobby-vaping-health-risks-nicotine-big-tobacco-marketing&quot;&gt;Her wide-ranging story&lt;/a&gt; covers many topics. One of them is vaping’s growing lobby in the Sacramento statehouse. She writes:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The tobacco and vaping industries have spent nearly $10 million to fight regulations on e-cigarettes and related legislation in California since 2009, state records show.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;figure style=&quot;margin: 8px 0 0 15px; float:right;&quot;&gt;
+    &lt;img alt=&quot;Liza Gross&quot; title=&quot;Liza Gross&quot; src=&quot;/img/liza-gross.jpg&quot; height=&quot;200&quot; /&gt;
+    &lt;figcaption style=&quot;text-align:right;&quot;&gt;Liza Gross&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;That finding, and several others in her story, are drawn from the lobbying disclosure data locked within CAL-ACCESS, the jumbled, dirty and difficult state database our project aims to open.&lt;/p&gt;
+
+&lt;p&gt;To learn how that money got spent to stop legislation in Sacramento, &lt;a href=&quot;https://www.theverge.com/2017/11/16/16658358/vape-lobby-vaping-health-risks-nicotine-big-tobacco-marketing&quot;&gt;read the whole story&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Gross is an independent journalist based in Kensington and a part-time editor at &lt;a href=&quot;http://journals.plos.org/plosbiology/&quot;&gt;PLOS Biology&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;She writes frequently about the intersection between science and society, specializing in environmental, public and mental health. She’s also a reporter for the &lt;a href=&quot;https://thefern.org/&quot;&gt;Food &amp;amp; Environment Reporting Network&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 16 Nov 2017 00:00:00 +0000</pubDate>
+        <link>//2017/11/16/gross-ecigs-verge/</link>
+        <guid isPermaLink="true">//2017/11/16/gross-ecigs-verge/</guid>
+      </item>
+    
+      <item>
+        <title>Introducing a new source for California elections data</title>
+        <description>&lt;p&gt;After years of work, the Coalition is excited to release nearly two decades worth of data on California elections. The information, blocked from public release by state officials, is now published daily here on this site in open formats and according to a new open-source standard.&lt;/p&gt;
+
+&lt;p&gt;This marks a major milestone in the Coalition’s effort to make it easier for reporters and researchers to explore the role of money in California politics. The new data files catalog every candidate, ballot measure and election found in the jumbled, dirty and difficult government database tracking money in state politics.&lt;/p&gt;
+
+&lt;p&gt;You can find the new data on &lt;a href=&quot;https://calaccess.californiacivicdata.org/downloads/latest/&quot;&gt;our revamped download page&lt;/a&gt;, where it will be joined by a second, expanded series of files in the coming months.&lt;/p&gt;
+
+&lt;figure style=&quot;width: 100%;&quot;&gt;
+    &lt;a href=&quot;https://calaccess.californiacivicdata.org/downloads/latest/&quot;&gt;
+        &lt;img src=&quot;/img/ballot-measure-downloads.gif&quot; style=&quot;padding: 10px&quot; title=&quot;The new downloads page&quot; alt=&quot;The new downloads page&quot; /&gt;
+    &lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;how-we-got-the-data&quot;&gt;How we got the data&lt;/h3&gt;
+
+&lt;p&gt;Our original source is &lt;a href=&quot;http://cal-access.sos.ca.gov&quot;&gt;CAL-ACCESS&lt;/a&gt;, the California state government’s system for tracking the money political campaigns raise and spend on elections.&lt;/p&gt;
+
+&lt;p&gt;While containing some useful information, the &lt;a href=&quot;http://www.sos.ca.gov/campaign-lobbying/cal-access-resources/raw-data-campaign-finance-and-lobbying-activity/&quot;&gt;bulk export&lt;/a&gt; of CAL-ACCESS data released by Secretary of State Alex Padilla does not include coherent and complete lists of elections, races, public offices, candidates or ballot measures.&lt;/p&gt;
+
+&lt;figure style=&quot;margin: 8px 0 0 10px; float:right;&quot;&gt;
+    &lt;img alt=&quot;Sahil Chinoy&quot; title=&quot;Sahil Chinoy&quot; src=&quot;/img/sahil-chinoy.jpg&quot; height=&quot;150&quot; /&gt;
+    &lt;figcaption style=&quot;text-align:right;&quot;&gt;Sahil Chinoy&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;To be clear, &lt;em&gt;this information does reside in CAL-ACCESS&lt;/em&gt;. It is collected by the Secretary of State’s office, displayed on its website and outlined its official database schema.&lt;/p&gt;
+
+&lt;p&gt;But when we asked Padilla’s office to include it in their bulk data release, &lt;a href=&quot;https://github.com/california-civic-data-coalition/django-calaccess-raw-data/issues/62#issuecomment-58655390&quot;&gt;they said “no.”&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;That left us with only one option: Scraping it off the state’s site.&lt;/p&gt;
+
+&lt;p&gt;The Coalition’s student developer, &lt;a href=&quot;http://sahilchinoy.com/&quot;&gt;Sahil Chinoy&lt;/a&gt;, was up to the task. He expanded on &lt;a href=&quot;https://www.californiacivicdata.org/2015/02/17/opennews-scrapers/&quot;&gt;earlier contributions from an enterprising group of OpenNews fellows&lt;/a&gt; to train a computer script to navigate through the CAL-ACCESS website and parse out the essential data.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/web-inspector.gif&quot; style=&quot;padding: 10px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Chinoy’s work is now integrated into our open-source data pipeline and also available as a stand-alone application for the Django web framework. Anyone can download it &lt;a href=&quot;https://pypi.python.org/pypi/django-calaccess-scraped-data&quot;&gt;package from PyPI&lt;/a&gt;, plug it into their project, &lt;a href=&quot;http://django-calaccess.californiacivicdata.org/en/latest/apps/calaccess_scraped.html&quot;&gt;read our docs&lt;/a&gt; and scrape away.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-we-improved-the-data&quot;&gt;How we improved the data&lt;/h3&gt;
+
+&lt;p&gt;Look, CAL-ACCESS is a mess. And you don’t have to take our word for it.&lt;/p&gt;
+
+&lt;p&gt;In &lt;a href=&quot;https://twitter.com/palewire/status/922861435461410816&quot;&gt;a recent public filing&lt;/a&gt;, Padilla’s office described it as an “old,” “fragile” and “not well documented” system that “cannot be patched or modified” and is at risk of collapse.&lt;/p&gt;
+
+&lt;p&gt;Rather than force users to wade through its arcane data structures, we’ve modified our files to meet a new standard we authored with &lt;a href=&quot;https://opencivicdata.readthedocs.io&quot;&gt;Open Civic Data&lt;/a&gt;, a community of leaders in our field aiming to define common schemas for consolidating public data.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/opencivicdata-logo_default_1000.png&quot; style=&quot;padding: 10px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;OCD’s ranks include Forest Gregg of &lt;a href=&quot;https://datamade.us&quot;&gt;DataMade&lt;/a&gt;, James McKinney of &lt;a href=&quot;http://www.popoloproject.com&quot;&gt;Popolo Project&lt;/a&gt; and Rachel Shorey of &lt;a href=&quot;https://www.nytimes.com&quot;&gt;The New York Times&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;With their guidance, the Coalition’s James Gordon — that’s me — drafted a &lt;a href=&quot;http://docs.opencivicdata.org/en/latest/proposals/0020.html&quot;&gt;proposal&lt;/a&gt; outlining a new data schema for elections and related data types like candidates, contests and ballot measures. We then implemented those specs in &lt;a href=&quot;https://github.com/opencivicdata/python-opencivicdata&quot;&gt;Open Civic Data’s Django application&lt;/a&gt; for use in any project, including yours.&lt;/p&gt;
+
+&lt;p&gt;After many months of &lt;a href=&quot;https://github.com/opencivicdata/docs.opencivicdata.org/pull/64&quot;&gt;back-and-forth&lt;/a&gt; — and comments from our peers at Google, Socrata and elsewhere — python-opencivicdata version 2.0 was packaged and &lt;a href=&quot;https://pypi.python.org/pypi/opencivicdata&quot;&gt;released on PyPI&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Our hope is that this work can help power other open-source projects working with similar data sets in other states and countries.&lt;/p&gt;
+
+&lt;h3 id=&quot;who-is-already-using-this-data&quot;&gt;Who is already using this data?&lt;/h3&gt;
+
+&lt;p&gt;Early versions of these files have been put to work by reporters at the Los Angeles Times.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.latimes.com/la-bio-maloy-moore-staff.html&quot;&gt;Maloy Moore&lt;/a&gt; and &lt;a href=&quot;http://www.latimes.com/la-bio-ryan-menezes-staff.html&quot;&gt;Ryan Menezes&lt;/a&gt; have used the experimental release of our software (available to everyone on &lt;a href=&quot;http://django-calaccess.californiacivicdata.org/en/latest/&quot;&gt;GitHub&lt;/a&gt;) to generate a series of pieces on the millions of dollars flooding the race to be California’s next governor.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/governor-2018-graphic.gif&quot; style=&quot;padding: 10px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Lieutenant Governor Gavin Newsom leads the pack with more campaign contributions than all competitors combined, according to the tally in &lt;a href=&quot;http://www.latimes.com/projects/la-pol-ca-california-governor-2018-money/&quot;&gt;their graphic, seen above&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Their reporting has uncovered Newsom’s connection to California’s burgeoning &lt;a href=&quot;http://www.latimes.com/politics/la-pol-ca-newsom-cannabis-20170727-story.html&quot;&gt;cannabis industry&lt;/a&gt;, as well as his heavy support from &lt;a href=&quot;http://www.latimes.com/politics/la-pol-ca-hollywood-money-governors-race-20170804-story.html&quot;&gt;Hollywood&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Contrary to the candidate’s environmentalist image, Times reporters have also documented how Newsom has curried favor from &lt;a href=&quot;http://www.latimes.com/politics/la-pol-ca-newsom-waterfront-governor-20170519-story.html&quot;&gt;controversial real estate developers in San Francisco&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-were-doing-next&quot;&gt;What we’re doing next&lt;/h3&gt;
+
+&lt;p&gt;As a companion to our work, Abraham Epton of &lt;a href=&quot;https://socrata.com&quot;&gt;Socrata&lt;/a&gt; has submitted a OCD proposal focused on standardizing &lt;a href=&quot;https://opencivicdata.readthedocs.io/en/latest/proposals/drafts/campaign_finance_filings.html&quot;&gt;campaign finance filings&lt;/a&gt; across states.&lt;/p&gt;
+
+&lt;p&gt;Our next mission is to implement Abe’s ideas so we can churn out cleaned up files containing the valuable data on campaign committees, contributions and expenditures now locked inside of CAL-ACCESS and its Form 460 filings.&lt;/p&gt;
+
+&lt;figure style=&quot;margin: 28px 0 8px 0;&quot;&gt;
+    &lt;a href=&quot;https://calaccess.californiacivicdata.org/documentation/calaccess-forms/f460/&quot;&gt;
+        &lt;img src=&quot;/img/form-460-summary.png&quot; style=&quot;border: 1px solid black;&quot; /&gt;
+    &lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;what-you-can-do&quot;&gt;What you can do&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://calaccess.californiacivicdata.org/downloads/latest/&quot;&gt;Download our files&lt;/a&gt;. Play with them. See something you don’t like. Tell us about it.&lt;/p&gt;
+
+&lt;p&gt;Whatever addition or change to our new processed data files that would make your life easier – no matter how small – we want to hear it. File a &lt;a href=&quot;https://github.com/california-civic-data-coalition/django-calaccess-processed-data/issues&quot;&gt;ticket&lt;/a&gt;, shoot an &lt;a href=&quot;mailto:cacivicdata@gmail.com&quot;&gt;email&lt;/a&gt; or find us anytime in
+&lt;a href=&quot;http://newsnerdery.org/&quot;&gt;News Nerdery’s&lt;/a&gt; &lt;a href=&quot;https://newsnerdery.slack.com/messages/california-civic-data/&quot;&gt;#california-civic-data&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 31 Oct 2017 00:00:00 +0000</pubDate>
+        <link>//2017/10/31/processed-files/</link>
+        <guid isPermaLink="true">//2017/10/31/processed-files/</guid>
+      </item>
+    
+      <item>
+        <title>How to export Django data faster than ever before</title>
+        <description>&lt;p&gt;Today the California Civic Data Coalition released a new open-source tool that enables the Django web framework to more quickly export comma-delimited data.&lt;/p&gt;
+
+&lt;p&gt;Version 2.0 of &lt;a href=&quot;http://django-postgres-copy.californiacivicdata.org/en/latest/&quot;&gt;django-postgres-copy&lt;/a&gt;, now available on the Python Package Index, extends Django’s database tools to support PostgreSQL’s powerful &lt;a href=&quot;https://www.postgresql.org/docs/9.2/static/sql-copy.html&quot;&gt;COPY TO&lt;/a&gt; command.&lt;/p&gt;
+
+&lt;p&gt;Found only in PostgreSQL, COPY TO can write out tables with millions of rows in a matter of seconds.&lt;/p&gt;
+
+&lt;p&gt;Our code, crafted by the Coalition’s Lead Developer &lt;a href=&quot;https://twitter.com/je_gordon&quot;&gt;James Gordon&lt;/a&gt;, makes using it this easy:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;n&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;objects&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to_csv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/path/to/your/export.csv&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;The custom to_csv method does it all. To start using it yourself, all you need to do is install our library and add a &lt;a href=&quot;https://docs.djangoproject.com/en/1.11/topics/db/managers/&quot;&gt;custom manager&lt;/a&gt; to your model.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;django.db&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;models&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;postgres_copy&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;CopyManager&lt;/span&gt;
+
+
+&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;models&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;first_name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;models&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;CharField&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;max_length&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;500&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;last_name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;models&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;CharField&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;max_length&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;500&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;objects&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;CopyManager&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Once that’s done you’re ready to roll. You can even export database queries that include filters, groups or other Django database tricks. For instance, this will work:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;n&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;objects&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;exclude&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;first_name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'BEN'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to_csv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'/path/to/your/export.csv'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;And so will something like this:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;n&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;objects&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;annotate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name_count&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'first_name'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to_csv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'/path/to/your/export.csv'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;In cases where your model is connected to other tables with a foreign key, you can increase the number of fields exported by listing them out and calling in related tables using Django’s double underscore notation.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;n&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;objects&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to_csv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;'/path/to/your/export.csv'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;'first_name'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;'last_name'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;'hometown__name'&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;why-do-you-need-this&quot;&gt;Why do you need this?&lt;/h3&gt;
+
+&lt;p&gt;The Coalition invented this tool as part of its open-source quest to master &lt;a href=&quot;/about/&quot;&gt;CAL-ACCESS&lt;/a&gt;, the jumbled, dirty and difficult government database tracking money in California politics.&lt;/p&gt;
+
+&lt;p&gt;We are nearing the completion of a pipeline of Python code that downloads, extracts, cleans, loads, transforms and republishes the state’s raw data as easy-to-understand spreadsheets. This new wrapper for COPY TO allows our pipeline to quickly and clearly export a set of simplified flat files for end users.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-else-can-it-do&quot;&gt;What else can it do?&lt;/h3&gt;
+
+&lt;p&gt;The library has long supported swiftly importing data files with PostgreSQL’s COPY command. Starting today, that old tool is easier to access with a new from_csv method on our custom manager. Code like the following can load millions of records in your database in a matter of seconds.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;n&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;objects&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;from_csv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;# The source file
+&lt;/span&gt;    &lt;span class=&quot;s&quot;&gt;&quot;/path/to/your/import.csv&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;# A crosswalk of model fields to CSV headers.
+&lt;/span&gt;    &lt;span class=&quot;nb&quot;&gt;dict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;first_name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'FIRST_NAME'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;last_name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'LAST_NAME'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;what-now&quot;&gt;What now?&lt;/h3&gt;
+
+&lt;p&gt;If you’d like to try our tool out for yourself, you can install it with Python’s &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pip&lt;/code&gt; like so:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;pip &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;django-postgres-copy&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;To learn more about how it works, visit the &lt;a href=&quot;http://django-postgres-copy.californiacivicdata.org/&quot;&gt;technical documentation&lt;/a&gt;. There you’ll find a more complete explanation and information about some fancier tricks not covered here, like the capability to transform and clean data on-the-fly as it’s loaded into the database.&lt;/p&gt;
+
+&lt;p&gt;Since it was &lt;a href=&quot;https://www.californiacivicdata.org/2015/07/17/hello-django-postgres-copy/&quot;&gt;first released&lt;/a&gt; in 2015, django-posgres-copy has drawn contributions from coders around the world, including some major improvements &lt;a href=&quot;https://www.californiacivicdata.org/2016/11/14/django-postgres-copy-0.1/&quot;&gt;from users in other fields&lt;/a&gt;. If there are improvements you’d like to see, go get involved on &lt;a href=&quot;https://github.com/california-civic-data-coalition/django-postgres-copy&quot;&gt;our GitHub repository&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 05 Sep 2017 00:00:00 +0000</pubDate>
+        <link>//2017/09/05/django-postgres-copy-2/</link>
+        <guid isPermaLink="true">//2017/09/05/django-postgres-copy-2/</guid>
+      </item>
+    
+      <item>
+        <title>California Code Rush 5 crushes CAL-ACCESS</title>
+        <description>&lt;p&gt;Welp, I guess we’re done.&lt;/p&gt;
+
+&lt;p&gt;Thanks to a wave of contributions from journalists, developers and volunteers around the world, the fifth California Code Rush is over less than 48 hours after it began.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/coderush5.png&quot; height=&quot;200&quot; style=&quot;margin: 8px 0 0 14px; float:right;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.californiacivicdata.org/2017/08/02/code-rush-5/&quot;&gt;On Wednesday&lt;/a&gt;, the Coalition issued an open call to join our open-source quest to conquer CAL-ACCESS, the state of California’s jumbled, dirty and difficult database tracking money in politics.&lt;/p&gt;
+
+&lt;p&gt;It’s an occasional campaign we call a code rush. Four previous events (at conferences in &lt;a href=&quot;https://www.californiacivicdata.org/2016/03/07/code-rush-4/&quot;&gt;Denver&lt;/a&gt;, &lt;a href=&quot;https://www.californiacivicdata.org/2015/09/22/code-rush-3/&quot;&gt;Los Angeles&lt;/a&gt;, &lt;a href=&quot;https://www.californiacivicdata.org/2015/08/18/code-rush-2/&quot;&gt;Buenos Aires&lt;/a&gt; and &lt;a href=&quot;https://www.californiacivicdata.org/2015/03/11/code-rush-recap/&quot;&gt;Atlanta&lt;/a&gt;) yielded hundreds of improvements.&lt;/p&gt;
+
+&lt;p&gt;This was the first code rush conducted entirely online. The response was instant and overwhelming.&lt;/p&gt;
+
+&lt;p&gt;We asked for help identifying the political affiliation of nearly 900 candidates logged by the state without a party. In less than two days, we received &lt;a href=&quot;https://github.com/california-civic-data-coalition/django-calaccess-processed-data/pulls?q=is%3Apr+is%3Aclosed&quot;&gt;more than 70 pull requests&lt;/a&gt; that filled in &lt;a href=&quot;https://github.com/california-civic-data-coalition/django-calaccess-processed-data/blob/master/calaccess_processed/corrections/candidate_party.csv&quot;&gt;all of the blanks&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Contributions sailed in from volunteers around the globe, ranging from &lt;a href=&quot;https://github.com/mbeveridge&quot;&gt;Mark Beveridge&lt;/a&gt; in Bristol to &lt;a href=&quot;https://github.com/soomilee&quot;&gt;Soomi Lee&lt;/a&gt; in Los Angeles. Journalists working at The Washington Post, The Texas Tribune, The Center for Public Integrity, ProPublica and Vox helped the cause.&lt;/p&gt;
+
+&lt;p&gt;Even Los Angeles Times Publisher and Editor-in-Chief Davan Maharaj &lt;a href=&quot;https://github.com/california-civic-data-coalition/django-calaccess-processed-data/pull/179&quot;&gt;got in&lt;/a&gt; on the act.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;.&lt;a href=&quot;https://twitter.com/DavanMaharaj&quot;&gt;@DavanMaharaj&lt;/a&gt; makes his first GitHub commit for the California Code Rush! There&amp;#39;s still time to win a sticker: &lt;a href=&quot;https://t.co/7kLTDyjeMW&quot;&gt;https://t.co/7kLTDyjeMW&lt;/a&gt; &lt;a href=&quot;https://t.co/lyCq0tK0gI&quot;&gt;pic.twitter.com/lyCq0tK0gI&lt;/a&gt;&lt;/p&gt;&amp;mdash; ☕🦊 (@joemfox) &lt;a href=&quot;https://twitter.com/joemfox/status/893522692531396608&quot;&gt;August 4, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Today we also released a significant upgrade to the Coalition’s open-source library &lt;a href=&quot;http://django-postgres-copy.californiacivicdata.org/en/latest/&quot;&gt;django-postgres-copy&lt;/a&gt;. It’s an add-on to the Django web framework that speeds up the loading of large amounts of data. The improvements arrived in &lt;a href=&quot;https://github.com/california-civic-data-coalition/django-postgres-copy/pull/45&quot;&gt;an impressive pull request&lt;/a&gt; from Ryan Murphy of the Texas Tribune, who is using the Coalition’s tool for his own data project.&lt;/p&gt;
+
+&lt;p&gt;The Coalition still has a lot of work ahead as we prepare a new wave of data products aiming to make CAL-ACCESS easier to analyze. It’s a tough job, but if we stick together I’m confident we can finish it, one patch at a time.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 04 Aug 2017 00:00:00 +0000</pubDate>
+        <link>//2017/08/04/code-rush-5-recap/</link>
+        <guid isPermaLink="true">//2017/08/04/code-rush-5-recap/</guid>
+      </item>
+    
+      <item>
+        <title>Join California Code Rush 5 in the cloud</title>
+        <description>&lt;p&gt;The California Civic Data Coalition is asking you to join the open-source quest to master &lt;a href=&quot;/about/&quot;&gt;CAL-ACCESS&lt;/a&gt;, the jumbled, dirty and difficult government database tracking our state’s campaign cash.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/coderush5.png&quot; height=&quot;200&quot; style=&quot;margin: 8px 0 0 14px; float:right;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Today we are opening our fifth California Code Rush. That’s what we call our occasional campaigns to improve the Coalition’s open-source software. Four previous events (in &lt;a href=&quot;https://www.californiacivicdata.org/2016/03/07/code-rush-4/&quot;&gt;Denver&lt;/a&gt;, &lt;a href=&quot;https://www.californiacivicdata.org/2015/09/22/code-rush-3/&quot;&gt;Los Angeles&lt;/a&gt;, &lt;a href=&quot;https://www.californiacivicdata.org/2015/08/18/code-rush-2/&quot;&gt;Buenos Aires&lt;/a&gt; and &lt;a href=&quot;https://www.californiacivicdata.org/2015/03/11/code-rush-recap/&quot;&gt;Atlanta&lt;/a&gt;)  have yielded hundreds of improvements.&lt;/p&gt;
+
+&lt;p&gt;This is the first code rush conducted entirely online.&lt;/p&gt;
+
+&lt;p&gt;We’re opening it to celebrate the conclusion of our massive open online course &lt;a href=&quot;http://journalismcourses.org/PDJ0517.html&quot;&gt;“Python for Data Journalists.”&lt;/a&gt; Over the past two months our free &lt;a href=&quot;http://www.firstpythonnotebook.org&quot;&gt;“First Python Notebook”&lt;/a&gt; lesson plan has served as the foundation for the MOOC, instructing more than 2,800 students around the world on data analysis with the Python programming language.&lt;/p&gt;
+
+&lt;p&gt;As in the past, if make a patch to our code you win a custom sticker designed for the event by Thomas Suh Lauder. All you have to do is complete the challenge below. Don’t worry if you’re new to open-source software. The task is designed for newbies.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-mission&quot;&gt;The mission&lt;/h3&gt;
+
+&lt;p&gt;As part of processing the California secretary of state’s jumbled campaign-finance database, the Coalition discovered hundreds of candidates for office logged without a political party. Lacking this information, it is impossible to accurately calculate and compare how much each party’s candidates have raised.&lt;/p&gt;
+
+&lt;p&gt;Your job is to pick one of those candidates, research their political party and record it within the Coalition’s software system. It should only take a complete minutes to complete.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-1-login-to-github&quot;&gt;Step 1: Login to GitHub&lt;/h3&gt;
+
+&lt;p&gt;Start off by heading to &lt;a href=&quot;http://www.github.com&quot;&gt;github.com&lt;/a&gt;, the social network for code collaboration where the Coalition’s work is stored. If you don’t have an account, make one now. If you do, login.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/coderush5-github.png&quot; style=&quot;padding: 10px&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-2-pick-a-candidate-without-a-party-from-the-coalitions-list&quot;&gt;Step 2: Pick a candidate without a party from the Coalition’s list&lt;/h3&gt;
+
+&lt;p&gt;Click &lt;a href=&quot;https://github.com/california-civic-data-coalition/django-calaccess-processed-data/blob/master/calaccess_processed/corrections/candidate_party.csv&quot;&gt;this link&lt;/a&gt; to jump into the list of candidates without a party in the Coalition’s “processed-data” repository. You will find a comma-delimited file (that’s nerdspeak for a spreadsheet).&lt;/p&gt;
+
+&lt;p&gt;At the top you can see some parties have already been already filled in by others. All the rows with an empty party column need our attention. Pick one. You’ll want to note the candidate’s name plus the year and type of the election they competed in.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/coderush5-list.gif&quot; style=&quot;padding: 10px&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-3-review-official-election-results-to-determine-that-candidates-party&quot;&gt;Step 3: Review official election results to determine that candidate’s party&lt;/h3&gt;
+
+&lt;p&gt;Visit &lt;a href=&quot;http://www.sos.ca.gov/elections/prior-elections/prior-statewide-elections/&quot;&gt;the “Prior Elections” page of past results&lt;/a&gt; maintained by California’s secretary of state.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/coderush5-results.png&quot; style=&quot;padding: 10px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Navigate down to the page for the election linked to the candidate you’re working on. Find the “statement of vote” PDF file that contains the official results.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/coderush5-pdf.gif&quot; style=&quot;padding: 10px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Search the document for your candidate. Note the party they represented.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/coderush5-find.gif&quot; style=&quot;padding: 10px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you can’t find your candidate there, try digging into other PDFs on the secretary of state’s website. We can cite anything official from their materials. Do not turn to Wikipedia or other unofficial sources. We do not rely on them.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-4-add-the-candidates-party-and-a-link-to-your-source-to-the-list&quot;&gt;Step 4: Add the candidate’s party and a link to your source to the list&lt;/h3&gt;
+
+&lt;p&gt;Now that you know the answer, return to &lt;a href=&quot;https://github.com/california-civic-data-coalition/django-calaccess-processed-data/blob/master/calaccess_processed/corrections/candidate_party.csv&quot;&gt;the Coalition’s list of candidates&lt;/a&gt; on GitHub. This time click the small pencil button to the upper right of the data to begin editing the file.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/coderush5-edit.gif&quot; style=&quot;padding: 10px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Click into the line for your candidate. Carefully add the party you found between the two commas at the end of the line.&lt;/p&gt;
+
+&lt;p&gt;You should type out the full name of the party as the Coalition’s system expects it. Democrats should go in as “DEMOCRATIC” and Republicans as “REPUBLICAN”. Other valid party inputs include “AMERICAN INDEPENDENT PARTY”, “AMERICANS ELECT”, “GREEN PARTY”, “LIBERTARIAN”, “NATURAL LAW”, “PEACE AND FREEDOM” and “REFORM PARTY”. If the candidate does not have a party, enter “NO PARTY PREFERENCE”.&lt;/p&gt;
+
+&lt;p&gt;After the final comma, paste in the URL of the official PDF where you found this information. Only links to the secretary of state’s site will be accepted.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/coderush5-typing.gif&quot; style=&quot;padding: 10px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Next scroll to the bottom of the page and register you change as a “commit” with GitHub. This requires you leave a message describing your work.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/coderush5-commit.gif&quot; style=&quot;padding: 10px&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-5-make-a-pull-request-proposing-your-change&quot;&gt;Step 5: Make a pull request proposing your change&lt;/h3&gt;
+
+&lt;p&gt;Congratulations, you’ve made your first commit to an open-source project. But don’t celebrate yet.&lt;/p&gt;
+
+&lt;p&gt;So far, your work is only saved in a copy of the Coalition’s repository made for your GitHub account. To have your work included in the repository that powers the Coalition’s site, you will need to propose your change to the Coalition’s developers.&lt;/p&gt;
+
+&lt;p&gt;This can be easily done on GitHub by filing what they call a “pull request.” The page that comes up after your commit is saved has a big button helping you do this. Click it and submit the form that comes up next.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/coderush5-pr.gif&quot; style=&quot;padding: 10px&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;claim-your-prize&quot;&gt;Claim your prize!&lt;/h3&gt;
+
+&lt;p&gt;Soon after you file the request, I will review your work. If there are no errors I will merge it into the the core repository.&lt;/p&gt;
+
+&lt;p&gt;All that’s left is to claim your prize. Send your mailing address to &lt;a href=&quot;mailto:ben.welsh@gmail.com&quot;&gt;ben.welsh@gmail.com&lt;/a&gt; and you’ll soon see your custom sticker in the mail.&lt;/p&gt;
+
+&lt;p&gt;If you have any free time while you wait, feel free to research more candidates without parties and submit as many pull requests as you can.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 02 Aug 2017 00:00:00 +0000</pubDate>
+        <link>//2017/08/02/code-rush-5/</link>
+        <guid isPermaLink="true">//2017/08/02/code-rush-5/</guid>
+      </item>
+    
+  </channel>
+</rss>
